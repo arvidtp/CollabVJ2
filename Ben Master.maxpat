@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 29.0, 44.0, 1332.0, 728.0 ],
+		"openrect" : [ 29.0, 44.0, 1315.0, 727.0 ],
 		"bgcolor" : [ 0.424674, 0.424661, 0.424669, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -775,6 +775,7 @@
 , 			{
 				"box" : 				{
 					"args" : [ 7 ],
+					"bgmode" : 1,
 					"id" : "obj-47",
 					"maxclass" : "bpatcher",
 					"name" : "Ben.maxpat",
@@ -819,6 +820,7 @@
 , 			{
 				"box" : 				{
 					"args" : [ 6 ],
+					"bgmode" : 1,
 					"id" : "obj-53",
 					"maxclass" : "bpatcher",
 					"name" : "Ben.maxpat",
@@ -863,6 +865,7 @@
 , 			{
 				"box" : 				{
 					"args" : [ 5 ],
+					"bgmode" : 1,
 					"id" : "obj-59",
 					"maxclass" : "bpatcher",
 					"name" : "Ben.maxpat",
@@ -907,6 +910,7 @@
 , 			{
 				"box" : 				{
 					"args" : [ 4 ],
+					"bgmode" : 1,
 					"id" : "obj-65",
 					"maxclass" : "bpatcher",
 					"name" : "Ben.maxpat",
@@ -951,6 +955,7 @@
 , 			{
 				"box" : 				{
 					"args" : [ 3 ],
+					"bgmode" : 1,
 					"id" : "obj-41",
 					"maxclass" : "bpatcher",
 					"name" : "Ben.maxpat",
@@ -995,6 +1000,7 @@
 , 			{
 				"box" : 				{
 					"args" : [ 2 ],
+					"bgmode" : 1,
 					"id" : "obj-35",
 					"maxclass" : "bpatcher",
 					"name" : "Ben.maxpat",
@@ -1407,6 +1413,7 @@
 , 			{
 				"box" : 				{
 					"args" : [ 1 ],
+					"bgmode" : 1,
 					"id" : "obj-22",
 					"maxclass" : "bpatcher",
 					"name" : "Ben.maxpat",
@@ -1614,6 +1621,7 @@
 , 			{
 				"box" : 				{
 					"args" : [ 0 ],
+					"bgmode" : 1,
 					"id" : "obj-1",
 					"maxclass" : "bpatcher",
 					"name" : "Ben.maxpat",
