@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1711.0, -169.0, 1295.0, 903.0 ],
+		"openrect" : [ 41.0, 57.0, 1295.0, 903.0 ],
 		"bgcolor" : [ 0.425114, 0.425101, 0.425108, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -48,13 +48,14 @@
 					"fontsize" : 40.0,
 					"frgb" : 0.0,
 					"id" : "obj-39",
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 693.5, 326.5, 99.0, 51.0 ],
+					"patching_rect" : [ 693.5, 326.5, 99.0, 185.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 677.0, 1325.0, 51.0 ],
-					"text" : "none",
+					"presentation_rect" : [ 9.0, 677.0, 1278.0, 51.0 ],
+					"text" : "arvid wick 2.mov",
 					"textcolor" : [ 0.996063, 0.805643, 0.037526, 1.0 ]
 				}
 
@@ -2178,7 +2179,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1179.0, 468.5, 72.0, 18.0 ],
-					"text" : "1920 1080"
+					"text" : "640 480"
 				}
 
 			}
@@ -5835,6 +5836,24 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-112", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-119", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-112", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-120", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-113", 0 ]
 				}
 
 			}
