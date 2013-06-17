@@ -100,7 +100,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.0, 593.0, 150.0, 47.0 ],
+					"patching_rect" : [ 6.0, 593.0, 153.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 600.0, 313.0, 20.0 ],
 					"text" : "Queue History - first frame of last 8 clips Queued ot Arvid"
@@ -117,7 +117,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 60.0, 17.0, 150.0, 33.0 ],
+					"patching_rect" : [ 60.0, 17.0, 151.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 433.0, 15.0, 154.0, 33.0 ],
@@ -175,7 +175,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -251,7 +250,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
 									"patching_rect" : [ 120.714287, 199.0, 200.0, 20.0 ],
-									"presentation_rect" : [ 307.0, 289.0, 0.0, 0.0 ],
 									"text" : "jit.matrix queueStrip 4 char 1280 90"
 								}
 
@@ -1018,7 +1016,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 2,
-					"outlettype" : [ "bang", "bang" ],
+					"outlettype" : [ "bang", "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -1057,7 +1055,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 262.5, 341.0, 127.0, 20.0 ],
-									"presentation_rect" : [ 248.0, 358.0, 0.0, 0.0 ],
 									"text" : "v benWhichClipActive"
 								}
 
