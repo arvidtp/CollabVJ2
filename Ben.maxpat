@@ -62,14 +62,14 @@
 					"fontsize" : 40.0,
 					"frgb" : 0.0,
 					"id" : "obj-39",
-					"linecount" : 9,
+					"linecount" : 37,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 693.5, 326.5, 51.0, 409.0 ],
+					"patching_rect" : [ 693.5, 326.5, 51.0, 1660.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 9.0, 670.0, 1278.0, 51.0 ],
-					"text" : "MVI_0192.mov",
+					"text" : "Cambridge DP, dancing, slo mo dancing 12, really cool abstract.mov",
 					"textcolor" : [ 0.996063, 0.805643, 0.037526, 1.0 ]
 				}
 
@@ -3257,7 +3257,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "float" ],
-									"patching_rect" : [ 259.0, 203.696198, 37.0, 20.0 ],
+									"patching_rect" : [ 239.0, 197.696198, 37.0, 20.0 ],
 									"text" : "t 0 0."
 								}
 
@@ -3464,7 +3464,7 @@
 									"numinlets" : 14,
 									"numoutlets" : 14,
 									"outlettype" : [ "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "" ],
-									"patching_rect" : [ 50.0, 161.770493, 286.0, 20.0 ],
+									"patching_rect" : [ 50.0, 161.770493, 1040.0, 20.0 ],
 									"text" : "sel 32 106 107 108 99 105 115 111 73 79 28 29 113"
 								}
 
@@ -4033,11 +4033,11 @@
 					"rounded" : 20.0,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "live.toggle[1]",
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_mmax" : 1.0,
 							"parameter_type" : 2,
-							"parameter_shortname" : "live.toggle",
-							"parameter_longname" : "live.toggle[1]"
+							"parameter_shortname" : "live.toggle"
 						}
 
 					}
@@ -8119,11 +8119,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-1::obj-185" : [ "live.toggle[1]", "live.toggle", 0 ]
-		}
-
+ ]
 	}
 
 }

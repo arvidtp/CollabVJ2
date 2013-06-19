@@ -262,7 +262,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 348.0, 126.0, 1273.0, 834.0 ],
+						"rect" : [ 210.0, 128.0, 1273.0, 834.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -281,6 +281,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -697,7 +698,6 @@
 									"numinlets" : 4,
 									"numoutlets" : 0,
 									"patching_rect" : [ 384.0, 270.0, 128.0, 20.0 ],
-									"presentation_rect" : [ 487.0, 256.0, 0.0, 0.0 ],
 									"text" : "atp.dictset #1clipSet 0"
 								}
 
@@ -725,7 +725,6 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
 									"patching_rect" : [ 626.5, 399.0, 82.0, 20.0 ],
-									"presentation_rect" : [ 546.0, 241.0, 0.0, 0.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0,
 										"parameter_enable" : 0
@@ -876,8 +875,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 857.0, 302.0, 77.0, 20.0 ],
-									"text" : "dict.serialize"
+									"patching_rect" : [ 857.0, 302.0, 155.0, 20.0 ],
+									"text" : "dict.serialize @compress 1"
 								}
 
 							}
@@ -932,7 +931,7 @@
 									"maxclass" : "dict.view",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 458.5, 430.0, 250.0, 192.0 ]
+									"patching_rect" : [ 458.5, 430.0, 413.0, 196.0 ]
 								}
 
 							}
@@ -1457,6 +1456,8 @@
 					}
 ,
 					"patching_rect" : [ 119.0, 160.0, 59.5, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 195.0, 94.0, 59.5, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
