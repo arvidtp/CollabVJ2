@@ -48,14 +48,14 @@
 					"fontsize" : 40.0,
 					"frgb" : 0.0,
 					"id" : "obj-39",
-					"linecount" : 4,
+					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 693.5, 326.5, 99.0, 185.0 ],
+					"patching_rect" : [ 693.5, 326.5, 51.0, 230.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 677.0, 1278.0, 51.0 ],
-					"text" : "arvid wick 2.mov",
+					"presentation_rect" : [ 9.0, 670.0, 1278.0, 51.0 ],
+					"text" : "belly.mov",
 					"textcolor" : [ 0.996063, 0.805643, 0.037526, 1.0 ]
 				}
 
@@ -86,7 +86,7 @@
 					"patching_rect" : [ 922.0, 84.07428, 62.0, 78.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1236.0, 3.0, 62.0, 78.0 ],
-					"text" : "0",
+					"text" : "1",
 					"textcolor" : [ 0.996063, 0.805643, 0.037526, 1.0 ]
 				}
 
@@ -2179,7 +2179,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1179.0, 468.5, 72.0, 18.0 ],
-					"text" : "640 480"
+					"text" : "960 540"
 				}
 
 			}
@@ -4022,7 +4022,7 @@
 							"parameter_mmax" : 1.0,
 							"parameter_type" : 2,
 							"parameter_shortname" : "live.toggle",
-							"parameter_longname" : "live.toggle[1]"
+							"parameter_longname" : "live.toggle[14]"
 						}
 
 					}
@@ -4298,7 +4298,7 @@
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"bordercolor" : [ 0.988235, 0.066667, 0.14902, 0.0 ],
 					"drawline" : 0,
-					"fgcolor" : [ 0.243137, 1.0, 0.027451, 0.17 ],
+					"fgcolor" : [ 0.243137, 1.0, 0.027451, 0.51 ],
 					"floatoutput" : 1,
 					"id" : "obj-146",
 					"ignoreclick" : 1,
@@ -5572,7 +5572,6 @@
 					"background" : 1,
 					"id" : "obj-117",
 					"idlemouse" : 1,
-					"interp" : 1,
 					"maxclass" : "jit.pwindow",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -8087,7 +8086,11 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-22::obj-185" : [ "live.toggle[14]", "live.toggle", 0 ]
+		}
+
 	}
 
 }
