@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
+		"rect" : [ 2267.0, 280.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 18.0,
@@ -35,7 +35,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 424.0, 150.0, 51.0, 27.0 ],
+					"patching_rect" : [ 424.0, 187.0, 51.0, 27.0 ],
 					"saved_object_attributes" : 					{
 						"attr_comment" : ""
 					}
@@ -52,7 +52,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 35.0, 150.0, 51.0, 27.0 ],
+					"patching_rect" : [ 35.0, 187.0, 51.0, 27.0 ],
 					"saved_object_attributes" : 					{
 						"attr_comment" : ""
 					}
@@ -70,7 +70,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 35.0, 34.0, 40.0, 27.0 ],
+					"patching_rect" : [ 35.0, 26.0, 40.0, 27.0 ],
 					"saved_object_attributes" : 					{
 						"attr_comment" : ""
 					}
@@ -88,7 +88,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 35.0, 100.0, 408.0, 27.0 ],
+					"patching_rect" : [ 35.0, 137.0, 408.0, 27.0 ],
 					"text" : "jit.qt.movie @autostart 0 @adapt 1 @loopreport 1"
 				}
 
