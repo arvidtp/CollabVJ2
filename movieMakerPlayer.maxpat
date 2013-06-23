@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1830.0, -95.0, 987.0, 828.0 ],
+		"rect" : [ 1891.0, -96.0, 987.0, 828.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -562,8 +562,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 522.0, 460.0, 178.0, 21.0 ],
-					"text" : "jit.qt.movie @adapt 1 @vol 0"
+					"patching_rect" : [ 522.0, 460.0, 241.0, 21.0 ],
+					"text" : "jit.qt.movie @adapt 1 @vol 0 @preroll 1"
 				}
 
 			}
