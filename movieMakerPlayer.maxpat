@@ -97,7 +97,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "trigger a clip",
+					"comment" : "to movie",
 					"id" : "obj-55",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
