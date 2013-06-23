@@ -547,7 +547,7 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 98.0, 696.774536, 332.0, 22.0 ],
-					"size" : 27043.0
+					"size" : 21218.0
 				}
 
 			}
@@ -747,6 +747,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 678.5, 303.0, 81.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 391.5, 395.0, 81.0, 18.0 ],
 					"text" : "savemovieas"
 				}
 
