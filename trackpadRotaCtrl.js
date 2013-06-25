@@ -25,7 +25,7 @@ var centerPrev = [];
 var centerReset = 1;
 var offsetPrev = [0,0];
 var offsetOut = [0,0];
-var motionMultiplier = 200;
+var motionMultiplier = 800;
 
 function list() {
 	var points = arrayfromargs(arguments);
@@ -51,11 +51,11 @@ function list() {
 	}
 	for (i=0; i<2; i++) {
 		//factor in offset multiplier and make (avg of scale and 1.0) affect amount of motion
-		offsetOut[i] = (center[i]-centerPrev[i])*motionMultiplier*(1+scaleOut/2)+offsetPrev[i];
+		offsetOut[i] = (center[i]-centerPrev[i])*motionMultiplier/scaleOut+offsetPrev[i];
 	}
 	
 	var offsetOutTemp = [];
-	offsetOutTemp[0] = offsetOut[0];
+	offsetOutTemp[0] = -1*offsetOut[0];
 	offsetOutTemp[1] = -1*offsetOut[1];
 	
 	outlet(5, center);
@@ -133,7 +133,7 @@ function offset(x,y) {
 	offsetPrev[1] = offsetOut[1] = y;
 	
 	var offsetOutTemp = [];
-	offsetOutTemp[0] = offsetOut[0];
+	offsetOutTemp[0] = -1*offsetOut[0];
 	offsetOutTemp[1] = -1*offsetOut[1];
 	
 	outlet(4, offsetOutTemp);
