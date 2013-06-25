@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 13.0, 44.0, 1680.0, 956.0 ],
+		"rect" : [ 1680.0, -189.0, 1680.0, 982.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -29,6 +29,33 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-78",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 1143.0, 464.0, 31.0, 20.0 ],
+					"text" : "t #1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-25",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1143.0, 492.0, 99.0, 20.0 ],
+					"text" : "s benCreateMov"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -66,7 +93,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 687.0, 100.0, 118.0, 38.0 ],
+					"patching_rect" : [ 687.0, 100.0, 134.0, 38.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 622.0, 94.0, 243.0, 23.0 ],
 					"text" : "◀ Whole Set           Selected Clip ▶"
@@ -209,7 +236,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 980.0, 956.0, 57.0, 20.0 ],
-					"presentation_rect" : [ 1004.5, 946.0, 0.0, 0.0 ],
 					"text" : "zl.slice 1"
 				}
 
@@ -265,8 +291,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 904.5, 1026.0, 227.0, 18.0 ],
-					"text" : "read $1, looppoints $2 $3, frame 0, bang"
+					"patching_rect" : [ 904.5, 1025.0, 232.0, 18.0 ],
+					"text" : "read $1, looppoints $2 $3, bang"
 				}
 
 			}
@@ -897,7 +923,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "jit_matrix" ],
 					"patching_rect" : [ 1077.0, 583.0, 149.0, 20.0 ],
-					"text" : "movieMakerPlayerBen #1"
+					"text" : "movieMakerPlayerBen 0"
 				}
 
 			}
@@ -916,7 +942,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1062.0, 402.0, 67.0, 23.0 ],
+					"patching_rect" : [ 1143.0, 424.0, 67.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 163.0, 94.0, 60.5, 20.0 ],
 					"prototypename" : "blue-glowy-rounded-button",
@@ -3173,7 +3199,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-36", 0 ],
+					"destination" : [ "obj-78", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-26", 0 ]
@@ -3619,6 +3645,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-77", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-78", 0 ]
 				}
 
 			}
