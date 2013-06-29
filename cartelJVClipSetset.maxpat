@@ -65,7 +65,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 625.0, 595.0, 133.0, 18.0 ],
-					"text" : "symbol \"you suck\""
+					"text" : "symbol fuckhead"
 				}
 
 			}
@@ -1468,7 +1468,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 1915.0, -89.0, 1273.0, 834.0 ],
+						"rect" : [ 1891.0, -83.0, 1273.0, 834.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1487,7 +1487,22 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-7",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 772.0, 128.0, 63.0, 20.0 ],
+									"text" : "delay 200"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-39",
@@ -1711,7 +1726,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 777.0, 167.0, 131.0, 20.0 ],
+									"patching_rect" : [ 772.0, 200.0, 131.0, 20.0 ],
 									"text" : "s sendFilmstripToArvid"
 								}
 
@@ -2230,7 +2245,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 777.0, 136.0, 213.0, 20.0 ],
+									"patching_rect" : [ 772.0, 169.0, 213.0, 20.0 ],
 									"text" : "jit.matrix #1queueStrip 4 char 1280 90"
 								}
 
@@ -2504,7 +2519,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-5", 0 ],
+									"destination" : [ "obj-7", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-11", 0 ]
@@ -3003,6 +3018,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-7", 0 ]
 								}
 
 							}
