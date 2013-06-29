@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 151.0, 1680.0, 868.0 ],
+		"rect" : [ 0.0, 44.0, 1680.0, 976.0 ],
 		"bgcolor" : [ 0.658781, 0.658761, 0.658772, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -29,6 +29,50 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-17",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 1499.0, 55.75, 33.0, 20.0 ],
+					"text" : "sel \\;"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-27",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 1499.0, 30.75, 46.0, 20.0 ],
+					"presentation_rect" : [ 1502.5, 27.0, 0.0, 0.0 ],
+					"text" : "itoa"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-38",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 4,
+					"outlettype" : [ "int", "int", "int", "int" ],
+					"patching_rect" : [ 1499.0, 6.0, 59.5, 20.0 ],
+					"presentation_rect" : [ 1502.5, 2.25, 0.0, 0.0 ],
+					"text" : "key"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -124,7 +168,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 685.5, 635.5, 44.0, 20.0 ],
-					"presentation_rect" : [ 335.0, 952.0, 0.0, 0.0 ],
 					"text" : "gate 2"
 				}
 
@@ -316,7 +359,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 600.0, 592.0, 36.0, 20.0 ],
-					"presentation_rect" : [ 609.166626, 581.5, 0.0, 0.0 ],
 					"text" : "pack"
 				}
 
@@ -431,7 +473,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1770.0, 231.0, 121.0, 20.0 ],
-					"presentation_rect" : [ 427.451294, 913.499878, 0.0, 0.0 ],
 					"text" : "r cartelVJFadersPort"
 				}
 
@@ -484,27 +525,15 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-247",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1391.0, 114.0, 79.0, 18.0 ],
-					"text" : "fullscreen $1"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-245",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1386.0, 79.0, 20.0, 20.0 ]
+					"patching_rect" : [ 1393.0, 90.0, 20.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1634.75, 9.463928, 26.0, 26.0 ]
 				}
 
 			}
@@ -4882,7 +4911,6 @@
 			}
 , 			{
 				"box" : 				{
-					"autorestore" : "arvidCartelVJPresets.json",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-11",
@@ -4916,8 +4944,8 @@
 					"patching_rect" : [ 1276.5, 48.0, 216.0, 20.0 ],
 					"restore" : 					{
 						"bright" : [ 1.0 ],
-						"compositeAmount" : [ 1.0 ],
-						"compositeMode" : [ 18 ],
+						"compositeAmount" : [ 0.0 ],
+						"compositeMode" : [ 0 ],
 						"compositeRampTime" : [ 0 ],
 						"contrast" : [ 1.0 ],
 						"lumaDispAmpX" : [ 0.0 ],
@@ -4925,10 +4953,10 @@
 						"lumaDispOffsetX" : [ 0.0 ],
 						"lumaDispOffsetY" : [ 0.0 ],
 						"masterEraseAlpha" : [ 1.0 ],
-						"masterHueLightness" : [ 1.0, 1.0, 1.0, 1.0, 0.354286, 1.0, 1.0 ],
-						"masterSaturation" : [ 1.0 ],
-						"rateL" : [ 0.629921 ],
-						"rateR" : [ 0.409449 ],
+						"masterHueLightness" : [ 1.0, 1.0, 1.0, 1.0, 0.0, 0.0, 1.0 ],
+						"masterSaturation" : [ 0.0 ],
+						"rateL" : [ 1.0 ],
+						"rateR" : [ 1.0 ],
 						"sat" : [ 1.0 ],
 						"slideDown" : [ 1.0 ],
 						"slideUp" : [ 1.0 ]
@@ -10111,7 +10139,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1356.875, 482.463928, 89.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1515.875, 9.463928, 89.0, 26.0 ],
+					"presentation_rect" : [ 1485.698975, 9.463928, 89.0, 26.0 ],
 					"text" : "render ( ' )"
 				}
 
@@ -12419,7 +12447,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1327.0, 481.0, 28.5, 28.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1486.0, 8.0, 28.5, 28.5 ]
+					"presentation_rect" : [ 1455.823975, 8.0, 28.5, 28.5 ]
 				}
 
 			}
@@ -12700,6 +12728,22 @@
 					"patching_rect" : [ 1197.25, 68.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1301.0, 8.0, 150.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-247",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1393.0, 114.0, 79.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1577.5, 13.463928, 79.0, 18.0 ],
+					"text" : "fullscreen $1"
 				}
 
 			}
@@ -13439,6 +13483,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-169", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-245", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-17", 0 ]
 				}
 
 			}
@@ -14464,6 +14517,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-27", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-251", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -14540,6 +14602,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-37", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-38", 0 ]
 				}
 
 			}
@@ -15240,13 +15311,6 @@
 				"name" : "atp.trackpadMapping.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/atp.abstractions",
 				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/atp.abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "arvidCartelVJPresets.json",
-				"bootpath" : "/Users/arvid/Performances/Cartel VJ",
-				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
