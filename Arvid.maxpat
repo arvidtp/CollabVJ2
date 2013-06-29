@@ -32,13 +32,44 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-134",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1024.0, 114.0, 32.5, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 770.606445, 244.25, 32.5, 18.0 ],
+					"text" : "edit"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-118",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 823.25, 114.0, 32.5, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 34.0, 240.0, 32.5, 18.0 ],
+					"text" : "edit"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-248",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 598.171997, 1353.0, 89.0, 20.0 ],
-					"presentation_rect" : [ 565.079102, 1366.0, 0.0, 0.0 ],
 					"text" : "slide 10. 10."
 				}
 
@@ -205,7 +236,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 527.492615, 999.494263, 119.0, 20.0 ],
-					"text" : "scale 0 127 0. 1000."
+					"text" : "scale 8 127 0. 1000."
 				}
 
 			}
@@ -219,7 +250,6 @@
 					"outlettype" : [ "float", "", "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 596.166626, 1244.939331, 200.0, 100.0 ],
-					"presentation_rect" : [ 598.5, 1242.939331, 0.0, 0.0 ],
 					"range" : [ 0.0, 360.0 ]
 				}
 
@@ -4343,8 +4373,8 @@
 					"patching_rect" : [ 1276.5, 48.0, 216.0, 20.0 ],
 					"restore" : 					{
 						"bright" : [ 1.0 ],
-						"compositeAmount" : [ 2.0 ],
-						"compositeMode" : [ 18 ],
+						"compositeAmount" : [ 1.102362 ],
+						"compositeMode" : [ 0 ],
 						"compositeRampTime" : [ 0 ],
 						"contrast" : [ 1.0 ],
 						"lumaDispAmpX" : [ 0.0 ],
@@ -4352,11 +4382,11 @@
 						"lumaDispOffsetX" : [ 0.0 ],
 						"lumaDispOffsetY" : [ 0.0 ],
 						"masterEraseAlpha" : [ 1.0 ],
-						"masterHueLightness" : [ 1.0, 1.0, 1.0, 1.0, 0.354286, 1.0, 1.0 ],
-						"masterSaturation" : [ 1.0 ],
+						"masterHueLightness" : [ 1.0, 1.0, 1.0, 1.0, 0.0, 0.0, 1.0 ],
+						"masterSaturation" : [ 0.0 ],
 						"rateL" : [ 1.0 ],
 						"rateR" : [ 1.0 ],
-						"sat" : [ 0.987402 ],
+						"sat" : [ 0.970079 ],
 						"slideDown" : [ 1.0 ],
 						"slideUp" : [ 1.0 ]
 					}
@@ -12065,6 +12095,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 34.0, 25.0, 155.0, 47.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 1437.0, 883.0, 155.0, 47.0 ],
 					"text" : "Drop folder containing all movie files here first to add them to max's searchpath"
 				}
 
@@ -12105,7 +12138,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 21.0, 6.0, 217.0, 93.0 ]
+					"patching_rect" : [ 21.0, 6.0, 217.0, 93.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1424.0, 864.0, 217.0, 93.0 ]
 				}
 
 			}
@@ -12372,6 +12407,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-118", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-69", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -12538,6 +12582,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-133", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-134", 0 ]
 				}
 
 			}
