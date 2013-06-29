@@ -285,5 +285,33 @@
 		"tintSat" : 0.0,
 		"restore" : ""
 	}
+,
+	"green fur" : 	{
+		"bright" : 1.2,
+		"colorOffsetBX" : 0.0,
+		"colorOffsetBY" : 0.0,
+		"colorOffsetGX" : 0.0,
+		"colorOffsetGY" : 0.0,
+		"colorOffsetRX" : 0.0,
+		"colorOffsetRY" : 0.0,
+		"contrast" : 2.44,
+		"feedback" : 0.9,
+		"feedbackCompositeMode" : 18,
+		"kalDivisions" : 1,
+		"offset_x" : -0.0,
+		"offset_y" : -0.0,
+		"radialBlurAmount" : 0.2,
+		"rotaBoundMode" : 1,
+		"sat" : 1.9,
+		"theta" : 0.0,
+		"tintHueLightness" : [ 0.477792, 0.540444, 0.348444, 1.0, 0.221053, 0.216, 0.444444 ],
+		"zoom" : 1.0,
+		"tintSat" : 0.216,
+		"restore" : "",
+		"resampBottom" : 0.0,
+		"resampLeft" : 0.0,
+		"resampRight" : 1.0,
+		"resampTop" : 1.0
+	}
 
 }
