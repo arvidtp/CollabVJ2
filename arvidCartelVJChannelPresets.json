@@ -313,5 +313,33 @@
 		"resampRight" : 1.0,
 		"resampTop" : 1.0
 	}
+,
+	"green goo" : 	{
+		"bright" : 1.0,
+		"colorOffsetBX" : 0.0,
+		"colorOffsetBY" : 0.0,
+		"colorOffsetGX" : 0.0,
+		"colorOffsetGY" : 0.0,
+		"colorOffsetRX" : 0.0,
+		"colorOffsetRY" : 0.0,
+		"contrast" : 1.0,
+		"feedback" : 0.0,
+		"feedbackCompositeMode" : 18,
+		"kalDivisions" : 1,
+		"offset_x" : -0.0,
+		"offset_y" : -0.0,
+		"radialBlurAmount" : 0.0,
+		"rotaBoundMode" : 1,
+		"sat" : 1.0,
+		"theta" : 0.0,
+		"tintHueLightness" : [ 0.375787, 0.521837, 0.026311, 1.0, 0.215789, 0.904, 0.274074 ],
+		"zoom" : 1.0,
+		"tintSat" : 0.904,
+		"restore" : "",
+		"resampBottom" : 0.0,
+		"resampLeft" : 0.0,
+		"resampRight" : 1.0,
+		"resampTop" : 1.0
+	}
 
 }
