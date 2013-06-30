@@ -32,6 +32,22 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-253",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "float", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1452.0, 430.0, 50.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1610.75, 218.25, 50.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-235",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -1691,6 +1707,7 @@
 					"fontsize" : 12.0,
 					"id" : "obj-189",
 					"maxclass" : "jit.fpsgui",
+					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
@@ -9008,7 +9025,7 @@
 					"patching_rect" : [ 1276.5, 48.0, 216.0, 20.0 ],
 					"restore" : 					{
 						"bright" : [ 1.0 ],
-						"compositeAmount" : [ 1.354331 ],
+						"compositeAmount" : [ 1.228346 ],
 						"compositeMode" : [ 18 ],
 						"compositeRampTime" : [ 0 ],
 						"contrast" : [ 1.0 ],
@@ -9021,7 +9038,7 @@
 						"masterSaturation" : [ 0.0 ],
 						"rateL" : [ 1.0 ],
 						"rateR" : [ 1.064516 ],
-						"sat" : [ 0.935433 ],
+						"sat" : [ 1.247244 ],
 						"slideDown" : [ 1.0 ],
 						"slideUp" : [ 1.0 ]
 					}
@@ -15446,7 +15463,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "erase" ],
-					"patching_rect" : [ 1327.0, 553.5, 63.0, 21.0 ],
+					"patching_rect" : [ 1327.0, 559.5, 63.0, 21.0 ],
 					"text" : "t b erase"
 				}
 
@@ -15502,7 +15519,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 1351.0, 589.5, 123.0, 20.0 ],
+					"patching_rect" : [ 1351.0, 599.0, 123.0, 20.0 ],
 					"text" : "jit.gl.render cartelVJ1"
 				}
 
@@ -17324,7 +17341,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-138", 0 ],
+					"destination" : [ "obj-65", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-239", 0 ]
@@ -17472,6 +17489,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-251", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-63", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-253", 0 ]
 				}
 
 			}
