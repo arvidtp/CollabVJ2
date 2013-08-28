@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 1680.0, 976.0 ],
+		"rect" : [ 0.0, 44.0, 1670.0, 926.0 ],
 		"bgcolor" : [ 0.658781, 0.658761, 0.658772, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -1707,13 +1707,12 @@
 					"fontsize" : 12.0,
 					"id" : "obj-189",
 					"maxclass" : "jit.fpsgui",
-					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1582.0, 608.0, 80.0, 35.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1591.5, 179.25, 80.0, 35.0 ]
+					"presentation_rect" : [ 1595.75, 171.75, 65.0, 35.0 ]
 				}
 
 			}
@@ -7807,7 +7806,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-177",
-					"items" : [ "IAC Driver Bus 1", ",", "IAC Driver Bus 2", ",", "Keyboard", ",", "LPK25", ",", "UHER MIDI", ",", "UltraLite Sync Port", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "IAC Driver Bus 1", ",", "IAC Driver Bus 2", ",", "Keyboard", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -8424,7 +8423,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-151",
-					"items" : [ "IAC Driver Bus 1", ",", "IAC Driver Bus 2", ",", "Keyboard", ",", "LPK25", ",", "UHER MIDI", ",", "UltraLite Sync Port", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "IAC Driver Bus 1", ",", "IAC Driver Bus 2", ",", "Keyboard", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -9025,8 +9024,8 @@
 					"patching_rect" : [ 1276.5, 48.0, 216.0, 20.0 ],
 					"restore" : 					{
 						"bright" : [ 1.0 ],
-						"compositeAmount" : [ 0.472441 ],
-						"compositeMode" : [ 0 ],
+						"compositeAmount" : [ 1.0 ],
+						"compositeMode" : [ 1 ],
 						"compositeRampTime" : [ 0 ],
 						"contrast" : [ 1.0 ],
 						"lumaDispAmpX" : [ 0.0 ],
@@ -9034,11 +9033,11 @@
 						"lumaDispOffsetX" : [ 0.0 ],
 						"lumaDispOffsetY" : [ 0.0 ],
 						"masterEraseAlpha" : [ 1.0 ],
-						"masterHueLightness" : [ 1.0, 1.0, 1.0, 1.0, 0.0, 0.0, 1.0 ],
+						"masterHueLightness" : [ 1.0, 1.0, 1.0, 1.0, 0.365714, 0.0, 1.0 ],
 						"masterSaturation" : [ 0.0 ],
 						"rateL" : [ 1.0 ],
 						"rateR" : [ 1.0 ],
-						"sat" : [ 1.004724 ],
+						"sat" : [ 1.0 ],
 						"slideDown" : [ 1.0 ],
 						"slideUp" : [ 1.0 ]
 					}
@@ -9305,7 +9304,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 46.0, 44.0, 1680.0, 955.0 ],
+						"rect" : [ 12.0, 132.0, 1680.0, 955.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -9325,6 +9324,34 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-41",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 1455.0, 179.0, 19.0, 20.0 ],
+									"text" : "r"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-38",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1357.0, 133.0, 32.5, 18.0 ],
+									"text" : "114"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
@@ -13614,6 +13641,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-38", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-46", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -15620,7 +15656,7 @@
 					"patching_rect" : [ 34.0, 25.0, 155.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 1437.0, 883.0, 155.0, 47.0 ],
+					"presentation_rect" : [ 1437.0, 855.0, 155.0, 47.0 ],
 					"text" : "Drop folder containing all movie files here first to add them to max's searchpath"
 				}
 
@@ -15663,7 +15699,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 21.0, 6.0, 217.0, 93.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1424.0, 864.0, 217.0, 93.0 ]
+					"presentation_rect" : [ 1424.0, 855.0, 217.0, 57.5 ]
 				}
 
 			}
