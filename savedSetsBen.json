@@ -37,10 +37,10 @@
 		"1" : [ "2012-05-14 18_01_36 (id).mov", 0, 3816000 ],
 		"2" : [ "2012-05-14 18_07_58 (id).mov", 0, 332800 ],
 		"3" : [ "2012-05-14 18_10_03 (id).mov", 0, 1434000 ],
-		"4" : "none",
-		"5" : "none",
-		"6" : "none",
-		"7" : "none"
+		"4" : [ "Garden Fisheye.mov", 32000, 1935934 ],
+		"5" : [ "Garden Fisheye.mov", 5867862, 8530522 ],
+		"6" : [ "Garden Fisheye.mov", 21870849, 24805781 ],
+		"7" : [ "Garden Fisheye.mov", 26952926, 30190160 ]
 	}
 ,
 	"Canoe Cadillac" : 	{
@@ -239,6 +239,61 @@
 		"5" : [ "Utah | Colorado.mov", 3531400, 3758500 ],
 		"6" : [ "Utah | Colorado.mov", 3762100, 3783400 ],
 		"7" : [ "Utah | Colorado.mov", 3822400, 3978600 ]
+	}
+,
+	"PVD sunset" : 	{
+		"0" : [ "PVD Sunset 00008.mov", 0, 2617000 ],
+		"1" : [ "PVD Sunset 00009.mov", 0, 11677000 ],
+		"2" : [ "PVD highway sunset 00020.mov", 175000, 1794000 ],
+		"3" : [ "PVD highway sunset 00020.mov", 2078000, 6564000 ],
+		"4" : [ "PVD highway sunset 00021.mov", 0, 1345000 ],
+		"5" : "none",
+		"6" : "none",
+		"7" : "none"
+	}
+,
+	"PVD sunset highway" : 	{
+		"0" : [ "PVD highway sunset 00022.mov", 11400, 58700 ],
+		"1" : [ "PVD highway sunset 00023.mov", 6000, 205800 ],
+		"2" : [ "PVD highway sunset 00026 trails.mov", 0, 304400 ],
+		"3" : [ "PVD highway sunset 00027 proj trails.mov", 0, 152500 ],
+		"4" : [ "PVD highway sunset 00025.mov", 32000, 1391000 ],
+		"5" : "none",
+		"6" : "none",
+		"7" : "none"
+	}
+,
+	"ice skating" : 	{
+		"0" : [ "Ice Skating Jan 2013 high(4.3Mbps).mov", 0, 49000 ],
+		"1" : [ "Ice Skating Jan 2013 high(4.3Mbps).mov", 135300, 167200 ],
+		"2" : [ "Ice Skating Jan 2013 high(4.3Mbps).mov", 288600, 360100 ],
+		"3" : [ "Ice Skating Jan 2013 high(4.3Mbps).mov", 373400, 433200 ],
+		"4" : [ "Ice Skating Jan 2013 high(4.3Mbps).mov", 504000, 532000 ],
+		"5" : [ "Ice Skating Jan 2013 high(4.3Mbps).mov", 577900, 633200 ],
+		"6" : [ "Ice Skating Jan 2013 high(4.3Mbps).mov", 641000, 659600 ],
+		"7" : [ "Ice Skating Jan 2013 high(4.3Mbps).mov", 756900, 803500 ]
+	}
+,
+	"fireworks with fx" : 	{
+		"0" : [ "Saltpeter web 1.mov", 25900, 86400 ],
+		"1" : [ "Saltpeter web 1.mov", 120400, 190600 ],
+		"2" : [ "Saltpeter web 1.mov", 211600, 286200 ],
+		"3" : [ "Saltpeter web 1.mov", 294300, 378500 ],
+		"4" : [ "Saltpeter web 1.mov", 384400, 471900 ],
+		"5" : [ "Saltpeter web 1.mov", 475700, 526500 ],
+		"6" : [ "Saltpeter web 1.mov", 534600, 581000 ],
+		"7" : [ "Saltpeter web 1.mov", 582100, 588000 ]
+	}
+,
+	"driving in canada" : 	{
+		"0" : [ "2012-12-28 08_37_25 (id) proj.mov", 0, 2719000 ],
+		"1" : [ "2012-12-28 08_40_44 (id) proj.mov", 0, 4177000 ],
+		"2" : [ "2012-12-28 08_43_55 (id) proj.mov", 0, 1585000 ],
+		"3" : [ "2012-12-28 08_46_01 (id) proj.mov", 0, 2348000 ],
+		"4" : [ "2012-12-28 08_54_29 (id) proj.mov", 0, 1290000 ],
+		"5" : [ "2012-12-28 10_58_42 (id) proj.mov", 0, 282000 ],
+		"6" : [ "2012-12-28 10_59_01 (id) proj.mov", 0, 548000 ],
+		"7" : [ "2012-12-28 11_18_59 (id) proj.mov", 0, 829000 ]
 	}
 
 }
