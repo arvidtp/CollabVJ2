@@ -429,7 +429,7 @@
 									"patching_rect" : [ 976.0, 926.774536, 261.0, 30.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 40.0, 368.0, 535.0, 25.0 ],
-									"setminmax" : [ 0.0, 0.0 ],
+									"setminmax" : [ 0.0, 73191.0 ],
 									"slidercolor" : [ 0.0, 0.0, 0.0, 0.5 ],
 									"thickness" : 1
 								}
@@ -450,7 +450,7 @@
 									"patching_rect" : [ 976.0, 885.774536, 261.0, 30.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 40.0, 368.0, 535.0, 25.0 ],
-									"setminmax" : [ 0.0, 0.0 ],
+									"setminmax" : [ 0.0, 73191.0 ],
 									"slidercolor" : [ 0.0, 0.0, 0.0, 0.5 ],
 									"thickness" : 1
 								}
@@ -471,7 +471,7 @@
 									"patching_rect" : [ 976.0, 843.774536, 261.0, 30.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 40.0, 368.0, 535.0, 25.0 ],
-									"setminmax" : [ 0.0, 0.0 ],
+									"setminmax" : [ 0.0, 73191.0 ],
 									"slidercolor" : [ 0.0, 0.0, 0.0, 0.5 ],
 									"thickness" : 1
 								}
@@ -492,7 +492,7 @@
 									"patching_rect" : [ 976.0, 802.774536, 261.0, 30.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 40.0, 368.0, 535.0, 25.0 ],
-									"setminmax" : [ 0.0, 0.0 ],
+									"setminmax" : [ 0.0, 73191.0 ],
 									"slidercolor" : [ 0.0, 0.0, 0.0, 0.5 ],
 									"thickness" : 1
 								}
@@ -513,7 +513,7 @@
 									"patching_rect" : [ 976.0, 763.774536, 261.0, 30.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 40.0, 368.0, 535.0, 25.0 ],
-									"setminmax" : [ 0.0, 0.0 ],
+									"setminmax" : [ 0.0, 73191.0 ],
 									"slidercolor" : [ 0.0, 0.0, 0.0, 0.5 ],
 									"thickness" : 1
 								}
@@ -534,7 +534,7 @@
 									"patching_rect" : [ 976.0, 722.774536, 261.0, 30.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 40.0, 368.0, 535.0, 25.0 ],
-									"setminmax" : [ 0.0, 0.0 ],
+									"setminmax" : [ 0.0, 73191.0 ],
 									"slidercolor" : [ 0.0, 0.0, 0.0, 0.5 ],
 									"thickness" : 1
 								}
@@ -555,7 +555,7 @@
 									"patching_rect" : [ 976.0, 681.774536, 261.0, 30.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 40.0, 368.0, 535.0, 25.0 ],
-									"setminmax" : [ 0.0, 0.0 ],
+									"setminmax" : [ 0.0, 73191.0 ],
 									"slidercolor" : [ 0.0, 0.0, 0.0, 0.5 ],
 									"thickness" : 1
 								}
@@ -576,7 +576,7 @@
 									"patching_rect" : [ 976.0, 642.774536, 261.0, 30.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 40.0, 368.0, 535.0, 25.0 ],
-									"setminmax" : [ 0.0, 0.0 ],
+									"setminmax" : [ 0.0, 73191.0 ],
 									"slidercolor" : [ 0.0, 0.0, 0.0, 0.5 ],
 									"thickness" : 1
 								}
@@ -639,7 +639,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 280.0, 129.0, 73.0, 31.0 ],
-									"text" : "name 0clipSet"
+									"text" : "name 1clipSet"
 								}
 
 							}
@@ -1094,7 +1094,7 @@
 									"outlettype" : [ "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 115.0, 722.774536, 332.0, 22.0 ],
-									"size" : 2.0
+									"size" : 73191.0
 								}
 
 							}
@@ -2683,7 +2683,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 188.833252, 18.0, 25.0, 25.0 ]
 								}
 
@@ -3048,7 +3048,7 @@
 					"hint" : "Delete a saved Set",
 					"hltcolor" : [ 0.992157, 0.52549, 0.537255, 1.0 ],
 					"id" : "obj-64",
-					"items" : [ "assortment 1", ",", "Mountain Rivers" ],
+					"items" : [ "assortment 1", ",", "Mountain Rivers", ",", "Beach", ",", "Backyard Fisheye", ",", "Canoe Cadillac", ",", "bus lights blur", ",", "night driving", ",", "risd nature lab", ",", "bees", ",", "museum animals" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -6050,14 +6050,14 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-59::obj-185" : [ "live.toggle[4]", "live.toggle", 0 ],
-			"obj-22::obj-185" : [ "live.toggle[8]", "live.toggle", 0 ],
-			"obj-47::obj-185" : [ "live.toggle[2]", "live.toggle", 0 ],
 			"obj-35::obj-185" : [ "live.toggle[7]", "live.toggle", 0 ],
-			"obj-53::obj-185" : [ "live.toggle[3]", "live.toggle", 0 ],
+			"obj-47::obj-185" : [ "live.toggle[2]", "live.toggle", 0 ],
 			"obj-41::obj-185" : [ "live.toggle[6]", "live.toggle", 0 ],
 			"obj-1::obj-185" : [ "live.toggle[1]", "live.toggle", 0 ],
-			"obj-65::obj-185" : [ "live.toggle[5]", "live.toggle", 0 ]
+			"obj-65::obj-185" : [ "live.toggle[5]", "live.toggle", 0 ],
+			"obj-59::obj-185" : [ "live.toggle[4]", "live.toggle", 0 ],
+			"obj-22::obj-185" : [ "live.toggle[8]", "live.toggle", 0 ],
+			"obj-53::obj-185" : [ "live.toggle[3]", "live.toggle", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
