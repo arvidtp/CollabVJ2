@@ -52,7 +52,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 242.0, 920.499878, 121.0, 18.0 ],
-					"presentation_rect" : [ 46.333282, 899.499878, 0.0, 0.0 ],
 					"text" : "bgcolor 0.7 0.97 0.26"
 				}
 
@@ -67,7 +66,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 44.0, 920.499878, 121.0, 18.0 ],
-					"presentation_rect" : [ 347.333282, 919.499878, 0.0, 0.0 ],
 					"text" : "bgcolor 0.98 0. 0.02"
 				}
 
@@ -82,7 +80,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 224.166656, 944.984375, 117.0, 18.0 ],
-					"presentation_rect" : [ 227.333282, 912.499878, 0.0, 0.0 ],
 					"text" : "bgcolor 0.98 0. 0.02"
 				}
 
@@ -122,7 +119,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-283",
-					"items" : [ "assortment 1", ",", "Mountain Rivers" ],
+					"items" : [ "assortment 1", ",", "Mountain Rivers", ",", "Beach", ",", "Backyard Fisheye", ",", "Canoe Cadillac", ",", "bus lights blur", ",", "night driving", ",", "risd nature lab", ",", "bees", ",", "museum animals", ",", "water textures", ",", "edelweiss", ",", "clouds from the air", ",", "pigeons snow roof", ",", "PVD snow 1", ",", "PVD snow 2", ",", "live animals", ",", "catamount trail snow", ",", "mountains", ",", "colorado", ",", "canyonlands 1", ",", "arches 1", ",", "PVD sunset", ",", "PVD sunset highway", ",", "ice skating", ",", "fireworks with fx", ",", "driving in canada" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -178,7 +175,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-281",
-					"items" : [ "assortment 1", ",", "Mountain Rivers" ],
+					"items" : [ "assortment 1", ",", "Mountain Rivers", ",", "Beach", ",", "Backyard Fisheye", ",", "Canoe Cadillac", ",", "bus lights blur", ",", "night driving", ",", "risd nature lab", ",", "bees", ",", "museum animals", ",", "water textures", ",", "edelweiss", ",", "clouds from the air", ",", "pigeons snow roof", ",", "PVD snow 1", ",", "PVD snow 2", ",", "live animals", ",", "catamount trail snow", ",", "mountains", ",", "colorado", ",", "canyonlands 1", ",", "arches 1", ",", "PVD sunset", ",", "PVD sunset highway", ",", "ice skating", ",", "fireworks with fx", ",", "driving in canada" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1415,7 +1412,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 1730.0, -44.0, 1489.0, 851.0 ],
+						"rect" : [ 1215.0, 22.0, 1489.0, 851.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1434,7 +1431,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -1442,8 +1438,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1223.416626, 154.0, 25.0, 25.0 ],
-									"presentation_rect" : [ 1171.5, 154.0, 0.0, 0.0 ]
+									"patching_rect" : [ 1223.416626, 154.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -1455,8 +1450,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1223.416626, 200.0, 25.0, 25.0 ],
-									"presentation_rect" : [ 1171.5, 200.0, 0.0, 0.0 ]
+									"patching_rect" : [ 1223.416626, 200.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -1509,7 +1503,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 1180.5, 500.5, 275.0, 20.0 ],
-									"presentation_rect" : [ 1182.5, 500.5, 0.0, 0.0 ],
 									"text" : "combine path queueStrips/ name .jpg @triggers 2"
 								}
 
@@ -1524,7 +1517,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1180.5, 473.5, 144.0, 20.0 ],
-									"presentation_rect" : [ 1182.5, 473.5, 0.0, 0.0 ],
 									"text" : "r cartelVJArvidPatchPath"
 								}
 
@@ -1539,7 +1531,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1180.5, 536.0, 127.0, 18.0 ],
-									"presentation_rect" : [ 1182.5, 536.0, 0.0, 0.0 ],
 									"text" : "importmovie $1, bang"
 								}
 
@@ -1582,7 +1573,6 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "bang", "", "", "bang" ],
 									"patching_rect" : [ 1223.416626, 240.0, 59.5, 20.0 ],
-									"presentation_rect" : [ 1286.5, 240.0, 0.0, 0.0 ],
 									"text" : "t b l l b"
 								}
 
@@ -1597,7 +1587,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1250.416626, 276.0, 59.0, 20.0 ],
-									"presentation_rect" : [ 1313.5, 276.0, 0.0, 0.0 ],
 									"text" : "tosymbol"
 								}
 
@@ -1612,7 +1601,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 1222.416626, 309.0, 47.0, 20.0 ],
-									"presentation_rect" : [ 1285.5, 309.0, 0.0, 0.0 ],
 									"text" : "route s"
 								}
 
@@ -1870,7 +1858,6 @@
 									}
 ,
 									"patching_rect" : [ 1223.416626, 116.0, 55.0, 21.0 ],
-									"presentation_rect" : [ 1381.0, 213.0, 0.0, 0.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Helvetica Neue Light",
@@ -1898,7 +1885,6 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
 									"patching_rect" : [ 1198.75, 89.0, 110.0, 20.0 ],
-									"presentation_rect" : [ 1296.0, 167.0, 0.0, 0.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0,
 										"parameter_enable" : 0
@@ -2503,14 +2489,14 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"0" : [ "Mt Greylock 00076.mov", 1160000, 2759000 ],
-										"1" : [ "Mt Greylock 00080.mov", 420000, 1410000 ],
-										"2" : [ "Mt Greylock 00079.mov", 0, 1321000 ],
-										"3" : [ "Mt Greylock 00078.mov", 488000, 1346000 ],
-										"4" : [ "2013-08-24 11_17_05 (id).mov", 0, 523000 ],
-										"5" : [ "2013-08-24 11_07_40 (id).mov", 0, 5401000 ],
-										"6" : [ "2013-08-25 13_45_38 (id).mov", 0, 1927000 ],
-										"7" : [ "2013-08-25 13_44_00 (id).mov", 234000, 0 ]
+										"0" : [ "Utah | Colorado.mov", 56700, 251900 ],
+										"1" : [ "Utah | Colorado.mov", 283900, 376200 ],
+										"2" : [ "Utah | Colorado.mov", 472000, 535900 ],
+										"3" : [ "Utah | Colorado.mov", 546500, 816300 ],
+										"4" : [ "Utah | Colorado.mov", 819800, 954700 ],
+										"5" : [ "Utah | Colorado.mov", 376200, 468400 ],
+										"6" : [ "Utah | Colorado.mov", 3989200, 4077900 ],
+										"7" : [ "Utah | Colorado.mov", 4092100, 4131200 ]
 									}
 ,
 									"fontname" : "Arial",
@@ -2533,14 +2519,14 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"0" : [ "Mt Greylock 00076.mov", 1160000, 2759000 ],
-										"1" : [ "Mt Greylock 00080.mov", 420000, 1410000 ],
-										"2" : [ "Mt Greylock 00079.mov", 0, 1321000 ],
-										"3" : [ "Mt Greylock 00078.mov", 488000, 1346000 ],
-										"4" : [ "2013-08-24 11_17_05 (id).mov", 0, 523000 ],
-										"5" : [ "2013-08-24 11_07_40 (id).mov", 0, 5401000 ],
-										"6" : [ "2013-08-25 13_45_38 (id).mov", 0, 1927000 ],
-										"7" : [ "2013-08-25 13_44_00 (id).mov", 234000, 0 ]
+										"0" : [ "2012-10-21 16_38_43 (id).mov", 0, 1051300 ],
+										"1" : [ "2012-10-21 16_37_57 (id).mov", 0, 207100 ],
+										"2" : [ "2012-10-21 16_34_39 (id).mov", 0, 225100 ],
+										"3" : [ "Truro 00000.mov", 0, 117100 ],
+										"4" : [ "water textures 00047.mov", 0, 3697000 ],
+										"5" : [ "water textures 00048.mov", 0, 2101000 ],
+										"6" : [ "Edelweiss web 2.mov", 601700, 726200 ],
+										"7" : [ "2012-10-20 13_59_40 (id).mov", 0, 2864000 ]
 									}
 ,
 									"fontname" : "Arial",
@@ -2563,14 +2549,14 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"0" : [ "Mt Greylock 00076.mov", 1160000, 2759000 ],
-										"1" : [ "Mt Greylock 00080.mov", 420000, 1410000 ],
-										"2" : [ "Mt Greylock 00079.mov", 0, 1321000 ],
-										"3" : [ "Mt Greylock 00078.mov", 488000, 1346000 ],
-										"4" : [ "2013-08-24 11_17_05 (id).mov", 0, 523000 ],
-										"5" : [ "2013-08-24 11_07_40 (id).mov", 0, 5401000 ],
-										"6" : [ "2013-08-25 13_45_38 (id).mov", 0, 1927000 ],
-										"7" : [ "2013-08-25 13_44_00 (id).mov", 234000, 0 ]
+										"0" : [ "Utah | Colorado.mov", 56700, 251900 ],
+										"1" : [ "Utah | Colorado.mov", 283900, 376200 ],
+										"2" : [ "Utah | Colorado.mov", 472000, 535900 ],
+										"3" : [ "Utah | Colorado.mov", 546500, 816300 ],
+										"4" : [ "Utah | Colorado.mov", 819800, 954700 ],
+										"5" : [ "Utah | Colorado.mov", 376200, 468400 ],
+										"6" : [ "Utah | Colorado.mov", 3989200, 4077900 ],
+										"7" : [ "Utah | Colorado.mov", 4092100, 4131200 ]
 									}
 ,
 									"fontname" : "Arial",
@@ -2593,14 +2579,14 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"0" : [ "Mt Greylock 00076.mov", 1160000, 2759000 ],
-										"1" : [ "Mt Greylock 00080.mov", 420000, 1410000 ],
-										"2" : [ "Mt Greylock 00079.mov", 0, 1321000 ],
-										"3" : [ "Mt Greylock 00078.mov", 488000, 1346000 ],
-										"4" : [ "2013-08-24 11_17_05 (id).mov", 0, 523000 ],
-										"5" : [ "2013-08-24 11_07_40 (id).mov", 0, 5401000 ],
-										"6" : [ "2013-08-25 13_45_38 (id).mov", 0, 1927000 ],
-										"7" : [ "2013-08-25 13_44_00 (id).mov", 234000, 0 ]
+										"0" : [ "2012-10-21 16_38_43 (id).mov", 0, 1051300 ],
+										"1" : [ "2012-10-21 16_37_57 (id).mov", 0, 207100 ],
+										"2" : [ "2012-10-21 16_34_39 (id).mov", 0, 225100 ],
+										"3" : [ "Truro 00000.mov", 0, 117100 ],
+										"4" : [ "water textures 00047.mov", 0, 3697000 ],
+										"5" : [ "water textures 00048.mov", 0, 2101000 ],
+										"6" : [ "Edelweiss web 2.mov", 601700, 726200 ],
+										"7" : [ "2012-10-20 13_59_40 (id).mov", 0, 2864000 ]
 									}
 ,
 									"fontname" : "Arial",
@@ -10159,7 +10145,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 728.0, 411.0, 50.0, 18.0 ],
-									"text" : "25 66"
+									"text" : "21 127"
 								}
 
 							}
@@ -10817,7 +10803,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-177",
-					"items" : [ "IAC Driver Bus 1", ",", "IAC Driver Bus 2", ",", "Keyboard", ",", "to Max 1", ",", "to Max 2", ",", "QUNEO", ",", "LPK25", ",", "UHER MIDI", ",", "UltraLite Sync Port" ],
+					"items" : [ "IAC Driver Bus 1", ",", "IAC Driver Bus 2", ",", "UHER MIDI", ",", "LPK25", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -11455,7 +11441,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-151",
-					"items" : [ "IAC Driver Bus 1", ",", "IAC Driver Bus 2", ",", "Keyboard", ",", "to Max 1", ",", "to Max 2", ",", "QUNEO", ",", "LPK25", ",", "UHER MIDI", ",", "UltraLite Sync Port" ],
+					"items" : [ "IAC Driver Bus 1", ",", "IAC Driver Bus 2", ",", "UHER MIDI", ",", "LPK25", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -12060,15 +12046,15 @@
 						"compositeMode" : [ 18 ],
 						"compositeRampTime" : [ 0 ],
 						"contrast" : [ 1.04 ],
-						"lumaDispAmpX" : [ -0.000173 ],
-						"lumaDispAmpY" : [ 0.005116 ],
-						"lumaDispOffsetX" : [ -0.268366 ],
-						"lumaDispOffsetY" : [ -0.97557 ],
+						"lumaDispAmpX" : [ -0.007 ],
+						"lumaDispAmpY" : [ 0.014 ],
+						"lumaDispOffsetX" : [ 0.0 ],
+						"lumaDispOffsetY" : [ 0.0 ],
 						"masterEraseAlpha" : [ 1.0 ],
 						"masterHueLightness" : [ 1.0, 1.0, 1.0, 1.0, 0.354286, 1.0, 1.0 ],
 						"masterSaturation" : [ 1.0 ],
-						"rateL" : [ 0.85 ],
-						"rateR" : [ 1.612903 ],
+						"rateL" : [ 1.0 ],
+						"rateR" : [ 1.0 ],
 						"sat" : [ 0.658268 ],
 						"slideDown" : [ 1.0 ],
 						"slideUp" : [ 1.0 ]
@@ -18940,7 +18926,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.98, 0.0, 0.02, 1.0 ],
+					"bgcolor" : [ 0.7, 0.97, 0.26, 1.0 ],
 					"id" : "obj-288",
 					"maxclass" : "panel",
 					"numinlets" : 1,
@@ -18953,7 +18939,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.7, 0.97, 0.26, 1.0 ],
+					"bgcolor" : [ 0.98, 0.0, 0.02, 1.0 ],
 					"id" : "obj-286",
 					"maxclass" : "panel",
 					"numinlets" : 1,
@@ -20547,7 +20533,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-65", 0 ],
-					"disabled" : 0,
+					"disabled" : 1,
 					"hidden" : 0,
 					"source" : [ "obj-239", 0 ]
 				}
