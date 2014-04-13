@@ -3810,7 +3810,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1663.5, 248.0, 100.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 825.0, 499.0, 73.0, 20.0 ],
+					"presentation_rect" : [ 825.0, 499.0, 87.0, 20.0 ],
 					"text" : "View As Text"
 				}
 
@@ -5142,7 +5142,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
