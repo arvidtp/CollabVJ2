@@ -1,10 +1,10 @@
 {
 	"assortment 1" : 	{
 		"0" : [ "PVD highway sunset 00025.mov", 390000, 0 ],
-		"1" : [ "Ice Skating Jan 2013 high(4.3Mbps).mov", 136900, 286200 ],
+		"1" : [ "Ice Skating Jan 2013 high(4.3Mbps).mov", 27407.408203, 57297.296875, 600 ],
 		"2" : [ "Truro 00004.mov", 0, 514600 ],
-		"3" : [ "Ice Skating Jan 2013 high(4.3Mbps).mov", 292400, 451100 ],
-		"4" : [ "Ice Skating Jan 2013 high(4.3Mbps).mov", 619200, 659600 ],
+		"3" : [ "Ice Skating Jan 2013 high(4.3Mbps).mov", 58538.539062, 90310.3125, 600 ],
+		"4" : [ "Ice Skating Jan 2013 high(4.3Mbps).mov", 123963.960938, 132052.046875, 600 ],
 		"5" : [ "2012-12-28 08_37_25 (id) proj.mov", 0, 960000 ],
 		"6" : [ "2012-12-28 08_37_25 (id) proj.mov", 1540000, 2718000 ],
 		"7" : [ "PVD highway sunset 00021.mov", 981000, 0 ]
@@ -182,8 +182,8 @@
 		"3" : [ "Truro 00004.mov", 174500, 304400 ],
 		"4" : [ "Truro 00005.mov", 0, 24100 ],
 		"5" : [ "Katies Gait Optical Flow.mov", 4100, 352700 ],
-		"6" : [ "Utah | Colorado.mov", 3822400, 3978600 ],
-		"7" : [ "Utah | Colorado.mov", 1568700, 1646800 ]
+		"6" : [ "Utah | Colorado.mov", 765245.25, 796516.5, 600 ],
+		"7" : [ "Utah | Colorado.mov", 314054.0625, 329689.6875, 600 ]
 	}
 ,
 	"catamount trail snow" : 	{
@@ -205,40 +205,40 @@
 		"4" : [ "2013-02-25 15_46_39 (id).mov", 0, 1279000 ],
 		"5" : [ "2012-03-25 15_08_05 (id).mov", 20600, 58700 ],
 		"6" : [ "2012-03-25 12_14_02 (id).mov", 86200, 111500 ],
-		"7" : [ "Utah | Colorado.mov", 3985700, 4081500 ]
+		"7" : [ "Utah | Colorado.mov", 797937.9375, 817117.125, 600 ]
 	}
 ,
 	"colorado" : 	{
-		"0" : [ "Utah | Colorado.mov", 56700, 251900 ],
-		"1" : [ "Utah | Colorado.mov", 283900, 376200 ],
-		"2" : [ "Utah | Colorado.mov", 472000, 535900 ],
-		"3" : [ "Utah | Colorado.mov", 546500, 816300 ],
-		"4" : [ "Utah | Colorado.mov", 819800, 954700 ],
-		"5" : [ "Utah | Colorado.mov", 376200, 468400 ],
-		"6" : [ "Utah | Colorado.mov", 3989200, 4077900 ],
-		"7" : [ "Utah | Colorado.mov", 4092100, 4131200 ]
+		"0" : [ "Utah | Colorado.mov", 11351.351562, 50430.429688, 600 ],
+		"1" : [ "Utah | Colorado.mov", 56836.835938, 75315.3125, 600 ],
+		"2" : [ "Utah | Colorado.mov", 94494.492188, 107287.289062, 600 ],
+		"3" : [ "Utah | Colorado.mov", 109409.40625, 163423.421875, 600 ],
+		"4" : [ "Utah | Colorado.mov", 164124.125, 191131.125, 600 ],
+		"5" : [ "Utah | Colorado.mov", 75315.3125, 93773.773438, 600 ],
+		"6" : [ "Utah | Colorado.mov", 798638.625, 816396.375, 600 ],
+		"7" : [ "Utah | Colorado.mov", 819239.25, 827067.0625, 600 ]
 	}
 ,
 	"canyonlands 1" : 	{
-		"0" : [ "Utah | Colorado.mov", 968900, 1114400 ],
-		"1" : [ "Utah | Colorado.mov", 1121500, 1263500 ],
-		"2" : [ "Utah | Colorado.mov", 1281200, 1419600 ],
-		"3" : [ "Utah | Colorado.mov", 1423200, 1689400 ],
-		"4" : [ "Utah | Colorado.mov", 1721300, 1834900 ],
-		"5" : [ "Utah | Colorado.mov", 1877500, 1927100 ],
-		"6" : [ "Utah | Colorado.mov", 1927200, 2026500 ],
-		"7" : [ "Utah | Colorado.mov", 2062000, 2129500 ]
+		"0" : [ "Utah | Colorado.mov", 193973.96875, 223103.109375, 600 ],
+		"1" : [ "Utah | Colorado.mov", 224524.53125, 252952.953125, 600 ],
+		"2" : [ "Utah | Colorado.mov", 256496.5, 284204.21875, 600 ],
+		"3" : [ "Utah | Colorado.mov", 284924.9375, 338218.21875, 600 ],
+		"4" : [ "Utah | Colorado.mov", 344604.59375, 367347.34375, 600 ],
+		"5" : [ "Utah | Colorado.mov", 375875.875, 385805.8125, 600 ],
+		"6" : [ "Utah | Colorado.mov", 385825.8125, 405705.71875, 600 ],
+		"7" : [ "Utah | Colorado.mov", 412812.8125, 426326.3125, 600 ]
 	}
 ,
 	"arches 1" : 	{
-		"0" : [ "Utah | Colorado.mov", 2693800, 2786000 ],
-		"1" : [ "Utah | Colorado.mov", 2796700, 2860600 ],
-		"2" : [ "Utah | Colorado.mov", 2899600, 2981713 ],
-		"3" : [ "Utah | Colorado.mov", 3006100, 3151600 ],
-		"4" : [ "Utah | Colorado.mov", 3197700, 3506500 ],
-		"5" : [ "Utah | Colorado.mov", 3531400, 3758500 ],
-		"6" : [ "Utah | Colorado.mov", 3762100, 3783400 ],
-		"7" : [ "Utah | Colorado.mov", 3822400, 3978600 ]
+		"0" : [ "Utah | Colorado.mov", 539299.3125, 557757.75, 600 ],
+		"1" : [ "Utah | Colorado.mov", 559899.875, 572692.6875, 600 ],
+		"2" : [ "Utah | Colorado.mov", 580500.5, 596939.5625, 600 ],
+		"3" : [ "Utah | Colorado.mov", 601821.8125, 630950.9375, 600 ],
+		"4" : [ "Utah | Colorado.mov", 640180.1875, 702002.0, 600 ],
+		"5" : [ "Utah | Colorado.mov", 706987.0, 752452.4375, 600 ],
+		"6" : [ "Utah | Colorado.mov", 753173.1875, 757437.4375, 600 ],
+		"7" : [ "Utah | Colorado.mov", 765245.25, 796516.5, 600 ]
 	}
 ,
 	"pvd sunset" : 	{
@@ -264,14 +264,14 @@
 	}
 ,
 	"ice skating" : 	{
-		"0" : [ "Ice Skating Jan 2013 high(4.3Mbps).mov", 0, 49000 ],
-		"1" : [ "Ice Skating Jan 2013 high(4.3Mbps).mov", 135300, 167200 ],
-		"2" : [ "Ice Skating Jan 2013 high(4.3Mbps).mov", 288600, 360100 ],
-		"3" : [ "Ice Skating Jan 2013 high(4.3Mbps).mov", 373400, 433200 ],
-		"4" : [ "Ice Skating Jan 2013 high(4.3Mbps).mov", 504000, 532000 ],
-		"5" : [ "Ice Skating Jan 2013 high(4.3Mbps).mov", 577900, 633200 ],
-		"6" : [ "Ice Skating Jan 2013 high(4.3Mbps).mov", 641000, 659600 ],
-		"7" : [ "Ice Skating Jan 2013 high(4.3Mbps).mov", 756900, 803500 ]
+		"0" : [ "Ice Skating Jan 2013 high(4.3Mbps).mov", 0.0, 9809.80957, 600 ],
+		"1" : [ "Ice Skating Jan 2013 high(4.3Mbps).mov", 27087.087891, 33473.472656, 600 ],
+		"2" : [ "Ice Skating Jan 2013 high(4.3Mbps).mov", 57777.777344, 72092.09375, 600 ],
+		"3" : [ "Ice Skating Jan 2013 high(4.3Mbps).mov", 74754.757812, 86726.726562, 600 ],
+		"4" : [ "Ice Skating Jan 2013 high(4.3Mbps).mov", 100900.898438, 106506.507812, 600 ],
+		"5" : [ "Ice Skating Jan 2013 high(4.3Mbps).mov", 115695.695312, 126766.765625, 600 ],
+		"6" : [ "Ice Skating Jan 2013 high(4.3Mbps).mov", 128328.328125, 132052.046875, 600 ],
+		"7" : [ "Ice Skating Jan 2013 high(4.3Mbps).mov", 151531.53125, 160860.859375, 600 ]
 	}
 ,
 	"fireworks with fx" : 	{
