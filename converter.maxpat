@@ -31,6 +31,80 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-116",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 340.0, 612.0, 168.0, 18.0 ],
+					"presentation_rect" : [ 327.0, 621.0, 0.0, 0.0 ],
+					"text" : "\"lights 00031.mov\" 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-115",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 101.0, 19.0, 36.0, 20.0 ],
+					"text" : "Fix it"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-113",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 148.25, 19.0, 113.5, 26.25 ],
+					"presentation_rect" : [ 355.0, 30.0, 0.0, 0.0 ],
+					"text" : "Open Hap"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-112",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 279.25, 19.0, 113.5, 26.25 ],
+					"text" : "Open ProRes"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-111",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 520.0, 612.0, 168.0, 18.0 ],
+					"text" : "\"lights 00031.mov\" 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-109",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -123,7 +197,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 362.0, 509.0, 75.0, 18.0 ],
 					"presentation_rect" : [ 359.0, 514.0, 0.0, 0.0 ],
-					"text" : "23976"
+					"text" : "600"
 				}
 
 			}
@@ -311,7 +385,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 501.0, 515.0, 75.0, 18.0 ],
-					"text" : "24000"
+					"text" : "23976"
 				}
 
 			}
@@ -332,13 +406,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 16.806946,
+					"fontsize" : 12.0,
 					"id" : "obj-75",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 109.0, 18.75, 148.0, 23.0 ],
+					"patching_rect" : [ 511.0, 404.0, 109.0, 18.0 ],
 					"text" : "read, gettimescale"
 				}
 
@@ -381,7 +455,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 293.5, 28.5, 234.0, 18.0 ],
+					"patching_rect" : [ 285.5, 68.5, 234.0, 18.0 ],
 					"text" : "\"museum_animals_1280x720 vimeo.mov\""
 				}
 
@@ -395,7 +469,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 262.0, 90.0, 237.0, 18.0 ],
+					"patching_rect" : [ 254.0, 130.0, 237.0, 18.0 ],
 					"text" : "\"Ice Skating Jan 2013 high(4.3Mbps).mov\""
 				}
 
@@ -409,7 +483,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 262.0, 61.0, 129.0, 18.0 ],
+					"patching_rect" : [ 254.0, 101.0, 129.0, 18.0 ],
 					"text" : "\"Utah | Colorado.mov\""
 				}
 
@@ -596,7 +670,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 68.0, 809.0, 465.0, 18.0 ],
 					"presentation_rect" : [ 99.0, 744.0, 0.0, 0.0 ],
-					"text" : "set \"canoe cadillac::6\" \"2013-07-27 15-37-04.mov\" 0. 2640997.5 600"
+					"text" : "set \"lights 1::1\" \"lights 00030.mov\" 0. 12037.037109 600"
 				}
 
 			}
@@ -666,7 +740,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 46.5, 577.0, 465.0, 18.0 ],
-					"text" : "\"2013-07-27 15-37-04.mov\" 0. 2640997.5 600"
+					"text" : "\"lights 00030.mov\" 0. 12037.037109 600"
 				}
 
 			}
@@ -935,6 +1009,24 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-109", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-75", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-112", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-97", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-113", 0 ]
 				}
 
 			}
@@ -1318,6 +1410,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-111", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-76", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-56", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1412,6 +1513,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-94", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-116", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-96", 1 ]
 				}
 
 			}
