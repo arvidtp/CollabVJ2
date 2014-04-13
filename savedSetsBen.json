@@ -55,22 +55,22 @@
 	}
 ,
 	"bus lights blur" : 	{
-		"0" : [ "Bus Lights Night 00032.mov", 0, 60100 ],
-		"1" : [ "Bus Lights Night 00031.mov", 521700, 2100000 ],
-		"2" : [ "Bus Lights Night 00030.mov", 0, 46200 ],
-		"3" : [ "Bus Lights Night 00030.mov", 182400, 333300 ],
-		"4" : [ "Bus Lights Night 00030.mov", 427200, 534000 ],
-		"5" : [ "Bus Lights Night 00029.mov", 0, 126100 ],
-		"6" : [ "Bus Lights Night 00028.mov", 391800, 423400 ],
-		"7" : [ "Bus Lights Night 00027.mov", 0, 205800 ]
+		"0" : [ "Bus Lights Night 00032.mov", 0.0, 12032.032227, 600 ],
+		"1" : [ "Bus Lights Night 00031.mov", 104444.445312, 420420.40625, 600 ],
+		"2" : [ "Bus Lights Night 00030.mov", 0.0, 9249.249023, 600 ],
+		"3" : [ "Bus Lights Night 00030.mov", 36516.515625, 66726.726562, 600 ],
+		"4" : [ "Bus Lights Night 00030.mov", 85525.523438, 106906.90625, 600 ],
+		"5" : [ "Bus Lights Night 00029.mov", 0.0, 25245.246094, 600 ],
+		"6" : [ "Bus Lights Night 00028.mov", 78438.4375, 84764.765625, 600 ],
+		"7" : [ "Bus Lights Night 00027.mov", 0.0, 41201.203125, 600 ]
 	}
 ,
 	"night driving" : 	{
-		"0" : [ "Bus Lights Night 00031.mov", 404700, 486100 ],
-		"1" : [ "Bus Lights Night 00030.mov", 153100, 178000 ],
-		"2" : [ "Bus Lights Night 00030.mov", 354200, 418300 ],
-		"3" : [ "Bus Lights Night 00028.mov", 134900, 330100 ],
-		"4" : [ "2012-03-09 20_29_14 (id).mov", 209000, 0 ],
+		"0" : [ "Bus Lights Night 00031.mov", 81021.023438, 97317.320312, 600 ],
+		"1" : [ "Bus Lights Night 00030.mov", 30650.650391, 35635.636719, 600 ],
+		"2" : [ "Bus Lights Night 00030.mov", 70910.914062, 83743.742188, 600 ],
+		"3" : [ "Bus Lights Night 00028.mov", 27007.007812, 66086.085938, 600 ],
+		"4" : [ "2012-03-09 20_29_14 (id).mov", 0, 209000 ],
 		"5" : "none",
 		"6" : "none",
 		"7" : "none"
@@ -88,9 +88,9 @@
 	}
 ,
 	"bees" : 	{
-		"0" : [ "museum_animals_1280x720 vimeo.mov", 313000, 795000 ],
-		"1" : [ "museum_animals_1280x720 vimeo.mov", 2881000, 3022000 ],
-		"2" : [ "museum_animals_1280x720 vimeo.mov", 3023000, 3182549 ],
+		"0" : [ "museum_animals_1280x720 vimeo.mov", 7832.833008, 19894.894531, 600 ],
+		"1" : [ "museum_animals_1280x720 vimeo.mov", 72097.09375, 75625.625, 600 ],
+		"2" : [ "museum_animals_1280x720 vimeo.mov", 75650.648438, 79643.367188, 600 ],
 		"3" : "none",
 		"4" : "none",
 		"5" : "none",
@@ -99,12 +99,12 @@
 	}
 ,
 	"museum animals" : 	{
-		"0" : [ "museum_animals_1280x720 vimeo.mov", 116000, 857000 ],
-		"1" : [ "museum_animals_1280x720 vimeo.mov", 858000, 1418000 ],
-		"2" : [ "museum_animals_1280x720 vimeo.mov", 1419000, 1685000 ],
-		"3" : [ "museum_animals_1280x720 vimeo.mov", 1686000, 2242000 ],
-		"4" : [ "museum_animals_1280x720 vimeo.mov", 2246000, 3022000 ],
-		"5" : [ "museum_animals_1280x720 vimeo.mov", 3023000, 3784000 ],
+		"0" : [ "museum_animals_1280x720 vimeo.mov", 2902.902832, 21446.447266, 600 ],
+		"1" : [ "museum_animals_1280x720 vimeo.mov", 21471.470703, 35485.484375, 600 ],
+		"2" : [ "museum_animals_1280x720 vimeo.mov", 35510.511719, 42167.167969, 600 ],
+		"3" : [ "museum_animals_1280x720 vimeo.mov", 42192.191406, 56106.105469, 600 ],
+		"4" : [ "museum_animals_1280x720 vimeo.mov", 56206.207031, 75625.625, 600 ],
+		"5" : [ "museum_animals_1280x720 vimeo.mov", 75650.648438, 94694.695312, 600 ],
 		"6" : "none",
 		"7" : "none"
 	}
@@ -116,19 +116,19 @@
 		"3" : [ "Truro 00000.mov", 0, 117100 ],
 		"4" : [ "water textures 00047.mov", 0, 3697000 ],
 		"5" : [ "water textures 00048.mov", 0, 2101000 ],
-		"6" : [ "Edelweiss web 2.mov", 601700, 726200 ],
+		"6" : [ "Edelweiss web 2.mov", 120460.460938, 145385.390625, 600 ],
 		"7" : [ "2012-10-20 13_59_40 (id).mov", 0, 2864000 ]
 	}
 ,
 	"edelweiss" : 	{
-		"0" : [ "Edelweiss web 2.mov", 8600, 288700 ],
-		"1" : [ "Edelweiss web 2.mov", 295600, 440900 ],
-		"2" : [ "Edelweiss web 2.mov", 459900, 765900 ],
-		"3" : [ "Edelweiss web 2.mov", 766000, 1092700 ],
-		"4" : [ "Edelweiss web 2.mov", 1208600, 1408900 ],
-		"5" : [ "Edelweiss web 2.mov", 1410401, 1597600 ],
-		"6" : [ "Edelweiss web 2.mov", 1597700, 1727300 ],
-		"7" : [ "Edelweiss web 2.mov", 1730600, 2033400 ]
+		"0" : [ "Edelweiss web 2.mov", 1721.72168, 57797.796875, 600 ],
+		"1" : [ "Edelweiss web 2.mov", 59179.179688, 88268.265625, 600 ],
+		"2" : [ "Edelweiss web 2.mov", 92072.070312, 153333.328125, 600 ],
+		"3" : [ "Edelweiss web 2.mov", 153353.359375, 218758.765625, 600 ],
+		"4" : [ "Edelweiss web 2.mov", 241961.96875, 282062.0625, 600 ],
+		"5" : [ "Edelweiss web 2.mov", 282362.5625, 319839.84375, 600 ],
+		"6" : [ "Edelweiss web 2.mov", 319859.875, 345805.8125, 600 ],
+		"7" : [ "Edelweiss web 2.mov", 346466.46875, 407087.09375, 600 ]
 	}
 ,
 	"clouds from the air" : 	{
@@ -275,14 +275,14 @@
 	}
 ,
 	"fireworks with fx" : 	{
-		"0" : [ "Saltpeter web 1.mov", 25900, 86400 ],
-		"1" : [ "Saltpeter web 1.mov", 120400, 190600 ],
-		"2" : [ "Saltpeter web 1.mov", 211600, 286200 ],
-		"3" : [ "Saltpeter web 1.mov", 294300, 378500 ],
-		"4" : [ "Saltpeter web 1.mov", 384400, 471900 ],
-		"5" : [ "Saltpeter web 1.mov", 475700, 526500 ],
-		"6" : [ "Saltpeter web 1.mov", 534600, 581000 ],
-		"7" : [ "Saltpeter web 1.mov", 582100, 588000 ]
+		"0" : [ "Saltpeter web 1.mov", 5185.185059, 17297.296875, 600 ],
+		"1" : [ "Saltpeter web 1.mov", 24104.103516, 38158.15625, 600 ],
+		"2" : [ "Saltpeter web 1.mov", 42362.363281, 57297.296875, 600 ],
+		"3" : [ "Saltpeter web 1.mov", 58918.917969, 75775.773438, 600 ],
+		"4" : [ "Saltpeter web 1.mov", 76956.953125, 94474.476562, 600 ],
+		"5" : [ "Saltpeter web 1.mov", 95235.234375, 105405.40625, 600 ],
+		"6" : [ "Saltpeter web 1.mov", 107027.023438, 116316.3125, 600 ],
+		"7" : [ "Saltpeter web 1.mov", 116536.539062, 117717.71875, 600 ]
 	}
 ,
 	"driving in canada" : 	{
