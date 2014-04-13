@@ -46,7 +46,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
+						"rect" : [ 1784.0, 112.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -117,7 +117,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 521.166626, 317.0, 89.0, 18.0 ],
-									"text" : "scrollto $1 271"
+									"text" : "scrollto $1 272"
 								}
 
 							}
@@ -187,7 +187,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 435.166626, 317.0, 82.0, 18.0 ],
-									"text" : "scrollto $1 40"
+									"text" : "scrollto $1 46"
 								}
 
 							}
@@ -8318,12 +8318,12 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-22::obj-185" : [ "live.toggle[8]", "live.toggle", 0 ],
 			"obj-47::obj-185" : [ "live.toggle[2]", "live.toggle", 0 ],
-			"obj-59::obj-185" : [ "live.toggle[9]", "live.toggle", 0 ],
-			"obj-65::obj-185" : [ "live.toggle[10]", "live.toggle", 0 ],
+			"obj-41::obj-185" : [ "live.toggle[6]", "live.toggle", 0 ],
+			"obj-65::obj-185" : [ "live.toggle[5]", "live.toggle", 0 ],
+			"obj-22::obj-185" : [ "live.toggle[7]", "live.toggle", 0 ],
 			"obj-35::obj-185" : [ "live.toggle[1]", "live.toggle", 0 ],
-			"obj-41::obj-185" : [ "live.toggle[11]", "live.toggle", 0 ],
+			"obj-59::obj-185" : [ "live.toggle[4]", "live.toggle", 0 ],
 			"obj-53::obj-185" : [ "live.toggle[3]", "live.toggle", 0 ],
 			"obj-1::obj-185" : [ "live.toggle[12]", "live.toggle", 0 ]
 		}
