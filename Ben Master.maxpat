@@ -1026,7 +1026,22 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-8",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1474.0, 458.0, 119.0, 20.0 ],
+									"text" : "loadmess 00:00.000"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -1054,7 +1069,7 @@
 									"patching_rect" : [ 1448.25, 681.774536, 121.0, 27.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 833.0, 570.0, 129.0, 27.0 ],
-									"text" : "02:10.705",
+									"text" : "00:00.000",
 									"textjustification" : 2
 								}
 
@@ -1143,7 +1158,7 @@
 									"patching_rect" : [ 1298.25, 681.774536, 121.0, 27.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 136.25, 570.0, 105.0, 27.0 ],
-									"text" : "00:1.968"
+									"text" : "00:0.000"
 								}
 
 							}
@@ -3899,6 +3914,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-78", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-60", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-8", 0 ]
 								}
 
 							}
@@ -8318,14 +8342,14 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-41::obj-185" : [ "PlayToggle[6]", "play", 0 ],
-			"obj-59::obj-185" : [ "PlayToggle[4]", "play", 0 ],
 			"obj-53::obj-185" : [ "PlayToggle[3]", "play", 0 ],
-			"obj-22::obj-185" : [ "PlayToggle", "play", 0 ],
+			"obj-1::obj-185" : [ "PlayToggle[7]", "play", 0 ],
 			"obj-47::obj-185" : [ "PlayToggle[2]", "play", 0 ],
+			"obj-22::obj-185" : [ "PlayToggle", "play", 0 ],
+			"obj-41::obj-185" : [ "PlayToggle[6]", "play", 0 ],
 			"obj-65::obj-185" : [ "PlayToggle[5]", "play", 0 ],
-			"obj-35::obj-185" : [ "PlayToggle[1]", "play", 0 ],
-			"obj-1::obj-185" : [ "PlayToggle[7]", "play", 0 ]
+			"obj-59::obj-185" : [ "PlayToggle[4]", "play", 0 ],
+			"obj-35::obj-185" : [ "PlayToggle[1]", "play", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
