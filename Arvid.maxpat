@@ -52,7 +52,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "int", "int" ],
 					"patching_rect" : [ 598.171997, 1399.18811, 63.0, 20.0 ],
-					"presentation_rect" : [ 516.0, 1411.0, 0.0, 0.0 ],
 					"text" : "change 0."
 				}
 
@@ -83,7 +82,7 @@
 					"patching_rect" : [ 1944.0, 286.0, 137.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 1591.25, 619.072266, 72.5, 33.0 ],
+					"presentation_rect" : [ 1591.25, 619.072266, 73.0, 33.0 ],
 					"text" : "recall rates with presets"
 				}
 
@@ -3295,7 +3294,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 1680.0, 22.0, 1489.0, 851.0 ],
+						"rect" : [ 298.0, 169.0, 1489.0, 851.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3315,6 +3314,34 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-77",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 362.5, 220.0, 60.0, 20.0 ],
+									"text" : "route slot"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-23",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 362.5, 193.0, 49.0, 20.0 ],
+									"text" : "dict.iter"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-95",
@@ -4372,14 +4399,15 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"0" : [ "Utah | Colorado.mov", 193973.96875, 223103.109375, 600 ],
-										"1" : [ "Utah | Colorado.mov", 224524.53125, 252952.953125, 600 ],
-										"2" : [ "Utah | Colorado.mov", 256496.5, 284204.21875, 600 ],
-										"3" : [ "Utah | Colorado.mov", 284924.9375, 338218.21875, 600 ],
-										"4" : [ "Utah | Colorado.mov", 344604.59375, 367347.34375, 600 ],
-										"5" : [ "Utah | Colorado.mov", 375875.875, 385805.8125, 600 ],
-										"6" : [ "Utah | Colorado.mov", 385825.8125, 405705.71875, 600 ],
-										"7" : [ "Utah | Colorado.mov", 412812.8125, 426326.3125, 600 ]
+										"0" : [ "Utah | Colorado.mov", 539299.3125, 557757.75, 600 ],
+										"1" : [ "Utah | Colorado.mov", 559899.875, 572692.6875, 600 ],
+										"2" : [ "Utah | Colorado.mov", 580500.5, 596939.5625, 600 ],
+										"3" : [ "Utah | Colorado.mov", 601821.8125, 630950.9375, 600 ],
+										"4" : [ "Utah | Colorado.mov", 640180.1875, 702002.0, 600 ],
+										"5" : [ "Utah | Colorado.mov", 706987.0, 752452.4375, 600 ],
+										"6" : [ "Utah | Colorado.mov", 753173.1875, 757437.4375, 600 ],
+										"7" : [ "Utah | Colorado.mov", 765245.25, 796516.5, 600 ],
+										"slot" : 2
 									}
 ,
 									"fontname" : "Arial",
@@ -4402,14 +4430,15 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"0" : [ "Edelweiss web 2.mov", 1721.72168, 57797.796875, 600 ],
-										"1" : [ "Edelweiss web 2.mov", 59179.179688, 88268.265625, 600 ],
-										"2" : [ "Edelweiss web 2.mov", 92072.070312, 153333.328125, 600 ],
-										"3" : [ "Edelweiss web 2.mov", 153353.359375, 218758.765625, 600 ],
-										"4" : [ "Edelweiss web 2.mov", 241961.96875, 282062.0625, 600 ],
-										"5" : [ "Edelweiss web 2.mov", 282362.5625, 319839.84375, 600 ],
-										"6" : [ "Edelweiss web 2.mov", 319859.875, 345805.8125, 600 ],
-										"7" : [ "Edelweiss web 2.mov", 346466.46875, 407087.09375, 600 ]
+										"0" : [ "naturelab 00074.mov", 117000, 1527525 ],
+										"1" : [ "naturelab 00076.mov", 139000, 418300 ],
+										"2" : [ "naturelab 00077.mov", 0, 1153000 ],
+										"3" : [ "naturelab 00078.mov", 383000, 550000 ],
+										"4" : [ "naturelab 00078.mov", 858000, 912000 ],
+										"5" : [ "naturelab 00079.mov", 0, 649000 ],
+										"6" : [ "naturelab 00075.mov", 359000, 645000 ],
+										"7" : "none",
+										"slot" : 1
 									}
 ,
 									"fontname" : "Arial",
@@ -4432,14 +4461,15 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"0" : [ "Utah | Colorado.mov", 193973.96875, 223103.109375, 600 ],
-										"1" : [ "Utah | Colorado.mov", 224524.53125, 252952.953125, 600 ],
-										"2" : [ "Utah | Colorado.mov", 256496.5, 284204.21875, 600 ],
-										"3" : [ "Utah | Colorado.mov", 284924.9375, 338218.21875, 600 ],
-										"4" : [ "Utah | Colorado.mov", 344604.59375, 367347.34375, 600 ],
-										"5" : [ "Utah | Colorado.mov", 375875.875, 385805.8125, 600 ],
-										"6" : [ "Utah | Colorado.mov", 385825.8125, 405705.71875, 600 ],
-										"7" : [ "Utah | Colorado.mov", 412812.8125, 426326.3125, 600 ]
+										"0" : [ "Utah | Colorado.mov", 539299.3125, 557757.75, 600 ],
+										"1" : [ "Utah | Colorado.mov", 559899.875, 572692.6875, 600 ],
+										"2" : [ "Utah | Colorado.mov", 580500.5, 596939.5625, 600 ],
+										"3" : [ "Utah | Colorado.mov", 601821.8125, 630950.9375, 600 ],
+										"4" : [ "Utah | Colorado.mov", 640180.1875, 702002.0, 600 ],
+										"5" : [ "Utah | Colorado.mov", 706987.0, 752452.4375, 600 ],
+										"6" : [ "Utah | Colorado.mov", 753173.1875, 757437.4375, 600 ],
+										"7" : [ "Utah | Colorado.mov", 765245.25, 796516.5, 600 ],
+										"slot" : 2
 									}
 ,
 									"fontname" : "Arial",
@@ -4462,14 +4492,15 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"0" : [ "Edelweiss web 2.mov", 1721.72168, 57797.796875, 600 ],
-										"1" : [ "Edelweiss web 2.mov", 59179.179688, 88268.265625, 600 ],
-										"2" : [ "Edelweiss web 2.mov", 92072.070312, 153333.328125, 600 ],
-										"3" : [ "Edelweiss web 2.mov", 153353.359375, 218758.765625, 600 ],
-										"4" : [ "Edelweiss web 2.mov", 241961.96875, 282062.0625, 600 ],
-										"5" : [ "Edelweiss web 2.mov", 282362.5625, 319839.84375, 600 ],
-										"6" : [ "Edelweiss web 2.mov", 319859.875, 345805.8125, 600 ],
-										"7" : [ "Edelweiss web 2.mov", 346466.46875, 407087.09375, 600 ]
+										"0" : [ "naturelab 00074.mov", 117000, 1527525 ],
+										"1" : [ "naturelab 00076.mov", 139000, 418300 ],
+										"2" : [ "naturelab 00077.mov", 0, 1153000 ],
+										"3" : [ "naturelab 00078.mov", 383000, 550000 ],
+										"4" : [ "naturelab 00078.mov", 858000, 912000 ],
+										"5" : [ "naturelab 00079.mov", 0, 649000 ],
+										"6" : [ "naturelab 00075.mov", 359000, 645000 ],
+										"7" : "none",
+										"slot" : 1
 									}
 ,
 									"fontname" : "Arial",
@@ -4486,19 +4517,6 @@
 									}
 ,
 									"text" : "dict 0clipSetArvidBackup"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-4",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 619.0, 276.0, 34.0, 20.0 ],
-									"text" : "print"
 								}
 
 							}
@@ -5230,17 +5248,6 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-42",
-									"maxclass" : "button",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 566.5, 260.0, 20.0, 20.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-34",
@@ -5351,19 +5358,6 @@
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-2",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 120.0, 156.0, 34.0, 20.0 ],
-									"text" : "print"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-94",
 									"maxclass" : "button",
 									"numinlets" : 1,
@@ -5381,9 +5375,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
-									"outlettype" : [ "bang", "", "bang" ],
+									"outlettype" : [ "bang", "", "" ],
 									"patching_rect" : [ 197.0, 136.0, 46.0, 20.0 ],
-									"text" : "t b l b"
+									"text" : "t b l l"
 								}
 
 							}
@@ -5572,24 +5566,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-4", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-19", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-42", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-19", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-17", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -5626,6 +5602,24 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-77", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-23", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-23", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-24", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-3", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -5645,7 +5639,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-43", 0 ],
-									"disabled" : 0,
+									"disabled" : 1,
 									"hidden" : 0,
 									"source" : [ "obj-24", 2 ]
 								}
@@ -6001,15 +5995,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-2", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-7", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-24", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -6050,6 +6035,24 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-74", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-77", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-77", 0 ]
 								}
 
 							}
@@ -12686,7 +12689,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-177",
-					"items" : [ "IAC Driver Bus 1", ",", "IAC Driver Bus 2", ",", "Keyboard", ",", "LPK25", ",", "UHER MIDI", ",", "UltraLite Sync Port", ",", "SSCOM Port 1", ",", "SSCOM Port 2", ",", "QUNEO", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "IAC Driver Bus 1", ",", "IAC Driver Bus 2", ",", "to Max 1", ",", "to Max 2", ",", "SSCOM Port 1", ",", "SSCOM Port 2", ",", "QUNEO", ",", "Keyboard", ",", "LPK25", ",", "UHER MIDI", ",", "UltraLite Sync Port" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -13324,7 +13327,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-151",
-					"items" : [ "IAC Driver Bus 1", ",", "IAC Driver Bus 2", ",", "Keyboard", ",", "LPK25", ",", "UHER MIDI", ",", "UltraLite Sync Port", ",", "SSCOM Port 1", ",", "SSCOM Port 2", ",", "QUNEO", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "IAC Driver Bus 1", ",", "IAC Driver Bus 2", ",", "to Max 1", ",", "to Max 2", ",", "SSCOM Port 1", ",", "SSCOM Port 2", ",", "QUNEO", ",", "Keyboard", ",", "LPK25", ",", "UHER MIDI", ",", "UltraLite Sync Port" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -13931,16 +13934,16 @@
 					"restore" : 					{
 						"bright" : [ 1.0 ],
 						"compositeAmount" : [ 1.0 ],
-						"compositeMode" : [ 18 ],
+						"compositeMode" : [ 1 ],
 						"compositeRampTime" : [ 0 ],
 						"contrast" : [ 1.0 ],
 						"lumaDispAmpX" : [ 0.0 ],
 						"lumaDispAmpY" : [ 0.0 ],
 						"lumaDispOffsetX" : [ 0.0 ],
 						"lumaDispOffsetY" : [ 0.0 ],
-						"masterEraseAlpha" : [ 0.0 ],
-						"masterHueLightness" : [ 1.0, 1.0, 1.0, 1.0, 0.354286, 1.0, 1.0 ],
-						"masterSaturation" : [ 1.0 ],
+						"masterEraseAlpha" : [ 1.0 ],
+						"masterHueLightness" : [ 1.0, 1.0, 1.0, 1.0, 0.365714, 0.0, 1.0 ],
+						"masterSaturation" : [ 0.0 ],
 						"rateL" : [ 1.0 ],
 						"rateR" : [ 1.0 ],
 						"sat" : [ 1.0 ],
@@ -20828,7 +20831,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.98, 0.0, 0.02, 1.0 ],
+					"bgcolor" : [ 0.7, 0.97, 0.26, 1.0 ],
 					"id" : "obj-288",
 					"maxclass" : "panel",
 					"numinlets" : 1,
@@ -20841,7 +20844,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.7, 0.97, 0.26, 1.0 ],
+					"bgcolor" : [ 0.98, 0.0, 0.02, 1.0 ],
 					"id" : "obj-286",
 					"maxclass" : "panel",
 					"numinlets" : 1,
