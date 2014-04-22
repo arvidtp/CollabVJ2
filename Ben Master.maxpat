@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"openrect" : [ 29.0, 44.0, 1348.0, 981.0 ],
+		"openrect" : [ 29.0, 44.0, 1353.0, 981.0 ],
 		"bgcolor" : [ 0.424674, 0.424661, 0.424669, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -1026,7 +1026,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -5639,7 +5638,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 20.0, 1202.0, 1296.0, 121.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 865.5, 1285.0, 115.5 ]
+					"presentation_rect" : [ 5.0, 865.5, 1285.0, 118.5 ]
 				}
 
 			}
@@ -5653,7 +5652,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 20.0, 1080.0, 1296.0, 121.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 750.0, 1285.0, 115.5 ]
+					"presentation_rect" : [ 5.0, 750.0, 1285.0, 118.5 ]
 				}
 
 			}
@@ -5667,7 +5666,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 20.0, 958.0, 1296.0, 121.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 634.5, 1285.0, 115.5 ]
+					"presentation_rect" : [ 5.0, 634.5, 1285.0, 118.5 ]
 				}
 
 			}
@@ -5699,7 +5698,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 20.0, 836.0, 1296.0, 121.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 519.0, 1285.0, 115.5 ]
+					"presentation_rect" : [ 5.0, 519.0, 1285.0, 118.5 ]
 				}
 
 			}
@@ -8342,13 +8341,13 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-41::obj-185" : [ "PlayToggle[6]", "play", 0 ],
+			"obj-65::obj-185" : [ "PlayToggle[5]", "play", 0 ],
+			"obj-59::obj-185" : [ "PlayToggle[4]", "play", 0 ],
 			"obj-53::obj-185" : [ "PlayToggle[3]", "play", 0 ],
 			"obj-1::obj-185" : [ "PlayToggle[7]", "play", 0 ],
 			"obj-47::obj-185" : [ "PlayToggle[2]", "play", 0 ],
 			"obj-22::obj-185" : [ "PlayToggle", "play", 0 ],
-			"obj-41::obj-185" : [ "PlayToggle[6]", "play", 0 ],
-			"obj-65::obj-185" : [ "PlayToggle[5]", "play", 0 ],
-			"obj-59::obj-185" : [ "PlayToggle[4]", "play", 0 ],
 			"obj-35::obj-185" : [ "PlayToggle[1]", "play", 0 ]
 		}
 ,
