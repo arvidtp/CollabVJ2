@@ -32,6 +32,20 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-40",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 126.0, 910.0, 175.0, 18.0 ],
+					"text" : "131 42 0 0 0 0 0 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-220",
 					"maxclass" : "comment",
@@ -1618,14 +1632,14 @@
 					"fontsize" : 30.0,
 					"frgb" : 0.0,
 					"id" : "obj-39",
-					"linecount" : 24,
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 932.75, 343.0, 41.25, 811.0 ],
+					"patching_rect" : [ 932.75, 343.0, 41.25, 141.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 273.5, 865.0, 965.0, 40.0 ],
-					"text" : "museum_animals_1280x720 vimeo.mov",
+					"text" : "none",
 					"textcolor" : [ 0.00753, 0.00753, 0.00753, 1.0 ]
 				}
 
@@ -1656,7 +1670,7 @@
 					"patching_rect" : [ 1165.0, 149.0, 62.0, 78.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 28.5, 820.049072, 62.0, 78.0 ],
-					"text" : "2",
+					"text" : "1",
 					"textcolor" : [ 0.996063, 0.805643, 0.037526, 1.0 ]
 				}
 
@@ -1863,7 +1877,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 897.0, 166.0, 31.0, 20.0 ],
 					"text" : "t #1"
 				}
@@ -2922,7 +2936,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 142.0, 31.0, 20.0 ],
 									"text" : "t #1"
 								}
@@ -2967,7 +2981,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-131", 0 ],
-									"disabled" : 0,
+									"disabled" : 1,
 									"hidden" : 0,
 									"source" : [ "obj-118", 1 ]
 								}
@@ -4206,7 +4220,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 142.0, 408.0, 1424.0, 608.0 ],
+						"rect" : [ 52.0, 107.0, 1424.0, 608.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -5885,7 +5899,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "PlayToggle",
+							"parameter_longname" : "PlayToggle[7]",
 							"parameter_shortname" : "play",
 							"parameter_type" : 2,
 							"parameter_mmax" : 1.0,
@@ -5894,7 +5908,7 @@
 
 					}
 ,
-					"varname" : "PlayToggle"
+					"varname" : "PlayToggle[7]"
 				}
 
 			}
@@ -7082,7 +7096,7 @@
 					"id" : "obj-117",
 					"idlemouse" : 1,
 					"maxclass" : "jit.pwindow",
-					"name" : "1dummy",
+					"name" : "#1dummy",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
@@ -7159,7 +7173,21 @@
 			}
 , 			{
 				"box" : 				{
-					"background" : 1,
+					"attr" : "idlemouse",
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-95",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 420.5, 667.0, 135.785706, 20.0 ],
+					"text_width" : 80.0
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-64",
 					"idlemouse" : 1,
 					"maxclass" : "jit.pwindow",
@@ -7175,9 +7203,10 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 1.0, 0.999974, 0.999991, 0.0 ],
-					"bgoncolor" : [ 0.995375, 0.773662, 0.036983, 1.0 ],
+					"bgoncolor" : [ 0.996078, 0.55372, 0.0, 1.0 ],
 					"bgovercolor" : [ 1.0, 0.999974, 0.999991, 0.0 ],
 					"bgoveroncolor" : [ 1.0, 0.999974, 0.999991, 0.0 ],
+					"border" : 0,
 					"bordercolor" : [ 1.0, 0.999974, 0.999991, 0.0 ],
 					"borderoncolor" : [ 0.996063, 0.805643, 0.037526, 1.0 ],
 					"fontname" : "Arial",
@@ -7192,27 +7221,12 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1227.0, 1398.0, 74.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 865.0, 1280.0, 35.098145 ],
+					"presentation_rect" : [ -1.5, 3.0, 1297.0, 905.0 ],
 					"rounded" : 20.0,
 					"textcolor" : [ 1.0, 0.999974, 0.999991, 0.0 ],
 					"textoncolor" : [ 1.0, 0.999974, 0.999991, 0.0 ],
 					"textovercolor" : [ 1.0, 0.999974, 0.999991, 0.0 ],
 					"textoveroncolor" : [ 1.0, 0.999974, 0.999991, 0.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"attr" : "idlemouse",
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-95",
-					"maxclass" : "attrui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 420.5, 667.0, 135.785706, 20.0 ],
-					"text_width" : 80.0
 				}
 
 			}
@@ -9887,6 +9901,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-40", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-93", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-92", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -9965,6 +9988,29 @@
 					"source" : [ "obj-98", 0 ]
 				}
 
+			}
+ ],
+		"parameters" : 		{
+			"obj-185" : [ "PlayToggle[7]", "play", 0 ]
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "nada.maxpat",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/atp.abstractions",
+				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/atp.abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "atp.onemess.maxpat",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/atp.abstractions",
+				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/atp.abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jit.gl.hap.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
