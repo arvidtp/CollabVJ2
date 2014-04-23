@@ -1286,7 +1286,7 @@
 									"patching_rect" : [ 1448.25, 681.774536, 121.0, 27.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 833.0, 570.0, 129.0, 27.0 ],
-									"text" : "00:25.780",
+									"text" : "00:00.000",
 									"textjustification" : 2
 								}
 
@@ -5192,7 +5192,7 @@
 					"hint" : "Delete a saved Set",
 					"hltcolor" : [ 0.992157, 0.52549, 0.537255, 1.0 ],
 					"id" : "obj-64",
-					"items" : [ "arches 1", ",", "assortment 1", ",", "backyard fisheye", ",", "beach", ",", "bees", ",", "bus lights blur", ",", "canoe cadillac", ",", "canyonlands 1", ",", "catamount trail snow", ",", "clouds from the air", ",", "colorado", ",", "driving in canada", ",", "edelweiss", ",", "fireworks with fx", ",", "ice skating", ",", "lights 1", ",", "live animals", ",", "mountain rivers", ",", "mountains", ",", "museum animals", ",", "night driving", ",", "pigeons snow roof", ",", "provincetown", ",", "provincetown 360", ",", "pvd snow 1", ",", "pvd snow 2", ",", "pvd sunset", ",", "pvd sunset highway", ",", "risd nature lab", ",", "truro", ",", "water textures", ",", "woods" ],
+					"items" : [ "blank", ",", "my first vj set" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -7651,7 +7651,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 255.0, 17.0, 60.0, 20.0 ],
+					"patching_rect" : [ 255.0, 17.5, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -8720,14 +8720,14 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-22::obj-185" : [ "PlayToggle", "play", 0 ],
-			"obj-47::obj-185" : [ "PlayToggle[2]", "play", 0 ],
-			"obj-41::obj-185" : [ "PlayToggle[6]", "play", 0 ],
-			"obj-1::obj-185" : [ "PlayToggle[7]", "play", 0 ],
 			"obj-65::obj-185" : [ "PlayToggle[5]", "play", 0 ],
 			"obj-59::obj-185" : [ "PlayToggle[4]", "play", 0 ],
 			"obj-53::obj-185" : [ "PlayToggle[3]", "play", 0 ],
-			"obj-35::obj-185" : [ "PlayToggle[1]", "play", 0 ]
+			"obj-22::obj-185" : [ "PlayToggle", "play", 0 ],
+			"obj-47::obj-185" : [ "PlayToggle[2]", "play", 0 ],
+			"obj-41::obj-185" : [ "PlayToggle[6]", "play", 0 ],
+			"obj-35::obj-185" : [ "PlayToggle[1]", "play", 0 ],
+			"obj-1::obj-185" : [ "PlayToggle[7]", "play", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
