@@ -52,7 +52,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 1073.0, 39.0, 32.5, 20.0 ],
-					"presentation_rect" : [ 1076.0, 36.0, 0.0, 0.0 ],
 					"text" : "+ 1"
 				}
 
@@ -123,7 +122,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 79.5, 82.0, 69.0, 20.0 ],
-					"presentation_rect" : [ 80.0, 80.0, 0.0, 0.0 ],
 					"text" : "mousefilter"
 				}
 
@@ -1258,7 +1256,7 @@
 									"patching_rect" : [ 1448.25, 681.774536, 121.0, 27.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 833.0, 570.0, 129.0, 27.0 ],
-									"text" : "00:00.000",
+									"text" : "00:16.882",
 									"textjustification" : 2
 								}
 
@@ -1347,7 +1345,7 @@
 									"patching_rect" : [ 1298.25, 681.774536, 121.0, 27.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 136.25, 570.0, 105.0, 27.0 ],
-									"text" : "00:0.000"
+									"text" : "00:0.342"
 								}
 
 							}
@@ -1988,7 +1986,7 @@
 									"patching_rect" : [ 976.0, 926.774536, 264.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 543.0, 960.0, 25.0 ],
-									"setminmax" : [ 0.0, 78423.0 ],
+									"setminmax" : [ 0.0, 10129.0 ],
 									"slidercolor" : [ 0.0, 0.0, 0.0, 0.5 ],
 									"thickness" : 1
 								}
@@ -2009,7 +2007,7 @@
 									"patching_rect" : [ 976.0, 885.774536, 264.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 543.0, 960.0, 25.0 ],
-									"setminmax" : [ 0.0, 78423.0 ],
+									"setminmax" : [ 0.0, 10129.0 ],
 									"slidercolor" : [ 0.0, 0.0, 0.0, 0.5 ],
 									"thickness" : 1
 								}
@@ -2030,7 +2028,7 @@
 									"patching_rect" : [ 976.0, 843.774536, 264.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 543.0, 960.0, 25.0 ],
-									"setminmax" : [ 0.0, 78423.0 ],
+									"setminmax" : [ 0.0, 10129.0 ],
 									"slidercolor" : [ 0.0, 0.0, 0.0, 0.5 ],
 									"thickness" : 1
 								}
@@ -2051,7 +2049,7 @@
 									"patching_rect" : [ 976.0, 802.774536, 264.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 543.0, 960.0, 25.0 ],
-									"setminmax" : [ 0.0, 78423.0 ],
+									"setminmax" : [ 0.0, 10129.0 ],
 									"slidercolor" : [ 0.0, 0.0, 0.0, 0.5 ],
 									"thickness" : 1
 								}
@@ -2072,7 +2070,7 @@
 									"patching_rect" : [ 976.0, 763.774536, 264.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 543.0, 960.0, 25.0 ],
-									"setminmax" : [ 0.0, 78423.0 ],
+									"setminmax" : [ 0.0, 10129.0 ],
 									"slidercolor" : [ 0.0, 0.0, 0.0, 0.5 ],
 									"thickness" : 1
 								}
@@ -2093,7 +2091,7 @@
 									"patching_rect" : [ 976.0, 722.774536, 264.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 543.0, 960.0, 25.0 ],
-									"setminmax" : [ 0.0, 78423.0 ],
+									"setminmax" : [ 0.0, 10129.0 ],
 									"slidercolor" : [ 0.0, 0.0, 0.0, 0.5 ],
 									"thickness" : 1
 								}
@@ -2114,7 +2112,7 @@
 									"patching_rect" : [ 976.0, 681.774536, 264.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 543.0, 960.0, 25.0 ],
-									"setminmax" : [ 0.0, 78423.0 ],
+									"setminmax" : [ 0.0, 10129.0 ],
 									"slidercolor" : [ 0.0, 0.0, 0.0, 0.5 ],
 									"thickness" : 1
 								}
@@ -2135,7 +2133,7 @@
 									"patching_rect" : [ 976.0, 642.774536, 264.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 543.0, 960.0, 25.0 ],
-									"setminmax" : [ 0.0, 78423.0 ],
+									"setminmax" : [ 0.0, 10129.0 ],
 									"slidercolor" : [ 0.0, 0.0, 0.0, 0.5 ],
 									"thickness" : 1
 								}
@@ -2587,7 +2585,7 @@
 									"outlettype" : [ "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 115.0, 722.774536, 332.0, 22.0 ],
-									"size" : 78423.0
+									"size" : 10129.0
 								}
 
 							}
@@ -2885,7 +2883,7 @@
 									"patching_rect" : [ 976.0, 574.549072, 264.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 543.0, 960.0, 25.0 ],
-									"setminmax" : [ 0.0, 78423.0 ],
+									"setminmax" : [ 0.0, 10129.0 ],
 									"slidercolor" : [ 0.767272, 0.008819, 0.008819, 1.0 ]
 								}
 
@@ -6414,7 +6412,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 623.0, 60.0, 945.0, 598.0 ],
+						"rect" : [ 253.0, 74.0, 945.0, 598.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -6433,7 +6431,21 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-7",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 163.0, 169.0, 34.0, 20.0 ],
+									"text" : "print"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-50",
@@ -6468,7 +6480,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 217.0, 111.0, 50.0, 20.0 ]
+									"patching_rect" : [ 138.5, 46.0, 50.0, 20.0 ]
 								}
 
 							}
@@ -6976,22 +6988,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 80.5, 132.0, 101.0, 20.0 ],
-									"text" : "atp.speedtrap 50"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-17",
-									"maxclass" : "number",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "int", "bang" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 115.5, 161.0, 50.0, 20.0 ]
+									"patching_rect" : [ 80.5, 133.0, 107.0, 20.0 ],
+									"text" : "atp.speedtrap 150"
 								}
 
 							}
@@ -7385,15 +7383,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-17", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-34", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-19", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -7414,6 +7403,15 @@
 								"patchline" : 								{
 									"destination" : [ "obj-41", 0 ],
 									"disabled" : 1,
+									"hidden" : 0,
+									"source" : [ "obj-34", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 0 ],
+									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-34", 0 ]
 								}
@@ -8685,19 +8683,19 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-22::obj-185" : [ "PlayToggle", "play", 0 ],
+			"obj-47::obj-185" : [ "PlayToggle[2]", "play", 0 ],
 			"obj-41::obj-185" : [ "PlayToggle[6]", "play", 0 ],
+			"obj-1::obj-185" : [ "PlayToggle[7]", "play", 0 ],
 			"obj-65::obj-185" : [ "PlayToggle[5]", "play", 0 ],
 			"obj-59::obj-185" : [ "PlayToggle[4]", "play", 0 ],
 			"obj-53::obj-185" : [ "PlayToggle[3]", "play", 0 ],
-			"obj-1::obj-185" : [ "PlayToggle[7]", "play", 0 ],
-			"obj-47::obj-185" : [ "PlayToggle[2]", "play", 0 ],
-			"obj-22::obj-185" : [ "PlayToggle", "play", 0 ],
 			"obj-35::obj-185" : [ "PlayToggle[1]", "play", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Ben.maxpat",
-				"bootpath" : "/Users/arvid/Performances/Cartel VJ",
+				"bootpath" : "/Users/steve/Arvid/Cartel-o-Vision",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -8732,7 +8730,7 @@
 			}
 , 			{
 				"name" : "cartelJVClipSetset.maxpat",
-				"bootpath" : "/Users/arvid/Performances/Cartel VJ",
+				"bootpath" : "/Users/steve/Arvid/Cartel-o-Vision",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -8753,14 +8751,14 @@
 			}
 , 			{
 				"name" : "movieMakerPlayerBen.maxpat",
-				"bootpath" : "/Users/arvid/Performances/Cartel VJ",
+				"bootpath" : "/Users/steve/Arvid/Cartel-o-Vision",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "benVJPrefs.txt",
-				"bootpath" : "/Users/arvid/Performances/Cartel VJ",
+				"bootpath" : "/Users/steve/Arvid/Cartel-o-Vision",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
