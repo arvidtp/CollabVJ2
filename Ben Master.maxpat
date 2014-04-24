@@ -5214,7 +5214,7 @@
 					"hint" : "Delete a saved Set",
 					"hltcolor" : [ 0.992157, 0.52549, 0.537255, 1.0 ],
 					"id" : "obj-64",
-					"items" : "<empty>",
+					"items" : [ "B&W film", ",", "B&W trails", ",", "Purple Haze", ",", "Superflow", ",", "color tunnel", ",", "default", ",", "defraction grating 1", ",", "green fur", ",", "green goo", ",", "high contrast B&W", ",", "high contrast B&W blur", ",", "intense", ",", "paint with light", ",", "red splash", ",", "revese fuckup", ",", "vibrate", ",", "vitriol" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -9049,19 +9049,19 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-65::obj-185" : [ "PlayToggle[5]", "play", 0 ],
 			"obj-59::obj-185" : [ "PlayToggle[4]", "play", 0 ],
+			"obj-35::obj-185" : [ "PlayToggle[1]", "play", 0 ],
 			"obj-1::obj-185" : [ "PlayToggle[7]", "play", 0 ],
 			"obj-53::obj-185" : [ "PlayToggle[3]", "play", 0 ],
 			"obj-22::obj-185" : [ "PlayToggle", "play", 0 ],
 			"obj-47::obj-185" : [ "PlayToggle[2]", "play", 0 ],
 			"obj-41::obj-185" : [ "PlayToggle[6]", "play", 0 ],
-			"obj-35::obj-185" : [ "PlayToggle[1]", "play", 0 ]
+			"obj-65::obj-185" : [ "PlayToggle[5]", "play", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Ben.maxpat",
-				"bootpath" : "/Users/arvid/Current Projects/Cartel-o-Vision",
+				"bootpath" : "/Users/arvid/Performances/Cartel VJ",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -9096,7 +9096,7 @@
 			}
 , 			{
 				"name" : "cartelJVClipSetset.maxpat",
-				"bootpath" : "/Users/arvid/Current Projects/Cartel-o-Vision",
+				"bootpath" : "/Users/arvid/Performances/Cartel VJ",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -9117,16 +9117,9 @@
 			}
 , 			{
 				"name" : "movieMakerPlayerBen.maxpat",
-				"bootpath" : "/Users/arvid/Current Projects/Cartel-o-Vision",
+				"bootpath" : "/Users/arvid/Performances/Cartel VJ",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "benVJPrefs.txt",
-				"bootpath" : "/Users/arvid/Current Projects/Cartel-o-Vision",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
