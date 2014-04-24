@@ -32,6 +32,20 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-73",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "clear" ],
+					"patching_rect" : [ 915.0, 583.0, 88.0, 20.0 ],
+					"text" : "t getkeys clear"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-70",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -271,7 +285,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 1143.0, 464.0, 31.0, 20.0 ],
 					"text" : "t #1"
 				}
@@ -300,8 +314,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 625.0, 595.0, 87.0, 31.0 ],
-					"text" : "symbol \"bus lights blur\""
+					"patching_rect" : [ 625.0, 595.0, 77.0, 31.0 ],
+					"text" : "symbol cattle"
 				}
 
 			}
@@ -982,7 +996,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-53",
-					"items" : [ "arches 1", ",", "assortment 1", ",", "backyard fisheye", ",", "beach", ",", "bees", ",", "bus lights blur", ",", "canoe cadillac", ",", "canyonlands 1", ",", "catamount trail snow", ",", "clouds from the air", ",", "colorado", ",", "driving in canada", ",", "edelweiss", ",", "fireworks with fx", ",", "ice skating", ",", "lights 1", ",", "live animals", ",", "mountain rivers", ",", "mountains", ",", "museum animals", ",", "night driving", ",", "pigeons snow roof", ",", "provincetown", ",", "provincetown 360", ",", "pvd snow 1", ",", "pvd snow 2", ",", "pvd sunset", ",", "pvd sunset highway", ",", "risd nature lab", ",", "truro", ",", "water textures", ",", "woods" ],
+					"items" : "cattle",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -992,20 +1006,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 391.5, 94.0, 121.0, 21.0 ],
 					"rounded" : 18
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-54",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 915.0, 596.0, 52.0, 18.0 ],
-					"text" : "getkeys"
 				}
 
 			}
@@ -1719,7 +1719,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 407.0, 44.0, 1273.0, 834.0 ],
+						"rect" : [ 167.0, 44.0, 1273.0, 834.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3883,15 +3883,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-55", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-54", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-50", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -4126,7 +4117,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-54", 0 ],
+					"destination" : [ "obj-73", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-70", 0 ]
@@ -4139,6 +4130,24 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-72", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-53", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-73", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-55", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-73", 0 ]
 				}
 
 			}
@@ -4297,41 +4306,12 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-54", 0 ],
+					"destination" : [ "obj-73", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-93", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "atp.dictset.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/atp.abstractions",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/atp.abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "nada.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/atp.abstractions",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/atp.abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "atp.dictget.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/atp.abstractions",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/atp.abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "movieMakerPlayerBen.maxpat",
-				"bootpath" : "/Users/arvid/Current Projects/Cartel-o-Vision",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
 			}
  ]
 	}
