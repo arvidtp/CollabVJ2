@@ -1221,7 +1221,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"openrect" : [ 234.0, 184.0, 909.0, 600.0 ],
+						"openrect" : [ 234.0, 184.0, 966.0, 602.0 ],
 						"bgcolor" : [ 0.419232, 0.419219, 0.419226, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -1386,7 +1386,7 @@
 									"patching_rect" : [ 1448.25, 681.774536, 121.0, 27.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 833.0, 570.0, 129.0, 27.0 ],
-									"text" : "01:16.143",
+									"text" : "01:27.913",
 									"textjustification" : 2
 								}
 
@@ -1475,7 +1475,7 @@
 									"patching_rect" : [ 1298.25, 681.774536, 121.0, 27.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 136.25, 570.0, 105.0, 27.0 ],
-									"text" : "00:31.043"
+									"text" : "01:4.648"
 								}
 
 							}
@@ -2088,7 +2088,7 @@
 									"patching_rect" : [ 976.0, 926.774536, 264.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 543.0, 960.0, 25.0 ],
-									"setminmax" : [ 0.0, 45686.0 ],
+									"setminmax" : [ 0.0, 52748.0 ],
 									"slidercolor" : [ 0.0, 0.0, 0.0, 0.5 ],
 									"thickness" : 1
 								}
@@ -2109,7 +2109,7 @@
 									"patching_rect" : [ 976.0, 885.774536, 264.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 543.0, 960.0, 25.0 ],
-									"setminmax" : [ 0.0, 45686.0 ],
+									"setminmax" : [ 0.0, 52748.0 ],
 									"slidercolor" : [ 0.0, 0.0, 0.0, 0.5 ],
 									"thickness" : 1
 								}
@@ -2130,7 +2130,7 @@
 									"patching_rect" : [ 976.0, 843.774536, 264.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 543.0, 960.0, 25.0 ],
-									"setminmax" : [ 0.0, 45686.0 ],
+									"setminmax" : [ 0.0, 52748.0 ],
 									"slidercolor" : [ 0.0, 0.0, 0.0, 0.5 ],
 									"thickness" : 1
 								}
@@ -2151,7 +2151,7 @@
 									"patching_rect" : [ 976.0, 802.774536, 264.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 543.0, 960.0, 25.0 ],
-									"setminmax" : [ 0.0, 45686.0 ],
+									"setminmax" : [ 0.0, 52748.0 ],
 									"slidercolor" : [ 0.0, 0.0, 0.0, 0.5 ],
 									"thickness" : 1
 								}
@@ -2172,7 +2172,7 @@
 									"patching_rect" : [ 976.0, 763.774536, 264.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 543.0, 960.0, 25.0 ],
-									"setminmax" : [ 0.0, 45686.0 ],
+									"setminmax" : [ 0.0, 52748.0 ],
 									"slidercolor" : [ 0.0, 0.0, 0.0, 0.5 ],
 									"thickness" : 1
 								}
@@ -2193,7 +2193,7 @@
 									"patching_rect" : [ 976.0, 722.774536, 264.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 543.0, 960.0, 25.0 ],
-									"setminmax" : [ 0.0, 45686.0 ],
+									"setminmax" : [ 0.0, 52748.0 ],
 									"slidercolor" : [ 0.0, 0.0, 0.0, 0.5 ],
 									"thickness" : 1
 								}
@@ -2214,7 +2214,7 @@
 									"patching_rect" : [ 976.0, 681.774536, 264.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 543.0, 960.0, 25.0 ],
-									"setminmax" : [ 0.0, 45686.0 ],
+									"setminmax" : [ 0.0, 52748.0 ],
 									"slidercolor" : [ 0.0, 0.0, 0.0, 0.5 ],
 									"thickness" : 1
 								}
@@ -2235,7 +2235,7 @@
 									"patching_rect" : [ 976.0, 642.774536, 264.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 543.0, 960.0, 25.0 ],
-									"setminmax" : [ 0.0, 45686.0 ],
+									"setminmax" : [ 0.0, 52748.0 ],
 									"slidercolor" : [ 0.0, 0.0, 0.0, 0.5 ],
 									"thickness" : 1
 								}
@@ -2673,7 +2673,7 @@
 									"outlettype" : [ "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 115.0, 722.774536, 332.0, 22.0 ],
-									"size" : 45686.0
+									"size" : 52748.0
 								}
 
 							}
@@ -2971,7 +2971,7 @@
 									"patching_rect" : [ 976.0, 574.549072, 264.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 543.0, 960.0, 25.0 ],
-									"setminmax" : [ 0.0, 45686.0 ],
+									"setminmax" : [ 0.0, 52748.0 ],
 									"slidercolor" : [ 0.767272, 0.008819, 0.008819, 1.0 ]
 								}
 
@@ -5393,7 +5393,7 @@
 					"hint" : "Delete a saved Set",
 					"hltcolor" : [ 0.992157, 0.52549, 0.537255, 1.0 ],
 					"id" : "obj-64",
-					"items" : "BMC test 1",
+					"items" : [ "BMC test 1", ",", "BMC test 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -9228,14 +9228,14 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-22::obj-185" : [ "PlayToggle", "play", 0 ],
-			"obj-1::obj-185" : [ "PlayToggle[7]", "play", 0 ],
-			"obj-47::obj-185" : [ "PlayToggle[2]", "play", 0 ],
+			"obj-47::obj-185" : [ "PlayToggle[8]", "play", 0 ],
+			"obj-65::obj-185" : [ "PlayToggle[11]", "play", 0 ],
 			"obj-35::obj-185" : [ "PlayToggle[1]", "play", 0 ],
-			"obj-41::obj-185" : [ "PlayToggle[6]", "play", 0 ],
-			"obj-65::obj-185" : [ "PlayToggle[5]", "play", 0 ],
-			"obj-59::obj-185" : [ "PlayToggle[4]", "play", 0 ],
-			"obj-53::obj-185" : [ "PlayToggle[3]", "play", 0 ]
+			"obj-41::obj-185" : [ "PlayToggle[12]", "play", 0 ],
+			"obj-1::obj-185" : [ "PlayToggle[7]", "play", 0 ],
+			"obj-59::obj-185" : [ "PlayToggle[10]", "play", 0 ],
+			"obj-22::obj-185" : [ "PlayToggle[13]", "play", 0 ],
+			"obj-53::obj-185" : [ "PlayToggle[9]", "play", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -9254,6 +9254,13 @@
 			}
 , 			{
 				"name" : "atp.onemess.maxpat",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/atp.abstractions",
+				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/atp.abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "atp.removeFileExt.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/atp.abstractions",
 				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/atp.abstractions",
 				"type" : "JSON",
