@@ -285,7 +285,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 1143.0, 464.0, 31.0, 20.0 ],
 					"text" : "t #1"
 				}
@@ -309,13 +309,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-102",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 625.0, 595.0, 77.0, 31.0 ],
-					"text" : "symbol cattle"
+					"patching_rect" : [ 625.0, 595.0, 100.0, 18.0 ],
+					"text" : "symbol name"
 				}
 
 			}
@@ -996,7 +995,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-53",
-					"items" : "cattle",
+					"items" : [ "BMC test 1", ",", "BMC test 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -4312,6 +4311,35 @@
 					"source" : [ "obj-93", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "atp.dictset.maxpat",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/atp.abstractions",
+				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/atp.abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "nada.maxpat",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/atp.abstractions",
+				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/atp.abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "atp.dictget.maxpat",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/atp.abstractions",
+				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/atp.abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "movieMakerPlayerBen.maxpat",
+				"bootpath" : "/Users/arvid/Performances/Cartel VJ",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
 			}
  ]
 	}
