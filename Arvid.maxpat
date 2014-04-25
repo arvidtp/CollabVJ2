@@ -32,6 +32,68 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-325",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1488.0, 1335.427612, 72.0, 20.0 ],
+					"text" : "loadmess 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-326",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "bang", "" ],
+					"patching_rect" : [ 1488.0, 1393.739502, 46.0, 20.0 ],
+					"text" : "sel 0 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 16.0,
+					"id" : "obj-327",
+					"maxclass" : "textbutton",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1488.0, 1368.239502, 100.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1616.701904, 117.0, 56.596375, 27.0 ],
+					"text" : "16:9",
+					"texton" : "4:3"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-324",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1207.598267, 1367.0, 119.0, 18.0 ],
+					"presentation_rect" : [ 1209.795532, 1362.427612, 0.0, 0.0 ],
+					"text" : "scale 1.333333 1. 1."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-323",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -14056,10 +14118,10 @@
 						"compositeMode" : [ 1 ],
 						"compositeRampTime" : [ 0 ],
 						"contrast" : [ 1.0 ],
-						"lumaDispAmpX" : [ 0.042601 ],
-						"lumaDispAmpY" : [ 0.052419 ],
-						"lumaDispOffsetX" : [ -0.846506 ],
-						"lumaDispOffsetY" : [ -1.203257 ],
+						"lumaDispAmpX" : [ 0.399 ],
+						"lumaDispAmpY" : [ 0.309 ],
+						"lumaDispOffsetX" : [ 0.0 ],
+						"lumaDispOffsetY" : [ 0.0 ],
 						"masterEraseAlpha" : [ 0.0 ],
 						"masterHueLightness" : [ 1.0, 1.0, 1.0, 1.0, 0.0, 0.0, 1.0 ],
 						"masterSaturation" : [ 0.0 ],
@@ -17996,7 +18058,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_gl_texture" ],
-					"patching_rect" : [ 1098.5, 801.25, 186.0, 51.75 ],
+					"patching_rect" : [ 1101.0, 801.25, 186.0, 51.75 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.25, 523.5, 699.833374, 352.0 ],
 					"varname" : "cartelVJProcesschain[0]"
@@ -18548,7 +18610,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.98, 0.0, 0.02, 1.0 ],
+					"bgcolor" : [ 0.7, 0.97, 0.26, 1.0 ],
 					"id" : "obj-288",
 					"maxclass" : "panel",
 					"numinlets" : 1,
@@ -18561,7 +18623,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.7, 0.97, 0.26, 1.0 ],
+					"bgcolor" : [ 0.98, 0.0, 0.02, 1.0 ],
 					"id" : "obj-286",
 					"maxclass" : "panel",
 					"numinlets" : 1,
@@ -20973,6 +21035,51 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-323", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-60", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-324", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-327", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-325", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-324", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-326", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-81", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-326", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-326", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-327", 0 ]
 				}
 
 			}

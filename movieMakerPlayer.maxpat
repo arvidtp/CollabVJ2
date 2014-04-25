@@ -31,6 +31,20 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-86",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_gl_texture", "" ],
+					"patching_rect" : [ 1099.0, 774.0, 72.0, 20.0 ],
+					"text" : "jit.gl.texture"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-77",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -1190,8 +1204,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 979.0, 696.774536, 363.0, 20.0 ],
-					"text" : "jit.gl.hap cartelVJ1 @autostart 1 @rate_preserves_pitch 0 @vol 0."
+					"patching_rect" : [ 979.0, 696.774536, 451.0, 20.0 ],
+					"text" : "jit.gl.hap cartelVJ1 @autostart 1 @rate_preserves_pitch 0 @vol 0. @dim 1280 720"
 				}
 
 			}
@@ -1880,7 +1894,7 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 98.0, 696.774536, 332.0, 22.0 ],
-					"size" : 219641.0
+					"size" : 45686.0
 				}
 
 			}
