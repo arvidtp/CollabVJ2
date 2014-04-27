@@ -18418,7 +18418,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 21.0, -5.5, 155.0, 47.0 ],
+					"patching_rect" : [ 21.0, 6.0, 155.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
 					"presentation_rect" : [ 1437.0, 855.0, 155.0, 47.0 ],
