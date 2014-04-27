@@ -6,7 +6,7 @@
 				"id" : 1,
 				"data" : 				{
 					"bright" : [ 1.0 ],
-					"compositeAmount" : [ 0.787402 ],
+					"compositeAmount" : [ 0.0 ],
 					"compositeMode" : [ 1 ],
 					"compositeRampTime" : [ 0 ],
 					"contrast" : [ 1.0 ],
