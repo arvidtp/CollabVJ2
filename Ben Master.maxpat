@@ -141,7 +141,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 867.5, 521.0, 112.0, 31.0 ],
-					"presentation_rect" : [ 798.5, 183.0, 0.0, 0.0 ],
 					"text" : ";\rmax hidemenubar"
 				}
 
@@ -1414,7 +1413,36 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-82",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 184.0, 235.0, 162.0, 20.0 ],
+									"text" : "separateClipsFromOtherInfo"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-21",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 840.000122, 51.0, 142.0, 18.0 ],
+									"text" : "read 2vjTempWatch.mov"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -1559,7 +1587,7 @@
 									"patching_rect" : [ 1448.25, 681.774536, 121.0, 27.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 833.0, 570.0, 129.0, 27.0 ],
-									"text" : "00:42.042",
+									"text" : "03:11.345",
 									"textjustification" : 2
 								}
 
@@ -1648,7 +1676,7 @@
 									"patching_rect" : [ 1298.25, 681.774536, 121.0, 27.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 136.25, 570.0, 105.0, 27.0 ],
-									"text" : "00:27.102"
+									"text" : "00:2.125"
 								}
 
 							}
@@ -2261,7 +2289,7 @@
 									"patching_rect" : [ 976.0, 926.774536, 264.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 543.0, 960.0, 25.0 ],
-									"setminmax" : [ 0.0, 25225.0 ],
+									"setminmax" : [ 0.0, 114807.0 ],
 									"slidercolor" : [ 0.0, 0.0, 0.0, 0.5 ],
 									"thickness" : 1
 								}
@@ -2282,7 +2310,7 @@
 									"patching_rect" : [ 976.0, 885.774536, 264.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 543.0, 960.0, 25.0 ],
-									"setminmax" : [ 0.0, 25225.0 ],
+									"setminmax" : [ 0.0, 114807.0 ],
 									"slidercolor" : [ 0.0, 0.0, 0.0, 0.5 ],
 									"thickness" : 1
 								}
@@ -2303,7 +2331,7 @@
 									"patching_rect" : [ 976.0, 843.774536, 264.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 543.0, 960.0, 25.0 ],
-									"setminmax" : [ 0.0, 25225.0 ],
+									"setminmax" : [ 0.0, 114807.0 ],
 									"slidercolor" : [ 0.0, 0.0, 0.0, 0.5 ],
 									"thickness" : 1
 								}
@@ -2324,7 +2352,7 @@
 									"patching_rect" : [ 976.0, 802.774536, 264.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 543.0, 960.0, 25.0 ],
-									"setminmax" : [ 0.0, 25225.0 ],
+									"setminmax" : [ 0.0, 114807.0 ],
 									"slidercolor" : [ 0.0, 0.0, 0.0, 0.5 ],
 									"thickness" : 1
 								}
@@ -2345,7 +2373,7 @@
 									"patching_rect" : [ 976.0, 763.774536, 264.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 543.0, 960.0, 25.0 ],
-									"setminmax" : [ 0.0, 25225.0 ],
+									"setminmax" : [ 0.0, 114807.0 ],
 									"slidercolor" : [ 0.0, 0.0, 0.0, 0.5 ],
 									"thickness" : 1
 								}
@@ -2366,7 +2394,7 @@
 									"patching_rect" : [ 976.0, 722.774536, 264.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 543.0, 960.0, 25.0 ],
-									"setminmax" : [ 0.0, 25225.0 ],
+									"setminmax" : [ 0.0, 114807.0 ],
 									"slidercolor" : [ 0.0, 0.0, 0.0, 0.5 ],
 									"thickness" : 1
 								}
@@ -2387,7 +2415,7 @@
 									"patching_rect" : [ 976.0, 681.774536, 264.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 543.0, 960.0, 25.0 ],
-									"setminmax" : [ 0.0, 25225.0 ],
+									"setminmax" : [ 0.0, 114807.0 ],
 									"slidercolor" : [ 0.0, 0.0, 0.0, 0.5 ],
 									"thickness" : 1
 								}
@@ -2408,7 +2436,7 @@
 									"patching_rect" : [ 976.0, 642.774536, 264.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 543.0, 960.0, 25.0 ],
-									"setminmax" : [ 0.0, 25225.0 ],
+									"setminmax" : [ 0.0, 114807.0 ],
 									"slidercolor" : [ 0.0, 0.0, 0.0, 0.5 ],
 									"thickness" : 1
 								}
@@ -2470,7 +2498,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 280.0, 129.0, 87.0, 18.0 ],
-									"text" : "name 0clipSet"
+									"text" : "name 2clipSet"
 								}
 
 							}
@@ -2554,7 +2582,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 446.0, 155.0, 47.0 ],
+									"patching_rect" : [ 33.5, 443.0, 155.0, 47.0 ],
 									"text" : "could bang frames out while creating movie for filmstrip"
 								}
 
@@ -2846,7 +2874,7 @@
 									"outlettype" : [ "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 115.0, 722.774536, 332.0, 22.0 ],
-									"size" : 25225.0
+									"size" : 114807.0
 								}
 
 							}
@@ -2901,7 +2929,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 180.666626, 395.0, 68.0, 20.0 ],
+									"patching_rect" : [ 153.666626, 410.0, 68.0, 20.0 ],
 									"text" : "route none"
 								}
 
@@ -2915,7 +2943,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 211.0, 283.0, 73.0, 20.0 ],
+									"patching_rect" : [ 184.0, 298.0, 73.0, 20.0 ],
 									"text" : "fromsymbol"
 								}
 
@@ -2929,7 +2957,7 @@
 									"numinlets" : 4,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 180.666626, 355.0, 105.0, 20.0 ],
+									"patching_rect" : [ 153.666626, 370.0, 105.0, 20.0 ],
 									"text" : "join 4 @triggers 1"
 								}
 
@@ -2943,7 +2971,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 211.0, 313.0, 32.5, 20.0 ],
+									"patching_rect" : [ 184.0, 328.0, 32.5, 20.0 ],
 									"text" : "+ 1"
 								}
 
@@ -2957,7 +2985,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
-									"patching_rect" : [ 211.0, 250.0, 73.0, 20.0 ],
+									"patching_rect" : [ 184.0, 265.0, 73.0, 20.0 ],
 									"text" : "unjoin 4"
 								}
 
@@ -2971,7 +2999,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 229.666626, 428.0, 246.0, 18.0 ],
+									"patching_rect" : [ 202.666626, 443.0, 246.0, 18.0 ],
 									"text" : "append $1 track 0 $3 $4 track 0, getduration"
 								}
 
@@ -2985,7 +3013,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 211.0, 221.0, 49.0, 20.0 ],
+									"patching_rect" : [ 184.0, 206.0, 49.0, 20.0 ],
 									"text" : "dict.iter"
 								}
 
@@ -3144,7 +3172,7 @@
 									"patching_rect" : [ 976.0, 574.549072, 264.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 543.0, 960.0, 25.0 ],
-									"setminmax" : [ 0.0, 25225.0 ],
+									"setminmax" : [ 0.0, 114807.0 ],
 									"slidercolor" : [ 0.767272, 0.008819, 0.008819, 1.0 ]
 								}
 
@@ -3503,7 +3531,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-120", 0 ],
+									"destination" : [ "obj-82", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-122", 0 ]
@@ -3642,6 +3670,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-20", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-21", 0 ]
 								}
 
 							}
@@ -4461,6 +4498,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-8", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-120", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-82", 0 ]
 								}
 
 							}
@@ -6373,7 +6419,7 @@
 					"patching_rect" : [ 1293.0, 103.0, 180.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 707.0, 5.0, 133.0, 20.0 ],
-					"text" : "169.254.169.43"
+					"text" : "127.0.0.1"
 				}
 
 			}
@@ -9576,6 +9622,13 @@
 				"bootpath" : "/Users/arvid/Current Projects/Cartel-o-Vision",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "separateClipsFromOtherInfo.maxpat",
+				"bootpath" : "/Users/arvid/Current Projects/Cartel-o-Vision",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
