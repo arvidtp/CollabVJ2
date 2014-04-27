@@ -32,6 +32,176 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-333",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 165.833374, 466.0, 24.0, 20.0 ],
+					"presentation_rect" : [ 166.166748, 468.0, 0.0, 0.0 ],
+					"text" : "t 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-334",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 131.666626, 466.0, 24.0, 20.0 ],
+					"presentation_rect" : [ 132.0, 468.0, 0.0, 0.0 ],
+					"text" : "t 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.0, 0.435294, 0.0, 1.0 ],
+					"bgoncolor" : [ 0.613943, 1.0, 0.0, 1.0 ],
+					"bgovercolor" : [ 0.0, 0.585661, 0.0, 1.0 ],
+					"bordercolor" : [ 0.320774, 0.804395, 0.0, 1.0 ],
+					"borderoncolor" : [ 0.0, 0.522007, 0.0, 1.0 ],
+					"fontface" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-335",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"outputmode" : 0,
+					"parameter_enable" : 0,
+					"patching_rect" : [ 118.166626, 435.75, 51.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 75.5, 219.75, 67.0, 28.5 ],
+					"text" : "Play",
+					"textcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
+					"textoncolor" : [ 0.0, 0.665647, 0.0, 1.0 ],
+					"textovercolor" : [ 0.831373, 1.0, 0.0, 1.0 ],
+					"textoveroncolor" : [ 0.0, 0.494118, 0.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.777031, 0.0, 0.022684, 1.0 ],
+					"bgoncolor" : [ 0.988137, 0.322623, 0.030836, 1.0 ],
+					"bgovercolor" : [ 0.875885, 0.0, 0.04224, 1.0 ],
+					"bordercolor" : [ 0.543149, 0.0, 0.015856, 1.0 ],
+					"borderoncolor" : [ 0.762738, 0.0, 0.022267, 1.0 ],
+					"fontface" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"hint" : "Saves deletions to disk",
+					"id" : "obj-336",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"outputmode" : 0,
+					"parameter_enable" : 0,
+					"patching_rect" : [ 175.166626, 435.75, 51.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 145.5, 219.75, 67.0, 28.5 ],
+					"text" : "Stop",
+					"textcolor" : [ 0.990104, 0.990075, 0.990091, 1.0 ],
+					"textovercolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-329",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 709.166748, 466.0, 24.0, 20.0 ],
+					"presentation_rect" : [ 1935.333374, 453.0, 0.0, 0.0 ],
+					"text" : "t 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-330",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 675.0, 466.0, 24.0, 20.0 ],
+					"presentation_rect" : [ 1901.166626, 453.0, 0.0, 0.0 ],
+					"text" : "t 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.0, 0.435294, 0.0, 1.0 ],
+					"bgoncolor" : [ 0.613943, 1.0, 0.0, 1.0 ],
+					"bgovercolor" : [ 0.0, 0.585661, 0.0, 1.0 ],
+					"bordercolor" : [ 0.320774, 0.804395, 0.0, 1.0 ],
+					"borderoncolor" : [ 0.0, 0.522007, 0.0, 1.0 ],
+					"fontface" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-311",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"outputmode" : 0,
+					"parameter_enable" : 0,
+					"patching_rect" : [ 661.5, 435.75, 51.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 812.166626, 220.25, 67.0, 28.5 ],
+					"text" : "Play",
+					"textcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
+					"textoncolor" : [ 0.0, 0.665647, 0.0, 1.0 ],
+					"textovercolor" : [ 0.831373, 1.0, 0.0, 1.0 ],
+					"textoveroncolor" : [ 0.0, 0.494118, 0.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.777031, 0.0, 0.022684, 1.0 ],
+					"bgoncolor" : [ 0.988137, 0.322623, 0.030836, 1.0 ],
+					"bgovercolor" : [ 0.875885, 0.0, 0.04224, 1.0 ],
+					"bordercolor" : [ 0.543149, 0.0, 0.015856, 1.0 ],
+					"borderoncolor" : [ 0.762738, 0.0, 0.022267, 1.0 ],
+					"fontface" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"hint" : "Saves deletions to disk",
+					"id" : "obj-328",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"outputmode" : 0,
+					"parameter_enable" : 0,
+					"patching_rect" : [ 718.5, 435.75, 51.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 881.5, 220.25, 67.0, 28.5 ],
+					"text" : "Stop",
+					"textcolor" : [ 0.990104, 0.990075, 0.990091, 1.0 ],
+					"textovercolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-325",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -383,34 +553,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1841.0, 551.0, 204.0, 20.0 ],
 					"text" : "s CartelovisionArvidPlayerTargetFps"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-57",
-					"maxclass" : "toggle",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 738.0, 525.5, 32.0, 32.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 916.0, 218.25, 32.0, 32.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-47",
-					"maxclass" : "toggle",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 242.0, 487.75, 32.0, 32.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 177.0, 218.25, 32.0, 32.0 ]
 				}
 
 			}
@@ -2187,7 +2329,7 @@
 					"fontsize" : 13.0,
 					"framecolor" : [ 0.0, 0.0, 0.0, 0.35 ],
 					"id" : "obj-283",
-					"items" : [ "BMC test 1", ",", "BMC test 2", ",", "WackedGaze01", ",", "Aireal rotations", ",", "aireal 2", ",", "1" ],
+					"items" : [ "BMC test 1", ",", "BMC test 2", ",", "WackedGaze01", ",", "Aireal rotations", ",", "aireal 2", ",", "1", ",", "blank", ",", "test" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2246,7 +2388,7 @@
 					"fontsize" : 13.0,
 					"framecolor" : [ 0.0, 0.0, 0.0, 0.35 ],
 					"id" : "obj-281",
-					"items" : [ "BMC test 1", ",", "BMC test 2", ",", "WackedGaze01", ",", "Aireal rotations", ",", "aireal 2", ",", "1" ],
+					"items" : [ "BMC test 1", ",", "BMC test 2", ",", "WackedGaze01", ",", "Aireal rotations", ",", "aireal 2", ",", "1", ",", "blank", ",", "test" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3484,7 +3626,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 73.0, 50.0, 1489.0, 851.0 ],
+						"rect" : [ 73.0, 50.0, 1379.0, 824.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -4616,14 +4758,15 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"0" : [ "Kung Shorts - Disc 1 - 6 ref 3.mov", 70044, 79704, 600 ],
-										"1" : [ "Kung Shorts - Disc 1 - 6 ref 3.mov", 123198, 141316, 600 ],
-										"2" : [ "Kung Shorts - Disc 1 - 6 ref 3.mov", 253653, 271771, 600 ],
-										"3" : [ "Kung Shorts - Disc 1 - 6 ref 3.mov", 301951, 306781, 600 ],
-										"4" : [ "All My Babies ref 8.mov", 86045, 88067, 600 ],
+										"0" : [ "Media Architecture of Boston 5.mov", 83621, 88666, 600 ],
+										"1" : [ "Media Architecture of Boston 5.mov", 64903, 68436, 600 ],
+										"2" : [ "Media Architecture of Boston 5.mov", 49187, 63802, 600 ],
+										"3" : "none",
+										"4" : "none",
 										"5" : "none",
 										"6" : "none",
-										"7" : "none"
+										"7" : "none",
+										"slot" : 2
 									}
 ,
 									"fontname" : "Arial",
@@ -4646,14 +4789,14 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"0" : [ "Fully Awake ref 6.mov", 49429, 52812, 600 ],
-										"1" : [ "Media Architecture of Boston 7.mov", 77264, 80146, 600 ],
-										"2" : [ "Fully Awake ref 6.mov", 87046, 95495, 600 ],
-										"3" : [ "Fully Awake ref 6.mov", 95495, 95495, 600 ],
-										"4" : "none",
-										"5" : "none",
-										"6" : "none",
-										"7" : "none",
+										"0" : [ "Media Architecture of Boston 6.mov", 37311, 39147, 600 ],
+										"1" : [ "Media Architecture of Boston 6.mov", 47189, 48842, 600 ],
+										"2" : [ "Media Architecture of Boston 6.mov", 55565, 57708, 600 ],
+										"3" : [ "Media Architecture of Boston 6.mov", 85431, 88772, 600 ],
+										"4" : [ "Media Architecture of Boston 6.mov", 104867, 110246, 600 ],
+										"5" : [ "Media Architecture of Boston 6.mov", 130909, 134149, 600 ],
+										"6" : [ "Media Architecture of Boston 6.mov", 136473, 139596, 600 ],
+										"7" : [ "Media Architecture of Boston 5.mov", 0, 8147, 600 ],
 										"slot" : 1
 									}
 ,
@@ -4677,14 +4820,15 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"0" : [ "Kung Shorts - Disc 1 - 6 ref 3.mov", 70044, 79704, 600 ],
-										"1" : [ "Kung Shorts - Disc 1 - 6 ref 3.mov", 123198, 141316, 600 ],
-										"2" : [ "Kung Shorts - Disc 1 - 6 ref 3.mov", 253653, 271771, 600 ],
-										"3" : [ "Kung Shorts - Disc 1 - 6 ref 3.mov", 301951, 306781, 600 ],
-										"4" : [ "All My Babies ref 8.mov", 86045, 88067, 600 ],
+										"0" : [ "Media Architecture of Boston 5.mov", 83621, 88666, 600 ],
+										"1" : [ "Media Architecture of Boston 5.mov", 64903, 68436, 600 ],
+										"2" : [ "Media Architecture of Boston 5.mov", 49187, 63802, 600 ],
+										"3" : "none",
+										"4" : "none",
 										"5" : "none",
 										"6" : "none",
-										"7" : "none"
+										"7" : "none",
+										"slot" : 2
 									}
 ,
 									"fontname" : "Arial",
@@ -4707,14 +4851,14 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"0" : [ "Fully Awake ref 6.mov", 49429, 52812, 600 ],
-										"1" : [ "Media Architecture of Boston 7.mov", 77264, 80146, 600 ],
-										"2" : [ "Fully Awake ref 6.mov", 87046, 95495, 600 ],
-										"3" : [ "Fully Awake ref 6.mov", 95495, 95495, 600 ],
-										"4" : "none",
-										"5" : "none",
-										"6" : "none",
-										"7" : "none",
+										"0" : [ "Media Architecture of Boston 6.mov", 37311, 39147, 600 ],
+										"1" : [ "Media Architecture of Boston 6.mov", 47189, 48842, 600 ],
+										"2" : [ "Media Architecture of Boston 6.mov", 55565, 57708, 600 ],
+										"3" : [ "Media Architecture of Boston 6.mov", 85431, 88772, 600 ],
+										"4" : [ "Media Architecture of Boston 6.mov", 104867, 110246, 600 ],
+										"5" : [ "Media Architecture of Boston 6.mov", 130909, 134149, 600 ],
+										"6" : [ "Media Architecture of Boston 6.mov", 136473, 139596, 600 ],
+										"7" : [ "Media Architecture of Boston 5.mov", 0, 8147, 600 ],
 										"slot" : 1
 									}
 ,
@@ -8703,7 +8847,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1024.0, 114.0, 32.5, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 770.606445, 244.25, 32.5, 18.0 ],
+					"presentation_rect" : [ 794.606445, 255.25, 32.5, 18.0 ],
 					"text" : "edit"
 				}
 
@@ -8719,7 +8863,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 823.25, 114.0, 32.5, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 34.0, 240.0, 32.5, 18.0 ],
+					"presentation_rect" : [ 50.5, 253.25, 32.5, 18.0 ],
 					"text" : "edit"
 				}
 
@@ -12337,7 +12481,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-177",
-					"items" : [ "IAC Driver Bus 1", ",", "IAC Driver Bus 2", ",", "to Max 1", ",", "to Max 2", ",", "SSCOM Port 1", ",", "SSCOM Port 2", ",", "QUNEO", ",", "LPK25", ",", "Keyboard" ],
+					"items" : [ "IAC Driver Bus 1", ",", "IAC Driver Bus 2", ",", "Keyboard", ",", "LPK25", ",", "SSCOM Port 1", ",", "SSCOM Port 2", ",", "QUNEO", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -12975,7 +13119,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-151",
-					"items" : [ "IAC Driver Bus 1", ",", "IAC Driver Bus 2", ",", "to Max 1", ",", "to Max 2", ",", "SSCOM Port 1", ",", "SSCOM Port 2", ",", "QUNEO", ",", "LPK25", ",", "Keyboard" ],
+					"items" : [ "IAC Driver Bus 1", ",", "IAC Driver Bus 2", ",", "Keyboard", ",", "LPK25", ",", "SSCOM Port 1", ",", "SSCOM Port 2", ",", "QUNEO", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -13581,7 +13725,7 @@
 					"patching_rect" : [ 1276.5, 48.0, 216.0, 20.0 ],
 					"restore" : 					{
 						"bright" : [ 1.0 ],
-						"compositeAmount" : [ 0.0 ],
+						"compositeAmount" : [ 1.0 ],
 						"compositeMode" : [ 1 ],
 						"compositeRampTime" : [ 0 ],
 						"contrast" : [ 1.0 ],
@@ -13589,7 +13733,7 @@
 						"lumaDispAmpY" : [ 0.0 ],
 						"lumaDispOffsetX" : [ 0.0 ],
 						"lumaDispOffsetY" : [ 0.0 ],
-						"masterHueLightness" : [ 1.0, 1.0, 1.0, 1.0, 0.0, 0.0, 1.0 ],
+						"masterHueLightness" : [ 1.0, 1.0, 1.0, 1.0, 0.365714, 0.0, 1.0 ],
 						"masterSaturation" : [ 0.0 ],
 						"rateL" : [ 1.0 ],
 						"rateR" : [ 1.0 ],
@@ -20383,6 +20527,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-330", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-311", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-61", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -20545,6 +20698,69 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-329", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-328", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-28", 6 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-329", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-28", 6 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-330", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-37", 6 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-333", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-37", 6 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-334", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-334", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-335", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-333", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-336", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-37", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -20558,15 +20774,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-37", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-47", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-37", 2 ]
 				}
 
 			}
@@ -20716,15 +20923,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-37", 6 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-47", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-148", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -20846,15 +21044,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-54", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-28", 6 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-57", 0 ]
 				}
 
 			}
@@ -21294,8 +21483,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-318::obj-29" : [ "live.toggle[3]", "live.toggle", 0 ],
-			"obj-289::obj-29" : [ "live.toggle[2]", "live.toggle", 0 ]
+			"obj-289::obj-29" : [ "live.toggle[2]", "live.toggle", 0 ],
+			"obj-318::obj-29" : [ "live.toggle[3]", "live.toggle", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
