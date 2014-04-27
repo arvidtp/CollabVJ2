@@ -37,8 +37,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1488.0, 1335.427612, 72.0, 20.0 ],
-					"text" : "loadmess 1"
+					"patching_rect" : [ 1488.0, 1335.427612, 83.0, 20.0 ],
+					"text" : "loadmess 0"
 				}
 
 			}
@@ -4595,14 +4595,14 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"0" : [ "Fully Awake ref 11.mov", 5654649, 6309303, 90000 ],
-										"1" : [ "Fully Awake ref 11.mov", 13123110, 13993980, 90000 ],
-										"2" : [ "Fully Awake ref 11.mov", 22093071, 22357335, 90000 ],
-										"3" : [ "Fully Awake ref 11.mov", 14084070, 14858844, 90000 ],
-										"4" : [ "Media Architecture of Boston 18.mov", 117354, 118898, 600 ],
-										"5" : "none",
-										"6" : [ "Fully Awake ref 11.mov", 14858844, 15963948, 90000 ],
-										"7" : "none",
+										"0" : [ "Media Architecture of Boston 19.mov", 98515, 102426, 600 ],
+										"1" : [ "Media Architecture of Boston 19.mov", 103702, 106492, 600 ],
+										"2" : [ "Media Architecture of Boston 19.mov", 117481, 122152, 600 ],
+										"3" : [ "Media Architecture of Boston 20.mov", 136914, 139436, 600 ],
+										"4" : [ "Media Architecture of Boston 19.mov", 128865, 133549, 600 ],
+										"5" : [ "Media Architecture of Boston 20.mov", 89154, 101895, 600 ],
+										"6" : [ "Media Architecture of Boston 20.mov", 123342, 125830, 600 ],
+										"7" : [ "All My Babies ref 7.mov", 21081, 21878, 600 ],
 										"slot" : 2
 									}
 ,
@@ -4657,14 +4657,14 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"0" : [ "Fully Awake ref 11.mov", 5654649, 6309303, 90000 ],
-										"1" : [ "Fully Awake ref 11.mov", 13123110, 13993980, 90000 ],
-										"2" : [ "Fully Awake ref 11.mov", 22093071, 22357335, 90000 ],
-										"3" : [ "Fully Awake ref 11.mov", 14084070, 14858844, 90000 ],
-										"4" : [ "Media Architecture of Boston 18.mov", 117354, 118898, 600 ],
-										"5" : "none",
-										"6" : [ "Fully Awake ref 11.mov", 14858844, 15963948, 90000 ],
-										"7" : "none",
+										"0" : [ "Media Architecture of Boston 19.mov", 98515, 102426, 600 ],
+										"1" : [ "Media Architecture of Boston 19.mov", 103702, 106492, 600 ],
+										"2" : [ "Media Architecture of Boston 19.mov", 117481, 122152, 600 ],
+										"3" : [ "Media Architecture of Boston 20.mov", 136914, 139436, 600 ],
+										"4" : [ "Media Architecture of Boston 19.mov", 128865, 133549, 600 ],
+										"5" : [ "Media Architecture of Boston 20.mov", 89154, 101895, 600 ],
+										"6" : [ "Media Architecture of Boston 20.mov", 123342, 125830, 600 ],
+										"7" : [ "All My Babies ref 7.mov", 21081, 21878, 600 ],
 										"slot" : 2
 									}
 ,
