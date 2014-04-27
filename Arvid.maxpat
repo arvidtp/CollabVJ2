@@ -2182,8 +2182,10 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.53 ],
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
+					"framecolor" : [ 0.0, 0.0, 0.0, 0.35 ],
 					"id" : "obj-283",
 					"items" : [ "BMC test 1", ",", "BMC test 2", ",", "WackedGaze01", ",", "Aireal rotations", ",", "aireal 2", ",", "1" ],
 					"maxclass" : "umenu",
@@ -2194,7 +2196,8 @@
 					"patching_rect" : [ 544.5, 209.0, 146.083344, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 50.5, 194.75, 172.0, 21.0 ],
-					"rounded" : 18
+					"rounded" : 18,
+					"textcolor" : [ 1.0, 0.999974, 0.999991, 1.0 ]
 				}
 
 			}
@@ -2238,8 +2241,10 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.53 ],
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
+					"framecolor" : [ 0.0, 0.0, 0.0, 0.35 ],
 					"id" : "obj-281",
 					"items" : [ "BMC test 1", ",", "BMC test 2", ",", "WackedGaze01", ",", "Aireal rotations", ",", "aireal 2", ",", "1" ],
 					"maxclass" : "umenu",
@@ -2250,7 +2255,8 @@
 					"patching_rect" : [ 338.916656, 209.0, 146.083344, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 50.5, 91.0, 172.0, 21.0 ],
-					"rounded" : 18
+					"rounded" : 18,
+					"textcolor" : [ 1.0, 0.999974, 0.999991, 1.0 ]
 				}
 
 			}
@@ -3497,6 +3503,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -4639,14 +4646,15 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"0" : [ "Fully Awake ref 5.mov", 23943, 45165, 600 ],
-										"1" : [ "Fully Awake ref 5.mov", 63063, 68828, 600 ],
-										"2" : [ "Fully Awake ref 14.mov", 46686, 54814, 600 ],
-										"3" : [ "Fully Awake ref 6.mov", 44364, 51131, 600 ],
-										"4" : [ "Fully Awake ref 6.mov", 89589, 93393, 600 ],
+										"0" : [ "Fully Awake ref 6.mov", 49429, 52812, 600 ],
+										"1" : [ "Media Architecture of Boston 7.mov", 77264, 80146, 600 ],
+										"2" : [ "Fully Awake ref 6.mov", 87046, 95495, 600 ],
+										"3" : [ "Fully Awake ref 6.mov", 95495, 95495, 600 ],
+										"4" : "none",
 										"5" : "none",
 										"6" : "none",
-										"7" : "none"
+										"7" : "none",
+										"slot" : 1
 									}
 ,
 									"fontname" : "Arial",
@@ -4699,14 +4707,15 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"0" : [ "Fully Awake ref 5.mov", 23943, 45165, 600 ],
-										"1" : [ "Fully Awake ref 5.mov", 63063, 68828, 600 ],
-										"2" : [ "Fully Awake ref 14.mov", 46686, 54814, 600 ],
-										"3" : [ "Fully Awake ref 6.mov", 44364, 51131, 600 ],
-										"4" : [ "Fully Awake ref 6.mov", 89589, 93393, 600 ],
+										"0" : [ "Fully Awake ref 6.mov", 49429, 52812, 600 ],
+										"1" : [ "Media Architecture of Boston 7.mov", 77264, 80146, 600 ],
+										"2" : [ "Fully Awake ref 6.mov", 87046, 95495, 600 ],
+										"3" : [ "Fully Awake ref 6.mov", 95495, 95495, 600 ],
+										"4" : "none",
 										"5" : "none",
 										"6" : "none",
-										"7" : "none"
+										"7" : "none",
+										"slot" : 1
 									}
 ,
 									"fontname" : "Arial",
@@ -13572,7 +13581,7 @@
 					"patching_rect" : [ 1276.5, 48.0, 216.0, 20.0 ],
 					"restore" : 					{
 						"bright" : [ 1.0 ],
-						"compositeAmount" : [ 1.0 ],
+						"compositeAmount" : [ 0.0 ],
 						"compositeMode" : [ 1 ],
 						"compositeRampTime" : [ 0 ],
 						"contrast" : [ 1.0 ],
