@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
-		"openrect" : [ 0.0, 44.0, 1680.0, 954.0 ],
+		"openrect" : [ 0.0, 44.0, 1680.0, 961.0 ],
 		"bgcolor" : [ 0.658781, 0.658761, 0.658772, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -85,7 +85,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1207.598267, 1367.0, 119.0, 18.0 ],
-					"presentation_rect" : [ 1209.795532, 1362.427612, 0.0, 0.0 ],
 					"text" : "scale 1.333333 1. 1."
 				}
 
@@ -486,7 +485,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -702,7 +701,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -1191,7 +1190,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -1680,7 +1679,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -2186,7 +2185,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-283",
-					"items" : [ "BMC test 1", ",", "BMC test 2", ",", "WackedGaze01" ],
+					"items" : [ "BMC test 1", ",", "BMC test 2", ",", "WackedGaze01", ",", "Aireal rotations", ",", "aireal 2", ",", "1" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2242,7 +2241,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-281",
-					"items" : [ "BMC test 1", ",", "BMC test 2", ",", "WackedGaze01" ],
+					"items" : [ "BMC test 1", ",", "BMC test 2", ",", "WackedGaze01", ",", "Aireal rotations", ",", "aireal 2", ",", "1" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2348,7 +2347,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -2552,7 +2551,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x86"
 										}
 ,
@@ -3475,11 +3474,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 298.0, 169.0, 1489.0, 851.0 ],
+						"rect" : [ 68.0, 258.0, 1489.0, 851.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3498,7 +3497,19 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "button",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 627.0, 449.0, 20.0, 20.0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -3714,7 +3725,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x86"
 										}
 ,
@@ -4089,7 +4100,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x86"
 										}
 ,
@@ -4466,7 +4477,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-33",
-									"items" : [ "fe80:0:0:0:3e07:54ff:fe41:b627%4", ",", "192.168.1.109" ],
+									"items" : [ "fe80:0:0:0:3e07:54ff:fe41:b627%4", ",", "169.254.44.197" ],
 									"labelclick" : 1,
 									"maxclass" : "umenu",
 									"numinlets" : 1,
@@ -4584,14 +4595,15 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"0" : [ "Fully Awake ref 4.mov", 224944, 225104, 600 ],
-										"1" : [ "Fully Awake ref 4.mov", 224944, 225104, 600 ],
-										"2" : [ "Fully Awake ref 4.mov", 224944, 225104, 600 ],
-										"3" : [ "Fully Awake ref 4.mov", 224944, 225104, 600 ],
-										"4" : [ "Fully Awake ref 4.mov", 224944, 225104, 600 ],
-										"5" : [ "Fully Awake ref 4.mov", 224944, 225104, 600 ],
-										"6" : [ "Fully Awake ref 4.mov", 224944, 225104, 600 ],
-										"7" : [ "Fully Awake ref 4.mov", 224944, 225104, 600 ]
+										"0" : [ "Fully Awake ref 11.mov", 5654649, 6309303, 90000 ],
+										"1" : [ "Fully Awake ref 11.mov", 13123110, 13993980, 90000 ],
+										"2" : [ "Fully Awake ref 11.mov", 22093071, 22357335, 90000 ],
+										"3" : [ "Fully Awake ref 11.mov", 14084070, 14858844, 90000 ],
+										"4" : [ "Media Architecture of Boston 18.mov", 117354, 118898, 600 ],
+										"5" : "none",
+										"6" : [ "Fully Awake ref 11.mov", 14858844, 15963948, 90000 ],
+										"7" : "none",
+										"slot" : 2
 									}
 ,
 									"fontname" : "Arial",
@@ -4614,14 +4626,15 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"0" : [ "Fully Awake ref 5.mov", 23943, 45165, 600 ],
-										"1" : [ "Fully Awake ref 5.mov", 63063, 68828, 600 ],
-										"2" : [ "Fully Awake ref 14.mov", 46686, 54814, 600 ],
-										"3" : [ "Fully Awake ref 6.mov", 44364, 51131, 600 ],
-										"4" : [ "Fully Awake ref 6.mov", 89589, 93393, 600 ],
+										"0" : [ "Fully Awake ref 10.mov", 3453450, 4054050, 90000 ],
+										"1" : [ "Fully Awake ref 10.mov", 7762755, 8603595, 90000 ],
+										"2" : [ "Fully Awake ref 10.mov", 11219208, 11366355, 90000 ],
+										"3" : "none",
+										"4" : "none",
 										"5" : "none",
 										"6" : "none",
-										"7" : "none"
+										"7" : "none",
+										"slot" : 1
 									}
 ,
 									"fontname" : "Arial",
@@ -4644,14 +4657,15 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"0" : [ "Fully Awake ref 4.mov", 224944, 225104, 600 ],
-										"1" : [ "Fully Awake ref 4.mov", 224944, 225104, 600 ],
-										"2" : [ "Fully Awake ref 4.mov", 224944, 225104, 600 ],
-										"3" : [ "Fully Awake ref 4.mov", 224944, 225104, 600 ],
-										"4" : [ "Fully Awake ref 4.mov", 224944, 225104, 600 ],
-										"5" : [ "Fully Awake ref 4.mov", 224944, 225104, 600 ],
-										"6" : [ "Fully Awake ref 4.mov", 224944, 225104, 600 ],
-										"7" : [ "Fully Awake ref 4.mov", 224944, 225104, 600 ]
+										"0" : [ "Fully Awake ref 11.mov", 5654649, 6309303, 90000 ],
+										"1" : [ "Fully Awake ref 11.mov", 13123110, 13993980, 90000 ],
+										"2" : [ "Fully Awake ref 11.mov", 22093071, 22357335, 90000 ],
+										"3" : [ "Fully Awake ref 11.mov", 14084070, 14858844, 90000 ],
+										"4" : [ "Media Architecture of Boston 18.mov", 117354, 118898, 600 ],
+										"5" : "none",
+										"6" : [ "Fully Awake ref 11.mov", 14858844, 15963948, 90000 ],
+										"7" : "none",
+										"slot" : 2
 									}
 ,
 									"fontname" : "Arial",
@@ -4674,14 +4688,15 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"0" : [ "Fully Awake ref 5.mov", 23943, 45165, 600 ],
-										"1" : [ "Fully Awake ref 5.mov", 63063, 68828, 600 ],
-										"2" : [ "Fully Awake ref 14.mov", 46686, 54814, 600 ],
-										"3" : [ "Fully Awake ref 6.mov", 44364, 51131, 600 ],
-										"4" : [ "Fully Awake ref 6.mov", 89589, 93393, 600 ],
+										"0" : [ "Fully Awake ref 10.mov", 3453450, 4054050, 90000 ],
+										"1" : [ "Fully Awake ref 10.mov", 7762755, 8603595, 90000 ],
+										"2" : [ "Fully Awake ref 10.mov", 11219208, 11366355, 90000 ],
+										"3" : "none",
+										"4" : "none",
 										"5" : "none",
 										"6" : "none",
-										"7" : "none"
+										"7" : "none",
+										"slot" : 1
 									}
 ,
 									"fontname" : "Arial",
@@ -4840,7 +4855,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x86"
 										}
 ,
@@ -5747,6 +5762,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-19", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-17", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -6398,7 +6422,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -6710,7 +6734,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x86"
 										}
 ,
@@ -6959,7 +6983,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x86"
 										}
 ,
@@ -8947,7 +8971,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -10131,7 +10155,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -10945,7 +10969,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -11162,7 +11186,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x86"
 										}
 ,
@@ -11882,7 +11906,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -12167,7 +12191,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -12212,7 +12236,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 728.0, 411.0, 50.0, 18.0 ],
-									"text" : "21 127"
+									"text" : "23 103"
 								}
 
 							}
@@ -12910,7 +12934,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -13575,7 +13599,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -14118,11 +14142,10 @@
 						"compositeMode" : [ 1 ],
 						"compositeRampTime" : [ 0 ],
 						"contrast" : [ 1.0 ],
-						"lumaDispAmpX" : [ 0.399 ],
-						"lumaDispAmpY" : [ 0.309 ],
+						"lumaDispAmpX" : [ 0.0 ],
+						"lumaDispAmpY" : [ 0.0 ],
 						"lumaDispOffsetX" : [ 0.0 ],
 						"lumaDispOffsetY" : [ 0.0 ],
-						"masterEraseAlpha" : [ 0.0 ],
 						"masterHueLightness" : [ 1.0, 1.0, 1.0, 1.0, 0.0, 0.0, 1.0 ],
 						"masterSaturation" : [ 0.0 ],
 						"rateL" : [ 1.0 ],
@@ -14390,7 +14413,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -14421,8 +14444,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 902.199707, 5.0, 25.0, 25.0 ],
-									"presentation_rect" : [ 1286.0, 27.0, 0.0, 0.0 ]
+									"patching_rect" : [ 902.199707, 5.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -14434,8 +14456,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 859.199768, 7.0, 25.0, 25.0 ],
-									"presentation_rect" : [ 1243.0, 29.0, 0.0, 0.0 ]
+									"patching_rect" : [ 859.199768, 7.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -14447,8 +14468,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 797.199768, 7.0, 25.0, 25.0 ],
-									"presentation_rect" : [ 971.0, 20.0, 0.0, 0.0 ]
+									"patching_rect" : [ 797.199768, 7.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -14462,7 +14482,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 896.599365, 107.0, 34.0, 20.0 ],
-									"presentation_rect" : [ 1163.399536, 180.0, 0.0, 0.0 ],
 									"text" : "gate"
 								}
 
@@ -14477,7 +14496,6 @@
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
 									"patching_rect" : [ 797.199768, 107.0, 73.0, 20.0 ],
-									"presentation_rect" : [ 915.0, 180.0, 0.0, 0.0 ],
 									"text" : "gate 5"
 								}
 
@@ -17378,8 +17396,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1488.0, 475.5, 77.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1451.0, 179.25, 77.0, 20.0 ],
-					"varname" : "masterEraseAlpha"
+					"presentation_rect" : [ 1451.0, 179.25, 77.0, 20.0 ]
 				}
 
 			}
