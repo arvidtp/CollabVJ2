@@ -4609,15 +4609,14 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"0" : [ "Media Architecture of Boston 10.mov", 75473, 78476, 600 ],
-										"1" : [ "Media Architecture of Boston 10.mov", 93951, 97795, 600 ],
-										"2" : [ "Media Architecture of Boston 10.mov", 114591, 117934, 600 ],
-										"3" : [ "Media Architecture of Boston 10.mov", 117994, 120196, 600 ],
-										"4" : [ "Media Architecture of Boston 10.mov", 56875, 61900, 600 ],
-										"5" : [ "Media Architecture of Boston 10.mov", 104261, 106183, 600 ],
-										"6" : [ "Media Architecture of Boston 10.mov", 106683, 109566, 600 ],
-										"7" : [ "Media Architecture of Boston 10.mov", 62740, 68746, 600 ],
-										"slot" : 2
+										"0" : [ "Kung Shorts - Disc 1 - 6 ref 3.mov", 70044, 79704, 600 ],
+										"1" : [ "Kung Shorts - Disc 1 - 6 ref 3.mov", 123198, 141316, 600 ],
+										"2" : [ "Kung Shorts - Disc 1 - 6 ref 3.mov", 253653, 271771, 600 ],
+										"3" : [ "Kung Shorts - Disc 1 - 6 ref 3.mov", 301951, 306781, 600 ],
+										"4" : [ "All My Babies ref 8.mov", 86045, 88067, 600 ],
+										"5" : "none",
+										"6" : "none",
+										"7" : "none"
 									}
 ,
 									"fontname" : "Arial",
@@ -4640,15 +4639,14 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"0" : [ "Fully Awake ref 10.mov", 1391863, 1554008, 90000 ],
-										"1" : [ "Fully Awake ref 10.mov", 6816810, 7104714, 90000 ],
-										"2" : [ "Media Architecture of Boston 8.mov", 0, 11409, 600 ],
-										"3" : [ "Media Architecture of Boston 18.mov", 75833, 83521, 600 ],
-										"4" : [ "Media Architecture of Boston 9.mov", 94191, 100317, 600 ],
+										"0" : [ "Fully Awake ref 5.mov", 23943, 45165, 600 ],
+										"1" : [ "Fully Awake ref 5.mov", 63063, 68828, 600 ],
+										"2" : [ "Fully Awake ref 14.mov", 46686, 54814, 600 ],
+										"3" : [ "Fully Awake ref 6.mov", 44364, 51131, 600 ],
+										"4" : [ "Fully Awake ref 6.mov", 89589, 93393, 600 ],
 										"5" : "none",
 										"6" : "none",
-										"7" : "none",
-										"slot" : 1
+										"7" : "none"
 									}
 ,
 									"fontname" : "Arial",
@@ -4671,15 +4669,14 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"0" : [ "Media Architecture of Boston 10.mov", 75473, 78476, 600 ],
-										"1" : [ "Media Architecture of Boston 10.mov", 93951, 97795, 600 ],
-										"2" : [ "Media Architecture of Boston 10.mov", 114591, 117934, 600 ],
-										"3" : [ "Media Architecture of Boston 10.mov", 117994, 120196, 600 ],
-										"4" : [ "Media Architecture of Boston 10.mov", 56875, 61900, 600 ],
-										"5" : [ "Media Architecture of Boston 10.mov", 104261, 106183, 600 ],
-										"6" : [ "Media Architecture of Boston 10.mov", 106683, 109566, 600 ],
-										"7" : [ "Media Architecture of Boston 10.mov", 62740, 68746, 600 ],
-										"slot" : 2
+										"0" : [ "Kung Shorts - Disc 1 - 6 ref 3.mov", 70044, 79704, 600 ],
+										"1" : [ "Kung Shorts - Disc 1 - 6 ref 3.mov", 123198, 141316, 600 ],
+										"2" : [ "Kung Shorts - Disc 1 - 6 ref 3.mov", 253653, 271771, 600 ],
+										"3" : [ "Kung Shorts - Disc 1 - 6 ref 3.mov", 301951, 306781, 600 ],
+										"4" : [ "All My Babies ref 8.mov", 86045, 88067, 600 ],
+										"5" : "none",
+										"6" : "none",
+										"7" : "none"
 									}
 ,
 									"fontname" : "Arial",
@@ -4702,15 +4699,14 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"0" : [ "Fully Awake ref 10.mov", 1391863, 1554008, 90000 ],
-										"1" : [ "Fully Awake ref 10.mov", 6816810, 7104714, 90000 ],
-										"2" : [ "Media Architecture of Boston 8.mov", 0, 11409, 600 ],
-										"3" : [ "Media Architecture of Boston 18.mov", 75833, 83521, 600 ],
-										"4" : [ "Media Architecture of Boston 9.mov", 94191, 100317, 600 ],
+										"0" : [ "Fully Awake ref 5.mov", 23943, 45165, 600 ],
+										"1" : [ "Fully Awake ref 5.mov", 63063, 68828, 600 ],
+										"2" : [ "Fully Awake ref 14.mov", 46686, 54814, 600 ],
+										"3" : [ "Fully Awake ref 6.mov", 44364, 51131, 600 ],
+										"4" : [ "Fully Awake ref 6.mov", 89589, 93393, 600 ],
 										"5" : "none",
 										"6" : "none",
-										"7" : "none",
-										"slot" : 1
+										"7" : "none"
 									}
 ,
 									"fontname" : "Arial",
@@ -12332,7 +12328,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-177",
-					"items" : [ "IAC Driver Bus 1", ",", "IAC Driver Bus 2", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "IAC Driver Bus 1", ",", "IAC Driver Bus 2", ",", "to Max 1", ",", "to Max 2", ",", "SSCOM Port 1", ",", "SSCOM Port 2", ",", "QUNEO", ",", "LPK25", ",", "Keyboard" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -12970,7 +12966,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-151",
-					"items" : [ "IAC Driver Bus 1", ",", "IAC Driver Bus 2", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "IAC Driver Bus 1", ",", "IAC Driver Bus 2", ",", "to Max 1", ",", "to Max 2", ",", "SSCOM Port 1", ",", "SSCOM Port 2", ",", "QUNEO", ",", "LPK25", ",", "Keyboard" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,

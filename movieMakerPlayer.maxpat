@@ -1795,7 +1795,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 477.0, 393.0, 472.0, 18.0 ],
-					"text" : "getrate, getduration, getlooppoints, vol 0, frame 0, savemovieas $1TempPlay.mov, stop"
+					"text" : "getrate, getduration, getlooppoints, vol 0, frame 0, savemovieas #1TempPlay.mov, stop"
 				}
 
 			}
