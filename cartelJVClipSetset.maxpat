@@ -32,6 +32,20 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-54",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 904.5, 925.0, 60.0, 20.0 ],
+					"text" : "route slot"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-73",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -285,7 +299,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 1143.0, 464.0, 31.0, 20.0 ],
 					"text" : "t #1"
 				}
@@ -314,7 +328,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 625.0, 595.0, 100.0, 18.0 ],
-					"text" : "symbol name"
+					"text" : "symbol steve016"
 				}
 
 			}
@@ -456,7 +470,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 980.0, 984.0, 73.0, 20.0 ],
+					"patching_rect" : [ 980.0, 1029.0, 73.0, 20.0 ],
 					"text" : "fromsymbol"
 				}
 
@@ -470,7 +484,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 904.5, 992.0, 68.0, 20.0 ],
+					"patching_rect" : [ 904.5, 1037.0, 68.0, 20.0 ],
 					"text" : "sel none"
 				}
 
@@ -484,7 +498,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 980.0, 956.0, 57.0, 20.0 ],
+					"patching_rect" : [ 980.0, 1001.0, 57.0, 20.0 ],
 					"text" : "zl.slice 1"
 				}
 
@@ -498,7 +512,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 904.5, 922.0, 32.5, 20.0 ],
+					"patching_rect" : [ 904.5, 967.0, 32.5, 20.0 ],
 					"text" : "t l l"
 				}
 
@@ -512,7 +526,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 904.5, 1058.0, 196.0, 20.0 ],
+					"patching_rect" : [ 904.5, 1103.0, 196.0, 20.0 ],
 					"text" : "jit.qt.movie @adapt 1 @autostart 0"
 				}
 
@@ -526,7 +540,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 904.5, 956.0, 57.0, 20.0 ],
+					"patching_rect" : [ 904.5, 1001.0, 57.0, 20.0 ],
 					"text" : "zl.slice 1"
 				}
 
@@ -540,7 +554,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 904.5, 1025.0, 232.0, 18.0 ],
+					"patching_rect" : [ 904.5, 1070.0, 232.0, 18.0 ],
 					"text" : "read $1, looppoints $2 $3, bang"
 				}
 
@@ -995,7 +1009,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-53",
-					"items" : [ "BMC test 1", ",", "BMC test 2" ],
+					"items" : [ "ben01", ",", "ben03", ",", "ben04", ",", "ben2", ",", "s17", ",", "se012", ",", "st014", ",", "st015", ",", "ste007", ",", "ste010pl", ",", "steve003", ",", "steve004", ",", "steve005", ",", "steve006", ",", "steve009plus", ",", "steve011", ",", "steve015", ",", "steve016", ",", "steve018" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1406,7 +1420,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 119.0, 127.0, 37.0, 20.0 ],
+					"patching_rect" : [ 132.5, 78.5, 37.0, 20.0 ],
 					"text" : "nada"
 				}
 
@@ -3882,6 +3896,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-80", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-54", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-50", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -4125,7 +4148,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-80", 0 ],
+					"destination" : [ "obj-54", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-72", 0 ]
@@ -4311,35 +4334,6 @@
 					"source" : [ "obj-93", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "atp.dictset.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/atp.abstractions",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/atp.abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "nada.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/atp.abstractions",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/atp.abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "atp.dictget.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/atp.abstractions",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/atp.abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "movieMakerPlayerBen.maxpat",
-				"bootpath" : "/Users/arvid/Performances/Cartel VJ",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
 			}
  ]
 	}
