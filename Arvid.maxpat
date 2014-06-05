@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"openrect" : [ 0.0, 44.0, 1680.0, 961.0 ],
+		"openrect" : [ 0.0, 44.0, 1776.0, 961.0 ],
 		"bgcolor" : [ 0.658781, 0.658761, 0.658772, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -29,6 +29,131 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-363",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 2011.0, 114.0, 61.0, 20.0 ],
+					"text" : "route text"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-360",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2011.0, 52.0, 74.0, 20.0 ],
+					"presentation_rect" : [ 2006.0, 53.0, 0.0, 0.0 ],
+					"text" : "prepend set"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"autoscroll" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"frgb" : 0.0,
+					"id" : "obj-359",
+					"keymode" : 1,
+					"maxclass" : "textedit",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 2011.0, 79.0, 68.0, 28.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1237.572876, 349.0, 105.0, 21.0 ],
+					"text" : "1280 720"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-350",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1813.5, 72.5, 177.0, 19.0 ],
+					"text" : "clearchecks, checkitem $1 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-349",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1785.5, 41.5, 78.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1156.1875, 349.0, 78.0, 20.0 ],
+					"text" : "Window Res"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-347",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1683.0, 18.5, 165.0, 20.0 ],
+					"text" : "loadmess symbol \"1280 720\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"arrowlink" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-343",
+					"items" : [ "(16:9)", ",", 640, 360, ",", 960, 540, ",", 1280, 720, ",", 1920, 1080, ",", "(4:3)", ",", 640, 480, ",", 800, 600, ",", 1024, 768, ",", 1280, 854, ",", "(16:10)", ",", 1280, 800, ",", 1600, 1000, ",", 1680, 1050 ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1683.0, 41.5, 100.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1309.823975, 349.0, 55.488525, 21.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-339",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1723.5, 72.5, 79.0, 20.0 ],
+					"text" : "prepend size"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -68,12 +193,26 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"id" : "obj-5",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 245.0, 129.0, 123.0, 18.0 ],
+									"text" : "servername CartelVJ"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
 									"id" : "obj-122",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 78.0, 90.0, 60.0, 20.0 ],
+									"patching_rect" : [ 88.0, 73.0, 60.0, 20.0 ],
 									"text" : "loadbang"
 								}
 
@@ -102,8 +241,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 170.0, 235.0, 20.0 ],
-									"text" : "jit.gl.syphonserver @servername CartelVJ"
+									"patching_rect" : [ 50.0, 170.0, 107.0, 20.0 ],
+									"text" : "jit.gl.syphonserver"
 								}
 
 							}
@@ -131,6 +270,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-122", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-4", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -144,6 +292,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-5", 0 ]
 								}
 
 							}
@@ -193,9 +350,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1339.5, 578.0, 130.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 20.0, 612.0, 105.0, 31.0 ],
 					"text" : "to_texture CartelVJrec"
 				}
 
@@ -4925,14 +5079,14 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"0" : [ "Edelweiss web 2.mov", 1721.72168, 57797.796875, 600 ],
-										"1" : [ "Edelweiss web 2.mov", 59179.179688, 88268.265625, 600 ],
-										"2" : [ "Edelweiss web 2.mov", 92072.070312, 153333.328125, 600 ],
-										"3" : [ "Edelweiss web 2.mov", 153353.359375, 218758.765625, 600 ],
-										"4" : [ "Edelweiss web 2.mov", 241961.96875, 282062.0625, 600 ],
-										"5" : [ "Edelweiss web 2.mov", 282362.5625, 319839.84375, 600 ],
-										"6" : [ "Edelweiss web 2.mov", 319859.875, 345805.8125, 600 ],
-										"7" : [ "Edelweiss web 2.mov", 346466.46875, 407087.09375, 600 ]
+										"0" : [ "Utah | Colorado.mov", 193973.96875, 223103.109375, 600 ],
+										"1" : [ "Utah | Colorado.mov", 224524.53125, 252952.953125, 600 ],
+										"2" : [ "Utah | Colorado.mov", 256496.5, 284204.21875, 600 ],
+										"3" : [ "Utah | Colorado.mov", 284924.9375, 338218.21875, 600 ],
+										"4" : [ "Utah | Colorado.mov", 344604.59375, 367347.34375, 600 ],
+										"5" : [ "Utah | Colorado.mov", 375875.875, 385805.8125, 600 ],
+										"6" : [ "Utah | Colorado.mov", 385825.8125, 405705.71875, 600 ],
+										"7" : [ "Utah | Colorado.mov", 412812.8125, 426326.3125, 600 ]
 									}
 ,
 									"fontname" : "Arial",
@@ -4955,14 +5109,14 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"0" : [ "PVD highway sunset 00025.mov", 390000, 0 ],
-										"1" : [ "Ice Skating Jan 2013 high(4.3Mbps).mov", 27407.408203, 57297.296875, 600 ],
-										"2" : [ "Truro 00004.mov", 0, 514600 ],
-										"3" : [ "Ice Skating Jan 2013 high(4.3Mbps).mov", 58538.539062, 90310.3125, 600 ],
-										"4" : [ "Ice Skating Jan 2013 high(4.3Mbps).mov", 123963.960938, 132052.046875, 600 ],
-										"5" : [ "2012-12-28 08_37_25 (id) proj.mov", 0, 960000 ],
-										"6" : [ "2012-12-28 08_37_25 (id) proj.mov", 1540000, 2718000 ],
-										"7" : [ "PVD highway sunset 00021.mov", 981000, 0 ]
+										"0" : [ "museum_animals_1280x720 vimeo.mov", 2902.902832, 21446.447266, 600 ],
+										"1" : [ "museum_animals_1280x720 vimeo.mov", 21471.470703, 35485.484375, 600 ],
+										"2" : [ "museum_animals_1280x720 vimeo.mov", 35510.511719, 42167.167969, 600 ],
+										"3" : [ "museum_animals_1280x720 vimeo.mov", 42192.191406, 56106.105469, 600 ],
+										"4" : [ "museum_animals_1280x720 vimeo.mov", 56206.207031, 75625.625, 600 ],
+										"5" : [ "museum_animals_1280x720 vimeo.mov", 75650.648438, 94694.695312, 600 ],
+										"6" : "none",
+										"7" : "none"
 									}
 ,
 									"fontname" : "Arial",
@@ -4985,14 +5139,14 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"0" : [ "Edelweiss web 2.mov", 1721.72168, 57797.796875, 600 ],
-										"1" : [ "Edelweiss web 2.mov", 59179.179688, 88268.265625, 600 ],
-										"2" : [ "Edelweiss web 2.mov", 92072.070312, 153333.328125, 600 ],
-										"3" : [ "Edelweiss web 2.mov", 153353.359375, 218758.765625, 600 ],
-										"4" : [ "Edelweiss web 2.mov", 241961.96875, 282062.0625, 600 ],
-										"5" : [ "Edelweiss web 2.mov", 282362.5625, 319839.84375, 600 ],
-										"6" : [ "Edelweiss web 2.mov", 319859.875, 345805.8125, 600 ],
-										"7" : [ "Edelweiss web 2.mov", 346466.46875, 407087.09375, 600 ]
+										"0" : [ "Utah | Colorado.mov", 193973.96875, 223103.109375, 600 ],
+										"1" : [ "Utah | Colorado.mov", 224524.53125, 252952.953125, 600 ],
+										"2" : [ "Utah | Colorado.mov", 256496.5, 284204.21875, 600 ],
+										"3" : [ "Utah | Colorado.mov", 284924.9375, 338218.21875, 600 ],
+										"4" : [ "Utah | Colorado.mov", 344604.59375, 367347.34375, 600 ],
+										"5" : [ "Utah | Colorado.mov", 375875.875, 385805.8125, 600 ],
+										"6" : [ "Utah | Colorado.mov", 385825.8125, 405705.71875, 600 ],
+										"7" : [ "Utah | Colorado.mov", 412812.8125, 426326.3125, 600 ]
 									}
 ,
 									"fontname" : "Arial",
@@ -5015,14 +5169,14 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"0" : [ "PVD highway sunset 00025.mov", 390000, 0 ],
-										"1" : [ "Ice Skating Jan 2013 high(4.3Mbps).mov", 27407.408203, 57297.296875, 600 ],
-										"2" : [ "Truro 00004.mov", 0, 514600 ],
-										"3" : [ "Ice Skating Jan 2013 high(4.3Mbps).mov", 58538.539062, 90310.3125, 600 ],
-										"4" : [ "Ice Skating Jan 2013 high(4.3Mbps).mov", 123963.960938, 132052.046875, 600 ],
-										"5" : [ "2012-12-28 08_37_25 (id) proj.mov", 0, 960000 ],
-										"6" : [ "2012-12-28 08_37_25 (id) proj.mov", 1540000, 2718000 ],
-										"7" : [ "PVD highway sunset 00021.mov", 981000, 0 ]
+										"0" : [ "museum_animals_1280x720 vimeo.mov", 2902.902832, 21446.447266, 600 ],
+										"1" : [ "museum_animals_1280x720 vimeo.mov", 21471.470703, 35485.484375, 600 ],
+										"2" : [ "museum_animals_1280x720 vimeo.mov", 35510.511719, 42167.167969, 600 ],
+										"3" : [ "museum_animals_1280x720 vimeo.mov", 42192.191406, 56106.105469, 600 ],
+										"4" : [ "museum_animals_1280x720 vimeo.mov", 56206.207031, 75625.625, 600 ],
+										"5" : [ "museum_animals_1280x720 vimeo.mov", 75650.648438, 94694.695312, 600 ],
+										"6" : "none",
+										"7" : "none"
 									}
 ,
 									"fontname" : "Arial",
@@ -8839,7 +8993,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 1716.0, 68.0, 99.0, 20.0 ],
+					"patching_rect" : [ 1916.0, 138.0, 99.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -13888,7 +14042,7 @@
 					"patching_rect" : [ 1276.5, 48.0, 216.0, 20.0 ],
 					"restore" : 					{
 						"bright" : [ 1.0 ],
-						"compositeAmount" : [ 1.0 ],
+						"compositeAmount" : [ 2.0 ],
 						"compositeMode" : [ 1 ],
 						"compositeRampTime" : [ 0 ],
 						"contrast" : [ 1.0 ],
@@ -13896,13 +14050,13 @@
 						"lumaDispAmpY" : [ 0.0 ],
 						"lumaDispOffsetX" : [ 0.0 ],
 						"lumaDispOffsetY" : [ 0.0 ],
-						"masterHueLightness" : [ 1.0, 1.0, 1.0, 1.0, 0.365714, 0.0, 1.0 ],
-						"masterSaturation" : [ 0.0 ],
+						"masterHueLightness" : [ 1.0, 1.0, 1.0, 1.0, 0.291429, 1.0, 1.0 ],
+						"masterSaturation" : [ 1.0 ],
 						"rateL" : [ 1.0 ],
 						"rateR" : [ 1.0 ],
-						"sat" : [ 1.0 ],
-						"slideDown" : [ 1.0 ],
-						"slideUp" : [ 1.0 ]
+						"sat" : [ 1.022047 ],
+						"slideDown" : [ 26.0 ],
+						"slideUp" : [ 0.0 ]
 					}
 ,
 					"text" : "autopattr mainWindow @autorestore 0",
@@ -18095,6 +18249,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.211765, 0.584314, 0.890196, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-62",
@@ -18102,7 +18257,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 1245.875, 124.0, 116.0, 20.0 ],
+					"patching_rect" : [ 1232.5, 151.0, 116.0, 20.0 ],
 					"text" : "jit.window cartelVJ1"
 				}
 
@@ -20933,10 +21088,91 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-62", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-339", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-339", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-343", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-350", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-343", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-360", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-343", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-343", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-347", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-37", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-35", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-343", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-350", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-363", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-359", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-359", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-360", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-339", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-363", 0 ]
 				}
 
 			}
