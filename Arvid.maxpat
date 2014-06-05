@@ -32,13 +32,184 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-47",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 6,
+							"minor" : 1,
+							"revision" : 7,
+							"architecture" : "x86"
+						}
+,
+						"rect" : [ 25.0, 95.0, 640.0, 454.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 0,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 0,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"boxanimatetime" : 200,
+						"imprint" : 0,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-122",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 78.0, 90.0, 60.0, 20.0 ],
+									"text" : "loadbang"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "jit_gl_texture", "" ],
+									"patching_rect" : [ 50.0, 129.0, 184.0, 20.0 ],
+									"text" : "jit.gl.texture @name CartelVJrec"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 50.0, 170.0, 235.0, 20.0 ],
+									"text" : "jit.gl.syphonserver @servername CartelVJ"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-20",
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 50.0, 40.0, 25.0, 25.0 ]
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-122", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-20", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 1944.0, 883.499878, 108.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1176.5, 369.0, 108.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p videoRecordOut"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-57",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1944.0, 855.5, 20.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1156.1875, 369.0, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-331",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1339.5, 578.0, 130.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 20.0, 612.0, 105.0, 31.0 ],
+					"text" : "to_texture CartelVJrec"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-333",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 165.833374, 466.0, 24.0, 20.0 ],
-					"presentation_rect" : [ 166.166748, 468.0, 0.0, 0.0 ],
 					"text" : "t 0"
 				}
 
@@ -53,7 +224,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 131.666626, 466.0, 24.0, 20.0 ],
-					"presentation_rect" : [ 132.0, 468.0, 0.0, 0.0 ],
 					"text" : "t 1"
 				}
 
@@ -123,7 +293,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 709.166748, 466.0, 24.0, 20.0 ],
-					"presentation_rect" : [ 1935.333374, 453.0, 0.0, 0.0 ],
 					"text" : "t 0"
 				}
 
@@ -138,7 +307,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 675.0, 466.0, 24.0, 20.0 ],
-					"presentation_rect" : [ 1901.166626, 453.0, 0.0, 0.0 ],
 					"text" : "t 1"
 				}
 
@@ -283,7 +451,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1848.0, 593.0, 72.0, 20.0 ],
-					"text" : "loadmess 1"
+					"text" : "loadmess 0"
 				}
 
 			}
@@ -2329,7 +2497,7 @@
 					"fontsize" : 13.0,
 					"framecolor" : [ 0.0, 0.0, 0.0, 0.35 ],
 					"id" : "obj-283",
-					"items" : [ "BMC test 1", ",", "BMC test 2", ",", "WackedGaze01", ",", "Aireal rotations", ",", "aireal 2", ",", "1", ",", "blank", ",", "test" ],
+					"items" : [ "assortment 1", ",", "mountain rivers", ",", "beach", ",", "backyard fisheye", ",", "canoe cadillac", ",", "bus lights blur", ",", "night driving", ",", "risd nature lab", ",", "bees", ",", "museum animals", ",", "water textures", ",", "edelweiss", ",", "clouds from the air", ",", "pigeons snow roof", ",", "pvd snow 1", ",", "pvd snow 2", ",", "live animals", ",", "catamount trail snow", ",", "mountains", ",", "colorado", ",", "canyonlands 1", ",", "arches 1", ",", "pvd sunset", ",", "pvd sunset highway", ",", "ice skating", ",", "fireworks with fx", ",", "driving in canada", ",", "lights 1", ",", "woods", ",", "truro", ",", "provincetown", ",", "provincetown 360", ",", "poof" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2388,7 +2556,7 @@
 					"fontsize" : 13.0,
 					"framecolor" : [ 0.0, 0.0, 0.0, 0.35 ],
 					"id" : "obj-281",
-					"items" : [ "BMC test 1", ",", "BMC test 2", ",", "WackedGaze01", ",", "Aireal rotations", ",", "aireal 2", ",", "1", ",", "blank", ",", "test" ],
+					"items" : [ "assortment 1", ",", "mountain rivers", ",", "beach", ",", "backyard fisheye", ",", "canoe cadillac", ",", "bus lights blur", ",", "night driving", ",", "risd nature lab", ",", "bees", ",", "museum animals", ",", "water textures", ",", "edelweiss", ",", "clouds from the air", ",", "pigeons snow roof", ",", "pvd snow 1", ",", "pvd snow 2", ",", "live animals", ",", "catamount trail snow", ",", "mountains", ",", "colorado", ",", "canyonlands 1", ",", "arches 1", ",", "pvd sunset", ",", "pvd sunset highway", ",", "ice skating", ",", "fireworks with fx", ",", "driving in canada", ",", "lights 1", ",", "woods", ",", "truro", ",", "provincetown", ",", "provincetown 360", ",", "poof" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3320,7 +3488,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1141.0, 475.0, 150.0, 20.0 ],
+					"patching_rect" : [ 944.0, 202.5, 36.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1156.1875, 469.25, 36.0, 20.0 ],
 					"text" : "MIDI"
@@ -3645,7 +3813,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -4758,15 +4925,14 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"0" : [ "Media Architecture of Boston 5.mov", 83621, 88666, 600 ],
-										"1" : [ "Media Architecture of Boston 5.mov", 64903, 68436, 600 ],
-										"2" : [ "Media Architecture of Boston 5.mov", 49187, 63802, 600 ],
-										"3" : "none",
-										"4" : "none",
-										"5" : "none",
-										"6" : "none",
-										"7" : "none",
-										"slot" : 2
+										"0" : [ "Edelweiss web 2.mov", 1721.72168, 57797.796875, 600 ],
+										"1" : [ "Edelweiss web 2.mov", 59179.179688, 88268.265625, 600 ],
+										"2" : [ "Edelweiss web 2.mov", 92072.070312, 153333.328125, 600 ],
+										"3" : [ "Edelweiss web 2.mov", 153353.359375, 218758.765625, 600 ],
+										"4" : [ "Edelweiss web 2.mov", 241961.96875, 282062.0625, 600 ],
+										"5" : [ "Edelweiss web 2.mov", 282362.5625, 319839.84375, 600 ],
+										"6" : [ "Edelweiss web 2.mov", 319859.875, 345805.8125, 600 ],
+										"7" : [ "Edelweiss web 2.mov", 346466.46875, 407087.09375, 600 ]
 									}
 ,
 									"fontname" : "Arial",
@@ -4789,15 +4955,14 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"0" : [ "Media Architecture of Boston 6.mov", 37311, 39147, 600 ],
-										"1" : [ "Media Architecture of Boston 6.mov", 47189, 48842, 600 ],
-										"2" : [ "Media Architecture of Boston 6.mov", 55565, 57708, 600 ],
-										"3" : [ "Media Architecture of Boston 6.mov", 85431, 88772, 600 ],
-										"4" : [ "Media Architecture of Boston 6.mov", 104867, 110246, 600 ],
-										"5" : [ "Media Architecture of Boston 6.mov", 130909, 134149, 600 ],
-										"6" : [ "Media Architecture of Boston 6.mov", 136473, 139596, 600 ],
-										"7" : [ "Media Architecture of Boston 5.mov", 0, 8147, 600 ],
-										"slot" : 1
+										"0" : [ "PVD highway sunset 00025.mov", 390000, 0 ],
+										"1" : [ "Ice Skating Jan 2013 high(4.3Mbps).mov", 27407.408203, 57297.296875, 600 ],
+										"2" : [ "Truro 00004.mov", 0, 514600 ],
+										"3" : [ "Ice Skating Jan 2013 high(4.3Mbps).mov", 58538.539062, 90310.3125, 600 ],
+										"4" : [ "Ice Skating Jan 2013 high(4.3Mbps).mov", 123963.960938, 132052.046875, 600 ],
+										"5" : [ "2012-12-28 08_37_25 (id) proj.mov", 0, 960000 ],
+										"6" : [ "2012-12-28 08_37_25 (id) proj.mov", 1540000, 2718000 ],
+										"7" : [ "PVD highway sunset 00021.mov", 981000, 0 ]
 									}
 ,
 									"fontname" : "Arial",
@@ -4820,15 +4985,14 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"0" : [ "Media Architecture of Boston 5.mov", 83621, 88666, 600 ],
-										"1" : [ "Media Architecture of Boston 5.mov", 64903, 68436, 600 ],
-										"2" : [ "Media Architecture of Boston 5.mov", 49187, 63802, 600 ],
-										"3" : "none",
-										"4" : "none",
-										"5" : "none",
-										"6" : "none",
-										"7" : "none",
-										"slot" : 2
+										"0" : [ "Edelweiss web 2.mov", 1721.72168, 57797.796875, 600 ],
+										"1" : [ "Edelweiss web 2.mov", 59179.179688, 88268.265625, 600 ],
+										"2" : [ "Edelweiss web 2.mov", 92072.070312, 153333.328125, 600 ],
+										"3" : [ "Edelweiss web 2.mov", 153353.359375, 218758.765625, 600 ],
+										"4" : [ "Edelweiss web 2.mov", 241961.96875, 282062.0625, 600 ],
+										"5" : [ "Edelweiss web 2.mov", 282362.5625, 319839.84375, 600 ],
+										"6" : [ "Edelweiss web 2.mov", 319859.875, 345805.8125, 600 ],
+										"7" : [ "Edelweiss web 2.mov", 346466.46875, 407087.09375, 600 ]
 									}
 ,
 									"fontname" : "Arial",
@@ -4851,15 +5015,14 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"0" : [ "Media Architecture of Boston 6.mov", 37311, 39147, 600 ],
-										"1" : [ "Media Architecture of Boston 6.mov", 47189, 48842, 600 ],
-										"2" : [ "Media Architecture of Boston 6.mov", 55565, 57708, 600 ],
-										"3" : [ "Media Architecture of Boston 6.mov", 85431, 88772, 600 ],
-										"4" : [ "Media Architecture of Boston 6.mov", 104867, 110246, 600 ],
-										"5" : [ "Media Architecture of Boston 6.mov", 130909, 134149, 600 ],
-										"6" : [ "Media Architecture of Boston 6.mov", 136473, 139596, 600 ],
-										"7" : [ "Media Architecture of Boston 5.mov", 0, 8147, 600 ],
-										"slot" : 1
+										"0" : [ "PVD highway sunset 00025.mov", 390000, 0 ],
+										"1" : [ "Ice Skating Jan 2013 high(4.3Mbps).mov", 27407.408203, 57297.296875, 600 ],
+										"2" : [ "Truro 00004.mov", 0, 514600 ],
+										"3" : [ "Ice Skating Jan 2013 high(4.3Mbps).mov", 58538.539062, 90310.3125, 600 ],
+										"4" : [ "Ice Skating Jan 2013 high(4.3Mbps).mov", 123963.960938, 132052.046875, 600 ],
+										"5" : [ "2012-12-28 08_37_25 (id) proj.mov", 0, 960000 ],
+										"6" : [ "2012-12-28 08_37_25 (id) proj.mov", 1540000, 2718000 ],
+										"7" : [ "PVD highway sunset 00021.mov", 981000, 0 ]
 									}
 ,
 									"fontname" : "Arial",
@@ -12481,7 +12644,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-177",
-					"items" : [ "IAC Driver Bus 1", ",", "IAC Driver Bus 2", ",", "Keyboard", ",", "LPK25", ",", "SSCOM Port 1", ",", "SSCOM Port 2", ",", "QUNEO", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "IAC Driver Bus 1", ",", "IAC Driver Bus 2", ",", "Keyboard", ",", "LPK25", ",", "UHER MIDI", ",", "UltraLite Sync Port", ",", "SSCOM Port 1", ",", "SSCOM Port 2", ",", "QUNEO", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -13119,7 +13282,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-151",
-					"items" : [ "IAC Driver Bus 1", ",", "IAC Driver Bus 2", ",", "Keyboard", ",", "LPK25", ",", "SSCOM Port 1", ",", "SSCOM Port 2", ",", "QUNEO", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "IAC Driver Bus 1", ",", "IAC Driver Bus 2", ",", "Keyboard", ",", "LPK25", ",", "UHER MIDI", ",", "UltraLite Sync Port", ",", "SSCOM Port 1", ",", "SSCOM Port 2", ",", "QUNEO", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -17043,7 +17206,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 956.0, 426.0, 162.0, 20.0 ],
+					"patching_rect" : [ 1579.333374, 1109.452148, 101.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1301.0, 65.5, 102.0, 20.0 ],
 					"text" : "final videoplane"
@@ -17402,7 +17565,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1312.0, 623.0, 107.0, 20.0 ],
+					"patching_rect" : [ 1277.0, 631.0, 107.0, 20.0 ],
 					"text" : "s arvidRenderTick"
 				}
 
@@ -17895,10 +18058,10 @@
 					"id" : "obj-8",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "erase" ],
-					"patching_rect" : [ 1327.0, 559.5, 63.0, 21.0 ],
-					"text" : "t b erase"
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "bang", "erase" ],
+					"patching_rect" : [ 1339.5, 551.0, 72.0, 21.0 ],
+					"text" : "t b b erase"
 				}
 
 			}
@@ -17953,7 +18116,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 1351.0, 599.0, 123.0, 20.0 ],
+					"patching_rect" : [ 1339.5, 608.0, 123.0, 20.0 ],
 					"text" : "jit.gl.render cartelVJ1"
 				}
 
@@ -20725,6 +20888,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-61", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-331", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-37", 6 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -21049,6 +21221,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-47", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-57", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-78", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -21276,10 +21457,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-61", 0 ],
+					"destination" : [ "obj-331", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-8", 1 ]
+					"source" : [ "obj-8", 0 ]
 				}
 
 			}
@@ -21288,7 +21469,16 @@
 					"destination" : [ "obj-61", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-8", 0 ]
+					"source" : [ "obj-8", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-61", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-8", 1 ]
 				}
 
 			}
@@ -21591,6 +21781,10 @@
 			}
 , 			{
 				"name" : "fingerpinger.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jit.gl.syphonserver.mxo",
 				"type" : "iLaX"
 			}
  ]
