@@ -424,5 +424,32 @@
 		"resampRight" : 1.0,
 		"resampTop" : 1.0
 	}
+,
+	"iceWall" : 	{
+		"bright" : 54.0,
+		"colorOffsetBX" : 0.0,
+		"colorOffsetBY" : 0.0,
+		"colorOffsetGX" : 0.0,
+		"colorOffsetGY" : 0.0,
+		"colorOffsetRX" : 0.0,
+		"colorOffsetRY" : 0.0,
+		"contrast" : 9.74,
+		"feedback" : 0.95,
+		"feedbackCompositeMode" : 18,
+		"kalDivisions" : 1,
+		"offset_x" : -0.0,
+		"offset_y" : 3.4,
+		"radialBlurAmount" : 0.365,
+		"rotaBoundMode" : 1,
+		"sat" : 0.11,
+		"theta" : 0.0,
+		"tintHueLightness" : [ 0.498039, 0.498039, 0.498039, 1.0, 0.0, 0.0, 0.498039 ],
+		"zoom" : 1.0,
+		"tintSat" : 0.0,
+		"resampBottom" : 0.0,
+		"resampLeft" : 0.287,
+		"resampRight" : 1.8,
+		"resampTop" : 1.02
+	}
 
 }
