@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 8,
 			"architecture" : "x86"
 		}
 ,
@@ -52,7 +52,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2011.0, 52.0, 74.0, 20.0 ],
-					"presentation_rect" : [ 2006.0, 53.0, 0.0, 0.0 ],
 					"text" : "prepend set"
 				}
 
@@ -166,7 +165,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -949,7 +948,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -1165,7 +1164,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -1654,7 +1653,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -2143,7 +2142,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -2817,7 +2816,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -3021,7 +3020,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x86"
 										}
 ,
@@ -3944,7 +3943,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -4209,7 +4208,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x86"
 										}
 ,
@@ -4584,7 +4583,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x86"
 										}
 ,
@@ -5079,14 +5078,14 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"0" : [ "Utah | Colorado.mov", 193973.96875, 223103.109375, 600 ],
-										"1" : [ "Utah | Colorado.mov", 224524.53125, 252952.953125, 600 ],
-										"2" : [ "Utah | Colorado.mov", 256496.5, 284204.21875, 600 ],
-										"3" : [ "Utah | Colorado.mov", 284924.9375, 338218.21875, 600 ],
-										"4" : [ "Utah | Colorado.mov", 344604.59375, 367347.34375, 600 ],
-										"5" : [ "Utah | Colorado.mov", 375875.875, 385805.8125, 600 ],
-										"6" : [ "Utah | Colorado.mov", 385825.8125, 405705.71875, 600 ],
-										"7" : [ "Utah | Colorado.mov", 412812.8125, 426326.3125, 600 ]
+										"0" : [ "PVD highway sunset 00022.mov", 11400, 58700 ],
+										"1" : [ "PVD highway sunset 00023.mov", 6000, 205800 ],
+										"2" : [ "PVD highway sunset 00026 trails.mov", 0, 304400 ],
+										"3" : [ "PVD highway sunset 00027 proj trails.mov", 0, 152500 ],
+										"4" : [ "PVD highway sunset 00025.mov", 32000, 1391000 ],
+										"5" : "none",
+										"6" : "none",
+										"7" : "none"
 									}
 ,
 									"fontname" : "Arial",
@@ -5109,14 +5108,14 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"0" : [ "museum_animals_1280x720 vimeo.mov", 2902.902832, 21446.447266, 600 ],
-										"1" : [ "museum_animals_1280x720 vimeo.mov", 21471.470703, 35485.484375, 600 ],
-										"2" : [ "museum_animals_1280x720 vimeo.mov", 35510.511719, 42167.167969, 600 ],
-										"3" : [ "museum_animals_1280x720 vimeo.mov", 42192.191406, 56106.105469, 600 ],
-										"4" : [ "museum_animals_1280x720 vimeo.mov", 56206.207031, 75625.625, 600 ],
-										"5" : [ "museum_animals_1280x720 vimeo.mov", 75650.648438, 94694.695312, 600 ],
-										"6" : "none",
-										"7" : "none"
+										"0" : [ "2013-07-27 14-30-21.mov", 0.0, 1584998.375, 23976 ],
+										"1" : [ "2013-07-27 14-33-16.mov", 0.0, 2796997.25, 23976 ],
+										"2" : [ "2013-07-27 14-45-27.mov", 0.0, 450999.5625, 23976 ],
+										"3" : [ "2013-07-27 14-54-53.mov", 0.0, 549999.4375, 23976 ],
+										"4" : [ "2013-07-27 15-04-59.mov", 0.0, 252999.75, 23976 ],
+										"5" : [ "2013-07-27 15-34-30.mov", 0.0, 813999.1875, 23976 ],
+										"6" : [ "2013-07-27 15-37-04.mov", 0.0, 2640997.5, 23976 ],
+										"7" : [ "2013-07-27 14-30-21.mov", 1071998.0, 1525997.5, 23976 ]
 									}
 ,
 									"fontname" : "Arial",
@@ -5139,14 +5138,14 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"0" : [ "Utah | Colorado.mov", 193973.96875, 223103.109375, 600 ],
-										"1" : [ "Utah | Colorado.mov", 224524.53125, 252952.953125, 600 ],
-										"2" : [ "Utah | Colorado.mov", 256496.5, 284204.21875, 600 ],
-										"3" : [ "Utah | Colorado.mov", 284924.9375, 338218.21875, 600 ],
-										"4" : [ "Utah | Colorado.mov", 344604.59375, 367347.34375, 600 ],
-										"5" : [ "Utah | Colorado.mov", 375875.875, 385805.8125, 600 ],
-										"6" : [ "Utah | Colorado.mov", 385825.8125, 405705.71875, 600 ],
-										"7" : [ "Utah | Colorado.mov", 412812.8125, 426326.3125, 600 ]
+										"0" : [ "PVD highway sunset 00022.mov", 11400, 58700 ],
+										"1" : [ "PVD highway sunset 00023.mov", 6000, 205800 ],
+										"2" : [ "PVD highway sunset 00026 trails.mov", 0, 304400 ],
+										"3" : [ "PVD highway sunset 00027 proj trails.mov", 0, 152500 ],
+										"4" : [ "PVD highway sunset 00025.mov", 32000, 1391000 ],
+										"5" : "none",
+										"6" : "none",
+										"7" : "none"
 									}
 ,
 									"fontname" : "Arial",
@@ -5169,14 +5168,14 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"0" : [ "museum_animals_1280x720 vimeo.mov", 2902.902832, 21446.447266, 600 ],
-										"1" : [ "museum_animals_1280x720 vimeo.mov", 21471.470703, 35485.484375, 600 ],
-										"2" : [ "museum_animals_1280x720 vimeo.mov", 35510.511719, 42167.167969, 600 ],
-										"3" : [ "museum_animals_1280x720 vimeo.mov", 42192.191406, 56106.105469, 600 ],
-										"4" : [ "museum_animals_1280x720 vimeo.mov", 56206.207031, 75625.625, 600 ],
-										"5" : [ "museum_animals_1280x720 vimeo.mov", 75650.648438, 94694.695312, 600 ],
-										"6" : "none",
-										"7" : "none"
+										"0" : [ "2013-07-27 14-30-21.mov", 0.0, 1584998.375, 23976 ],
+										"1" : [ "2013-07-27 14-33-16.mov", 0.0, 2796997.25, 23976 ],
+										"2" : [ "2013-07-27 14-45-27.mov", 0.0, 450999.5625, 23976 ],
+										"3" : [ "2013-07-27 14-54-53.mov", 0.0, 549999.4375, 23976 ],
+										"4" : [ "2013-07-27 15-04-59.mov", 0.0, 252999.75, 23976 ],
+										"5" : [ "2013-07-27 15-34-30.mov", 0.0, 813999.1875, 23976 ],
+										"6" : [ "2013-07-27 15-37-04.mov", 0.0, 2640997.5, 23976 ],
+										"7" : [ "2013-07-27 14-30-21.mov", 1071998.0, 1525997.5, 23976 ]
 									}
 ,
 									"fontname" : "Arial",
@@ -6326,7 +6325,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -6638,7 +6637,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x86"
 										}
 ,
@@ -6887,7 +6886,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x86"
 										}
 ,
@@ -8875,7 +8874,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -10059,7 +10058,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -10873,7 +10872,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -11090,7 +11089,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x86"
 										}
 ,
@@ -11752,7 +11751,7 @@
 					"hint" : "Delete a saved Set",
 					"hltcolor" : [ 0.992157, 0.52549, 0.537255, 1.0 ],
 					"id" : "obj-117",
-					"items" : [ "default", ",", "defraction grating 1", ",", "red splash", ",", "color tunnel", ",", "vitriol", ",", "B&W film", ",", "high contrast B&W", ",", "high contrast B&W blur", ",", "intense", ",", "B&W trails", ",", "paint with light", ",", "vibrate", ",", "green fur", ",", "green goo", ",", "revese fuckup", ",", "Superflow", ",", "Purple Haze" ],
+					"items" : [ "default", ",", "defraction grating 1", ",", "red splash", ",", "color tunnel", ",", "vitriol", ",", "B&W film", ",", "high contrast B&W", ",", "high contrast B&W blur", ",", "intense", ",", "B&W trails", ",", "paint with light", ",", "vibrate", ",", "green fur", ",", "green goo", ",", "revese fuckup", ",", "Superflow", ",", "Purple Haze", ",", "iceWall" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -11810,7 +11809,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -12095,7 +12094,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -12838,7 +12837,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -13503,7 +13502,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -14042,21 +14041,21 @@
 					"patching_rect" : [ 1276.5, 48.0, 216.0, 20.0 ],
 					"restore" : 					{
 						"bright" : [ 1.0 ],
-						"compositeAmount" : [ 2.0 ],
-						"compositeMode" : [ 1 ],
+						"compositeAmount" : [ 1.0 ],
+						"compositeMode" : [ 10 ],
 						"compositeRampTime" : [ 0 ],
 						"contrast" : [ 1.0 ],
 						"lumaDispAmpX" : [ 0.0 ],
 						"lumaDispAmpY" : [ 0.0 ],
 						"lumaDispOffsetX" : [ 0.0 ],
 						"lumaDispOffsetY" : [ 0.0 ],
-						"masterHueLightness" : [ 1.0, 1.0, 1.0, 1.0, 0.291429, 1.0, 1.0 ],
-						"masterSaturation" : [ 1.0 ],
+						"masterHueLightness" : [ 1.0, 1.0, 1.0, 1.0, 0.0, 0.0, 1.0 ],
+						"masterSaturation" : [ 0.0 ],
 						"rateL" : [ 1.0 ],
-						"rateR" : [ 1.0 ],
-						"sat" : [ 1.022047 ],
-						"slideDown" : [ 26.0 ],
-						"slideUp" : [ 0.0 ]
+						"rateR" : [ 2.0 ],
+						"sat" : [ 1.0 ],
+						"slideDown" : [ 1.0 ],
+						"slideUp" : [ 1.0 ]
 					}
 ,
 					"text" : "autopattr mainWindow @autorestore 0",
@@ -14317,11 +14316,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 203.0, 1680.0, 982.0 ],
+						"rect" : [ 0.0, 44.0, 1680.0, 956.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -14341,6 +14340,21 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-25",
+									"linecount" : 4,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1284.0, 575.0, 50.0, 58.0 ],
+									"text" : "73.997498 331.808197"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-137",
@@ -14503,20 +14517,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"id" : "obj-122",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "int", "int" ],
-									"patching_rect" : [ 1227.949951, 629.0, 63.0, 20.0 ],
-									"text" : "change 0."
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
 									"id" : "obj-116",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -14537,20 +14537,6 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "int", "int" ],
 									"patching_rect" : [ 288.5, 626.0, 63.0, 20.0 ],
-									"text" : "change 0."
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-69",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "int", "int" ],
-									"patching_rect" : [ 369.5, 626.0, 63.0, 20.0 ],
 									"text" : "change 0."
 								}
 
@@ -16021,6 +16007,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-25", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-106", 4 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-87", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -16833,15 +16828,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-4", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-69", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-7", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -16851,7 +16837,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-69", 0 ],
+									"destination" : [ "obj-4", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-71", 0 ]
