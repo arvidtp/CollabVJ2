@@ -71,7 +71,7 @@ function list() {
 	outlet(3, dist);
 	outlet(2, scaleOut);
 	
-	var angle = findAngle(p, v, dist)
+	var angle = findAngle(p, v);
 	//need to do something about when goes from -PI/2 to PI/2
 	//and the opposite problem.
 	if (angleReset) { //reset condition
@@ -99,7 +99,7 @@ function distanceFormula(p, v)
 function findAngle(p, v)
 {
 	//var a = Math.atan( (p[1]-v[1])/(p[0]-v[0]) );
-	a = Math.atan2( (p[1]-v[1]),(p[0]-v[0]) );
+	var a = Math.atan2( (p[1]-v[1]),(p[0]-v[0]) );
 	return a;
 }
 
