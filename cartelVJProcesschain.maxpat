@@ -60,19 +60,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"id" : "obj-172",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 294.0, 491.0, 34.0, 20.0 ],
-					"text" : "print"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-173",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -334,7 +321,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "jit_gl_texture" ],
 					"patching_rect" : [ 1306.0, 29.0, 25.0, 25.0 ]
 				}
 
@@ -1302,7 +1289,7 @@
 					"fontsize" : 14.0,
 					"hltcolor" : [ 0.994324, 0.722712, 0.036141, 1.0 ],
 					"id" : "obj-141",
-					"items" : "<empty>",
+					"items" : [ "default", ",", "defraction grating 1", ",", "red splash", ",", "color tunnel", ",", "vitriol", ",", "B&W film", ",", "high contrast B&W", ",", "high contrast B&W blur", ",", "intense", ",", "B&W trails", ",", "paint with light", ",", "vibrate", ",", "green fur", ",", "green goo", ",", "revese fuckup", ",", "Superflow", ",", "Purple Haze", ",", "iceWall" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1968,31 +1955,31 @@
 						"bright" : [ 1.0 ],
 						"colorOffsetBX" : [ 0.0 ],
 						"colorOffsetBY" : [ 0.0 ],
-						"colorOffsetGX" : [ 0.0 ],
+						"colorOffsetGX" : [ 0.014 ],
 						"colorOffsetGY" : [ 0.0 ],
 						"colorOffsetRX" : [ 0.0 ],
-						"colorOffsetRY" : [ 0.0 ],
+						"colorOffsetRY" : [ 0.061 ],
 						"contrast" : [ 1.0 ],
-						"feedback" : [ 0.0 ],
-						"feedbackCompositeMode" : [ 18 ],
+						"feedback" : [ 1.99 ],
+						"feedbackCompositeMode" : [ 19 ],
 						"kalDivisions" : [ 1 ],
-						"offset_x" : [ 0.0 ],
-						"offset_y" : [ 0.0 ],
-						"radialBlurAmount" : [ 0.0 ],
+						"offset_x" : [ 66.444153 ],
+						"offset_y" : [ -62.463253 ],
+						"radialBlurAmount" : [ 0.255 ],
 						"resampBottom" : [ 0.0 ],
 						"resampLeft" : [ 0.0 ],
 						"resampRight" : [ 1.0 ],
 						"resampTop" : [ 1.0 ],
-						"rotaBoundMode" : [ 1 ],
+						"rotaBoundMode" : [ 4 ],
 						"sat" : [ 1.0 ],
-						"theta" : [ 0.0 ],
+						"theta" : [ 0.277302 ],
 						"tintHueLightness" : [ 0.498039, 0.498039, 0.498039, 1.0, 0.0, 0.0, 0.498039 ],
 						"tintSat" : [ 0.0 ],
-						"zoom" : [ 1.0 ]
+						"zoom" : [ 1.182861 ]
 					}
 ,
 					"text" : "autopattr @autorestore 0",
-					"varname" : "u431000319"
+					"varname" : "u543001380"
 				}
 
 			}
@@ -4782,15 +4769,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-172", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-72", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-71", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -5103,21 +5081,6 @@
 					"source" : [ "obj-99", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "atp.dataLoopRec.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/atp.abstractions",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/atp.abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "atp.timestampYMDHMS.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/atp.abstractions",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/atp.abstractions",
-				"type" : "JSON",
-				"implicit" : 1
 			}
  ]
 	}
