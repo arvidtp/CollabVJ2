@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 41.0, 632.0, 700.0, 352.0 ],
+		"rect" : [ 66.0, 627.0, 700.0, 352.0 ],
 		"bgcolor" : [ 0.239216, 0.254902, 0.278431, 0.0 ],
 		"editing_bgcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 		"bglocked" : 0,
@@ -632,7 +632,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 558.0, 722.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 145.879883, 317.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 142.879883, 317.0, 50.0, 22.0 ],
 					"style" : "",
 					"varname" : "resampBottom"
 				}
@@ -784,8 +784,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.0, 0.435294, 0.0, 1.0 ],
-					"bgoncolor" : [ 0.613943, 1.0, 0.0, 1.0 ],
 					"id" : "obj-97",
 					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
@@ -797,11 +795,8 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 470.0, 265.5, 212.5, 29.5 ],
 					"rounded" : 12.0,
-					"style" : "",
+					"style" : "Green Lantern Inverse",
 					"text" : "QuickSave",
-					"textcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
-					"textoncolor" : [ 0.0, 0.665647, 0.0, 1.0 ],
-					"textovercolor" : [ 0.831373, 1.0, 0.0, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -1452,7 +1447,6 @@
 					"presentation_rect" : [ 470.0, 231.5, 162.0, 26.0 ],
 					"style" : "",
 					"text" : "default",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 0
 				}
 
@@ -1748,7 +1742,7 @@
 					"outlettype" : [ "", "", "", "", "", "" ],
 					"patching_rect" : [ 941.0, 424.0, 114.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 574.5, 163.0, 114.0, 26.0 ],
+					"presentation_rect" : [ 575.0, 163.0, 114.0, 26.0 ],
 					"prototypename" : "atp.dataLoopRec",
 					"viewvisibility" : 1
 				}
@@ -2087,35 +2081,35 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 1193.0, 337.0, 144.0, 20.0 ],
 					"restore" : 					{
-						"bright" : [ 1.31 ],
+						"bright" : [ 1.0 ],
 						"colorOffsetBX" : [ 0.0 ],
 						"colorOffsetBY" : [ 0.0 ],
 						"colorOffsetGX" : [ 0.0 ],
 						"colorOffsetGY" : [ 0.0 ],
-						"colorOffsetRX" : [ 0.00222 ],
+						"colorOffsetRX" : [ 0.0 ],
 						"colorOffsetRY" : [ 0.0 ],
-						"contrast" : [ 1.056 ],
-						"feedback" : [ 1.2 ],
-						"feedbackCompositeMode" : [ 19 ],
+						"contrast" : [ 1.0 ],
+						"feedback" : [ 0.0 ],
+						"feedbackCompositeMode" : [ 18 ],
 						"kalDivisions" : [ 1 ],
-						"offset_x" : [ -90.104042 ],
-						"offset_y" : [ -763.3125 ],
+						"offset_x" : [ 0.0 ],
+						"offset_y" : [ 0.0 ],
 						"radialBlurAmount" : [ 0.0 ],
 						"resampBottom" : [ 0.0 ],
 						"resampLeft" : [ 0.0 ],
 						"resampRight" : [ 1.0 ],
 						"resampTop" : [ 1.0 ],
-						"rotaBoundMode" : [ 2 ],
-						"sat" : [ 0.0 ],
-						"theta" : [ 12.585237 ],
+						"rotaBoundMode" : [ 1 ],
+						"sat" : [ 1.0 ],
+						"theta" : [ 0.0 ],
 						"tintHueLightness" : [ 0.498039, 0.498039, 0.498039, 1.0, 0.0, 0.0, 0.498039 ],
 						"tintSat" : [ 0.0 ],
-						"zoom" : [ 0.44181 ]
+						"zoom" : [ 1.0 ]
 					}
 ,
 					"style" : "",
 					"text" : "autopattr @autorestore 0",
-					"varname" : "u321001646"
+					"varname" : "u495011989"
 				}
 
 			}
@@ -2280,11 +2274,11 @@
 			}
 , 			{
 				"box" : 				{
+					"contrastactivetab" : 0,
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"gradient" : 1.0,
-					"htabcolor" : [ 0.921569, 0.94902, 0.05098, 1.0 ],
+					"gradient" : 0.9,
 					"id" : "obj-26",
 					"margin" : 2,
 					"maxclass" : "tab",
@@ -2295,14 +2289,12 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 423.7146, 183.5, 243.5, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.176025, 97.0, 243.5, 20.0 ],
+					"presentation_rect" : [ 7.176025, 98.0, 249.5, 22.0 ],
 					"prototypename" : "M4L.2",
 					"rounded" : 16.0,
 					"segmented" : 1,
-					"style" : "",
-					"tabcolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
+					"style" : "Green Lantern Inverse",
 					"tabs" : [ "Leave", "Erase", "Repeat", "Edges", "FlipRepeat" ],
-					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "rotaBoundMode"
 				}
 
@@ -2579,11 +2571,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.866667, 0.866667, 0.866667, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"format" : 6,
-					"htricolor" : [ 0.87, 0.82, 0.24, 1.0 ],
 					"id" : "obj-62",
 					"maxclass" : "flonum",
 					"numinlets" : 1,
@@ -2592,10 +2580,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 585.403687, 536.0, 87.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 381.873474, 143.0, 72.075714, 22.0 ],
-					"style" : "",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"presentation_rect" : [ 381.873474, 143.0, 73.0, 22.0 ],
+					"style" : "videoEditor",
 					"triscale" : 0.9,
 					"varname" : "colorOffsetBY"
 				}
@@ -2603,11 +2589,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.866667, 0.866667, 0.866667, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"format" : 6,
-					"htricolor" : [ 0.87, 0.82, 0.24, 1.0 ],
 					"id" : "obj-4",
 					"maxclass" : "flonum",
 					"numinlets" : 1,
@@ -2616,10 +2598,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 505.426758, 536.0, 87.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 310.198517, 143.0, 72.075714, 22.0 ],
-					"style" : "",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"presentation_rect" : [ 310.198517, 143.0, 73.0, 22.0 ],
+					"style" : "videoEditor",
 					"triscale" : 0.9,
 					"varname" : "colorOffsetBX"
 				}
@@ -2627,11 +2607,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.866667, 0.866667, 0.866667, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"format" : 6,
-					"htricolor" : [ 0.87, 0.82, 0.24, 1.0 ],
 					"id" : "obj-52",
 					"maxclass" : "flonum",
 					"numinlets" : 1,
@@ -2640,10 +2616,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 380.920898, 536.0, 87.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 231.776825, 143.0, 72.075714, 22.0 ],
-					"style" : "",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"presentation_rect" : [ 231.776825, 143.0, 73.0, 22.0 ],
+					"style" : "videoEditor",
 					"triscale" : 0.9,
 					"varname" : "colorOffsetGY"
 				}
@@ -2651,11 +2625,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.866667, 0.866667, 0.866667, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"format" : 6,
-					"htricolor" : [ 0.87, 0.82, 0.24, 1.0 ],
 					"id" : "obj-6",
 					"maxclass" : "flonum",
 					"numinlets" : 1,
@@ -2664,10 +2634,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 301.676025, 536.0, 87.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 160.757935, 143.0, 72.075714, 22.0 ],
-					"style" : "",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"presentation_rect" : [ 160.757935, 143.0, 73.0, 22.0 ],
+					"style" : "videoEditor",
 					"triscale" : 0.9,
 					"varname" : "colorOffsetGX"
 				}
@@ -2675,11 +2643,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.866667, 0.866667, 0.866667, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"format" : 6,
-					"htricolor" : [ 0.87, 0.82, 0.24, 1.0 ],
 					"id" : "obj-54",
 					"maxclass" : "flonum",
 					"numinlets" : 1,
@@ -2688,10 +2652,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 166.476913, 536.0, 87.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 84.850983, 143.0, 72.075714, 22.0 ],
-					"style" : "",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"presentation_rect" : [ 84.850983, 143.0, 73.0, 22.0 ],
+					"style" : "videoEditor",
 					"triscale" : 0.9,
 					"varname" : "colorOffsetRY"
 				}
@@ -2699,11 +2661,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.866667, 0.866667, 0.866667, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"format" : 6,
-					"htricolor" : [ 0.87, 0.82, 0.24, 1.0 ],
 					"id" : "obj-57",
 					"maxclass" : "flonum",
 					"numinlets" : 1,
@@ -2712,10 +2670,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 86.5, 536.0, 87.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.176025, 143.0, 72.075714, 22.0 ],
-					"style" : "",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"presentation_rect" : [ 13.176025, 143.0, 73.0, 22.0 ],
+					"style" : "videoEditor",
 					"triscale" : 0.9,
 					"varname" : "colorOffsetRX"
 				}
@@ -5304,12 +5260,37 @@
 			}
  ],
 		"styles" : [ 			{
+				"name" : "Green Lantern",
+				"default" : 				{
+					"bgcolor" : [ 0.0, 0.435294, 0.0, 1.0 ],
+					"accentcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
+					"elementcolor" : [ 0.613943, 1.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 0.831373, 1.0, 0.0, 1.0 ],
+					"color" : [ 0.0, 0.665647, 0.0, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "Green Lantern Inverse",
+				"default" : 				{
+					"elementcolor" : [ 0.0, 0.665647, 0.0, 1.0 ],
+					"color" : [ 0.613943, 1.0, 0.0, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"parentstyle" : "Green Lantern",
+				"multi" : 0
+			}
+, 			{
 				"name" : "videoEditor",
 				"default" : 				{
-					"color" : [ 0.183995, 0.910435, 0.147968, 1.0 ],
-					"elementcolor" : [ 0.292112, 0.292112, 0.292112, 1.0 ],
-					"selectioncolor" : [ 0.815686, 0.858824, 0.34902, 1.0 ],
 					"bgcolor" : [ 0.176977, 0.176977, 0.176977, 1.0 ],
+					"elementcolor" : [ 0.292112, 0.292112, 0.292112, 1.0 ],
+					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"selectioncolor" : [ 0.815686, 0.858824, 0.34902, 1.0 ],
+					"color" : [ 0.183995, 0.910435, 0.147968, 1.0 ],
 					"textcolor_inverse" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
@@ -5320,8 +5301,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
