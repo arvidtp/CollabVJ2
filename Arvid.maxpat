@@ -1673,7 +1673,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 2011.0, 114.0, 61.0, 20.0 ],
+					"patching_rect" : [ 2011.0, 114.0, 61.0, 22.0 ],
 					"style" : "",
 					"text" : "route text"
 				}
@@ -1688,7 +1688,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2011.0, 52.0, 74.0, 20.0 ],
+					"patching_rect" : [ 2011.0, 52.0, 74.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend set"
 				}
@@ -4429,6 +4429,7 @@
 , 			{
 				"box" : 				{
 					"bgfillcolor_angle" : 270.0,
+					"bgfillcolor_autogradient" : 0,
 					"bgfillcolor_color" : [ 0.0, 0.0, 0.0, 0.53 ],
 					"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 					"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -4494,6 +4495,7 @@
 , 			{
 				"box" : 				{
 					"bgfillcolor_angle" : 270.0,
+					"bgfillcolor_autogradient" : 0,
 					"bgfillcolor_color" : [ 0.0, 0.0, 0.0, 0.53 ],
 					"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 					"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -7003,14 +7005,14 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"0" : [ "museum_animals_1280x720 vimeo.mov", 2902.902832, 21446.447266, 600 ],
-										"1" : [ "museum_animals_1280x720 vimeo.mov", 21471.470703, 35485.484375, 600 ],
-										"2" : [ "museum_animals_1280x720 vimeo.mov", 35510.511719, 42167.167969, 600 ],
-										"3" : [ "museum_animals_1280x720 vimeo.mov", 42192.191406, 56106.105469, 600 ],
-										"4" : [ "museum_animals_1280x720 vimeo.mov", 56206.207031, 75625.625, 600 ],
-										"5" : [ "museum_animals_1280x720 vimeo.mov", 75650.648438, 94694.695312, 600 ],
-										"6" : "none",
-										"7" : [ "museum_animals_1280x720 vimeo.mov", 13663, 21446, 600 ]
+										"0" : [ "Mt Greylock 00076.mov", 1160000, 2759000 ],
+										"1" : [ "Mt Greylock 00080.mov", 420000, 1410000 ],
+										"2" : [ "Mt Greylock 00079.mov", 0, 1321000 ],
+										"3" : [ "Mt Greylock 00078.mov", 488000, 1346000 ],
+										"4" : [ "2013-08-24 11_17_05 (id).mov", 0, 523000 ],
+										"5" : [ "2013-08-24 11_07_40 (id).mov", 0, 5401000 ],
+										"6" : [ "2013-08-25 13_45_38 (id).mov", 0, 1927000 ],
+										"7" : [ "2013-08-25 13_44_00 (id).mov", 234000, 0 ]
 									}
 ,
 									"fontname" : "Arial",
@@ -7034,14 +7036,14 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"0" : [ "2012-12-29 23_14_07 (id) proj.mov", 0, 883000 ],
-										"1" : [ "2012-12-29 23_15_02 (id) proj.mov", 0, 613000 ],
-										"2" : [ "2012-12-29 23_19_32 (id) proj.mov", 0, 1261000 ],
-										"3" : [ "2012-12-29 23_21_17 (id) proj.mov", 0, 1243000 ],
-										"4" : [ "2012-12-29 23_41_24 (id) proj.mov", 0, 3637000 ],
-										"5" : [ "2012-12-29 23_22_34 (id) proj.mov", 0, 1063000 ],
-										"6" : [ "2012-12-29 23_45_30 (id) proj.mov", 0, 1243000 ],
-										"7" : [ "2012-12-29 23_47_35 (id) proj.mov", 0, 973000 ]
+										"0" : [ "PVD highway sunset 00025.mov", 390000, 0 ],
+										"1" : [ "Ice Skating Jan 2013 high(4.3Mbps).mov", 27407.408203, 57297.296875, 600 ],
+										"2" : [ "Truro 00004.mov", 0, 514600 ],
+										"3" : [ "Ice Skating Jan 2013 high(4.3Mbps).mov", 58538.539062, 90310.3125, 600 ],
+										"4" : [ "Ice Skating Jan 2013 high(4.3Mbps).mov", 123963.960938, 132052.046875, 600 ],
+										"5" : [ "2012-12-28 08_37_25 (id) proj.mov", 0, 960000 ],
+										"6" : [ "2012-12-28 08_37_25 (id) proj.mov", 1540000, 2718000 ],
+										"7" : [ "PVD highway sunset 00021.mov", 981000, 0 ]
 									}
 ,
 									"fontname" : "Arial",
@@ -7065,14 +7067,14 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"0" : [ "museum_animals_1280x720 vimeo.mov", 2902.902832, 21446.447266, 600 ],
-										"1" : [ "museum_animals_1280x720 vimeo.mov", 21471.470703, 35485.484375, 600 ],
-										"2" : [ "museum_animals_1280x720 vimeo.mov", 35510.511719, 42167.167969, 600 ],
-										"3" : [ "museum_animals_1280x720 vimeo.mov", 42192.191406, 56106.105469, 600 ],
-										"4" : [ "museum_animals_1280x720 vimeo.mov", 56206.207031, 75625.625, 600 ],
-										"5" : [ "museum_animals_1280x720 vimeo.mov", 75650.648438, 94694.695312, 600 ],
-										"6" : "none",
-										"7" : [ "museum_animals_1280x720 vimeo.mov", 13663, 21446, 600 ]
+										"0" : [ "Mt Greylock 00076.mov", 1160000, 2759000 ],
+										"1" : [ "Mt Greylock 00080.mov", 420000, 1410000 ],
+										"2" : [ "Mt Greylock 00079.mov", 0, 1321000 ],
+										"3" : [ "Mt Greylock 00078.mov", 488000, 1346000 ],
+										"4" : [ "2013-08-24 11_17_05 (id).mov", 0, 523000 ],
+										"5" : [ "2013-08-24 11_07_40 (id).mov", 0, 5401000 ],
+										"6" : [ "2013-08-25 13_45_38 (id).mov", 0, 1927000 ],
+										"7" : [ "2013-08-25 13_44_00 (id).mov", 234000, 0 ]
 									}
 ,
 									"fontname" : "Arial",
@@ -7096,14 +7098,14 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"0" : [ "2012-12-29 23_14_07 (id) proj.mov", 0, 883000 ],
-										"1" : [ "2012-12-29 23_15_02 (id) proj.mov", 0, 613000 ],
-										"2" : [ "2012-12-29 23_19_32 (id) proj.mov", 0, 1261000 ],
-										"3" : [ "2012-12-29 23_21_17 (id) proj.mov", 0, 1243000 ],
-										"4" : [ "2012-12-29 23_41_24 (id) proj.mov", 0, 3637000 ],
-										"5" : [ "2012-12-29 23_22_34 (id) proj.mov", 0, 1063000 ],
-										"6" : [ "2012-12-29 23_45_30 (id) proj.mov", 0, 1243000 ],
-										"7" : [ "2012-12-29 23_47_35 (id) proj.mov", 0, 973000 ]
+										"0" : [ "PVD highway sunset 00025.mov", 390000, 0 ],
+										"1" : [ "Ice Skating Jan 2013 high(4.3Mbps).mov", 27407.408203, 57297.296875, 600 ],
+										"2" : [ "Truro 00004.mov", 0, 514600 ],
+										"3" : [ "Ice Skating Jan 2013 high(4.3Mbps).mov", 58538.539062, 90310.3125, 600 ],
+										"4" : [ "Ice Skating Jan 2013 high(4.3Mbps).mov", 123963.960938, 132052.046875, 600 ],
+										"5" : [ "2012-12-28 08_37_25 (id) proj.mov", 0, 960000 ],
+										"6" : [ "2012-12-28 08_37_25 (id) proj.mov", 1540000, 2718000 ],
+										"7" : [ "PVD highway sunset 00021.mov", 981000, 0 ]
 									}
 ,
 									"fontname" : "Arial",
@@ -11992,7 +11994,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 702.574951, 599.0, 147.0, 22.0 ],
+					"patching_rect" : [ 756.0, 635.5, 147.0, 22.0 ],
 					"style" : "",
 					"text" : "rateCTL 24 69 13 5 10 38"
 				}
@@ -14045,6 +14047,7 @@
 , 			{
 				"box" : 				{
 					"bgfillcolor_angle" : 270.0,
+					"bgfillcolor_autogradient" : 0,
 					"bgfillcolor_color" : [ 0.990547, 0.52399, 0.537487, 1.0 ],
 					"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 					"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -16277,7 +16280,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1232.5, 209.0, 36.5, 22.0 ],
+					"patching_rect" : [ 1232.5, 209.0, 37.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1547.0, 499.25, 30.0, 22.0 ],
 					"style" : "",
@@ -16402,7 +16405,7 @@
 					"patching_rect" : [ 1488.0, 1174.936523, 176.0, 68.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1301.0, 117.0, 175.0, 60.0 ],
-					"saturation" : 0.0,
+					"saturation" : 1.0,
 					"varname" : "masterHueLightness"
 				}
 
@@ -16488,20 +16491,20 @@
 					"patching_rect" : [ 1276.5, 48.0, 216.0, 22.0 ],
 					"restore" : 					{
 						"bright" : [ 1.0 ],
-						"compositeAmount" : [ 0.708772 ],
-						"compositeMode" : [ 1 ],
+						"compositeAmount" : [ 1.307087 ],
+						"compositeMode" : [ 18 ],
 						"compositeRampTime" : [ 0 ],
 						"contrast" : [ 1.0 ],
-						"lumaDispAmpX" : [ 0.0 ],
-						"lumaDispAmpY" : [ 0.0 ],
-						"lumaDispOffsetX" : [ 0.0 ],
-						"lumaDispOffsetY" : [ 0.0 ],
-						"masterHueLightness" : [ 1.0, 1.0, 1.0, 1.0, 0.32, 0.0, 1.0 ],
-						"masterSaturation" : [ 0.0 ],
+						"lumaDispAmpX" : [ -0.022744 ],
+						"lumaDispAmpY" : [ -0.156182 ],
+						"lumaDispOffsetX" : [ 0.190723 ],
+						"lumaDispOffsetY" : [ -0.027145 ],
+						"masterHueLightness" : [ 1.0, 1.0, 1.0, 1.0, 0.354286, 1.0, 1.0 ],
+						"masterSaturation" : [ 1.0 ],
 						"rateL" : [ 1.0 ],
 						"rateR" : [ 1.0 ],
 						"sat" : [ 1.022047 ],
-						"slideDown" : [ 1.0 ],
+						"slideDown" : [ 2.0 ],
 						"slideUp" : [ 1.0 ]
 					}
 ,
@@ -20986,7 +20989,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1134.0, 589.5, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 440.083374, 449.75, 63.25, 22.0 ],
+					"presentation_rect" : [ 440.083374, 449.75, 64.0, 22.0 ],
 					"style" : "",
 					"varname" : "compositeRampTime"
 				}
@@ -21731,7 +21734,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1019.0, 688.0, 54.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 440.083374, 397.5, 63.542236, 23.0 ],
+					"presentation_rect" : [ 440.083374, 397.5, 64.0, 23.0 ],
 					"style" : "",
 					"varname" : "compositeAmount"
 				}
@@ -22174,9 +22177,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1589.914917, 535.0, 86.585083, 22.0 ],
+					"patching_rect" : [ 1589.914917, 535.0, 87.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1301.0, 43.0, 81.25, 22.0 ],
+					"presentation_rect" : [ 1301.0, 43.0, 82.0, 22.0 ],
 					"style" : "",
 					"text_width" : 44.085083
 				}
@@ -25700,8 +25703,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-318::obj-29" : [ "live.toggle[3]", "live.toggle", 0 ],
-			"obj-289::obj-29" : [ "live.toggle[2]", "live.toggle", 0 ]
+			"obj-289::obj-29" : [ "live.toggle[2]", "live.toggle", 0 ],
+			"obj-318::obj-29" : [ "live.toggle[3]", "live.toggle", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -25833,10 +25836,10 @@
 		"styles" : [ 			{
 				"name" : "Classic Gray 1",
 				"default" : 				{
-					"accentcolor" : [ 0.539031, 0.555365, 0.555365, 1.0 ],
-					"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
-					"elementcolor" : [ 0.920998, 0.920998, 0.920998, 1.0 ],
 					"bgcolor" : [ 0.915677, 0.915677, 0.915677, 1.0 ],
+					"accentcolor" : [ 0.539031, 0.555365, 0.555365, 1.0 ],
+					"elementcolor" : [ 0.920998, 0.920998, 0.920998, 1.0 ],
+					"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
@@ -25856,10 +25859,11 @@
 , 			{
 				"name" : "videoEditor",
 				"default" : 				{
-					"color" : [ 0.183995, 0.910435, 0.147968, 1.0 ],
-					"elementcolor" : [ 0.292112, 0.292112, 0.292112, 1.0 ],
-					"selectioncolor" : [ 0.815686, 0.858824, 0.34902, 1.0 ],
 					"bgcolor" : [ 0.176977, 0.176977, 0.176977, 1.0 ],
+					"elementcolor" : [ 0.292112, 0.292112, 0.292112, 1.0 ],
+					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"selectioncolor" : [ 0.815686, 0.858824, 0.34902, 1.0 ],
+					"color" : [ 0.183995, 0.910435, 0.147968, 1.0 ],
 					"textcolor_inverse" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
@@ -25870,8 +25874,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "velvet",
