@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
-			"revision" : 1,
+			"minor" : 1,
+			"revision" : 0,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -88,8 +88,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 1,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -303,7 +303,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1692.166626, 306.984497, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1644.75, 546.0, 29.5, 22.0 ],
+					"presentation_rect" : [ 1644.75, 546.0, 30.0, 22.0 ],
 					"style" : "",
 					"triangle" : 0
 				}
@@ -428,8 +428,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 1,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -800,7 +800,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
 					"patching_rect" : [ 2033.951294, 209.984497, 49.0, 22.0 ],
-					"presentation_rect" : [ 429.451294, 1349.984375, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "ctlin 20"
 				}
@@ -816,7 +815,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2033.951294, 178.5, 121.0, 22.0 ],
-					"presentation_rect" : [ 429.451294, 1318.499878, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "r cartelVJFadersPort"
 				}
@@ -972,8 +970,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 1,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -1360,8 +1358,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 1,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -1663,8 +1661,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 1,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -1745,7 +1743,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
 									"patching_rect" : [ 329.0, 414.0, 35.0, 22.0 ],
-									"presentation_rect" : [ 499.0, 410.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "- 0.5"
 								}
@@ -1882,7 +1879,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "float" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 411.0, 10.0, 25.0, 25.0 ],
 									"style" : ""
 								}
@@ -2407,10 +2404,6 @@
 						"styles" : [ 							{
 								"name" : "Classic Gray 1",
 								"default" : 								{
-									"accentcolor" : [ 0.539031, 0.555365, 0.555365, 1.0 ],
-									"bgcolor" : [ 0.915677, 0.915677, 0.915677, 1.0 ],
-									"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -2421,7 +2414,11 @@
 										"autogradient" : 0
 									}
 ,
-									"elementcolor" : [ 0.920998, 0.920998, 0.920998, 1.0 ]
+									"accentcolor" : [ 0.539031, 0.555365, 0.555365, 1.0 ],
+									"elementcolor" : [ 0.920998, 0.920998, 0.920998, 1.0 ],
+									"bgcolor" : [ 0.915677, 0.915677, 0.915677, 1.0 ],
+									"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2440,11 +2437,11 @@
 , 							{
 								"name" : "Green Lantern",
 								"default" : 								{
-									"selectioncolor" : [ 0.831373, 1.0, 0.0, 1.0 ],
 									"accentcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
+									"elementcolor" : [ 0.613943, 1.0, 0.0, 1.0 ],
 									"bgcolor" : [ 0.0, 0.435294, 0.0, 1.0 ],
-									"color" : [ 0.0, 0.665647, 0.0, 1.0 ],
-									"elementcolor" : [ 0.613943, 1.0, 0.0, 1.0 ]
+									"selectioncolor" : [ 0.831373, 1.0, 0.0, 1.0 ],
+									"color" : [ 0.0, 0.665647, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2453,9 +2450,9 @@
 , 							{
 								"name" : "Green Lantern Inverse",
 								"default" : 								{
+									"elementcolor" : [ 0.0, 0.665647, 0.0, 1.0 ],
 									"color" : [ 0.613943, 1.0, 0.0, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"elementcolor" : [ 0.0, 0.665647, 0.0, 1.0 ]
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2464,11 +2461,6 @@
 , 							{
 								"name" : "videoEditor",
 								"default" : 								{
-									"selectioncolor" : [ 0.815686, 0.858824, 0.34902, 1.0 ],
-									"bgcolor" : [ 0.176977, 0.176977, 0.176977, 1.0 ],
-									"color" : [ 0.183995, 0.910435, 0.147968, 1.0 ],
-									"textcolor_inverse" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -2479,7 +2471,12 @@
 										"autogradient" : 0
 									}
 ,
-									"elementcolor" : [ 0.292112, 0.292112, 0.292112, 1.0 ]
+									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+									"elementcolor" : [ 0.292112, 0.292112, 0.292112, 1.0 ],
+									"bgcolor" : [ 0.176977, 0.176977, 0.176977, 1.0 ],
+									"selectioncolor" : [ 0.815686, 0.858824, 0.34902, 1.0 ],
+									"color" : [ 0.183995, 0.910435, 0.147968, 1.0 ],
+									"textcolor_inverse" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 								}
 ,
 								"parentstyle" : "velvet",
@@ -2515,7 +2512,7 @@
 					"patching_rect" : [ 1273.5, 210.0, 129.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 1679.363159, 570.0, 90.088013, 33.0 ],
+					"presentation_rect" : [ 1679.363159, 570.0, 93.0, 33.0 ],
 					"style" : "",
 					"text" : "stored (Sustain Pedal)"
 				}
@@ -2662,8 +2659,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 1,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -3196,9 +3193,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "atp.trackpadControl.maxpat",
 					"numinlets" : 3,
-					"numoutlets" : 4,
+					"numoutlets" : 5,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "", "", "", "" ],
+					"outlettype" : [ "", "", "", "", "int" ],
 					"patching_rect" : [ 1879.0, 729.0, 186.0, 57.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 973.75, 872.0, 186.0, 55.0 ],
@@ -3220,9 +3217,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "atp.trackpadControl.maxpat",
 					"numinlets" : 3,
-					"numoutlets" : 4,
+					"numoutlets" : 5,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "", "", "", "" ],
+					"outlettype" : [ "", "", "", "", "int" ],
 					"patching_rect" : [ 1879.0, 648.5, 186.0, 57.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 736.25, 872.0, 186.0, 55.0 ],
@@ -3489,8 +3486,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 1,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -3718,8 +3715,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 1,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -4208,8 +4205,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 1,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -4698,8 +4695,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 1,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -5230,6 +5227,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.53 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0,
 					"bgfillcolor_color" : [ 0.0, 0.0, 0.0, 0.53 ],
@@ -5294,6 +5292,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.53 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0,
 					"bgfillcolor_color" : [ 0.0, 0.0, 0.0, 0.53 ],
@@ -5414,8 +5413,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 1,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -5639,8 +5638,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 0,
-											"revision" : 1,
+											"minor" : 1,
+											"revision" : 0,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -6583,8 +6582,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 1,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -6872,8 +6871,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 0,
-											"revision" : 1,
+											"minor" : 1,
+											"revision" : 0,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -7270,8 +7269,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 0,
-											"revision" : 1,
+											"minor" : 1,
+											"revision" : 0,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -9068,8 +9067,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 1,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -9423,8 +9422,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 0,
-											"revision" : 1,
+											"minor" : 1,
+											"revision" : 0,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -9685,8 +9684,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 0,
-											"revision" : 1,
+											"minor" : 1,
+											"revision" : 0,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -11543,10 +11542,6 @@
 						"styles" : [ 							{
 								"name" : "Classic Gray 1",
 								"default" : 								{
-									"accentcolor" : [ 0.539031, 0.555365, 0.555365, 1.0 ],
-									"bgcolor" : [ 0.915677, 0.915677, 0.915677, 1.0 ],
-									"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -11557,7 +11552,11 @@
 										"autogradient" : 0
 									}
 ,
-									"elementcolor" : [ 0.920998, 0.920998, 0.920998, 1.0 ]
+									"accentcolor" : [ 0.539031, 0.555365, 0.555365, 1.0 ],
+									"elementcolor" : [ 0.920998, 0.920998, 0.920998, 1.0 ],
+									"bgcolor" : [ 0.915677, 0.915677, 0.915677, 1.0 ],
+									"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -11576,11 +11575,11 @@
 , 							{
 								"name" : "Green Lantern",
 								"default" : 								{
-									"selectioncolor" : [ 0.831373, 1.0, 0.0, 1.0 ],
 									"accentcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
+									"elementcolor" : [ 0.613943, 1.0, 0.0, 1.0 ],
 									"bgcolor" : [ 0.0, 0.435294, 0.0, 1.0 ],
-									"color" : [ 0.0, 0.665647, 0.0, 1.0 ],
-									"elementcolor" : [ 0.613943, 1.0, 0.0, 1.0 ]
+									"selectioncolor" : [ 0.831373, 1.0, 0.0, 1.0 ],
+									"color" : [ 0.0, 0.665647, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -11589,9 +11588,9 @@
 , 							{
 								"name" : "Green Lantern Inverse",
 								"default" : 								{
+									"elementcolor" : [ 0.0, 0.665647, 0.0, 1.0 ],
 									"color" : [ 0.613943, 1.0, 0.0, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"elementcolor" : [ 0.0, 0.665647, 0.0, 1.0 ]
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -11600,11 +11599,6 @@
 , 							{
 								"name" : "videoEditor",
 								"default" : 								{
-									"selectioncolor" : [ 0.815686, 0.858824, 0.34902, 1.0 ],
-									"bgcolor" : [ 0.176977, 0.176977, 0.176977, 1.0 ],
-									"color" : [ 0.183995, 0.910435, 0.147968, 1.0 ],
-									"textcolor_inverse" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -11615,7 +11609,12 @@
 										"autogradient" : 0
 									}
 ,
-									"elementcolor" : [ 0.292112, 0.292112, 0.292112, 1.0 ]
+									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+									"elementcolor" : [ 0.292112, 0.292112, 0.292112, 1.0 ],
+									"bgcolor" : [ 0.176977, 0.176977, 0.176977, 1.0 ],
+									"selectioncolor" : [ 0.815686, 0.858824, 0.34902, 1.0 ],
+									"color" : [ 0.183995, 0.910435, 0.147968, 1.0 ],
+									"textcolor_inverse" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -11818,8 +11817,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 1,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -13096,8 +13095,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 1,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -13951,8 +13950,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 1,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -14190,8 +14189,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 0,
-											"revision" : 1,
+											"minor" : 1,
+											"revision" : 0,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -14870,6 +14869,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.990547, 0.52399, 0.537487, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0,
 					"bgfillcolor_color" : [ 0.990547, 0.52399, 0.537487, 1.0 ],
@@ -14911,6 +14911,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.798966, 1.0, 0.0, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.79,
 					"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -14920,6 +14921,7 @@
 					"bgfillcolor_type" : "gradient",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"gradient" : 0,
 					"id" : "obj-222",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -14947,8 +14949,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 1,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -15128,6 +15130,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.99334, 0.675996, 0.281368, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.79,
 					"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -15137,6 +15140,7 @@
 					"bgfillcolor_type" : "gradient",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"gradient" : 0,
 					"id" : "obj-210",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -15264,8 +15268,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 1,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -15321,7 +15325,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 728.0, 411.0, 50.0, 18.0 ],
 									"style" : "",
-									"text" : "101 0"
+									"text" : "26 8"
 								}
 
 							}
@@ -16000,7 +16004,7 @@
 				"box" : 				{
 					"fontsize" : 13.0,
 					"id" : "obj-177",
-					"items" : [ "IAC Driver Bus 1", ",", "IAC Driver Bus 2", ",", "Keyboard", ",", "LPK25", ",", "UHER MIDI", ",", "UltraLite Sync Port", ",", "SSCOM Port 1", ",", "SSCOM Port 2", ",", "QUNEO", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "IAC Driver Bus 1", ",", "IAC Driver Bus 2", ",", "IAC Driver To Mainstage", ",", "SSCOM Port 1", ",", "SSCOM Port 2", ",", "LPK25", ",", "QUNEO", ",", "UHER Stereo Mix", ",", "UltraLite Sync Port", ",", "Keystation 49", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -16041,8 +16045,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 1,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -16094,7 +16098,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 432.875, 570.0, 25.0, 25.0 ],
-									"presentation_rect" : [ 431.25, 571.0, 0.0, 0.0 ],
 									"style" : ""
 								}
 
@@ -16691,7 +16694,7 @@
 				"box" : 				{
 					"fontsize" : 13.0,
 					"id" : "obj-151",
-					"items" : [ "IAC Driver Bus 1", ",", "IAC Driver Bus 2", ",", "Keyboard", ",", "LPK25", ",", "UHER MIDI", ",", "UltraLite Sync Port", ",", "SSCOM Port 1", ",", "SSCOM Port 2", ",", "QUNEO", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "IAC Driver Bus 1", ",", "IAC Driver Bus 2", ",", "IAC Driver To Mainstage", ",", "SSCOM Port 1", ",", "SSCOM Port 2", ",", "LPK25", ",", "QUNEO", ",", "UHER Stereo Mix", ",", "UltraLite Sync Port", ",", "Keystation 49", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -16748,8 +16751,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 1,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -17121,7 +17124,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1232.5, 209.0, 37.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1644.75, 570.0, 29.5, 22.0 ],
+					"presentation_rect" : [ 1644.75, 570.0, 30.0, 22.0 ],
 					"style" : "",
 					"triangle" : 0
 				}
@@ -17317,7 +17320,7 @@
 					"patching_rect" : [ 1276.5, 48.0, 216.0, 22.0 ],
 					"restore" : 					{
 						"bright" : [ 1.0 ],
-						"compositeAmount" : [ 1.496063 ],
+						"compositeAmount" : [ 0.0 ],
 						"compositeMode" : [ 0 ],
 						"compositeRampTime" : [ 0 ],
 						"contrast" : [ 1.0 ],
@@ -17325,12 +17328,12 @@
 						"lumaDispAmpY" : [ 0.0 ],
 						"lumaDispOffsetX" : [ 0.0 ],
 						"lumaDispOffsetY" : [ 0.0 ],
-						"masterHueLightness" : [ 1.0, 1.0, 1.0, 1.0, 0.365714, 0.0, 1.0 ],
+						"masterHueLightness" : [ 1.0, 1.0, 1.0, 1.0, 0.0, 0.0, 1.0 ],
 						"masterSaturation" : [ 0.0 ],
-						"rateL" : [ 2.0 ],
-						"rateR" : [ 2.0 ],
-						"sat" : [ 0.692913 ],
-						"slideDown" : [ 1.232224 ],
+						"rateL" : [ 1.0 ],
+						"rateR" : [ 1.0 ],
+						"sat" : [ 1.0 ],
+						"slideDown" : [ 1.0 ],
 						"slideUp" : [ 1.0 ]
 					}
 ,
@@ -17589,13 +17592,13 @@
 					"maxclass" : "newobj",
 					"numinlets" : 6,
 					"numoutlets" : 10,
-					"outlettype" : [ "float", "", "", "float", "", "", "", "", "", "" ],
+					"outlettype" : [ "", "", "", "", "", "", "", "", "", "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 1,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -17695,13 +17698,13 @@
 									"maxclass" : "newobj",
 									"numinlets" : 5,
 									"numoutlets" : 3,
-									"outlettype" : [ "float", "", "" ],
+									"outlettype" : [ "", "", "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 0,
-											"revision" : 1,
+											"minor" : 1,
+											"revision" : 0,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -18238,13 +18241,13 @@
 									"maxclass" : "newobj",
 									"numinlets" : 5,
 									"numoutlets" : 3,
-									"outlettype" : [ "float", "", "" ],
+									"outlettype" : [ "", "", "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 0,
-											"revision" : 1,
+											"minor" : 1,
+											"revision" : 0,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -22124,6 +22127,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 21.0, 628.0, 120.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 311.500031, 261.5, 120.0, 22.0 ],
 					"style" : "",
 					"text" : "movieMakerPlayer 0"
 				}
@@ -26685,119 +26690,103 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-289::obj-29" : [ "live.toggle[2]", "live.toggle", 0 ],
-			"obj-318::obj-29" : [ "live.toggle[3]", "live.toggle", 0 ]
+			"obj-318::obj-29" : [ "live.toggle[3]", "live.toggle", 0 ],
+			"obj-289::obj-29" : [ "live.toggle[2]", "live.toggle", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "cartelVJProcesschain.maxpat",
 				"bootpath" : "~/Performances/Cartel VJ",
-				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "atp.dataLoopRec.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/atp.abstractions/patchers",
-				"patcherrelativepath" : "../../Documents/Max 7/Packages/atp.abstractions/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "atp.timestampYMDHMS.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/atp.abstractions/patchers",
-				"patcherrelativepath" : "../../Documents/Max 7/Packages/atp.abstractions/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "arvidClipSelectorControl.maxpat",
 				"bootpath" : "~/Performances/Cartel VJ",
-				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "movieMakerPlayer.maxpat",
 				"bootpath" : "~/Performances/Cartel VJ",
-				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "atp.+=.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/atp.abstractions/patchers",
-				"patcherrelativepath" : "../../Documents/Max 7/Packages/atp.abstractions/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "moviePolyAvf.maxpat",
 				"bootpath" : "~/Performances/Cartel VJ",
-				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "trackpadRotaCtrl.js",
 				"bootpath" : "~/Performances/Cartel VJ",
-				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nada.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/atp.abstractions/patchers",
-				"patcherrelativepath" : "../../Documents/Max 7/Packages/atp.abstractions/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "atp.slideline.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/atp.abstractions/patchers",
-				"patcherrelativepath" : "../../Documents/Max 7/Packages/atp.abstractions/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "arvidCartelVJPresets.json",
 				"bootpath" : "~/Performances/Cartel VJ",
-				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rateCTL.maxpat",
 				"bootpath" : "~/Performances/Cartel VJ",
-				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "atp.optionf.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/atp.abstractions/patchers",
-				"patcherrelativepath" : "../../Documents/Max 7/Packages/atp.abstractions/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "atp.patchPath.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/atp.abstractions/patchers",
-				"patcherrelativepath" : "../../Documents/Max 7/Packages/atp.abstractions/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "atp.trackpadControl.maxpat",
 				"bootpath" : "~/Documents/Max 7/Library/Arvid Common Patches",
-				"patcherrelativepath" : "../../Documents/Max 7/Library/Arvid Common Patches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "atp.trackpadMapping.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/atp.abstractions/patchers",
-				"patcherrelativepath" : "../../Documents/Max 7/Packages/atp.abstractions/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -26814,14 +26803,10 @@
 				"type" : "iLaX"
 			}
  ],
-		"embedsnapshot" : 0,
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "Classic Gray 1",
 				"default" : 				{
-					"accentcolor" : [ 0.539031, 0.555365, 0.555365, 1.0 ],
-					"bgcolor" : [ 0.915677, 0.915677, 0.915677, 1.0 ],
-					"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -26832,7 +26817,11 @@
 						"autogradient" : 0
 					}
 ,
-					"elementcolor" : [ 0.920998, 0.920998, 0.920998, 1.0 ]
+					"accentcolor" : [ 0.539031, 0.555365, 0.555365, 1.0 ],
+					"elementcolor" : [ 0.920998, 0.920998, 0.920998, 1.0 ],
+					"bgcolor" : [ 0.915677, 0.915677, 0.915677, 1.0 ],
+					"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -26851,11 +26840,11 @@
 , 			{
 				"name" : "Green Lantern",
 				"default" : 				{
-					"selectioncolor" : [ 0.831373, 1.0, 0.0, 1.0 ],
 					"accentcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
+					"elementcolor" : [ 0.613943, 1.0, 0.0, 1.0 ],
 					"bgcolor" : [ 0.0, 0.435294, 0.0, 1.0 ],
-					"color" : [ 0.0, 0.665647, 0.0, 1.0 ],
-					"elementcolor" : [ 0.613943, 1.0, 0.0, 1.0 ]
+					"selectioncolor" : [ 0.831373, 1.0, 0.0, 1.0 ],
+					"color" : [ 0.0, 0.665647, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -26864,9 +26853,9 @@
 , 			{
 				"name" : "Green Lantern Inverse",
 				"default" : 				{
+					"elementcolor" : [ 0.0, 0.665647, 0.0, 1.0 ],
 					"color" : [ 0.613943, 1.0, 0.0, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.0, 0.665647, 0.0, 1.0 ]
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -26875,11 +26864,6 @@
 , 			{
 				"name" : "videoEditor",
 				"default" : 				{
-					"selectioncolor" : [ 0.815686, 0.858824, 0.34902, 1.0 ],
-					"bgcolor" : [ 0.176977, 0.176977, 0.176977, 1.0 ],
-					"color" : [ 0.183995, 0.910435, 0.147968, 1.0 ],
-					"textcolor_inverse" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -26890,7 +26874,12 @@
 						"autogradient" : 0
 					}
 ,
-					"elementcolor" : [ 0.292112, 0.292112, 0.292112, 1.0 ]
+					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"elementcolor" : [ 0.292112, 0.292112, 0.292112, 1.0 ],
+					"bgcolor" : [ 0.176977, 0.176977, 0.176977, 1.0 ],
+					"selectioncolor" : [ 0.815686, 0.858824, 0.34902, 1.0 ],
+					"color" : [ 0.183995, 0.910435, 0.147968, 1.0 ],
+					"textcolor_inverse" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}
 ,
 				"parentstyle" : "velvet",
