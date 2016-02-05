@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 706.0, 349.0, 1133.0, 787.0 ],
+		"rect" : [ 578.0, 322.0, 1133.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,21 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-76",
+					"maxclass" : "jit.fpsgui",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 64.0, 686.0, 80.0, 35.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-71",
 					"maxclass" : "comment",
@@ -338,7 +353,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 23.0, 420.0, 66.0, 23.0 ],
 					"style" : "",
-					"text" : "qmetro 5"
+					"text" : "qmetro 2"
 				}
 
 			}
@@ -455,7 +470,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 1349.0, 415.0, 437.0, 32.0 ],
+						"rect" : [ 1221.0, 388.0, 437.0, 32.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -599,7 +614,7 @@
 									"presentation_rect" : [ 4.0, 6.0, 397.0, 19.0 ],
 									"rounded" : 6.0,
 									"style" : "chiba",
-									"text" : "\"Sharktopus:/Video Library-ProRes/canoe cadillac/\""
+									"text" : "\"CuttlefishCluster:/Users/arvid/Desktop/vid test/\""
 								}
 
 							}
@@ -847,7 +862,7 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 679.0, 627.0, 431.0, 34.0 ],
-					"size" : 2643641.0,
+					"size" : 70300.0,
 					"style" : ""
 				}
 
@@ -1166,14 +1181,14 @@
 									"depth" : 4,
 									"fontsize" : 13.0,
 									"id" : "obj-15",
-									"items" : [ "2013-07-27 14-30-21.mov", ",", "2013-07-27 14-33-16.mov", ",", "2013-07-27 14-45-27.mov", ",", "2013-07-27 14-54-53.mov", ",", "2013-07-27 15-04-59.mov", ",", "2013-07-27 15-34-30.mov", ",", "2013-07-27 15-37-04.mov" ],
+									"items" : [ "2012-12-28 08_37_25 (id).mov", ",", "2012-12-28 08_40_44 (id).mov", ",", "2012-12-28 08_43_55 (id).mov", ",", "2012-12-28 08_46_01 (id).mov", ",", "2012-12-28 08_54_29 (id).mov", ",", "2012-12-28 10_58_42 (id).mov", ",", "2012-12-28 10_59_01 (id).mov", ",", "2012-12-28 11_18_59 (id).mov" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 312.0, 187.0, 333.5, 23.0 ],
-									"prefix" : "Sharktopus:/Video Library-ProRes/canoe cadillac/",
+									"prefix" : "CuttlefishCluster:/Users/arvid/Desktop/vid test/",
 									"style" : "",
 									"types" : "MooV"
 								}
@@ -2259,6 +2274,15 @@
 					"hidden" : 0,
 					"midpoints" : [ 693.5, 759.0, 210.0, 759.0, 210.0, 354.0, 233.5, 354.0 ],
 					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-76", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-30", 0 ]
 				}
 
 			}
