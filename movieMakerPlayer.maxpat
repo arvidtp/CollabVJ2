@@ -38,6 +38,20 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"format" : 6,
+					"id" : "obj-122",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 801.0, 595.0, 50.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-116",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -58,8 +72,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 25.5, 1066.0, 105.0, 22.0 ],
-					"presentation_rect" : [ 812.5, 710.5, 0.0, 0.0 ],
+					"patching_rect" : [ 288.0, 1112.0, 105.0, 22.0 ],
 					"style" : "",
 					"text" : "r arvidRenderTick"
 				}
@@ -74,7 +87,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 32.5, 1125.5, 91.0, 22.0 ],
+					"patching_rect" : [ 288.0, 1177.5, 91.0, 22.0 ],
 					"style" : "",
 					"text" : "target $1, bang"
 				}
@@ -89,7 +102,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 32.5, 1094.5, 25.0, 22.0 ],
+					"patching_rect" : [ 288.0, 1146.5, 25.0, 22.0 ],
 					"style" : "",
 					"text" : "i 1"
 				}
@@ -207,7 +220,7 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 762.333252, 1519.0, 217.0, 42.0 ],
-					"size" : 550550.0,
+					"size" : 2071000.0,
 					"style" : ""
 				}
 
@@ -2896,7 +2909,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 413.166656, 1295.774536, 25.0, 25.0 ],
+					"patching_rect" : [ 413.166656, 1328.774536, 25.0, 25.0 ],
 					"style" : ""
 				}
 
@@ -3749,6 +3762,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-114", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-104", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -3840,7 +3862,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-162", 0 ],
-					"disabled" : 0,
+					"disabled" : 1,
 					"hidden" : 0,
 					"source" : [ "obj-133", 0 ]
 				}
@@ -4802,6 +4824,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-122", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-80", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-149", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -5092,6 +5123,11 @@
 		"styles" : [ 			{
 				"name" : "Classic Gray 1",
 				"default" : 				{
+					"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
+					"bgcolor" : [ 0.915677, 0.915677, 0.915677, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"accentcolor" : [ 0.539031, 0.555365, 0.555365, 1.0 ],
+					"elementcolor" : [ 0.920998, 0.920998, 0.920998, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -5101,12 +5137,41 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
+
+				}
 ,
-					"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "Green Grocer",
+				"default" : 				{
+					"elementcolor" : [ 0.055315, 0.304887, 0.042868, 1.0 ],
+					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
+				}
+,
+				"parentstyle" : "Green Lantern",
+				"multi" : 0
+			}
+, 			{
+				"name" : "Green Lantern",
+				"default" : 				{
+					"color" : [ 0.0, 0.665647, 0.0, 1.0 ],
+					"selectioncolor" : [ 0.831373, 1.0, 0.0, 1.0 ],
+					"bgcolor" : [ 0.0, 0.435294, 0.0, 1.0 ],
+					"accentcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
+					"elementcolor" : [ 0.613943, 1.0, 0.0, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "Green Lantern Inverse",
+				"default" : 				{
+					"color" : [ 0.613943, 1.0, 0.0, 1.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"accentcolor" : [ 0.539031, 0.555365, 0.555365, 1.0 ],
-					"elementcolor" : [ 0.920998, 0.920998, 0.920998, 1.0 ],
-					"bgcolor" : [ 0.915677, 0.915677, 0.915677, 1.0 ]
+					"elementcolor" : [ 0.0, 0.665647, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -5115,6 +5180,12 @@
 , 			{
 				"name" : "videoEditor",
 				"default" : 				{
+					"color" : [ 0.183995, 0.910435, 0.147968, 1.0 ],
+					"selectioncolor" : [ 0.815686, 0.858824, 0.34902, 1.0 ],
+					"bgcolor" : [ 0.176977, 0.176977, 0.176977, 1.0 ],
+					"textcolor_inverse" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"elementcolor" : [ 0.292112, 0.292112, 0.292112, 1.0 ],
+					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -5124,13 +5195,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 0.183995, 0.910435, 0.147968, 1.0 ],
-					"selectioncolor" : [ 0.815686, 0.858824, 0.34902, 1.0 ],
-					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-					"textcolor_inverse" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-					"elementcolor" : [ 0.292112, 0.292112, 0.292112, 1.0 ],
-					"bgcolor" : [ 0.176977, 0.176977, 0.176977, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
