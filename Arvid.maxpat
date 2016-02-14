@@ -40,6 +40,37 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-351",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 366.0, 244.0, 177.0, 23.0 ],
+					"presentation_rect" : [ 367.518738, 244.5, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "clearchecks, checkitem $1 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-119",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 670.518738, 239.5, 177.0, 23.0 ],
+					"style" : "",
+					"text" : "clearchecks, checkitem $1 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-354",
 					"maxclass" : "slider",
 					"numinlets" : 1,
@@ -4604,9 +4635,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1429.25, 394.0, 82.0, 22.0 ],
+					"patching_rect" : [ 1429.25, 394.0, 90.0, 22.0 ],
 					"style" : "",
-					"text" : "loadmess 48."
+					"text" : "loadmess 500."
 				}
 
 			}
@@ -6388,7 +6419,7 @@
 					"bgfillcolor_type" : "color",
 					"fontsize" : 13.0,
 					"id" : "obj-283",
-					"items" : [ "assortment 1", ",", "mountain rivers", ",", "beach", ",", "backyard fisheye", ",", "canoe cadillac", ",", "bus lights blur", ",", "night driving", ",", "risd nature lab", ",", "bees", ",", "museum animals", ",", "water textures", ",", "edelweiss", ",", "clouds from the air", ",", "pigeons snow roof", ",", "pvd snow 1", ",", "pvd snow 2", ",", "live animals", ",", "catamount trail snow", ",", "mountains", ",", "colorado", ",", "canyonlands 1", ",", "arches 1", ",", "pvd sunset", ",", "pvd sunset highway", ",", "ice skating", ",", "fireworks with fx", ",", "driving in canada", ",", "lights 1", ",", "woods", ",", "truro", ",", "provincetown", ",", "zzz provincetown 360 - DO NOT USE!!!", ",", "poof", ",", "fire", ",", "pipes", ",", "white mtns", ",", "pvd water" ],
+					"items" : [ "assortment 1", ",", "mountain rivers", ",", "beach", ",", "backyard fisheye", ",", "canoe cadillac", ",", "bus lights blur", ",", "night driving", ",", "risd nature lab", ",", "bees", ",", "museum animals", ",", "water textures", ",", "edelweiss", ",", "clouds from the air", ",", "pigeons snow roof", ",", "pvd snow 1", ",", "pvd snow 2", ",", "live animals", ",", "catamount trail snow", ",", "mountains", ",", "colorado", ",", "canyonlands 1", ",", "arches 1", ",", "pvd sunset", ",", "pvd sunset highway", ",", "ice skating", ",", "fireworks with fx", ",", "driving in canada", ",", "lights 1", ",", "woods", ",", "truro", ",", "provincetown", ",", "poof", ",", "fire", ",", "pipes", ",", "white mtns", ",", "pvd water", ",", "zzz provincetown 360 - DO NOT USE!!!" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -6453,7 +6484,7 @@
 					"bgfillcolor_type" : "color",
 					"fontsize" : 13.0,
 					"id" : "obj-281",
-					"items" : [ "assortment 1", ",", "mountain rivers", ",", "beach", ",", "backyard fisheye", ",", "canoe cadillac", ",", "bus lights blur", ",", "night driving", ",", "risd nature lab", ",", "bees", ",", "museum animals", ",", "water textures", ",", "edelweiss", ",", "clouds from the air", ",", "pigeons snow roof", ",", "pvd snow 1", ",", "pvd snow 2", ",", "live animals", ",", "catamount trail snow", ",", "mountains", ",", "colorado", ",", "canyonlands 1", ",", "arches 1", ",", "pvd sunset", ",", "pvd sunset highway", ",", "ice skating", ",", "fireworks with fx", ",", "driving in canada", ",", "lights 1", ",", "woods", ",", "truro", ",", "provincetown", ",", "zzz provincetown 360 - DO NOT USE!!!", ",", "poof", ",", "fire", ",", "pipes", ",", "white mtns", ",", "pvd water" ],
+					"items" : [ "assortment 1", ",", "mountain rivers", ",", "beach", ",", "backyard fisheye", ",", "canoe cadillac", ",", "bus lights blur", ",", "night driving", ",", "risd nature lab", ",", "bees", ",", "museum animals", ",", "water textures", ",", "edelweiss", ",", "clouds from the air", ",", "pigeons snow roof", ",", "pvd snow 1", ",", "pvd snow 2", ",", "live animals", ",", "catamount trail snow", ",", "mountains", ",", "colorado", ",", "canyonlands 1", ",", "arches 1", ",", "pvd sunset", ",", "pvd sunset highway", ",", "ice skating", ",", "fireworks with fx", ",", "driving in canada", ",", "lights 1", ",", "woods", ",", "truro", ",", "provincetown", ",", "poof", ",", "fire", ",", "pipes", ",", "white mtns", ",", "pvd water", ",", "zzz provincetown 360 - DO NOT USE!!!" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -6570,7 +6601,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 431.0, 184.0, 823.0, 651.0 ],
+						"rect" : [ 602.0, 281.0, 823.0, 651.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -6795,7 +6826,7 @@
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 819.0, 46.0, 433.0, 294.0 ],
+										"rect" : [ 819.0, 79.0, 433.0, 294.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 13.0,
@@ -6831,7 +6862,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 75.0, 115.0, 62.0, 22.0 ],
+													"patching_rect" : [ 75.0, 115.0, 62.0, 24.0 ],
 													"style" : "",
 													"text" : "tosymbol"
 												}
@@ -6846,7 +6877,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 75.0, 145.0, 46.0, 20.0 ],
+													"patching_rect" : [ 75.0, 145.0, 46.0, 24.0 ],
 													"style" : "",
 													"text" : "get $1"
 												}
@@ -6861,7 +6892,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 305.0, 70.0, 95.0, 22.0 ],
+													"patching_rect" : [ 305.0, 70.0, 95.0, 24.0 ],
 													"style" : "",
 													"text" : "loadmess clear"
 												}
@@ -6914,7 +6945,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 165.0, 155.0, 104.0, 22.0 ],
+													"patching_rect" : [ 165.0, 155.0, 104.0, 24.0 ],
 													"style" : "",
 													"text" : "prepend append"
 												}
@@ -6929,7 +6960,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 165.0, 130.0, 28.0, 22.0 ],
+													"patching_rect" : [ 165.0, 130.0, 28.0, 24.0 ],
 													"style" : "",
 													"text" : "iter"
 												}
@@ -6944,7 +6975,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "clear" ],
-													"patching_rect" : [ 165.0, 105.0, 51.0, 22.0 ],
+													"patching_rect" : [ 165.0, 105.0, 51.0, 24.0 ],
 													"style" : "",
 													"text" : "t l clear"
 												}
@@ -7357,6 +7388,8 @@
 					}
 ,
 					"patching_rect" : [ 111.0, 1228.219727, 128.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 7.5, 917.219727, 128.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -8939,14 +8972,14 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"0" : [ "naturelab 00080.mov", 0, 889000 ],
-										"1" : [ "White Deer - HD 720p.mov", 1102, 2291, 600 ],
-										"2" : [ "Truro 00004.mov", 18800, 140200, 2997 ],
-										"3" : [ "Truro 00004.mov", 174500, 304400, 2997 ],
-										"4" : [ "Truro 00005.mov", 0, 24100, 2997 ],
-										"5" : [ "Katies Gait Optical Flow.mov", 820.820801, 70610.609375, 600 ],
-										"6" : [ "Utah | Colorado.mov", 765245.25, 796516.5, 600 ],
-										"7" : [ "Utah | Colorado.mov", 314054.0625, 329689.6875, 600 ]
+										"0" : [ "Utah | Colorado.mov", 539299.3125, 557757.75, 600 ],
+										"1" : [ "Utah | Colorado.mov", 559899.875, 572692.6875, 600 ],
+										"2" : [ "Utah | Colorado.mov", 580500.5, 596939.5625, 600 ],
+										"3" : [ "Utah | Colorado.mov", 601821.8125, 630950.9375, 600 ],
+										"4" : [ "Utah | Colorado.mov", 640180.1875, 702002.0, 600 ],
+										"5" : [ "Utah | Colorado.mov", 706987.0, 752452.4375, 600 ],
+										"6" : [ "Utah | Colorado.mov", 753173.1875, 757437.4375, 600 ],
+										"7" : [ "Utah | Colorado.mov", 765245.25, 796516.5, 600 ]
 									}
 ,
 									"fontname" : "Arial",
@@ -8970,14 +9003,14 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"0" : [ "Clouds 00062 proj.mov", 0, 14545000 ],
-										"1" : [ "Clouds 00063 proj.mov", 0, 4741000 ],
-										"2" : [ "Clouds 00065 proj.mov", 889000, 912000 ],
-										"3" : [ "Clouds 00065 proj.mov", 0, 360000 ],
-										"4" : [ "Clouds 00066 proj.mov", 0, 1009000 ],
-										"5" : [ "Clouds 00068 proj.mov", 209000, 11490000 ],
-										"6" : [ "Clouds 00059 proj.mov", 0, 2581000 ],
-										"7" : [ "2013-05-24 07-43-52.mov", 0.0, 1755998.25, 23976 ]
+										"0" : [ "2012-03-17 15_42_10 (id).mov", 0, 1897000, 23976 ],
+										"1" : [ "2012-03-17 15_43_23 (id).mov", 0, 1789000, 23976 ],
+										"2" : [ "2012-03-17 16_37_30 (id).mov", 0.0, 44594.59375, 600 ],
+										"3" : [ "2012-03-17 16_37_30 (id).mov", 52852.851562, 54654.65625, 600 ],
+										"4" : [ "Ptown 360 Near 720p loop.mov", 0, 183243, 600 ],
+										"5" : [ "Ptown 360 Far Fast loop.mov", 0, 114314, 600 ],
+										"6" : "none",
+										"7" : "none"
 									}
 ,
 									"fontname" : "Arial",
@@ -9001,14 +9034,14 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"0" : [ "naturelab 00080.mov", 0, 889000 ],
-										"1" : [ "White Deer - HD 720p.mov", 1102, 2291, 600 ],
-										"2" : [ "Truro 00004.mov", 18800, 140200, 2997 ],
-										"3" : [ "Truro 00004.mov", 174500, 304400, 2997 ],
-										"4" : [ "Truro 00005.mov", 0, 24100, 2997 ],
-										"5" : [ "Katies Gait Optical Flow.mov", 820.820801, 70610.609375, 600 ],
-										"6" : [ "Utah | Colorado.mov", 765245.25, 796516.5, 600 ],
-										"7" : [ "Utah | Colorado.mov", 314054.0625, 329689.6875, 600 ]
+										"0" : [ "Utah | Colorado.mov", 539299.3125, 557757.75, 600 ],
+										"1" : [ "Utah | Colorado.mov", 559899.875, 572692.6875, 600 ],
+										"2" : [ "Utah | Colorado.mov", 580500.5, 596939.5625, 600 ],
+										"3" : [ "Utah | Colorado.mov", 601821.8125, 630950.9375, 600 ],
+										"4" : [ "Utah | Colorado.mov", 640180.1875, 702002.0, 600 ],
+										"5" : [ "Utah | Colorado.mov", 706987.0, 752452.4375, 600 ],
+										"6" : [ "Utah | Colorado.mov", 753173.1875, 757437.4375, 600 ],
+										"7" : [ "Utah | Colorado.mov", 765245.25, 796516.5, 600 ]
 									}
 ,
 									"fontname" : "Arial",
@@ -9032,14 +9065,14 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"0" : [ "Clouds 00062 proj.mov", 0, 14545000 ],
-										"1" : [ "Clouds 00063 proj.mov", 0, 4741000 ],
-										"2" : [ "Clouds 00065 proj.mov", 889000, 912000 ],
-										"3" : [ "Clouds 00065 proj.mov", 0, 360000 ],
-										"4" : [ "Clouds 00066 proj.mov", 0, 1009000 ],
-										"5" : [ "Clouds 00068 proj.mov", 209000, 11490000 ],
-										"6" : [ "Clouds 00059 proj.mov", 0, 2581000 ],
-										"7" : [ "2013-05-24 07-43-52.mov", 0.0, 1755998.25, 23976 ]
+										"0" : [ "2012-03-17 15_42_10 (id).mov", 0, 1897000, 23976 ],
+										"1" : [ "2012-03-17 15_43_23 (id).mov", 0, 1789000, 23976 ],
+										"2" : [ "2012-03-17 16_37_30 (id).mov", 0.0, 44594.59375, 600 ],
+										"3" : [ "2012-03-17 16_37_30 (id).mov", 52852.851562, 54654.65625, 600 ],
+										"4" : [ "Ptown 360 Near 720p loop.mov", 0, 183243, 600 ],
+										"5" : [ "Ptown 360 Far Fast loop.mov", 0, 114314, 600 ],
+										"6" : "none",
+										"7" : "none"
 									}
 ,
 									"fontname" : "Arial",
@@ -13491,7 +13524,7 @@
 					"outlettype" : [ "", "", "", "", "", "" ],
 					"patching_rect" : [ 1558.557007, 836.098083, 114.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1501.0625, 271.25, 114.0, 26.0 ],
+					"presentation_rect" : [ 1530.75, 269.25, 114.0, 26.0 ],
 					"prototypename" : "atp.dataLoopRec",
 					"viewvisibility" : 1
 				}
@@ -14054,7 +14087,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1518.118652, 896.015381, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1262.5, 284.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 1319.823975, 284.0, 50.0, 22.0 ],
 					"style" : "",
 					"varname" : "lumaDispOffsetX"
 				}
@@ -14073,7 +14106,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1453.875, 896.015381, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1316.5, 284.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 1269.3125, 284.0, 50.0, 22.0 ],
 					"style" : "",
 					"varname" : "lumaDispOffsetY"
 				}
@@ -14107,7 +14140,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1703.037109, 915.921387, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1437.0, 284.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 1451.0, 284.0, 66.5, 22.0 ],
 					"style" : "",
 					"varname" : "lumaDispAmpY"
 				}
@@ -14126,7 +14159,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1639.914917, 915.921387, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1379.5, 284.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 1379.5, 284.0, 66.5, 22.0 ],
 					"style" : "",
 					"varname" : "lumaDispAmpX"
 				}
@@ -18431,19 +18464,19 @@
 					"patching_rect" : [ 1276.5, 48.0, 216.0, 22.0 ],
 					"restore" : 					{
 						"bright" : [ 1.0 ],
-						"compositeAmount" : [ 0.0 ],
-						"compositeMode" : [ 1 ],
+						"compositeAmount" : [ 0.755906 ],
+						"compositeMode" : [ 2 ],
 						"compositeRampTime" : [ 0 ],
 						"contrast" : [ 1.0 ],
 						"lumaDispAmpX" : [ 0.0 ],
 						"lumaDispAmpY" : [ 0.0 ],
 						"lumaDispOffsetX" : [ 0.0 ],
 						"lumaDispOffsetY" : [ 0.0 ],
-						"masterHueLightness" : [ 1.0, 1.0, 1.0, 1.0, 0.0, 0.0, 1.0 ],
+						"masterHueLightness" : [ 1.0, 1.0, 1.0, 1.0, 0.365714, 0.0, 1.0 ],
 						"masterSaturation" : [ 0.0 ],
 						"rateL" : [ 1.0 ],
 						"rateR" : [ 1.0 ],
-						"sat" : [ 1.0 ],
+						"sat" : [ 1.091339 ],
 						"slideDown" : [ 1.0 ],
 						"slideUp" : [ 1.0 ]
 					}
@@ -24267,6 +24300,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-283", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-119", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-48", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -26152,10 +26194,28 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-351", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-281", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-51", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-281", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-119", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-283", 0 ]
 				}
 
 			}
@@ -26814,6 +26874,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-350", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-281", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-351", 0 ]
 				}
 
 			}
