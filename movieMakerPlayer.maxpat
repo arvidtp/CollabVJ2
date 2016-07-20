@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 1,
-			"revision" : 0,
+			"minor" : 2,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -88,8 +88,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 1,
-							"revision" : 0,
+							"minor" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -280,10 +280,8 @@
 						"styles" : [ 							{
 								"name" : "Classic Gray 1",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"accentcolor" : [ 0.539031, 0.555365, 0.555365, 1.0 ],
 									"elementcolor" : [ 0.920998, 0.920998, 0.920998, 1.0 ],
-									"bgcolor" : [ 0.915677, 0.915677, 0.915677, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -294,6 +292,8 @@
 										"autogradient" : 0
 									}
 ,
+									"bgcolor" : [ 0.915677, 0.915677, 0.915677, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ]
 								}
 ,
@@ -303,8 +303,8 @@
 , 							{
 								"name" : "Green Grocer",
 								"default" : 								{
-									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-									"elementcolor" : [ 0.055315, 0.304887, 0.042868, 1.0 ]
+									"elementcolor" : [ 0.055315, 0.304887, 0.042868, 1.0 ],
+									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -326,8 +326,8 @@
 , 							{
 								"name" : "Green Lantern Inverse",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"elementcolor" : [ 0.0, 0.665647, 0.0, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"color" : [ 0.613943, 1.0, 0.0, 1.0 ]
 								}
 ,
@@ -337,10 +337,7 @@
 , 							{
 								"name" : "videoEditor",
 								"default" : 								{
-									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-									"textcolor_inverse" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 									"elementcolor" : [ 0.292112, 0.292112, 0.292112, 1.0 ],
-									"bgcolor" : [ 0.176977, 0.176977, 0.176977, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -351,7 +348,10 @@
 										"autogradient" : 0
 									}
 ,
+									"bgcolor" : [ 0.176977, 0.176977, 0.176977, 1.0 ],
 									"selectioncolor" : [ 0.815686, 0.858824, 0.34902, 1.0 ],
+									"textcolor_inverse" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 									"color" : [ 0.183995, 0.910435, 0.147968, 1.0 ]
 								}
 ,
@@ -502,8 +502,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 1,
-							"revision" : 0,
+							"minor" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -921,10 +921,8 @@
 						"styles" : [ 							{
 								"name" : "Classic Gray 1",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"accentcolor" : [ 0.539031, 0.555365, 0.555365, 1.0 ],
 									"elementcolor" : [ 0.920998, 0.920998, 0.920998, 1.0 ],
-									"bgcolor" : [ 0.915677, 0.915677, 0.915677, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -935,6 +933,8 @@
 										"autogradient" : 0
 									}
 ,
+									"bgcolor" : [ 0.915677, 0.915677, 0.915677, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ]
 								}
 ,
@@ -944,8 +944,8 @@
 , 							{
 								"name" : "Green Grocer",
 								"default" : 								{
-									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-									"elementcolor" : [ 0.055315, 0.304887, 0.042868, 1.0 ]
+									"elementcolor" : [ 0.055315, 0.304887, 0.042868, 1.0 ],
+									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -967,8 +967,8 @@
 , 							{
 								"name" : "Green Lantern Inverse",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"elementcolor" : [ 0.0, 0.665647, 0.0, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"color" : [ 0.613943, 1.0, 0.0, 1.0 ]
 								}
 ,
@@ -978,10 +978,7 @@
 , 							{
 								"name" : "videoEditor",
 								"default" : 								{
-									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-									"textcolor_inverse" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 									"elementcolor" : [ 0.292112, 0.292112, 0.292112, 1.0 ],
-									"bgcolor" : [ 0.176977, 0.176977, 0.176977, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -992,7 +989,10 @@
 										"autogradient" : 0
 									}
 ,
+									"bgcolor" : [ 0.176977, 0.176977, 0.176977, 1.0 ],
 									"selectioncolor" : [ 0.815686, 0.858824, 0.34902, 1.0 ],
+									"textcolor_inverse" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 									"color" : [ 0.183995, 0.910435, 0.147968, 1.0 ]
 								}
 ,
@@ -1027,8 +1027,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 1,
-							"revision" : 0,
+							"minor" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1597,8 +1597,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 1,
-							"revision" : 0,
+							"minor" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1630,7 +1630,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -2626,7 +2625,7 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 824.333252, 1472.0, 407.0, 21.0 ],
-					"size" : 2041000.0,
+					"size" : 5401000.0,
 					"style" : ""
 				}
 
@@ -4550,10 +4549,8 @@
 		"styles" : [ 			{
 				"name" : "Classic Gray 1",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"accentcolor" : [ 0.539031, 0.555365, 0.555365, 1.0 ],
 					"elementcolor" : [ 0.920998, 0.920998, 0.920998, 1.0 ],
-					"bgcolor" : [ 0.915677, 0.915677, 0.915677, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -4564,6 +4561,8 @@
 						"autogradient" : 0
 					}
 ,
+					"bgcolor" : [ 0.915677, 0.915677, 0.915677, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ]
 				}
 ,
@@ -4573,8 +4572,8 @@
 , 			{
 				"name" : "Green Grocer",
 				"default" : 				{
-					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-					"elementcolor" : [ 0.055315, 0.304887, 0.042868, 1.0 ]
+					"elementcolor" : [ 0.055315, 0.304887, 0.042868, 1.0 ],
+					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}
 ,
 				"parentstyle" : "Green Lantern",
@@ -4596,8 +4595,8 @@
 , 			{
 				"name" : "Green Lantern Inverse",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"elementcolor" : [ 0.0, 0.665647, 0.0, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 0.613943, 1.0, 0.0, 1.0 ]
 				}
 ,
@@ -4607,10 +4606,7 @@
 , 			{
 				"name" : "videoEditor",
 				"default" : 				{
-					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-					"textcolor_inverse" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"elementcolor" : [ 0.292112, 0.292112, 0.292112, 1.0 ],
-					"bgcolor" : [ 0.176977, 0.176977, 0.176977, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -4621,7 +4617,10 @@
 						"autogradient" : 0
 					}
 ,
+					"bgcolor" : [ 0.176977, 0.176977, 0.176977, 1.0 ],
 					"selectioncolor" : [ 0.815686, 0.858824, 0.34902, 1.0 ],
+					"textcolor_inverse" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"color" : [ 0.183995, 0.910435, 0.147968, 1.0 ]
 				}
 ,
