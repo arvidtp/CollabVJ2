@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 707.0, 569.0, 696.0, 352.0 ],
+		"rect" : [ 10.0, 595.0, 700.0, 326.0 ],
 		"bgcolor" : [ 0.239216, 0.254902, 0.278431, 0.0 ],
 		"editing_bgcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 		"bglocked" : 0,
@@ -39,6 +39,32 @@
 		"style" : "videoEditor",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-185",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 996.333313, 48.0, 106.0, 22.0 ],
+					"style" : "",
+					"text" : "cvjctrl #1quickTint"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-170",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1594.0, 137.0, 120.0, 22.0 ],
+					"style" : "",
+					"text" : "cvjctrl #1chanPreset"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -1080,7 +1106,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "clear", "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -1091,7 +1117,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 819.0, 46.0, 433.0, 294.0 ],
+						"rect" : [ 819.0, 79.0, 433.0, 294.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -1127,7 +1153,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 75.0, 115.0, 62.0, 22.0 ],
+									"patching_rect" : [ 75.0, 115.0, 62.0, 24.0 ],
 									"style" : "",
 									"text" : "tosymbol"
 								}
@@ -1142,7 +1168,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 75.0, 145.0, 46.0, 20.0 ],
+									"patching_rect" : [ 75.0, 145.0, 46.0, 24.0 ],
 									"style" : "",
 									"text" : "get $1"
 								}
@@ -1157,7 +1183,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 305.0, 70.0, 95.0, 22.0 ],
+									"patching_rect" : [ 305.0, 70.0, 95.0, 24.0 ],
 									"style" : "",
 									"text" : "loadmess clear"
 								}
@@ -1210,7 +1236,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 165.0, 155.0, 104.0, 22.0 ],
+									"patching_rect" : [ 165.0, 155.0, 104.0, 24.0 ],
 									"style" : "",
 									"text" : "prepend append"
 								}
@@ -1225,7 +1251,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 165.0, 130.0, 28.0, 22.0 ],
+									"patching_rect" : [ 165.0, 130.0, 28.0, 24.0 ],
 									"style" : "",
 									"text" : "iter"
 								}
@@ -1240,7 +1266,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "clear" ],
-									"patching_rect" : [ 165.0, 105.0, 51.0, 22.0 ],
+									"patching_rect" : [ 165.0, 105.0, 51.0, 24.0 ],
 									"style" : "",
 									"text" : "t l clear"
 								}
@@ -1444,7 +1470,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 470.0, 213.5, 162.0, 26.0 ],
 					"style" : "",
-					"text" : "default"
+					"text" : "revese fuckup"
 				}
 
 			}
@@ -2086,11 +2112,11 @@
 						"colorOffsetRX" : [ 0.0 ],
 						"colorOffsetRY" : [ 0.0 ],
 						"contrast" : [ 1.0 ],
-						"feedback" : [ 0.009394 ],
+						"feedback" : [ 0.0 ],
 						"feedbackCompositeMode" : [ 18 ],
 						"kalDivisions" : [ 1 ],
-						"offset_x" : [ 7.885839 ],
-						"offset_y" : [ -0.935265 ],
+						"offset_x" : [ 0.0 ],
+						"offset_y" : [ 0.0 ],
 						"radialBlurAmount" : [ 0.0 ],
 						"resampBottom" : [ 0.0 ],
 						"resampLeft" : [ 0.0 ],
@@ -2098,15 +2124,15 @@
 						"resampTop" : [ 1.0 ],
 						"rotaBoundMode" : [ 1 ],
 						"sat" : [ 1.0 ],
-						"theta" : [ 0.011269 ],
-						"tintHueLightness" : [ 0.498039, 0.498039, 0.498039, 1.0, 0.0, 0.0, 0.498039 ],
+						"theta" : [ 0.0 ],
+						"tintHueLightness" : [ 0.491, 0.425, 0.575, 1.0, 0.74, 0.15, 0.5 ],
 						"tintSat" : [ 0.0 ],
-						"zoom" : [ 0.993064 ]
+						"zoom" : [ 1.0 ]
 					}
 ,
 					"style" : "",
 					"text" : "autopattr @autorestore 0",
-					"varname" : "u026002157"
+					"varname" : "u019004393"
 				}
 
 			}
@@ -2809,7 +2835,7 @@
 					"patching_rect" : [ 834.0, 228.0, 175.0, 128.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 470.0, 28.0, 190.0, 112.0 ],
-					"saturation" : 0.0,
+					"saturation" : 0.15,
 					"varname" : "tintHueLightness"
 				}
 
@@ -3286,6 +3312,19 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 27.0, 709.171753, 225.0, 22.0 ],
 					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-183",
+					"maxclass" : "newobj",
+					"numinlets" : 4,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 966.0, 92.0, 110.0, 22.0 ],
+					"style" : "",
+					"text" : "pak hsl 0. 0.15 0.5"
 				}
 
 			}
@@ -4230,6 +4269,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-141", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-170", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-120", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -4306,6 +4354,24 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-181", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-38", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-183", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-183", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-185", 0 ]
 				}
 
 			}
@@ -5251,10 +5317,10 @@
 		"styles" : [ 			{
 				"name" : "Green Lantern",
 				"default" : 				{
+					"selectioncolor" : [ 0.831373, 1.0, 0.0, 1.0 ],
+					"bgcolor" : [ 0.0, 0.435294, 0.0, 1.0 ],
 					"accentcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
 					"elementcolor" : [ 0.613943, 1.0, 0.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.435294, 0.0, 1.0 ],
-					"selectioncolor" : [ 0.831373, 1.0, 0.0, 1.0 ],
 					"color" : [ 0.0, 0.665647, 0.0, 1.0 ]
 				}
 ,
@@ -5264,8 +5330,8 @@
 , 			{
 				"name" : "Green Lantern Inverse",
 				"default" : 				{
-					"elementcolor" : [ 0.0, 0.665647, 0.0, 1.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"elementcolor" : [ 0.0, 0.665647, 0.0, 1.0 ],
 					"color" : [ 0.613943, 1.0, 0.0, 1.0 ]
 				}
 ,
@@ -5275,7 +5341,12 @@
 , 			{
 				"name" : "videoEditor",
 				"default" : 				{
+					"selectioncolor" : [ 0.815686, 0.858824, 0.34902, 1.0 ],
+					"bgcolor" : [ 0.176977, 0.176977, 0.176977, 1.0 ],
+					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"textcolor_inverse" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"elementcolor" : [ 0.292112, 0.292112, 0.292112, 1.0 ],
+					"color" : [ 0.183995, 0.910435, 0.147968, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -5285,12 +5356,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"bgcolor" : [ 0.176977, 0.176977, 0.176977, 1.0 ],
-					"selectioncolor" : [ 0.815686, 0.858824, 0.34902, 1.0 ],
-					"textcolor_inverse" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-					"color" : [ 0.183995, 0.910435, 0.147968, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
