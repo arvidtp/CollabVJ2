@@ -15600,6 +15600,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"format" : 6,
+					"hidden" : 1,
 					"id" : "obj-202",
 					"maxclass" : "flonum",
 					"numinlets" : 1,
@@ -15637,11 +15638,11 @@
 					"fontsize" : 12.0,
 					"id" : "obj-204",
 					"maxclass" : "newobj",
-					"numinlets" : 4,
+					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1415.875, 931.143065999999976, 126.0, 22.0 ],
-					"text" : "pak param offset 0. 0."
+					"patching_rect" : [ 1415.875, 931.143065999999976, 111.0, 22.0 ],
+					"text" : "pak param offset 0."
 				}
 
 			}
@@ -23515,7 +23516,7 @@
 					"patching_rect" : [ 1488.0, 1174.936523000000079, 176.0, 68.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1301.0, 117.0, 175.0, 60.0 ],
-					"saturation" : 0.0,
+					"saturation" : 1.0,
 					"varname" : "masterHueLightness"
 				}
 
@@ -23598,21 +23599,21 @@
 					"patching_rect" : [ 1276.5, 48.0, 216.0, 22.0 ],
 					"restore" : 					{
 						"bright" : [ 1.0 ],
-						"compositeAmount" : [ 1.245028954385965 ],
-						"compositeMode" : [ 0 ],
+						"compositeAmount" : [ 1.307087 ],
+						"compositeMode" : [ 18 ],
 						"compositeRampTime" : [ 0 ],
 						"contrast" : [ 1.0 ],
 						"live.grid" : [ 2, 4, 4, 0, 4, 0, 1001, 2002, 3003, 2, 2, 2, 2 ],
-						"lumaDispAmpX" : [ 0.0 ],
-						"lumaDispAmpY" : [ 0.0 ],
-						"lumaDispOffsetX" : [ 0.0 ],
-						"lumaDispOffsetY" : [ 0.0 ],
-						"masterHueLightness" : [ 1.0, 1.0, 1.0, 1.0, 0.365714, 0.0, 1.0 ],
-						"masterSaturation" : [ 0.0 ],
+						"lumaDispAmpX" : [ -0.022744 ],
+						"lumaDispAmpY" : [ -0.156182 ],
+						"lumaDispOffsetX" : [ 0.190723 ],
+						"lumaDispOffsetY" : [ -0.027145 ],
+						"masterHueLightness" : [ 1.0, 1.0, 1.0, 1.0, 0.354286, 1.0, 1.0 ],
+						"masterSaturation" : [ 1.0 ],
 						"rateL" : [ 1.0 ],
 						"rateR" : [ 1.0 ],
-						"sat" : [ 1.0 ],
-						"slideDown" : [ 1.0 ],
+						"sat" : [ 1.022047 ],
+						"slideDown" : [ 2.0 ],
 						"slideUp" : [ 1.0 ]
 					}
 ,
@@ -28825,7 +28826,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 0.0,
-					"bgcolor" : [ 0.98, 0.0, 0.02 ],
+					"bgcolor" : [ 0.7, 0.97, 0.26 ],
 					"id" : "obj-288",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -28841,7 +28842,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 0.0,
-					"bgcolor" : [ 0.7, 0.97, 0.26 ],
+					"bgcolor" : [ 0.98, 0.0, 0.02 ],
 					"id" : "obj-286",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -30101,15 +30102,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-166", 1 ],
-					"order" : 1,
-					"source" : [ "obj-202", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-204", 3 ],
-					"order" : 0,
 					"source" : [ "obj-202", 0 ]
 				}
 
