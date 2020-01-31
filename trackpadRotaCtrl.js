@@ -10,7 +10,7 @@ setoutletassist(0,"Accumulated Rotation");
 
 //var vprev = [];
 //var pprev = [];
-var distPrev;
+var distPrev = 1;
 var distReset = 1;
 var scalePrev = 1;
 var scaleOut = 1;
@@ -49,6 +49,9 @@ function list() {
 		}
 		centerReset = 0;
 	}
+	if (scaleOut == 0) {
+		scaleOut = 0.001;
+	}
 	for (i=0; i<2; i++) {
 		//factor in offset multiplier and make (avg of scale and 1.0) affect amount of motion
 		offsetOut[i] = (center[i]-centerPrev[i])*motionMultiplier/scaleOut+offsetPrev[i];
@@ -66,6 +69,13 @@ function list() {
 		distPrev = dist;
 		distReset = 0;
 	}
+	if (distPrev == 0) {
+		distPrev = 0.001;
+	}
+	if (scalePrev == 0) {
+		scalePrev = 0.001;
+	}
+	
 	scaleOut = dist/distPrev*scalePrev;
 	
 	outlet(3, dist);
