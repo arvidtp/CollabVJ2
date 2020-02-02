@@ -2478,6 +2478,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -2890,7 +2891,7 @@
 					"patching_rect" : [ 1165.0, 138.0, 62.0, 78.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 28.5, 817.049072000000024, 62.0, 78.0 ],
-					"text" : "1",
+					"text" : "6",
 					"textcolor" : [ 0.996063, 0.805643, 0.037526, 1.0 ]
 				}
 
@@ -2925,6 +2926,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.819607843137255, 0.0, 0.0, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-212",
@@ -5054,7 +5056,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
-					"outlettype" : [ "int", "", "int" ],
+					"outlettype" : [ "int", "", "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -5066,7 +5068,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1952.0, 177.0, 1663.0, 783.0 ],
+						"rect" : [ 2116.0, 118.0, 1663.0, 783.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -5095,13 +5097,13 @@
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
-									"id" : "obj-67",
-									"maxclass" : "button",
+									"id" : "obj-36",
+									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 1241.0, 434.0, 72.0, 72.0 ]
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 764.0, 542.5, 70.0, 22.0 ],
+									"text" : "loadmess 0"
 								}
 
 							}
@@ -5470,6 +5472,7 @@
 							}
 , 							{
 								"box" : 								{
+									"color" : [ 0.819607843137255, 0.0, 0.0, 1.0 ],
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-40",
@@ -6404,6 +6407,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-48", 0 ],
+									"source" : [ "obj-36", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-55", 0 ],
 									"source" : [ "obj-37", 3 ]
 								}
@@ -6604,15 +6614,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-48", 0 ],
-									"order" : 1,
-									"source" : [ "obj-65", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-67", 0 ],
-									"order" : 0,
 									"source" : [ "obj-65", 0 ]
 								}
 
@@ -6706,7 +6707,7 @@
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_type" : 2,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "PlayToggle[7]"
+							"parameter_longname" : "PlayToggle[4]"
 						}
 
 					}
@@ -7702,7 +7703,7 @@
 					"id" : "obj-117",
 					"idlemouse" : 1,
 					"maxclass" : "jit.pwindow",
-					"name" : "0trimmer",
+					"name" : "5trimmer",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
