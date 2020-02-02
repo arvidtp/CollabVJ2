@@ -254,7 +254,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 250.5, 610.0, 24.0, 24.0 ]
+					"patching_rect" : [ 17.0, 320.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -2886,13 +2886,14 @@
 					"fontname" : "Arial",
 					"fontsize" : 30.0,
 					"id" : "obj-39",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 932.75, 343.0, 163.25, 40.0 ],
+					"patching_rect" : [ 932.75, 343.0, 163.25, 74.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 273.5, 862.0, 965.0, 40.0 ],
-					"text" : "none",
+					"text" : "Snake Pile web.mov",
 					"textcolor" : [ 0.00753, 0.00753, 0.00753, 1.0 ]
 				}
 
@@ -5115,6 +5116,20 @@
 						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-39",
+									"maxclass" : "newobj",
+									"numinlets" : 4,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1478.5, 332.229491999999993, 237.0, 22.0 ],
+									"text" : "atp.dictget benVJPrefs #1trimmer::duration"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-36",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -5508,11 +5523,11 @@
 									"fontsize" : 12.0,
 									"id" : "obj-34",
 									"maxclass" : "newobj",
-									"numinlets" : 3,
+									"numinlets" : 4,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 985.5, 361.0, 253.0, 22.0 ],
-									"text" : "join 3"
+									"patching_rect" : [ 985.5, 372.0, 370.0, 22.0 ],
+									"text" : "join 4"
 								}
 
 							}
@@ -5537,10 +5552,10 @@
 									"id" : "obj-33",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 4,
-									"outlettype" : [ "bang", "bang", "bang", "bang" ],
-									"patching_rect" : [ 972.0, 251.0, 59.5, 22.0 ],
-									"text" : "t b b b b"
+									"numoutlets" : 5,
+									"outlettype" : [ "bang", "bang", "bang", "bang", "bang" ],
+									"patching_rect" : [ 972.0, 251.0, 381.5, 22.0 ],
+									"text" : "t b b b b b"
 								}
 
 							}
@@ -6404,6 +6419,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-39", 0 ],
+									"source" : [ "obj-33", 4 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-49", 0 ],
 									"source" : [ "obj-33", 0 ]
 								}
@@ -6455,6 +6477,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-55", 0 ],
 									"source" : [ "obj-37", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-34", 3 ],
+									"source" : [ "obj-39", 0 ]
 								}
 
 							}
@@ -6811,20 +6840,6 @@
 					"presentation_rect" : [ 870.0, 835.0, 85.0, 26.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-166",
-					"linecount" : 4,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1077.0, 1015.0, 155.0, 60.0 ],
-					"text" : "need to make this work with other frame rates (not just 30) and also set loop points for video playback"
 				}
 
 			}
@@ -10275,14 +10290,6 @@
 					"destination" : [ "obj-82", 0 ],
 					"order" : 0,
 					"source" : [ "obj-80", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-85", 0 ],
-					"order" : 3,
-					"source" : [ "obj-80", 0 ]
 				}
 
 			}
