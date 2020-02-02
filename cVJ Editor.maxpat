@@ -1572,15 +1572,85 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
-									"id" : "obj-5",
-									"linecount" : 5,
+									"id" : "obj-32",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 677.5, 329.0, 61.0, 22.0 ],
+									"text" : "delay 300"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-28",
+									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 578.499999999999773, 545.549072000000024, 91.0, 74.0 ],
+									"patching_rect" : [ 732.499999999999773, 412.0, 123.0, 47.0 ],
+									"text" : "init start frames for all\n(stupid tht we have to do this!)"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-21",
+									"maxclass" : "button",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 686.0, 372.0, 24.0, 24.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-10",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 3,
+									"outlettype" : [ "bang", "bang", "int" ],
+									"patching_rect" : [ 686.0, 412.0, 44.0, 22.0 ],
+									"text" : "uzi 8 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-20",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 435.0, 318.0, 88.0, 22.0 ],
+									"text" : "pause, resume"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-15",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 408.0, 252.0, 54.0, 22.0 ],
+									"text" : "deferlow"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 909.499999999999773, 74.0, 285.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 578.499999999999773, 546.549072000000024, 285.0, 20.0 ],
 									"text" : "Shift-click to set playhead (must be playing that clip)"
@@ -1914,6 +1984,53 @@
 										"style" : "",
 										"subpatcher_template" : "",
 										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-11",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 91.5, 499.0, 129.0, 22.0 ],
+													"text" : "print WATCH_NOTIFY"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-5",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 124.0, 428.0, 32.0, 22.0 ],
+													"text" : "gate"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-4",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 182.0, 433.0, 32.0, 22.0 ],
+													"text" : "gate"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-3",
+													"maxclass" : "newobj",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 223.0, 370.432372999999984, 112.0, 22.0 ],
+													"text" : "r cvjBenDebugPrint"
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"id" : "obj-1",
 													"maxclass" : "newobj",
@@ -2294,7 +2411,16 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-4", 1 ],
+													"order" : 0,
+													"source" : [ "obj-2", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-6", 0 ],
+													"order" : 1,
 													"source" : [ "obj-2", 0 ]
 												}
 
@@ -2322,6 +2448,22 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-4", 0 ],
+													"order" : 0,
+													"source" : [ "obj-3", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-5", 0 ],
+													"order" : 1,
+													"source" : [ "obj-3", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-78", 0 ],
 													"source" : [ "obj-36", 0 ]
 												}
@@ -2331,6 +2473,13 @@
 												"patchline" : 												{
 													"destination" : [ "obj-79", 0 ],
 													"source" : [ "obj-36", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-11", 0 ],
+													"source" : [ "obj-5", 0 ]
 												}
 
 											}
@@ -2423,6 +2572,15 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-27", 0 ],
+													"order" : 1,
+													"source" : [ "obj-8", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-5", 1 ],
+													"order" : 0,
 													"source" : [ "obj-8", 0 ]
 												}
 
@@ -2634,338 +2792,338 @@
 									"clipheight" : 48.8125,
 									"data" : 									{
 										"clips" : [ 											{
-												"absolutepath" : "Truro 00002.mov",
-												"filename" : "Truro 00002.mov",
+												"absolutepath" : "Utah | Colorado.mov",
+												"filename" : "Utah | Colorado.mov",
 												"filekind" : "moviefile",
-												"selection" : [ 0.263215859030837, 0.389862334801762 ],
+												"selection" : [ 0.126625807114346, 0.130959791030758 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"outputmode" : [ 1 ],
-													"out_name" : [ "u152000824" ],
+													"out_name" : [ "u984000803" ],
 													"dim" : [ 1, 1 ],
-													"time_ms" : [ 0 ],
-													"unique" : [ 0 ],
-													"usesrcrect" : [ 0 ],
-													"time_secs" : [ 0.0 ],
-													"loopreport" : [ 0 ],
-													"loopstart" : [ 0 ],
+													"colormode" : [ "argb" ],
+													"output_texture" : [ 0 ],
 													"automatic" : [ 0 ],
-													"interp" : [ 0 ],
-													"engine" : [ "avf" ],
-													"position" : [ 0.0 ],
-													"loopend" : [ 0 ],
-													"rate" : [ 1.0 ],
-													"autostart" : [ 1 ],
-													"seamless_loopcount" : [ 32 ],
-													"adapt" : [ 1 ],
 													"dstrect" : [ 0, 0, 1, 1 ],
 													"vol" : [ 1.0 ],
-													"colormode" : [ "argb" ],
-													"drawto" : [ "" ],
-													"output_texture" : [ 0 ],
-													"srcrect" : [ 0, 0, 1, 1 ],
-													"moviefile" : [ "" ],
-													"framereport" : [ 0 ],
-													"usedstrect" : [ 0 ],
-													"looppoints_ms" : [ 0, 0 ],
-													"time" : [ 0 ],
+													"seamless_loopcount" : [ 32 ],
 													"looppoints" : [ 0, 0 ],
+													"loopstart" : [ 0 ],
 													"looppoints_secs" : [ 0.0, 0.0 ],
-													"texture_name" : [ "u927000822" ]
+													"moviefile" : [ "" ],
+													"loopend" : [ 0 ],
+													"texture_name" : [ "u487000801" ],
+													"autostart" : [ 1 ],
+													"time" : [ 0 ],
+													"usesrcrect" : [ 0 ],
+													"time_secs" : [ 0.0 ],
+													"drawto" : [ "" ],
+													"usedstrect" : [ 0 ],
+													"loopreport" : [ 0 ],
+													"looppoints_ms" : [ 0, 0 ],
+													"unique" : [ 0 ],
+													"framereport" : [ 0 ],
+													"srcrect" : [ 0, 0, 1, 1 ],
+													"engine" : [ "avf" ],
+													"adapt" : [ 1 ],
+													"time_ms" : [ 0 ],
+													"interp" : [ 0 ],
+													"rate" : [ 1.0 ],
+													"position" : [ 0.0 ]
 												}
 
 											}
 , 											{
-												"absolutepath" : "Bus Lights Night 00031.mov",
-												"filename" : "Bus Lights Night 00031.mov",
+												"absolutepath" : "Utah | Colorado.mov",
+												"filename" : "Utah | Colorado.mov",
 												"filekind" : "moviefile",
-												"selection" : [ 0.136778418019906, 0.550576217915139 ],
+												"selection" : [ 0.131462755341629, 0.134466468067621 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"outputmode" : [ 1 ],
-													"out_name" : [ "u152000824" ],
+													"out_name" : [ "u984000803" ],
 													"dim" : [ 1, 1 ],
-													"time_ms" : [ 0 ],
-													"unique" : [ 0 ],
-													"usesrcrect" : [ 0 ],
-													"time_secs" : [ 0.0 ],
-													"loopreport" : [ 0 ],
-													"loopstart" : [ 0 ],
+													"colormode" : [ "argb" ],
+													"output_texture" : [ 0 ],
 													"automatic" : [ 0 ],
-													"interp" : [ 0 ],
-													"engine" : [ "avf" ],
-													"position" : [ 0.0 ],
-													"loopend" : [ 0 ],
-													"rate" : [ 1.0 ],
-													"autostart" : [ 1 ],
-													"seamless_loopcount" : [ 32 ],
-													"adapt" : [ 1 ],
 													"dstrect" : [ 0, 0, 1, 1 ],
 													"vol" : [ 1.0 ],
-													"colormode" : [ "argb" ],
-													"drawto" : [ "" ],
-													"output_texture" : [ 0 ],
-													"srcrect" : [ 0, 0, 1, 1 ],
-													"moviefile" : [ "" ],
-													"framereport" : [ 0 ],
-													"usedstrect" : [ 0 ],
-													"looppoints_ms" : [ 0, 0 ],
-													"time" : [ 0 ],
+													"seamless_loopcount" : [ 32 ],
 													"looppoints" : [ 0, 0 ],
+													"loopstart" : [ 0 ],
 													"looppoints_secs" : [ 0.0, 0.0 ],
-													"texture_name" : [ "u927000822" ]
+													"moviefile" : [ "" ],
+													"loopend" : [ 0 ],
+													"texture_name" : [ "u487000801" ],
+													"autostart" : [ 1 ],
+													"time" : [ 0 ],
+													"usesrcrect" : [ 0 ],
+													"time_secs" : [ 0.0 ],
+													"drawto" : [ "" ],
+													"usedstrect" : [ 0 ],
+													"loopreport" : [ 0 ],
+													"looppoints_ms" : [ 0, 0 ],
+													"unique" : [ 0 ],
+													"framereport" : [ 0 ],
+													"srcrect" : [ 0, 0, 1, 1 ],
+													"engine" : [ "avf" ],
+													"adapt" : [ 1 ],
+													"time_ms" : [ 0 ],
+													"interp" : [ 0 ],
+													"rate" : [ 1.0 ],
+													"position" : [ 0.0 ]
 												}
 
 											}
 , 											{
-												"absolutepath" : "Bus Lights Night 00031.mov",
-												"filename" : "Bus Lights Night 00031.mov",
+												"absolutepath" : "Utah | Colorado.mov",
+												"filename" : "Utah | Colorado.mov",
 												"filekind" : "moviefile",
-												"selection" : [ 0.796619958093243, 0.829884756416972 ],
+												"selection" : [ 0.136299718243719, 0.140159559168819 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"outputmode" : [ 1 ],
-													"out_name" : [ "u152000824" ],
+													"out_name" : [ "u984000803" ],
 													"dim" : [ 1, 1 ],
-													"time_ms" : [ 0 ],
-													"unique" : [ 0 ],
-													"usesrcrect" : [ 0 ],
-													"time_secs" : [ 0.0 ],
-													"loopreport" : [ 0 ],
-													"loopstart" : [ 0 ],
+													"colormode" : [ "argb" ],
+													"output_texture" : [ 0 ],
 													"automatic" : [ 0 ],
-													"interp" : [ 0 ],
-													"engine" : [ "avf" ],
-													"position" : [ 0.0 ],
-													"loopend" : [ 0 ],
-													"rate" : [ 1.0 ],
-													"autostart" : [ 1 ],
-													"seamless_loopcount" : [ 32 ],
-													"adapt" : [ 1 ],
 													"dstrect" : [ 0, 0, 1, 1 ],
 													"vol" : [ 1.0 ],
-													"colormode" : [ "argb" ],
-													"drawto" : [ "" ],
-													"output_texture" : [ 0 ],
-													"srcrect" : [ 0, 0, 1, 1 ],
-													"moviefile" : [ "" ],
-													"framereport" : [ 0 ],
-													"usedstrect" : [ 0 ],
-													"looppoints_ms" : [ 0, 0 ],
-													"time" : [ 0 ],
+													"seamless_loopcount" : [ 32 ],
 													"looppoints" : [ 0, 0 ],
+													"loopstart" : [ 0 ],
 													"looppoints_secs" : [ 0.0, 0.0 ],
-													"texture_name" : [ "u927000822" ]
+													"moviefile" : [ "" ],
+													"loopend" : [ 0 ],
+													"texture_name" : [ "u487000801" ],
+													"autostart" : [ 1 ],
+													"time" : [ 0 ],
+													"usesrcrect" : [ 0 ],
+													"time_secs" : [ 0.0 ],
+													"drawto" : [ "" ],
+													"usedstrect" : [ 0 ],
+													"loopreport" : [ 0 ],
+													"looppoints_ms" : [ 0, 0 ],
+													"unique" : [ 0 ],
+													"framereport" : [ 0 ],
+													"srcrect" : [ 0, 0, 1, 1 ],
+													"engine" : [ "avf" ],
+													"adapt" : [ 1 ],
+													"time_ms" : [ 0 ],
+													"interp" : [ 0 ],
+													"rate" : [ 1.0 ],
+													"position" : [ 0.0 ]
 												}
 
 											}
 , 											{
-												"absolutepath" : "2013-08-24 11_18_46 (id).mov",
-												"filename" : "2013-08-24 11_18_46 (id).mov",
+												"absolutepath" : "Utah | Colorado.mov",
+												"filename" : "Utah | Colorado.mov",
 												"filekind" : "moviefile",
-												"selection" : [ 0.0, 1.0 ],
+												"selection" : [ 0.141305896337168, 0.148145324606715 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"outputmode" : [ 1 ],
-													"out_name" : [ "u152000824" ],
+													"out_name" : [ "u984000803" ],
 													"dim" : [ 1, 1 ],
-													"time_ms" : [ 0 ],
-													"unique" : [ 0 ],
-													"usesrcrect" : [ 0 ],
-													"time_secs" : [ 0.0 ],
-													"loopreport" : [ 0 ],
-													"loopstart" : [ 0 ],
+													"colormode" : [ "argb" ],
+													"output_texture" : [ 0 ],
 													"automatic" : [ 0 ],
-													"interp" : [ 0 ],
-													"engine" : [ "avf" ],
-													"position" : [ 0.0 ],
-													"loopend" : [ 0 ],
-													"rate" : [ 1.0 ],
-													"autostart" : [ 1 ],
-													"seamless_loopcount" : [ 32 ],
-													"adapt" : [ 1 ],
 													"dstrect" : [ 0, 0, 1, 1 ],
 													"vol" : [ 1.0 ],
-													"colormode" : [ "argb" ],
-													"drawto" : [ "" ],
-													"output_texture" : [ 0 ],
-													"srcrect" : [ 0, 0, 1, 1 ],
-													"moviefile" : [ "" ],
-													"framereport" : [ 0 ],
-													"usedstrect" : [ 0 ],
-													"looppoints_ms" : [ 0, 0 ],
-													"time" : [ 0 ],
+													"seamless_loopcount" : [ 32 ],
 													"looppoints" : [ 0, 0 ],
+													"loopstart" : [ 0 ],
 													"looppoints_secs" : [ 0.0, 0.0 ],
-													"texture_name" : [ "u927000822" ]
+													"moviefile" : [ "" ],
+													"loopend" : [ 0 ],
+													"texture_name" : [ "u487000801" ],
+													"autostart" : [ 1 ],
+													"time" : [ 0 ],
+													"usesrcrect" : [ 0 ],
+													"time_secs" : [ 0.0 ],
+													"drawto" : [ "" ],
+													"usedstrect" : [ 0 ],
+													"loopreport" : [ 0 ],
+													"looppoints_ms" : [ 0, 0 ],
+													"unique" : [ 0 ],
+													"framereport" : [ 0 ],
+													"srcrect" : [ 0, 0, 1, 1 ],
+													"engine" : [ "avf" ],
+													"adapt" : [ 1 ],
+													"time_ms" : [ 0 ],
+													"interp" : [ 0 ],
+													"rate" : [ 1.0 ],
+													"position" : [ 0.0 ]
 												}
 
 											}
 , 											{
-												"absolutepath" : "Bus Lights Night 00031.mov",
-												"filename" : "Bus Lights Night 00031.mov",
+												"absolutepath" : "Utah | Colorado.mov",
+												"filename" : "Utah | Colorado.mov",
 												"filekind" : "moviefile",
-												"selection" : [ 0.219879518072289, 0.276584599266632 ],
+												"selection" : [ 0.150312323902324, 0.164827893871801 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"outputmode" : [ 1 ],
-													"out_name" : [ "u152000824" ],
+													"out_name" : [ "u984000803" ],
 													"dim" : [ 1, 1 ],
-													"time_ms" : [ 0 ],
-													"unique" : [ 0 ],
-													"usesrcrect" : [ 0 ],
-													"time_secs" : [ 0.0 ],
-													"loopreport" : [ 0 ],
-													"loopstart" : [ 0 ],
+													"colormode" : [ "argb" ],
+													"output_texture" : [ 0 ],
 													"automatic" : [ 0 ],
-													"interp" : [ 0 ],
-													"engine" : [ "avf" ],
-													"position" : [ 0.0 ],
-													"loopend" : [ 0 ],
-													"rate" : [ 1.0 ],
-													"autostart" : [ 1 ],
-													"seamless_loopcount" : [ 32 ],
-													"adapt" : [ 1 ],
 													"dstrect" : [ 0, 0, 1, 1 ],
 													"vol" : [ 1.0 ],
-													"colormode" : [ "argb" ],
-													"drawto" : [ "" ],
-													"output_texture" : [ 0 ],
-													"srcrect" : [ 0, 0, 1, 1 ],
-													"moviefile" : [ "" ],
-													"framereport" : [ 0 ],
-													"usedstrect" : [ 0 ],
-													"looppoints_ms" : [ 0, 0 ],
-													"time" : [ 0 ],
+													"seamless_loopcount" : [ 32 ],
 													"looppoints" : [ 0, 0 ],
+													"loopstart" : [ 0 ],
 													"looppoints_secs" : [ 0.0, 0.0 ],
-													"texture_name" : [ "u927000822" ]
+													"moviefile" : [ "" ],
+													"loopend" : [ 0 ],
+													"texture_name" : [ "u487000801" ],
+													"autostart" : [ 1 ],
+													"time" : [ 0 ],
+													"usesrcrect" : [ 0 ],
+													"time_secs" : [ 0.0 ],
+													"drawto" : [ "" ],
+													"usedstrect" : [ 0 ],
+													"loopreport" : [ 0 ],
+													"looppoints_ms" : [ 0, 0 ],
+													"unique" : [ 0 ],
+													"framereport" : [ 0 ],
+													"srcrect" : [ 0, 0, 1, 1 ],
+													"engine" : [ "avf" ],
+													"adapt" : [ 1 ],
+													"time_ms" : [ 0 ],
+													"interp" : [ 0 ],
+													"rate" : [ 1.0 ],
+													"position" : [ 0.0 ]
 												}
 
 											}
 , 											{
-												"absolutepath" : "Bus Lights Night 00031.mov",
-												"filename" : "Bus Lights Night 00031.mov",
+												"absolutepath" : "Utah | Colorado.mov",
+												"filename" : "Utah | Colorado.mov",
 												"filekind" : "moviefile",
-												"selection" : [ 0.453246464117339, 0.493321110529073 ],
+												"selection" : [ 0.165998356421695, 0.176673500234797 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"outputmode" : [ 1 ],
-													"out_name" : [ "u152000824" ],
+													"out_name" : [ "u984000803" ],
 													"dim" : [ 1, 1 ],
-													"time_ms" : [ 0 ],
-													"unique" : [ 0 ],
-													"usesrcrect" : [ 0 ],
-													"time_secs" : [ 0.0 ],
-													"loopreport" : [ 0 ],
-													"loopstart" : [ 0 ],
+													"colormode" : [ "argb" ],
+													"output_texture" : [ 0 ],
 													"automatic" : [ 0 ],
-													"interp" : [ 0 ],
-													"engine" : [ "avf" ],
-													"position" : [ 0.0 ],
-													"loopend" : [ 0 ],
-													"rate" : [ 1.0 ],
-													"autostart" : [ 1 ],
-													"seamless_loopcount" : [ 32 ],
-													"adapt" : [ 1 ],
 													"dstrect" : [ 0, 0, 1, 1 ],
 													"vol" : [ 1.0 ],
-													"colormode" : [ "argb" ],
-													"drawto" : [ "" ],
-													"output_texture" : [ 0 ],
-													"srcrect" : [ 0, 0, 1, 1 ],
-													"moviefile" : [ "" ],
-													"framereport" : [ 0 ],
-													"usedstrect" : [ 0 ],
-													"looppoints_ms" : [ 0, 0 ],
-													"time" : [ 0 ],
+													"seamless_loopcount" : [ 32 ],
 													"looppoints" : [ 0, 0 ],
+													"loopstart" : [ 0 ],
 													"looppoints_secs" : [ 0.0, 0.0 ],
-													"texture_name" : [ "u927000822" ]
+													"moviefile" : [ "" ],
+													"loopend" : [ 0 ],
+													"texture_name" : [ "u487000801" ],
+													"autostart" : [ 1 ],
+													"time" : [ 0 ],
+													"usesrcrect" : [ 0 ],
+													"time_secs" : [ 0.0 ],
+													"drawto" : [ "" ],
+													"usedstrect" : [ 0 ],
+													"loopreport" : [ 0 ],
+													"looppoints_ms" : [ 0, 0 ],
+													"unique" : [ 0 ],
+													"framereport" : [ 0 ],
+													"srcrect" : [ 0, 0, 1, 1 ],
+													"engine" : [ "avf" ],
+													"adapt" : [ 1 ],
+													"time_ms" : [ 0 ],
+													"interp" : [ 0 ],
+													"rate" : [ 1.0 ],
+													"position" : [ 0.0 ]
 												}
 
 											}
 , 											{
-												"absolutepath" : "Bus Lights Night 00031.mov",
-												"filename" : "Bus Lights Night 00031.mov",
+												"absolutepath" : "Utah | Colorado.mov",
+												"filename" : "Utah | Colorado.mov",
 												"filekind" : "moviefile",
-												"selection" : [ 0.836563645887899, 0.869956783656365 ],
+												"selection" : [ 0.176842730100963, 0.177843962784691 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"outputmode" : [ 1 ],
-													"out_name" : [ "u152000824" ],
+													"out_name" : [ "u984000803" ],
 													"dim" : [ 1, 1 ],
-													"time_ms" : [ 0 ],
-													"unique" : [ 0 ],
-													"usesrcrect" : [ 0 ],
-													"time_secs" : [ 0.0 ],
-													"loopreport" : [ 0 ],
-													"loopstart" : [ 0 ],
+													"colormode" : [ "argb" ],
+													"output_texture" : [ 0 ],
 													"automatic" : [ 0 ],
-													"interp" : [ 0 ],
-													"engine" : [ "avf" ],
-													"position" : [ 0.0 ],
-													"loopend" : [ 0 ],
-													"rate" : [ 1.0 ],
-													"autostart" : [ 1 ],
-													"seamless_loopcount" : [ 32 ],
-													"adapt" : [ 1 ],
 													"dstrect" : [ 0, 0, 1, 1 ],
 													"vol" : [ 1.0 ],
-													"colormode" : [ "argb" ],
-													"drawto" : [ "" ],
-													"output_texture" : [ 0 ],
-													"srcrect" : [ 0, 0, 1, 1 ],
-													"moviefile" : [ "" ],
-													"framereport" : [ 0 ],
-													"usedstrect" : [ 0 ],
-													"looppoints_ms" : [ 0, 0 ],
-													"time" : [ 0 ],
+													"seamless_loopcount" : [ 32 ],
 													"looppoints" : [ 0, 0 ],
+													"loopstart" : [ 0 ],
 													"looppoints_secs" : [ 0.0, 0.0 ],
-													"texture_name" : [ "u927000822" ]
+													"moviefile" : [ "" ],
+													"loopend" : [ 0 ],
+													"texture_name" : [ "u487000801" ],
+													"autostart" : [ 1 ],
+													"time" : [ 0 ],
+													"usesrcrect" : [ 0 ],
+													"time_secs" : [ 0.0 ],
+													"drawto" : [ "" ],
+													"usedstrect" : [ 0 ],
+													"loopreport" : [ 0 ],
+													"looppoints_ms" : [ 0, 0 ],
+													"unique" : [ 0 ],
+													"framereport" : [ 0 ],
+													"srcrect" : [ 0, 0, 1, 1 ],
+													"engine" : [ "avf" ],
+													"adapt" : [ 1 ],
+													"time_ms" : [ 0 ],
+													"interp" : [ 0 ],
+													"rate" : [ 1.0 ],
+													"position" : [ 0.0 ]
 												}
 
 											}
 , 											{
-												"absolutepath" : "Bus Lights Night 00031.mov",
-												"filename" : "Bus Lights Night 00031.mov",
+												"absolutepath" : "Utah | Colorado.mov",
+												"filename" : "Utah | Colorado.mov",
 												"filekind" : "moviefile",
-												"selection" : [ 0.056572812991095, 0.083289680460974 ],
+												"selection" : [ 0.179677212960789, 0.187019605541207 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"outputmode" : [ 1 ],
-													"out_name" : [ "u152000824" ],
+													"out_name" : [ "u984000803" ],
 													"dim" : [ 1, 1 ],
-													"time_ms" : [ 0 ],
-													"unique" : [ 0 ],
-													"usesrcrect" : [ 0 ],
-													"time_secs" : [ 0.0 ],
-													"loopreport" : [ 0 ],
-													"loopstart" : [ 0 ],
+													"colormode" : [ "argb" ],
+													"output_texture" : [ 0 ],
 													"automatic" : [ 0 ],
-													"interp" : [ 0 ],
-													"engine" : [ "avf" ],
-													"position" : [ 0.0 ],
-													"loopend" : [ 0 ],
-													"rate" : [ 1.0 ],
-													"autostart" : [ 1 ],
-													"seamless_loopcount" : [ 32 ],
-													"adapt" : [ 1 ],
 													"dstrect" : [ 0, 0, 1, 1 ],
 													"vol" : [ 1.0 ],
-													"colormode" : [ "argb" ],
-													"drawto" : [ "" ],
-													"output_texture" : [ 0 ],
-													"srcrect" : [ 0, 0, 1, 1 ],
-													"moviefile" : [ "" ],
-													"framereport" : [ 0 ],
-													"usedstrect" : [ 0 ],
-													"looppoints_ms" : [ 0, 0 ],
-													"time" : [ 0 ],
+													"seamless_loopcount" : [ 32 ],
 													"looppoints" : [ 0, 0 ],
+													"loopstart" : [ 0 ],
 													"looppoints_secs" : [ 0.0, 0.0 ],
-													"texture_name" : [ "u927000822" ]
+													"moviefile" : [ "" ],
+													"loopend" : [ 0 ],
+													"texture_name" : [ "u487000801" ],
+													"autostart" : [ 1 ],
+													"time" : [ 0 ],
+													"usesrcrect" : [ 0 ],
+													"time_secs" : [ 0.0 ],
+													"drawto" : [ "" ],
+													"usedstrect" : [ 0 ],
+													"loopreport" : [ 0 ],
+													"looppoints_ms" : [ 0, 0 ],
+													"unique" : [ 0 ],
+													"framereport" : [ 0 ],
+													"srcrect" : [ 0, 0, 1, 1 ],
+													"engine" : [ "avf" ],
+													"adapt" : [ 1 ],
+													"time_ms" : [ 0 ],
+													"interp" : [ 0 ],
+													"rate" : [ 1.0 ],
+													"position" : [ 0.0 ]
 												}
 
 											}
@@ -3377,7 +3535,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1131.833251999999902, 825.5, 150.0, 20.0 ],
+									"patching_rect" : [ 909.499999999999773, 740.5, 150.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 5.25, 546.549072000000024, 32.0, 20.0 ],
 									"text" : "Set:"
@@ -3664,7 +3822,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 1012.833374000000049, 767.25, 276.0, 156.5 ],
+									"patching_rect" : [ 790.500121999999919, 682.25, 405.499878000000081, 232.5 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 2.0, 960.0, 540.0 ]
 								}
@@ -3770,7 +3928,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1012.833374000000049, 728.5, 232.0, 22.0 ]
+									"patching_rect" : [ 790.500121999999919, 643.5, 232.0, 22.0 ]
 								}
 
 							}
@@ -3851,6 +4009,13 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"source" : [ "obj-10", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-36", 0 ],
 									"source" : [ "obj-11", 0 ]
 								}
@@ -3867,6 +4032,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-139", 0 ],
 									"source" : [ "obj-115", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-15", 0 ],
+									"source" : [ "obj-115", 0 ]
 								}
 
 							}
@@ -4036,6 +4208,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-32", 0 ],
+									"source" : [ "obj-15", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-4", 0 ],
 									"source" : [ "obj-150", 0 ]
 								}
@@ -4122,6 +4301,20 @@
 								"patchline" : 								{
 									"destination" : [ "obj-85", 0 ],
 									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"source" : [ "obj-20", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"source" : [ "obj-21", 0 ]
 								}
 
 							}
@@ -4260,6 +4453,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-51", 1 ],
 									"source" : [ "obj-31", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"source" : [ "obj-32", 0 ]
 								}
 
 							}
@@ -9416,45 +9616,45 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-65::obj-185" : [ "PlayToggle[5]", "play", 0 ],
-			"obj-22::obj-185" : [ "PlayToggle[8]", "play", 0 ],
-			"obj-47::obj-185" : [ "PlayToggle[2]", "play", 0 ],
 			"obj-59::obj-185" : [ "PlayToggle[4]", "play", 0 ],
-			"obj-35::obj-185" : [ "PlayToggle[1]", "play", 0 ],
-			"obj-41::obj-185" : [ "PlayToggle[6]", "play", 0 ],
 			"obj-1::obj-185" : [ "PlayToggle[7]", "play", 0 ],
+			"obj-22::obj-185" : [ "PlayToggle[8]", "play", 0 ],
+			"obj-65::obj-185" : [ "PlayToggle[5]", "play", 0 ],
 			"obj-53::obj-185" : [ "PlayToggle[3]", "play", 0 ],
+			"obj-41::obj-185" : [ "PlayToggle[6]", "play", 0 ],
+			"obj-47::obj-185" : [ "PlayToggle[2]", "play", 0 ],
+			"obj-35::obj-185" : [ "PlayToggle[1]", "play", 0 ],
 			"parameterbanks" : 			{
 
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-65::obj-185" : 				{
-					"parameter_longname" : "PlayToggle[5]"
+				"obj-59::obj-185" : 				{
+					"parameter_longname" : "PlayToggle[4]"
 				}
 ,
 				"obj-22::obj-185" : 				{
 					"parameter_longname" : "PlayToggle[8]"
 				}
 ,
-				"obj-47::obj-185" : 				{
-					"parameter_longname" : "PlayToggle[2]"
+				"obj-65::obj-185" : 				{
+					"parameter_longname" : "PlayToggle[5]"
 				}
 ,
-				"obj-59::obj-185" : 				{
-					"parameter_longname" : "PlayToggle[4]"
-				}
-,
-				"obj-35::obj-185" : 				{
-					"parameter_longname" : "PlayToggle[1]"
+				"obj-53::obj-185" : 				{
+					"parameter_longname" : "PlayToggle[3]"
 				}
 ,
 				"obj-41::obj-185" : 				{
 					"parameter_longname" : "PlayToggle[6]"
 				}
 ,
-				"obj-53::obj-185" : 				{
-					"parameter_longname" : "PlayToggle[3]"
+				"obj-47::obj-185" : 				{
+					"parameter_longname" : "PlayToggle[2]"
+				}
+,
+				"obj-35::obj-185" : 				{
+					"parameter_longname" : "PlayToggle[1]"
 				}
 
 			}
@@ -9525,6 +9725,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "atp.dictkey.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/atp.abstractions/patchers",
+				"patcherrelativepath" : "../../Documents/Max 8/Packages/atp.abstractions/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "atp.dictmakesub.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/atp.abstractions/patchers",
 				"patcherrelativepath" : "../../Documents/Max 8/Packages/atp.abstractions/patchers",
@@ -9532,23 +9739,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Truro 00002.mov",
-				"bootpath" : "/Volumes/minkDrive/Temp Media/Video Library-ProRes/truro",
-				"patcherrelativepath" : "../../../../Volumes/minkDrive/Temp Media/Video Library-ProRes/truro",
-				"type" : "MooV",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Bus Lights Night 00031.mov",
-				"bootpath" : "/Volumes/minkDrive/Temp Media/Video Library-ProRes/Bus Lights Night",
-				"patcherrelativepath" : "../../../../Volumes/minkDrive/Temp Media/Video Library-ProRes/Bus Lights Night",
-				"type" : "MooV",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "2013-08-24 11_18_46 (id).mov",
-				"bootpath" : "/Volumes/minkDrive/Temp Media/Video Library-ProRes/white mountains",
-				"patcherrelativepath" : "../../../../Volumes/minkDrive/Temp Media/Video Library-ProRes/white mountains",
+				"name" : "Utah | Colorado.mov",
+				"bootpath" : "/Volumes/minkDrive/Temp Media/Video Library-ProRes",
+				"patcherrelativepath" : "../../../../Volumes/minkDrive/Temp Media/Video Library-ProRes",
 				"type" : "MooV",
 				"implicit" : 1
 			}
