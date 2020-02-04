@@ -12161,6 +12161,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.99208128452301, 0.604920387268066, 0.185962110757828, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-51",
@@ -12179,9 +12180,9 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 367.0, 325.0, 1379.0, 824.0 ],
+						"openrect" : [ 757.0, 321.0, 533.0, 120.0 ],
 						"bglocked" : 0,
-						"openinpresentation" : 0,
+						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -12200,7 +12201,7 @@
 						"boxanimatetime" : 200,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
+						"devicewidth" : 533.0,
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
@@ -12306,8 +12307,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 1223.416625999999951, 180.0, 39.0, 20.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 1171.5, 180.0, 39.0, 20.0 ],
 									"text" : "recall"
 								}
 
@@ -12768,8 +12767,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 1051.5, 180.0, 39.0, 20.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 348.5, 124.0, 39.0, 20.0 ],
 									"text" : "recall"
 								}
 
@@ -13172,11 +13169,14 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-31",
+									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 232.0, 641.0, 104.0, 20.0 ],
-									"text" : "IP addresses"
+									"patching_rect" : [ 232.0, 641.0, 195.0, 33.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 167.0, 74.0, 326.0, 20.0 ],
+									"text" : "Choose IP address to send to editor(s) on this local network"
 								}
 
 							}
@@ -13185,39 +13185,46 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-32",
+									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 292.0, 602.0, 131.0, 20.0 ],
-									"text" : "network interfaces"
+									"patching_rect" : [ 292.0, 602.0, 131.0, 33.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 162.5, 44.0, 151.0, 20.0 ],
+									"text" : "Choose network interfaces"
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"id" : "obj-33",
-									"items" : [ "fe80:0:0:0:3e07:54ff:fe41:b627%4", ",", "192.168.1.109" ],
+									"items" : [ "fe80:0:0:0:a4:bcf2:7963:cb3e%en0", ",", "10.34.42.236" ],
 									"labelclick" : 1,
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 120.0, 640.0, 109.0, 22.0 ]
+									"patching_rect" : [ 120.0, 640.0, 109.0, 22.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 55.0, 73.0, 109.0, 22.0 ]
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"id" : "obj-35",
-									"items" : [ "utun0", ",", "en0", ",", "lo0" ],
+									"items" : [ "utun1", ",", "utun0", ",", "llw0", ",", "awdl0", ",", "en5", ",", "en0", ",", "lo0" ],
 									"labelclick" : 1,
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 188.0, 604.0, 100.0, 22.0 ]
+									"patching_rect" : [ 188.0, 604.0, 100.0, 22.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 55.0, 44.0, 100.0, 22.0 ]
 								}
 
 							}
@@ -13229,7 +13236,9 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 120.0, 529.0, 35.0, 35.0 ]
+									"patching_rect" : [ 120.0, 529.0, 35.0, 35.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 55.0, 3.0, 35.0, 35.0 ]
 								}
 
 							}
@@ -13255,8 +13264,10 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 154.5, 536.5, 393.0, 20.0 ],
-									"text" : "bang here to get the interface + IP information for this computer"
+									"patching_rect" : [ 154.5, 536.5, 277.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 89.5, 10.5, 277.0, 20.0 ],
+									"text" : "Get the interface + IP information for this computer"
 								}
 
 							}
@@ -13346,14 +13357,14 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"0" : [ "2012-12-28 10_58_42 (id) proj.mov", 43799, 46800, 5994, 70300 ],
-										"1" : [ "2012-12-28 10_58_42 (id) proj.mov", 2499, 5599, 5994, 70300 ],
-										"2" : [ "2012-12-28 11_18_59 (id) proj.mov", 48299, 63500, 5994, 207100 ],
-										"3" : "none",
-										"4" : "none",
-										"5" : "none",
-										"6" : "none",
-										"7" : "none",
+										"0" : [ "2013-07-27 14-30-21.mov", 0.0, 1584998.375, 23976, 1586585 ],
+										"1" : [ "2013-07-27 14-33-16.mov", 0.0, 2796997.25, 23976, 2799797 ],
+										"2" : [ "2013-07-27 14-45-27.mov", 0.0, 450999.5625, 23976, 451451 ],
+										"3" : [ "2013-07-27 14-54-53.mov", 0.0, 549999.4375, 23976, 550550 ],
+										"4" : [ "2013-07-27 15-04-59.mov", 0.0, 252999.75, 23976, 253253 ],
+										"5" : [ "2013-07-27 15-34-30.mov", 0.0, 813999.1875, 23976, 814814 ],
+										"6" : [ "2013-07-27 15-37-04.mov", 0.0, 2640997.5, 23976, 2643641 ],
+										"7" : [ "2013-07-27 14-30-21.mov", 1071998.0, 1525997.5, 23976, 1586585 ],
 										"slot" : 1
 									}
 ,
@@ -13410,14 +13421,14 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"0" : [ "2012-12-28 10_58_42 (id) proj.mov", 43799, 46800, 5994, 70300 ],
-										"1" : [ "2012-12-28 10_58_42 (id) proj.mov", 2499, 5599, 5994, 70300 ],
-										"2" : [ "2012-12-28 11_18_59 (id) proj.mov", 48299, 63500, 5994, 207100 ],
-										"3" : "none",
-										"4" : "none",
-										"5" : "none",
-										"6" : "none",
-										"7" : "none",
+										"0" : [ "2013-07-27 14-30-21.mov", 0.0, 1584998.375, 23976, 1586585 ],
+										"1" : [ "2013-07-27 14-33-16.mov", 0.0, 2796997.25, 23976, 2799797 ],
+										"2" : [ "2013-07-27 14-45-27.mov", 0.0, 450999.5625, 23976, 451451 ],
+										"3" : [ "2013-07-27 14-54-53.mov", 0.0, 549999.4375, 23976, 550550 ],
+										"4" : [ "2013-07-27 15-04-59.mov", 0.0, 252999.75, 23976, 253253 ],
+										"5" : [ "2013-07-27 15-34-30.mov", 0.0, 813999.1875, 23976, 814814 ],
+										"6" : [ "2013-07-27 15-37-04.mov", 0.0, 2640997.5, 23976, 2643641 ],
+										"7" : [ "2013-07-27 14-30-21.mov", 1071998.0, 1525997.5, 23976, 1586585 ],
 										"slot" : 1
 									}
 ,
@@ -14372,7 +14383,8 @@
 								}
 
 							}
- ]
+ ],
+						"bgcolor" : [ 0.99208128452301, 0.604920387268066, 0.185962110757828, 1.0 ]
 					}
 ,
 					"patching_rect" : [ 261.416655999999989, 443.5, 86.5, 22.0 ],
@@ -14382,6 +14394,7 @@
 						"description" : "",
 						"digest" : "",
 						"globalpatchername" : "",
+						"locked_bgcolor" : [ 0.99208128452301, 0.604920387268066, 0.185962110757828, 1.0 ],
 						"tags" : ""
 					}
 ,
@@ -26144,20 +26157,20 @@
 					"patching_rect" : [ 1276.5, 48.0, 216.0, 22.0 ],
 					"restore" : 					{
 						"bright" : [ 1.0 ],
-						"compositeAmount" : [ 1.11811 ],
-						"compositeMode" : [ 18 ],
+						"compositeAmount" : [ 1.464567 ],
+						"compositeMode" : [ 14 ],
 						"compositeRampTime" : [ 0 ],
-						"contrast" : [ 1.04 ],
+						"contrast" : [ 1.0 ],
 						"live.grid" : [ 2, 4, 4, 0, 4, 0, 1001, 2002, 3003, 2, 2, 2, 2 ],
-						"lumaDispAmpX" : [ -0.007 ],
-						"lumaDispAmpY" : [ 0.014 ],
+						"lumaDispAmpX" : [ 0.0 ],
+						"lumaDispAmpY" : [ 0.0 ],
 						"lumaDispOffsetX" : [ 0.0 ],
 						"lumaDispOffsetY" : [ 0.0 ],
 						"masterHueLightness" : [ 1.0, 1.0, 1.0, 1.0, 0.354286, 1.0, 1.0 ],
 						"masterSaturation" : [ 1.0 ],
 						"rateL" : [ 1.0 ],
 						"rateR" : [ 1.0 ],
-						"sat" : [ 0.658268 ],
+						"sat" : [ 1.0 ],
 						"slideDown" : [ 1.0 ],
 						"slideUp" : [ 1.0 ]
 					}
