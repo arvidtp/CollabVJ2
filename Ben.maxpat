@@ -1439,8 +1439,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 37.403687000000005, 65.499999999999986, 127.0, 22.0 ],
-					"text" : "name #1dummyName"
+					"patching_rect" : [ 37.403687000000005, 65.499999999999986, 167.596313000000009, 22.0 ],
+					"text" : "name #0dummyName"
 				}
 
 			}
@@ -1711,8 +1711,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 359.0, 72.0, 22.0 ],
-					"text" : "loadmess 1"
+					"patching_rect" : [ 798.0, 5.0, 70.0, 22.0 ],
+					"text" : "loadmess 0"
 				}
 
 			}
@@ -2886,14 +2886,14 @@
 					"fontname" : "Arial",
 					"fontsize" : 30.0,
 					"id" : "obj-39",
-					"linecount" : 2,
+					"linecount" : 9,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 932.75, 343.0, 163.25, 74.0 ],
+					"patching_rect" : [ 932.75, 343.0, 73.25, 308.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 273.5, 862.0, 965.0, 40.0 ],
-					"text" : "Snake Pile web.mov",
+					"text" : "2012-12-28 08_43_55 (id) proj.mov",
 					"textcolor" : [ 0.00753, 0.00753, 0.00753, 1.0 ]
 				}
 
@@ -5113,7 +5113,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -6749,12 +6748,12 @@
 					"rounded" : 20.0,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 1,
 							"parameter_shortname" : "play",
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_type" : 2,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "PlayToggle[7]"
+							"parameter_longname" : "PlayToggle[7]",
+							"parameter_mmax" : 1
 						}
 
 					}
@@ -7736,13 +7735,14 @@
 					"id" : "obj-117",
 					"idlemouse" : 1,
 					"maxclass" : "jit.pwindow",
-					"name" : "0trimmer",
+					"name" : "#1trimmer",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 288.0, 383.0, 290.0, 172.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 6.0, 1280.0, 720.0 ]
+					"presentation_rect" : [ 7.0, 6.0, 1280.0, 720.0 ],
+					"shared" : 0
 				}
 
 			}
@@ -8891,7 +8891,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
+					"destination" : [ "obj-200", 0 ],
 					"order" : 1,
 					"source" : [ "obj-194", 0 ]
 				}
@@ -8960,6 +8960,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-117", 0 ],
+					"disabled" : 1,
 					"source" : [ "obj-200", 0 ]
 				}
 
@@ -10021,6 +10022,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-117", 0 ],
+					"disabled" : 1,
 					"source" : [ "obj-56", 0 ]
 				}
 
@@ -10249,6 +10251,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-185", 0 ],
+					"source" : [ "obj-78", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-114", 0 ],
 					"source" : [ "obj-79", 0 ]
 				}
@@ -10272,7 +10281,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-312", 0 ],
-					"order" : 2,
+					"order" : 3,
 					"source" : [ "obj-80", 0 ]
 				}
 
@@ -10290,6 +10299,14 @@
 					"destination" : [ "obj-82", 0 ],
 					"order" : 0,
 					"source" : [ "obj-80", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-85", 0 ],
+					"order" : 2,
+					"source" : [ "obj-80", 0 ]
 				}
 
 			}
