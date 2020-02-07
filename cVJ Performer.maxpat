@@ -41,6 +41,448 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-72",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2575.0, 692.5, 150.0, 47.0 ],
+					"text" : "if MaxMasterBus is already open, don't open again and bring to front"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-74",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2560.0, 893.5, 34.0, 22.0 ],
+					"text" : "gate"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-353",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "bang", "int" ],
+					"patching_rect" : [ 2575.0, 747.5, 46.0, 22.0 ],
+					"text" : "t b b 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-379",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 2590.0, 860.5, 24.0, 22.0 ],
+					"text" : "t 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-382",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 2590.0, 833.5, 36.0, 22.0 ],
+					"text" : "sel 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-393",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2590.0, 805.5, 137.0, 22.0 ],
+					"text" : "r maxMasterBusIsOpen"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-422",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2590.0, 778.5, 138.0, 22.0 ],
+					"text" : "s isMaxMasterBusOpen"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-424",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-98",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 50.0, 100.0, 95.0, 20.0 ],
+									"text" : "check if it exists"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-31",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 120.0, 206.0, 22.0, 22.0 ],
+									"text" : "t b"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-32",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 50.0, 174.0, 89.0, 22.0 ],
+									"text" : "route notfound"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-36",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 50.0, 148.0, 80.0, 22.0 ],
+									"text" : "absolutepath"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-33",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 50.0, 118.0, 145.0, 22.0 ],
+									"text" : "loadmess MaxMasterBus"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-102",
+									"index" : 1,
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 118.5, 236.0, 25.0, 25.0 ]
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-102", 0 ],
+									"source" : [ "obj-31", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-31", 0 ],
+									"source" : [ "obj-32", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-36", 0 ],
+									"source" : [ "obj-33", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-32", 0 ],
+									"source" : [ "obj-36", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 2433.5, 692.5, 137.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p doesMasterBusExist?"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-433",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2560.0, 973.5, 153.0, 22.0 ],
+					"text" : "loadunique MaxMasterBus"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-434",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2560.0, 1008.5, 53.0, 22.0 ],
+					"text" : "pcontrol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-435",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 2560.0, 931.5, 122.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1624.0, 401.0, 91.0, 20.0 ],
+					"rounded" : 12.0,
+					"text" : "Master Bus",
+					"textoncolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
+					"textovercolor" : [ 0.870588, 0.415686, 0.062745, 1.0 ],
+					"truncate" : 0,
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-419",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "bang", "" ],
+					"patching_rect" : [ 1990.0, 865.523193499999934, 44.0, 22.0 ],
+					"text" : "sel 1 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"hint" : "opens fingerpingers",
+					"id" : "obj-415",
+					"legacytextcolor" : 1,
+					"maxclass" : "textbutton",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1990.0, 817.125, 103.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1172.5, 854.0, 122.323975000000019, 21.0 ],
+					"style" : "Green Lantern",
+					"text" : "Load Trackpads",
+					"texton" : "Unload Trackpads",
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-403",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1892.5, 865.523193499999934, 82.0, 22.0 ],
+					"text" : "r cVJPreSave"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-395",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 911.0, 90.0, 84.0, 22.0 ],
+					"text" : "s cVJPreSave"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.777031, 0.0, 0.022684, 1.0 ],
+					"bgoncolor" : [ 0.988137, 0.322623, 0.030836, 1.0 ],
+					"fontface" : 1,
+					"fontsize" : 14.0,
+					"hint" : "Click before save to set up properly",
+					"id" : "obj-394",
+					"legacytextcolor" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"outputmode" : 0,
+					"parameter_enable" : 0,
+					"patching_rect" : [ 848.75, 46.5, 118.25, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1691.0, 4.0, 78.451172000000042, 23.640625 ],
+					"rounded" : 20.0,
+					"text" : "preSave",
+					"textcolor" : [ 0.990104, 0.990075, 0.990091, 1.0 ],
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-386",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1823.666626000000178, 915.921386999999868, 316.0, 35.0 ],
+					"text" : "script sendbox mtp1 replace atp.trackpadControl.maxpat, script sendbox mtp2 replace atp.trackpadControl.maxpat"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-383",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1884.5, 961.0, 264.0, 35.0 ],
+					"text" : "script sendbox mtp1 replace dummyTP.maxpat, script sendbox mtp2 replace dummyTP.maxpat"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-380",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1892.5, 1025.180663999999979, 67.0, 22.0 ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+					"text" : "thispatcher"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-432",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -258,7 +700,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 323.0, 243.0, 1070.0, 964.0 ],
+						"rect" : [ 323.0, 242.0, 1070.0, 964.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -285,7 +727,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-109",
@@ -2207,6 +2648,9 @@
 						"styles" : [ 							{
 								"name" : "Classic Gray 1",
 								"default" : 								{
+									"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
+									"accentcolor" : [ 0.539031, 0.555365, 0.555365, 1.0 ],
+									"elementcolor" : [ 0.920998, 0.920998, 0.920998, 1.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -2218,9 +2662,6 @@
 										"autogradient" : 0
 									}
 ,
-									"accentcolor" : [ 0.539031, 0.555365, 0.555365, 1.0 ],
-									"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
-									"elementcolor" : [ 0.920998, 0.920998, 0.920998, 1.0 ],
 									"bgcolor" : [ 0.915677, 0.915677, 0.915677, 1.0 ]
 								}
 ,
@@ -2230,8 +2671,8 @@
 , 							{
 								"name" : "Green Grocer",
 								"default" : 								{
-									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-									"elementcolor" : [ 0.055315, 0.304887, 0.042868, 1.0 ]
+									"elementcolor" : [ 0.055315, 0.304887, 0.042868, 1.0 ],
+									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 								}
 ,
 								"parentstyle" : "Green Lantern",
@@ -2240,11 +2681,11 @@
 , 							{
 								"name" : "Green Lantern",
 								"default" : 								{
-									"accentcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
 									"color" : [ 0.0, 0.665647, 0.0, 1.0 ],
+									"accentcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
 									"elementcolor" : [ 0.613943, 1.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.435294, 0.0, 1.0 ],
-									"selectioncolor" : [ 0.831373, 1.0, 0.0, 1.0 ]
+									"selectioncolor" : [ 0.831373, 1.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.0, 0.435294, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2253,9 +2694,9 @@
 , 							{
 								"name" : "Green Lantern Inverse",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"color" : [ 0.613943, 1.0, 0.0, 1.0 ],
-									"elementcolor" : [ 0.0, 0.665647, 0.0, 1.0 ]
+									"elementcolor" : [ 0.0, 0.665647, 0.0, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2264,6 +2705,9 @@
 , 							{
 								"name" : "videoEditor",
 								"default" : 								{
+									"color" : [ 0.183995, 0.910435, 0.147968, 1.0 ],
+									"elementcolor" : [ 0.292112, 0.292112, 0.292112, 1.0 ],
+									"selectioncolor" : [ 0.815686, 0.858824, 0.34902, 1.0 ],
 									"textcolor_inverse" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 									"bgfillcolor" : 									{
@@ -2276,10 +2720,7 @@
 										"autogradient" : 0
 									}
 ,
-									"color" : [ 0.183995, 0.910435, 0.147968, 1.0 ],
-									"elementcolor" : [ 0.292112, 0.292112, 0.292112, 1.0 ],
-									"bgcolor" : [ 0.176977, 0.176977, 0.176977, 1.0 ],
-									"selectioncolor" : [ 0.815686, 0.858824, 0.34902, 1.0 ]
+									"bgcolor" : [ 0.176977, 0.176977, 0.176977, 1.0 ]
 								}
 ,
 								"parentstyle" : "velvet",
@@ -3630,6 +4071,9 @@
 						"styles" : [ 							{
 								"name" : "Classic Gray 1",
 								"default" : 								{
+									"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
+									"accentcolor" : [ 0.539031, 0.555365, 0.555365, 1.0 ],
+									"elementcolor" : [ 0.920998, 0.920998, 0.920998, 1.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -3641,9 +4085,6 @@
 										"autogradient" : 0
 									}
 ,
-									"accentcolor" : [ 0.539031, 0.555365, 0.555365, 1.0 ],
-									"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
-									"elementcolor" : [ 0.920998, 0.920998, 0.920998, 1.0 ],
 									"bgcolor" : [ 0.915677, 0.915677, 0.915677, 1.0 ]
 								}
 ,
@@ -3653,8 +4094,8 @@
 , 							{
 								"name" : "Green Grocer",
 								"default" : 								{
-									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-									"elementcolor" : [ 0.055315, 0.304887, 0.042868, 1.0 ]
+									"elementcolor" : [ 0.055315, 0.304887, 0.042868, 1.0 ],
+									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 								}
 ,
 								"parentstyle" : "Green Lantern",
@@ -3663,11 +4104,11 @@
 , 							{
 								"name" : "Green Lantern",
 								"default" : 								{
-									"accentcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
 									"color" : [ 0.0, 0.665647, 0.0, 1.0 ],
+									"accentcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
 									"elementcolor" : [ 0.613943, 1.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.435294, 0.0, 1.0 ],
-									"selectioncolor" : [ 0.831373, 1.0, 0.0, 1.0 ]
+									"selectioncolor" : [ 0.831373, 1.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.0, 0.435294, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3676,9 +4117,9 @@
 , 							{
 								"name" : "Green Lantern Inverse",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"color" : [ 0.613943, 1.0, 0.0, 1.0 ],
-									"elementcolor" : [ 0.0, 0.665647, 0.0, 1.0 ]
+									"elementcolor" : [ 0.0, 0.665647, 0.0, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3687,6 +4128,9 @@
 , 							{
 								"name" : "videoEditor",
 								"default" : 								{
+									"color" : [ 0.183995, 0.910435, 0.147968, 1.0 ],
+									"elementcolor" : [ 0.292112, 0.292112, 0.292112, 1.0 ],
+									"selectioncolor" : [ 0.815686, 0.858824, 0.34902, 1.0 ],
 									"textcolor_inverse" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 									"bgfillcolor" : 									{
@@ -3699,10 +4143,7 @@
 										"autogradient" : 0
 									}
 ,
-									"color" : [ 0.183995, 0.910435, 0.147968, 1.0 ],
-									"elementcolor" : [ 0.292112, 0.292112, 0.292112, 1.0 ],
-									"bgcolor" : [ 0.176977, 0.176977, 0.176977, 1.0 ],
-									"selectioncolor" : [ 0.815686, 0.858824, 0.34902, 1.0 ]
+									"bgcolor" : [ 0.176977, 0.176977, 0.176977, 1.0 ]
 								}
 ,
 								"parentstyle" : "velvet",
@@ -4075,6 +4516,9 @@
 						"styles" : [ 							{
 								"name" : "Classic Gray 1",
 								"default" : 								{
+									"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
+									"accentcolor" : [ 0.539031, 0.555365, 0.555365, 1.0 ],
+									"elementcolor" : [ 0.920998, 0.920998, 0.920998, 1.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -4086,9 +4530,6 @@
 										"autogradient" : 0
 									}
 ,
-									"accentcolor" : [ 0.539031, 0.555365, 0.555365, 1.0 ],
-									"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
-									"elementcolor" : [ 0.920998, 0.920998, 0.920998, 1.0 ],
 									"bgcolor" : [ 0.915677, 0.915677, 0.915677, 1.0 ]
 								}
 ,
@@ -4098,8 +4539,8 @@
 , 							{
 								"name" : "Green Grocer",
 								"default" : 								{
-									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-									"elementcolor" : [ 0.055315, 0.304887, 0.042868, 1.0 ]
+									"elementcolor" : [ 0.055315, 0.304887, 0.042868, 1.0 ],
+									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4108,11 +4549,11 @@
 , 							{
 								"name" : "Green Lantern",
 								"default" : 								{
-									"accentcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
 									"color" : [ 0.0, 0.665647, 0.0, 1.0 ],
+									"accentcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
 									"elementcolor" : [ 0.613943, 1.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.435294, 0.0, 1.0 ],
-									"selectioncolor" : [ 0.831373, 1.0, 0.0, 1.0 ]
+									"selectioncolor" : [ 0.831373, 1.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.0, 0.435294, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4121,9 +4562,9 @@
 , 							{
 								"name" : "Green Lantern Inverse",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"color" : [ 0.613943, 1.0, 0.0, 1.0 ],
-									"elementcolor" : [ 0.0, 0.665647, 0.0, 1.0 ]
+									"elementcolor" : [ 0.0, 0.665647, 0.0, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4132,6 +4573,9 @@
 , 							{
 								"name" : "videoEditor",
 								"default" : 								{
+									"color" : [ 0.183995, 0.910435, 0.147968, 1.0 ],
+									"elementcolor" : [ 0.292112, 0.292112, 0.292112, 1.0 ],
+									"selectioncolor" : [ 0.815686, 0.858824, 0.34902, 1.0 ],
 									"textcolor_inverse" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 									"bgfillcolor" : 									{
@@ -4144,10 +4588,7 @@
 										"autogradient" : 0
 									}
 ,
-									"color" : [ 0.183995, 0.910435, 0.147968, 1.0 ],
-									"elementcolor" : [ 0.292112, 0.292112, 0.292112, 1.0 ],
-									"bgcolor" : [ 0.176977, 0.176977, 0.176977, 1.0 ],
-									"selectioncolor" : [ 0.815686, 0.858824, 0.34902, 1.0 ]
+									"bgcolor" : [ 0.176977, 0.176977, 0.176977, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7584,6 +8025,9 @@
 						"styles" : [ 							{
 								"name" : "Classic Gray 1",
 								"default" : 								{
+									"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
+									"accentcolor" : [ 0.539031, 0.555365, 0.555365, 1.0 ],
+									"elementcolor" : [ 0.920998, 0.920998, 0.920998, 1.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -7595,9 +8039,6 @@
 										"autogradient" : 0
 									}
 ,
-									"accentcolor" : [ 0.539031, 0.555365, 0.555365, 1.0 ],
-									"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
-									"elementcolor" : [ 0.920998, 0.920998, 0.920998, 1.0 ],
 									"bgcolor" : [ 0.915677, 0.915677, 0.915677, 1.0 ]
 								}
 ,
@@ -7607,8 +8048,8 @@
 , 							{
 								"name" : "Green Grocer",
 								"default" : 								{
-									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-									"elementcolor" : [ 0.055315, 0.304887, 0.042868, 1.0 ]
+									"elementcolor" : [ 0.055315, 0.304887, 0.042868, 1.0 ],
+									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 								}
 ,
 								"parentstyle" : "Green Lantern",
@@ -7617,11 +8058,11 @@
 , 							{
 								"name" : "Green Lantern",
 								"default" : 								{
-									"accentcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
 									"color" : [ 0.0, 0.665647, 0.0, 1.0 ],
+									"accentcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
 									"elementcolor" : [ 0.613943, 1.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.435294, 0.0, 1.0 ],
-									"selectioncolor" : [ 0.831373, 1.0, 0.0, 1.0 ]
+									"selectioncolor" : [ 0.831373, 1.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.0, 0.435294, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7630,9 +8071,9 @@
 , 							{
 								"name" : "Green Lantern Inverse",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"color" : [ 0.613943, 1.0, 0.0, 1.0 ],
-									"elementcolor" : [ 0.0, 0.665647, 0.0, 1.0 ]
+									"elementcolor" : [ 0.0, 0.665647, 0.0, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7641,6 +8082,9 @@
 , 							{
 								"name" : "videoEditor",
 								"default" : 								{
+									"color" : [ 0.183995, 0.910435, 0.147968, 1.0 ],
+									"elementcolor" : [ 0.292112, 0.292112, 0.292112, 1.0 ],
+									"selectioncolor" : [ 0.815686, 0.858824, 0.34902, 1.0 ],
 									"textcolor_inverse" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 									"bgfillcolor" : 									{
@@ -7653,10 +8097,7 @@
 										"autogradient" : 0
 									}
 ,
-									"color" : [ 0.183995, 0.910435, 0.147968, 1.0 ],
-									"elementcolor" : [ 0.292112, 0.292112, 0.292112, 1.0 ],
-									"bgcolor" : [ 0.176977, 0.176977, 0.176977, 1.0 ],
-									"selectioncolor" : [ 0.815686, 0.858824, 0.34902, 1.0 ]
+									"bgcolor" : [ 0.176977, 0.176977, 0.176977, 1.0 ]
 								}
 ,
 								"parentstyle" : "velvet",
@@ -7835,7 +8276,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 95.0, 640.0, 454.0 ],
+						"rect" : [ 704.0, 260.0, 640.0, 454.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -7973,7 +8414,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 1944.0, 883.499877999999967, 108.0, 22.0 ],
+					"patching_rect" : [ 2047.0, 1117.0, 108.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1176.5, 376.0, 108.0, 22.0 ],
 					"saved_object_attributes" : 					{
@@ -7995,7 +8436,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1944.0, 855.5, 20.0, 20.0 ],
+					"patching_rect" : [ 2047.0, 1089.000121999999919, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1156.1875, 376.0, 20.0, 20.0 ]
 				}
@@ -8302,15 +8743,16 @@
 					"id" : "obj-318",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "atp.trackpadControl.maxpat",
+					"name" : "dummyTP.maxpat",
 					"numinlets" : 3,
 					"numoutlets" : 5,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "", "", "", "", "int" ],
+					"outlettype" : [ "", "", "", "", "" ],
 					"patching_rect" : [ 1879.0, 729.0, 186.0, 57.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 973.75, 854.0, 186.0, 55.0 ],
 					"prototypename" : "atp.trackpadControl",
+					"varname" : "mtp2",
 					"viewvisibility" : 1
 				}
 
@@ -8326,15 +8768,16 @@
 					"id" : "obj-289",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "atp.trackpadControl.maxpat",
+					"name" : "dummyTP.maxpat",
 					"numinlets" : 3,
 					"numoutlets" : 5,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "", "", "", "", "int" ],
+					"outlettype" : [ "", "", "", "", "" ],
 					"patching_rect" : [ 1879.0, 648.5, 186.0, 57.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 736.25, 854.0, 186.0, 55.0 ],
 					"prototypename" : "atp.trackpadControl",
+					"varname" : "mtp1",
 					"viewvisibility" : 1
 				}
 
@@ -9239,6 +9682,9 @@
 						"styles" : [ 							{
 								"name" : "Classic Gray 1",
 								"default" : 								{
+									"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
+									"accentcolor" : [ 0.539031, 0.555365, 0.555365, 1.0 ],
+									"elementcolor" : [ 0.920998, 0.920998, 0.920998, 1.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -9250,9 +9696,6 @@
 										"autogradient" : 0
 									}
 ,
-									"accentcolor" : [ 0.539031, 0.555365, 0.555365, 1.0 ],
-									"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
-									"elementcolor" : [ 0.920998, 0.920998, 0.920998, 1.0 ],
 									"bgcolor" : [ 0.915677, 0.915677, 0.915677, 1.0 ]
 								}
 ,
@@ -9262,8 +9705,8 @@
 , 							{
 								"name" : "Green Grocer",
 								"default" : 								{
-									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-									"elementcolor" : [ 0.055315, 0.304887, 0.042868, 1.0 ]
+									"elementcolor" : [ 0.055315, 0.304887, 0.042868, 1.0 ],
+									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 								}
 ,
 								"parentstyle" : "Green Lantern",
@@ -9272,11 +9715,11 @@
 , 							{
 								"name" : "Green Lantern",
 								"default" : 								{
-									"accentcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
 									"color" : [ 0.0, 0.665647, 0.0, 1.0 ],
+									"accentcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
 									"elementcolor" : [ 0.613943, 1.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.435294, 0.0, 1.0 ],
-									"selectioncolor" : [ 0.831373, 1.0, 0.0, 1.0 ]
+									"selectioncolor" : [ 0.831373, 1.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.0, 0.435294, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9285,9 +9728,9 @@
 , 							{
 								"name" : "Green Lantern Inverse",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"color" : [ 0.613943, 1.0, 0.0, 1.0 ],
-									"elementcolor" : [ 0.0, 0.665647, 0.0, 1.0 ]
+									"elementcolor" : [ 0.0, 0.665647, 0.0, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9296,6 +9739,9 @@
 , 							{
 								"name" : "videoEditor",
 								"default" : 								{
+									"color" : [ 0.183995, 0.910435, 0.147968, 1.0 ],
+									"elementcolor" : [ 0.292112, 0.292112, 0.292112, 1.0 ],
+									"selectioncolor" : [ 0.815686, 0.858824, 0.34902, 1.0 ],
 									"textcolor_inverse" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 									"bgfillcolor" : 									{
@@ -9308,10 +9754,7 @@
 										"autogradient" : 0
 									}
 ,
-									"color" : [ 0.183995, 0.910435, 0.147968, 1.0 ],
-									"elementcolor" : [ 0.292112, 0.292112, 0.292112, 1.0 ],
-									"bgcolor" : [ 0.176977, 0.176977, 0.176977, 1.0 ],
-									"selectioncolor" : [ 0.815686, 0.858824, 0.34902, 1.0 ]
+									"bgcolor" : [ 0.176977, 0.176977, 0.176977, 1.0 ]
 								}
 ,
 								"parentstyle" : "velvet",
@@ -9907,6 +10350,9 @@
 						"styles" : [ 							{
 								"name" : "Classic Gray 1",
 								"default" : 								{
+									"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
+									"accentcolor" : [ 0.539031, 0.555365, 0.555365, 1.0 ],
+									"elementcolor" : [ 0.920998, 0.920998, 0.920998, 1.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -9918,9 +10364,6 @@
 										"autogradient" : 0
 									}
 ,
-									"accentcolor" : [ 0.539031, 0.555365, 0.555365, 1.0 ],
-									"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
-									"elementcolor" : [ 0.920998, 0.920998, 0.920998, 1.0 ],
 									"bgcolor" : [ 0.915677, 0.915677, 0.915677, 1.0 ]
 								}
 ,
@@ -9930,8 +10373,8 @@
 , 							{
 								"name" : "Green Grocer",
 								"default" : 								{
-									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-									"elementcolor" : [ 0.055315, 0.304887, 0.042868, 1.0 ]
+									"elementcolor" : [ 0.055315, 0.304887, 0.042868, 1.0 ],
+									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 								}
 ,
 								"parentstyle" : "Green Lantern",
@@ -9940,11 +10383,11 @@
 , 							{
 								"name" : "Green Lantern",
 								"default" : 								{
-									"accentcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
 									"color" : [ 0.0, 0.665647, 0.0, 1.0 ],
+									"accentcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
 									"elementcolor" : [ 0.613943, 1.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.435294, 0.0, 1.0 ],
-									"selectioncolor" : [ 0.831373, 1.0, 0.0, 1.0 ]
+									"selectioncolor" : [ 0.831373, 1.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.0, 0.435294, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9953,9 +10396,9 @@
 , 							{
 								"name" : "Green Lantern Inverse",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"color" : [ 0.613943, 1.0, 0.0, 1.0 ],
-									"elementcolor" : [ 0.0, 0.665647, 0.0, 1.0 ]
+									"elementcolor" : [ 0.0, 0.665647, 0.0, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9964,6 +10407,9 @@
 , 							{
 								"name" : "videoEditor",
 								"default" : 								{
+									"color" : [ 0.183995, 0.910435, 0.147968, 1.0 ],
+									"elementcolor" : [ 0.292112, 0.292112, 0.292112, 1.0 ],
+									"selectioncolor" : [ 0.815686, 0.858824, 0.34902, 1.0 ],
 									"textcolor_inverse" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 									"bgfillcolor" : 									{
@@ -9976,10 +10422,7 @@
 										"autogradient" : 0
 									}
 ,
-									"color" : [ 0.183995, 0.910435, 0.147968, 1.0 ],
-									"elementcolor" : [ 0.292112, 0.292112, 0.292112, 1.0 ],
-									"bgcolor" : [ 0.176977, 0.176977, 0.176977, 1.0 ],
-									"selectioncolor" : [ 0.815686, 0.858824, 0.34902, 1.0 ]
+									"bgcolor" : [ 0.176977, 0.176977, 0.176977, 1.0 ]
 								}
 ,
 								"parentstyle" : "velvet",
@@ -10757,6 +11200,9 @@
 						"styles" : [ 							{
 								"name" : "Classic Gray 1",
 								"default" : 								{
+									"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
+									"accentcolor" : [ 0.539031, 0.555365, 0.555365, 1.0 ],
+									"elementcolor" : [ 0.920998, 0.920998, 0.920998, 1.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -10768,9 +11214,6 @@
 										"autogradient" : 0
 									}
 ,
-									"accentcolor" : [ 0.539031, 0.555365, 0.555365, 1.0 ],
-									"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
-									"elementcolor" : [ 0.920998, 0.920998, 0.920998, 1.0 ],
 									"bgcolor" : [ 0.915677, 0.915677, 0.915677, 1.0 ]
 								}
 ,
@@ -10780,8 +11223,8 @@
 , 							{
 								"name" : "Green Grocer",
 								"default" : 								{
-									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-									"elementcolor" : [ 0.055315, 0.304887, 0.042868, 1.0 ]
+									"elementcolor" : [ 0.055315, 0.304887, 0.042868, 1.0 ],
+									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 								}
 ,
 								"parentstyle" : "Green Lantern",
@@ -10790,11 +11233,11 @@
 , 							{
 								"name" : "Green Lantern",
 								"default" : 								{
-									"accentcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
 									"color" : [ 0.0, 0.665647, 0.0, 1.0 ],
+									"accentcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
 									"elementcolor" : [ 0.613943, 1.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.435294, 0.0, 1.0 ],
-									"selectioncolor" : [ 0.831373, 1.0, 0.0, 1.0 ]
+									"selectioncolor" : [ 0.831373, 1.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.0, 0.435294, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10803,9 +11246,9 @@
 , 							{
 								"name" : "Green Lantern Inverse",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"color" : [ 0.613943, 1.0, 0.0, 1.0 ],
-									"elementcolor" : [ 0.0, 0.665647, 0.0, 1.0 ]
+									"elementcolor" : [ 0.0, 0.665647, 0.0, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10814,6 +11257,9 @@
 , 							{
 								"name" : "videoEditor",
 								"default" : 								{
+									"color" : [ 0.183995, 0.910435, 0.147968, 1.0 ],
+									"elementcolor" : [ 0.292112, 0.292112, 0.292112, 1.0 ],
+									"selectioncolor" : [ 0.815686, 0.858824, 0.34902, 1.0 ],
 									"textcolor_inverse" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 									"bgfillcolor" : 									{
@@ -10826,10 +11272,7 @@
 										"autogradient" : 0
 									}
 ,
-									"color" : [ 0.183995, 0.910435, 0.147968, 1.0 ],
-									"elementcolor" : [ 0.292112, 0.292112, 0.292112, 1.0 ],
-									"bgcolor" : [ 0.176977, 0.176977, 0.176977, 1.0 ],
-									"selectioncolor" : [ 0.815686, 0.858824, 0.34902, 1.0 ]
+									"bgcolor" : [ 0.176977, 0.176977, 0.176977, 1.0 ]
 								}
 ,
 								"parentstyle" : "velvet",
@@ -11958,7 +12401,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1024.0, 6.0, 104.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1328.823975000000019, 401.0, 91.0, 20.0 ],
+					"presentation_rect" : [ 1286.886475000000019, 405.0, 91.0, 20.0 ],
 					"text" : "MIDI Controller"
 				}
 
@@ -11992,7 +12435,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1132.0, 6.0, 224.5, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1420.125, 399.0, 224.625, 24.0 ],
+					"presentation_rect" : [ 1378.1875, 403.0, 224.625, 24.0 ],
 					"prototypename" : "jit.qt.movie-loop-mode-pill-yellow",
 					"rounded" : 16.0,
 					"segmented" : 1,
@@ -13325,14 +13768,14 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"0" : [ "2013-07-27 14-30-21.mov", 0.0, 1584998.375, 23976, 1586585 ],
-										"1" : [ "2013-07-27 14-33-16.mov", 0.0, 2796997.25, 23976, 2799797 ],
-										"2" : [ "2013-07-27 14-45-27.mov", 0.0, 450999.5625, 23976, 451451 ],
-										"3" : [ "2013-07-27 14-54-53.mov", 0.0, 549999.4375, 23976, 550550 ],
-										"4" : [ "2013-07-27 15-04-59.mov", 0.0, 252999.75, 23976, 253253 ],
-										"5" : [ "2013-07-27 15-34-30.mov", 0.0, 813999.1875, 23976, 814814 ],
-										"6" : [ "2013-07-27 15-37-04.mov", 0.0, 2640997.5, 23976, 2643641 ],
-										"7" : [ "2013-07-27 14-30-21.mov", 1071998.0, 1525997.5, 23976, 1586585 ],
+										"0" : [ "2012-12-28 08_37_25 (id) proj.mov", 0, 2719000, 23976, 2719000 ],
+										"1" : [ "2012-12-28 08_40_44 (id) proj.mov", 0, 4177000, 23976, 4177000 ],
+										"2" : [ "2012-12-28 08_43_55 (id) proj.mov", 0, 1585000, 23976, 1585000 ],
+										"3" : [ "2012-12-28 08_46_01 (id) proj.mov", 0, 2348000, 23976, 2348000 ],
+										"4" : [ "2012-12-28 08_54_29 (id) proj.mov", 0, 1290000, 23976, 1290000 ],
+										"5" : [ "2012-12-28 10_58_42 (id) proj.mov", 0, 282000, 23976, 282000 ],
+										"6" : [ "2012-12-28 10_59_01 (id) proj.mov", 0, 548000, 23976, 548000 ],
+										"7" : [ "2012-12-28 11_18_59 (id) proj.mov", 0, 829000, 23976, 829000 ],
 										"slot" : 2
 									}
 ,
@@ -13357,14 +13800,14 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"0" : [ "2013-07-27 14-30-21.mov", 0.0, 1584998.375, 23976, 1586585 ],
-										"1" : [ "2013-07-27 14-33-16.mov", 0.0, 2796997.25, 23976, 2799797 ],
-										"2" : [ "2013-07-27 14-45-27.mov", 0.0, 450999.5625, 23976, 451451 ],
-										"3" : [ "2013-07-27 14-54-53.mov", 0.0, 549999.4375, 23976, 550550 ],
-										"4" : [ "2013-07-27 15-04-59.mov", 0.0, 252999.75, 23976, 253253 ],
-										"5" : [ "2013-07-27 15-34-30.mov", 0.0, 813999.1875, 23976, 814814 ],
-										"6" : [ "2013-07-27 15-37-04.mov", 0.0, 2640997.5, 23976, 2643641 ],
-										"7" : [ "2013-07-27 14-30-21.mov", 1071998.0, 1525997.5, 23976, 1586585 ],
+										"0" : [ "Utah | Colorado.mov", 193973.96875, 223103.109375, 600, 4259000 ],
+										"1" : [ "Utah | Colorado.mov", 224524.53125, 252952.953125, 600, 4259000 ],
+										"2" : [ "Utah | Colorado.mov", 256496.5, 284204.21875, 600, 4259000 ],
+										"3" : [ "Utah | Colorado.mov", 284924.9375, 338218.21875, 600, 4259000 ],
+										"4" : [ "Utah | Colorado.mov", 344604.59375, 367347.34375, 600, 4259000 ],
+										"5" : [ "Utah | Colorado.mov", 375875.875, 385805.8125, 600, 4259000 ],
+										"6" : [ "Utah | Colorado.mov", 385825.8125, 405705.71875, 600, 4259000 ],
+										"7" : [ "Utah | Colorado.mov", 412812.8125, 426326.3125, 600, 4259000 ],
 										"slot" : 1
 									}
 ,
@@ -13389,14 +13832,14 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"0" : [ "2013-07-27 14-30-21.mov", 0.0, 1584998.375, 23976, 1586585 ],
-										"1" : [ "2013-07-27 14-33-16.mov", 0.0, 2796997.25, 23976, 2799797 ],
-										"2" : [ "2013-07-27 14-45-27.mov", 0.0, 450999.5625, 23976, 451451 ],
-										"3" : [ "2013-07-27 14-54-53.mov", 0.0, 549999.4375, 23976, 550550 ],
-										"4" : [ "2013-07-27 15-04-59.mov", 0.0, 252999.75, 23976, 253253 ],
-										"5" : [ "2013-07-27 15-34-30.mov", 0.0, 813999.1875, 23976, 814814 ],
-										"6" : [ "2013-07-27 15-37-04.mov", 0.0, 2640997.5, 23976, 2643641 ],
-										"7" : [ "2013-07-27 14-30-21.mov", 1071998.0, 1525997.5, 23976, 1586585 ],
+										"0" : [ "2012-12-28 08_37_25 (id) proj.mov", 0, 2719000, 23976, 2719000 ],
+										"1" : [ "2012-12-28 08_40_44 (id) proj.mov", 0, 4177000, 23976, 4177000 ],
+										"2" : [ "2012-12-28 08_43_55 (id) proj.mov", 0, 1585000, 23976, 1585000 ],
+										"3" : [ "2012-12-28 08_46_01 (id) proj.mov", 0, 2348000, 23976, 2348000 ],
+										"4" : [ "2012-12-28 08_54_29 (id) proj.mov", 0, 1290000, 23976, 1290000 ],
+										"5" : [ "2012-12-28 10_58_42 (id) proj.mov", 0, 282000, 23976, 282000 ],
+										"6" : [ "2012-12-28 10_59_01 (id) proj.mov", 0, 548000, 23976, 548000 ],
+										"7" : [ "2012-12-28 11_18_59 (id) proj.mov", 0, 829000, 23976, 829000 ],
 										"slot" : 2
 									}
 ,
@@ -13421,14 +13864,14 @@
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"0" : [ "2013-07-27 14-30-21.mov", 0.0, 1584998.375, 23976, 1586585 ],
-										"1" : [ "2013-07-27 14-33-16.mov", 0.0, 2796997.25, 23976, 2799797 ],
-										"2" : [ "2013-07-27 14-45-27.mov", 0.0, 450999.5625, 23976, 451451 ],
-										"3" : [ "2013-07-27 14-54-53.mov", 0.0, 549999.4375, 23976, 550550 ],
-										"4" : [ "2013-07-27 15-04-59.mov", 0.0, 252999.75, 23976, 253253 ],
-										"5" : [ "2013-07-27 15-34-30.mov", 0.0, 813999.1875, 23976, 814814 ],
-										"6" : [ "2013-07-27 15-37-04.mov", 0.0, 2640997.5, 23976, 2643641 ],
-										"7" : [ "2013-07-27 14-30-21.mov", 1071998.0, 1525997.5, 23976, 1586585 ],
+										"0" : [ "Utah | Colorado.mov", 193973.96875, 223103.109375, 600, 4259000 ],
+										"1" : [ "Utah | Colorado.mov", 224524.53125, 252952.953125, 600, 4259000 ],
+										"2" : [ "Utah | Colorado.mov", 256496.5, 284204.21875, 600, 4259000 ],
+										"3" : [ "Utah | Colorado.mov", 284924.9375, 338218.21875, 600, 4259000 ],
+										"4" : [ "Utah | Colorado.mov", 344604.59375, 367347.34375, 600, 4259000 ],
+										"5" : [ "Utah | Colorado.mov", 375875.875, 385805.8125, 600, 4259000 ],
+										"6" : [ "Utah | Colorado.mov", 385825.8125, 405705.71875, 600, 4259000 ],
+										"7" : [ "Utah | Colorado.mov", 412812.8125, 426326.3125, 600, 4259000 ],
 										"slot" : 1
 									}
 ,
@@ -16678,6 +17121,9 @@
 						"styles" : [ 							{
 								"name" : "Classic Gray 1",
 								"default" : 								{
+									"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
+									"accentcolor" : [ 0.539031, 0.555365, 0.555365, 1.0 ],
+									"elementcolor" : [ 0.920998, 0.920998, 0.920998, 1.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -16689,9 +17135,6 @@
 										"autogradient" : 0
 									}
 ,
-									"accentcolor" : [ 0.539031, 0.555365, 0.555365, 1.0 ],
-									"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
-									"elementcolor" : [ 0.920998, 0.920998, 0.920998, 1.0 ],
 									"bgcolor" : [ 0.915677, 0.915677, 0.915677, 1.0 ]
 								}
 ,
@@ -16701,8 +17144,8 @@
 , 							{
 								"name" : "Green Grocer",
 								"default" : 								{
-									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-									"elementcolor" : [ 0.055315, 0.304887, 0.042868, 1.0 ]
+									"elementcolor" : [ 0.055315, 0.304887, 0.042868, 1.0 ],
+									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -16711,11 +17154,11 @@
 , 							{
 								"name" : "Green Lantern",
 								"default" : 								{
-									"accentcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
 									"color" : [ 0.0, 0.665647, 0.0, 1.0 ],
+									"accentcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
 									"elementcolor" : [ 0.613943, 1.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.435294, 0.0, 1.0 ],
-									"selectioncolor" : [ 0.831373, 1.0, 0.0, 1.0 ]
+									"selectioncolor" : [ 0.831373, 1.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.0, 0.435294, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -16724,9 +17167,9 @@
 , 							{
 								"name" : "Green Lantern Inverse",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"color" : [ 0.613943, 1.0, 0.0, 1.0 ],
-									"elementcolor" : [ 0.0, 0.665647, 0.0, 1.0 ]
+									"elementcolor" : [ 0.0, 0.665647, 0.0, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -16735,6 +17178,9 @@
 , 							{
 								"name" : "videoEditor",
 								"default" : 								{
+									"color" : [ 0.183995, 0.910435, 0.147968, 1.0 ],
+									"elementcolor" : [ 0.292112, 0.292112, 0.292112, 1.0 ],
+									"selectioncolor" : [ 0.815686, 0.858824, 0.34902, 1.0 ],
 									"textcolor_inverse" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 									"bgfillcolor" : 									{
@@ -16747,10 +17193,7 @@
 										"autogradient" : 0
 									}
 ,
-									"color" : [ 0.183995, 0.910435, 0.147968, 1.0 ],
-									"elementcolor" : [ 0.292112, 0.292112, 0.292112, 1.0 ],
-									"bgcolor" : [ 0.176977, 0.176977, 0.176977, 1.0 ],
-									"selectioncolor" : [ 0.815686, 0.858824, 0.34902, 1.0 ]
+									"bgcolor" : [ 0.176977, 0.176977, 0.176977, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -20209,6 +20652,9 @@
 										"styles" : [ 											{
 												"name" : "Classic Gray 1",
 												"default" : 												{
+													"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
+													"accentcolor" : [ 0.539031, 0.555365, 0.555365, 1.0 ],
+													"elementcolor" : [ 0.920998, 0.920998, 0.920998, 1.0 ],
 													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgfillcolor" : 													{
 														"type" : "gradient",
@@ -20220,9 +20666,6 @@
 														"autogradient" : 0
 													}
 ,
-													"accentcolor" : [ 0.539031, 0.555365, 0.555365, 1.0 ],
-													"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
-													"elementcolor" : [ 0.920998, 0.920998, 0.920998, 1.0 ],
 													"bgcolor" : [ 0.915677, 0.915677, 0.915677, 1.0 ]
 												}
 ,
@@ -20232,8 +20675,8 @@
 , 											{
 												"name" : "Green Grocer",
 												"default" : 												{
-													"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-													"elementcolor" : [ 0.055315, 0.304887, 0.042868, 1.0 ]
+													"elementcolor" : [ 0.055315, 0.304887, 0.042868, 1.0 ],
+													"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 												}
 ,
 												"parentstyle" : "Green Lantern",
@@ -20242,11 +20685,11 @@
 , 											{
 												"name" : "Green Lantern",
 												"default" : 												{
-													"accentcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
 													"color" : [ 0.0, 0.665647, 0.0, 1.0 ],
+													"accentcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
 													"elementcolor" : [ 0.613943, 1.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.0, 0.435294, 0.0, 1.0 ],
-													"selectioncolor" : [ 0.831373, 1.0, 0.0, 1.0 ]
+													"selectioncolor" : [ 0.831373, 1.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.0, 0.435294, 0.0, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -20255,9 +20698,9 @@
 , 											{
 												"name" : "Green Lantern Inverse",
 												"default" : 												{
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"color" : [ 0.613943, 1.0, 0.0, 1.0 ],
-													"elementcolor" : [ 0.0, 0.665647, 0.0, 1.0 ]
+													"elementcolor" : [ 0.0, 0.665647, 0.0, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -20266,6 +20709,9 @@
 , 											{
 												"name" : "videoEditor",
 												"default" : 												{
+													"color" : [ 0.183995, 0.910435, 0.147968, 1.0 ],
+													"elementcolor" : [ 0.292112, 0.292112, 0.292112, 1.0 ],
+													"selectioncolor" : [ 0.815686, 0.858824, 0.34902, 1.0 ],
 													"textcolor_inverse" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 													"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 													"bgfillcolor" : 													{
@@ -20278,10 +20724,7 @@
 														"autogradient" : 0
 													}
 ,
-													"color" : [ 0.183995, 0.910435, 0.147968, 1.0 ],
-													"elementcolor" : [ 0.292112, 0.292112, 0.292112, 1.0 ],
-													"bgcolor" : [ 0.176977, 0.176977, 0.176977, 1.0 ],
-													"selectioncolor" : [ 0.815686, 0.858824, 0.34902, 1.0 ]
+													"bgcolor" : [ 0.176977, 0.176977, 0.176977, 1.0 ]
 												}
 ,
 												"parentstyle" : "velvet",
@@ -21137,6 +21580,9 @@
 										"styles" : [ 											{
 												"name" : "Classic Gray 1",
 												"default" : 												{
+													"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
+													"accentcolor" : [ 0.539031, 0.555365, 0.555365, 1.0 ],
+													"elementcolor" : [ 0.920998, 0.920998, 0.920998, 1.0 ],
 													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgfillcolor" : 													{
 														"type" : "gradient",
@@ -21148,9 +21594,6 @@
 														"autogradient" : 0
 													}
 ,
-													"accentcolor" : [ 0.539031, 0.555365, 0.555365, 1.0 ],
-													"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
-													"elementcolor" : [ 0.920998, 0.920998, 0.920998, 1.0 ],
 													"bgcolor" : [ 0.915677, 0.915677, 0.915677, 1.0 ]
 												}
 ,
@@ -21160,8 +21603,8 @@
 , 											{
 												"name" : "Green Grocer",
 												"default" : 												{
-													"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-													"elementcolor" : [ 0.055315, 0.304887, 0.042868, 1.0 ]
+													"elementcolor" : [ 0.055315, 0.304887, 0.042868, 1.0 ],
+													"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 												}
 ,
 												"parentstyle" : "Green Lantern",
@@ -21170,11 +21613,11 @@
 , 											{
 												"name" : "Green Lantern",
 												"default" : 												{
-													"accentcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
 													"color" : [ 0.0, 0.665647, 0.0, 1.0 ],
+													"accentcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
 													"elementcolor" : [ 0.613943, 1.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.0, 0.435294, 0.0, 1.0 ],
-													"selectioncolor" : [ 0.831373, 1.0, 0.0, 1.0 ]
+													"selectioncolor" : [ 0.831373, 1.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.0, 0.435294, 0.0, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -21183,9 +21626,9 @@
 , 											{
 												"name" : "Green Lantern Inverse",
 												"default" : 												{
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"color" : [ 0.613943, 1.0, 0.0, 1.0 ],
-													"elementcolor" : [ 0.0, 0.665647, 0.0, 1.0 ]
+													"elementcolor" : [ 0.0, 0.665647, 0.0, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -21194,6 +21637,9 @@
 , 											{
 												"name" : "videoEditor",
 												"default" : 												{
+													"color" : [ 0.183995, 0.910435, 0.147968, 1.0 ],
+													"elementcolor" : [ 0.292112, 0.292112, 0.292112, 1.0 ],
+													"selectioncolor" : [ 0.815686, 0.858824, 0.34902, 1.0 ],
 													"textcolor_inverse" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 													"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 													"bgfillcolor" : 													{
@@ -21206,10 +21652,7 @@
 														"autogradient" : 0
 													}
 ,
-													"color" : [ 0.183995, 0.910435, 0.147968, 1.0 ],
-													"elementcolor" : [ 0.292112, 0.292112, 0.292112, 1.0 ],
-													"bgcolor" : [ 0.176977, 0.176977, 0.176977, 1.0 ],
-													"selectioncolor" : [ 0.815686, 0.858824, 0.34902, 1.0 ]
+													"bgcolor" : [ 0.176977, 0.176977, 0.176977, 1.0 ]
 												}
 ,
 												"parentstyle" : "velvet",
@@ -21808,7 +22251,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 406.0, 130.0, 50.0, 22.0 ],
-									"text" : "34 127"
+									"text" : "36 0"
 								}
 
 							}
@@ -22338,7 +22781,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 656.5, 397.0, 50.0, 22.0 ],
-									"text" : "90 0"
+									"text" : "68 0"
 								}
 
 							}
@@ -23781,6 +24224,9 @@
 						"styles" : [ 							{
 								"name" : "Classic Gray 1",
 								"default" : 								{
+									"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
+									"accentcolor" : [ 0.539031, 0.555365, 0.555365, 1.0 ],
+									"elementcolor" : [ 0.920998, 0.920998, 0.920998, 1.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -23792,9 +24238,6 @@
 										"autogradient" : 0
 									}
 ,
-									"accentcolor" : [ 0.539031, 0.555365, 0.555365, 1.0 ],
-									"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
-									"elementcolor" : [ 0.920998, 0.920998, 0.920998, 1.0 ],
 									"bgcolor" : [ 0.915677, 0.915677, 0.915677, 1.0 ]
 								}
 ,
@@ -23804,8 +24247,8 @@
 , 							{
 								"name" : "Green Grocer",
 								"default" : 								{
-									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-									"elementcolor" : [ 0.055315, 0.304887, 0.042868, 1.0 ]
+									"elementcolor" : [ 0.055315, 0.304887, 0.042868, 1.0 ],
+									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 								}
 ,
 								"parentstyle" : "Green Lantern",
@@ -23814,11 +24257,11 @@
 , 							{
 								"name" : "Green Lantern",
 								"default" : 								{
-									"accentcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
 									"color" : [ 0.0, 0.665647, 0.0, 1.0 ],
+									"accentcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
 									"elementcolor" : [ 0.613943, 1.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.435294, 0.0, 1.0 ],
-									"selectioncolor" : [ 0.831373, 1.0, 0.0, 1.0 ]
+									"selectioncolor" : [ 0.831373, 1.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.0, 0.435294, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -23827,9 +24270,9 @@
 , 							{
 								"name" : "Green Lantern Inverse",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"color" : [ 0.613943, 1.0, 0.0, 1.0 ],
-									"elementcolor" : [ 0.0, 0.665647, 0.0, 1.0 ]
+									"elementcolor" : [ 0.0, 0.665647, 0.0, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -23838,6 +24281,9 @@
 , 							{
 								"name" : "videoEditor",
 								"default" : 								{
+									"color" : [ 0.183995, 0.910435, 0.147968, 1.0 ],
+									"elementcolor" : [ 0.292112, 0.292112, 0.292112, 1.0 ],
+									"selectioncolor" : [ 0.815686, 0.858824, 0.34902, 1.0 ],
 									"textcolor_inverse" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 									"bgfillcolor" : 									{
@@ -23850,10 +24296,7 @@
 										"autogradient" : 0
 									}
 ,
-									"color" : [ 0.183995, 0.910435, 0.147968, 1.0 ],
-									"elementcolor" : [ 0.292112, 0.292112, 0.292112, 1.0 ],
-									"bgcolor" : [ 0.176977, 0.176977, 0.176977, 1.0 ],
-									"selectioncolor" : [ 0.815686, 0.858824, 0.34902, 1.0 ]
+									"bgcolor" : [ 0.176977, 0.176977, 0.176977, 1.0 ]
 								}
 ,
 								"parentstyle" : "velvet",
@@ -23895,7 +24338,7 @@
 				"box" : 				{
 					"fontsize" : 13.0,
 					"id" : "obj-177",
-					"items" : [ "IAC Driver Bus 1", ",", "IAC Driver Bus 2", ",", "IAC Driver To Mainstage 1", ",", "IAC Driver To Mainstage 2", ",", "IAC Driver To Mainstage 3", ",", "IAC Driver No Input", ",", "IAC Driver No Output", ",", "IAC Driver From Mainstage 1", ",", "IAC Driver From Mainstage 2", ",", "IAC Driver Logic Control", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "IAC Driver Bus 1", ",", "IAC Driver Bus 2", ",", "IAC Driver To Mainstage 1", ",", "IAC Driver To Mainstage 2", ",", "IAC Driver To Mainstage 3", ",", "IAC Driver No Input", ",", "IAC Driver No Output", ",", "IAC Driver From Mainstage 1", ",", "IAC Driver From Mainstage 2", ",", "IAC Driver Logic Control", ",", "Arturia MiniLab mkII", ",", "UltraLite MIDI Port", ",", "UltraLite Sync Port", ",", "LPK25", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -25829,6 +26272,9 @@
 						"styles" : [ 							{
 								"name" : "Classic Gray 1",
 								"default" : 								{
+									"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
+									"accentcolor" : [ 0.539031, 0.555365, 0.555365, 1.0 ],
+									"elementcolor" : [ 0.920998, 0.920998, 0.920998, 1.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -25840,9 +26286,6 @@
 										"autogradient" : 0
 									}
 ,
-									"accentcolor" : [ 0.539031, 0.555365, 0.555365, 1.0 ],
-									"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
-									"elementcolor" : [ 0.920998, 0.920998, 0.920998, 1.0 ],
 									"bgcolor" : [ 0.915677, 0.915677, 0.915677, 1.0 ]
 								}
 ,
@@ -25852,8 +26295,8 @@
 , 							{
 								"name" : "Green Grocer",
 								"default" : 								{
-									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-									"elementcolor" : [ 0.055315, 0.304887, 0.042868, 1.0 ]
+									"elementcolor" : [ 0.055315, 0.304887, 0.042868, 1.0 ],
+									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 								}
 ,
 								"parentstyle" : "Green Lantern",
@@ -25862,11 +26305,11 @@
 , 							{
 								"name" : "Green Lantern",
 								"default" : 								{
-									"accentcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
 									"color" : [ 0.0, 0.665647, 0.0, 1.0 ],
+									"accentcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
 									"elementcolor" : [ 0.613943, 1.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.0, 0.435294, 0.0, 1.0 ],
-									"selectioncolor" : [ 0.831373, 1.0, 0.0, 1.0 ]
+									"selectioncolor" : [ 0.831373, 1.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.0, 0.435294, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -25875,9 +26318,9 @@
 , 							{
 								"name" : "Green Lantern Inverse",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"color" : [ 0.613943, 1.0, 0.0, 1.0 ],
-									"elementcolor" : [ 0.0, 0.665647, 0.0, 1.0 ]
+									"elementcolor" : [ 0.0, 0.665647, 0.0, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -25886,6 +26329,9 @@
 , 							{
 								"name" : "videoEditor",
 								"default" : 								{
+									"color" : [ 0.183995, 0.910435, 0.147968, 1.0 ],
+									"elementcolor" : [ 0.292112, 0.292112, 0.292112, 1.0 ],
+									"selectioncolor" : [ 0.815686, 0.858824, 0.34902, 1.0 ],
 									"textcolor_inverse" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 									"bgfillcolor" : 									{
@@ -25898,10 +26344,7 @@
 										"autogradient" : 0
 									}
 ,
-									"color" : [ 0.183995, 0.910435, 0.147968, 1.0 ],
-									"elementcolor" : [ 0.292112, 0.292112, 0.292112, 1.0 ],
-									"bgcolor" : [ 0.176977, 0.176977, 0.176977, 1.0 ],
-									"selectioncolor" : [ 0.815686, 0.858824, 0.34902, 1.0 ]
+									"bgcolor" : [ 0.176977, 0.176977, 0.176977, 1.0 ]
 								}
 ,
 								"parentstyle" : "velvet",
@@ -25941,7 +26384,7 @@
 				"box" : 				{
 					"fontsize" : 13.0,
 					"id" : "obj-151",
-					"items" : [ "IAC Driver Bus 1", ",", "IAC Driver Bus 2", ",", "IAC Driver To Mainstage 1", ",", "IAC Driver To Mainstage 2", ",", "IAC Driver To Mainstage 3", ",", "IAC Driver No Input", ",", "IAC Driver No Output", ",", "IAC Driver From Mainstage 1", ",", "IAC Driver From Mainstage 2", ",", "IAC Driver Logic Control", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "IAC Driver Bus 1", ",", "IAC Driver Bus 2", ",", "IAC Driver To Mainstage 1", ",", "IAC Driver To Mainstage 2", ",", "IAC Driver To Mainstage 3", ",", "IAC Driver No Input", ",", "IAC Driver No Output", ",", "IAC Driver From Mainstage 1", ",", "IAC Driver From Mainstage 2", ",", "IAC Driver Logic Control", ",", "Arturia MiniLab mkII", ",", "UltraLite MIDI Port", ",", "UltraLite Sync Port", ",", "LPK25", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -26074,7 +26517,7 @@
 					"patching_rect" : [ 1488.0, 1174.936523000000079, 176.0, 68.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1301.0, 117.0, 175.0, 60.0 ],
-					"saturation" : 1.0,
+					"saturation" : 0.0,
 					"varname" : "masterHueLightness"
 				}
 
@@ -26157,8 +26600,8 @@
 					"patching_rect" : [ 1276.5, 48.0, 216.0, 22.0 ],
 					"restore" : 					{
 						"bright" : [ 1.0 ],
-						"compositeAmount" : [ 1.464567 ],
-						"compositeMode" : [ 14 ],
+						"compositeAmount" : [ 0.0 ],
+						"compositeMode" : [ -1 ],
 						"compositeRampTime" : [ 0 ],
 						"contrast" : [ 1.0 ],
 						"live.grid" : [ 2, 4, 4, 0, 4, 0, 1001, 2002, 3003, 2, 2, 2, 2 ],
@@ -26166,8 +26609,8 @@
 						"lumaDispAmpY" : [ 0.0 ],
 						"lumaDispOffsetX" : [ 0.0 ],
 						"lumaDispOffsetY" : [ 0.0 ],
-						"masterHueLightness" : [ 1.0, 1.0, 1.0, 1.0, 0.354286, 1.0, 1.0 ],
-						"masterSaturation" : [ 1.0 ],
+						"masterHueLightness" : [ 1.0, 1.0, 1.0, 1.0, 0.0, 0.0, 1.0 ],
+						"masterSaturation" : [ 0.0 ],
 						"rateL" : [ 1.0 ],
 						"rateR" : [ 1.0 ],
 						"sat" : [ 1.0 ],
@@ -30277,7 +30720,7 @@
 ,
 					"patching_rect" : [ 1312.0, 729.0, 140.5, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1172.5, 877.0, 101.0, 22.0 ],
+					"presentation_rect" : [ 1172.5, 880.942286724342011, 101.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -30895,7 +31338,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 895.75, 18.5, 60.0, 22.0 ],
+					"patching_rect" : [ 869.75, 12.5, 60.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -31791,7 +32234,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1897.0, 1044.526245000000017, 117.0, 82.311890000000005 ],
+					"patching_rect" : [ 1816.5, 832.945067999999992, 43.0, 48.898560000000089 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1405.0, 529.0, 184.0, 183.0 ],
 					"proportion" : 0.39
@@ -34134,6 +34577,27 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-422", 0 ],
+					"source" : [ "obj-353", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-74", 0 ],
+					"source" : [ "obj-353", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-74", 1 ],
+					"source" : [ "obj-353", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-340", 2 ],
 					"source" : [ "obj-355", 0 ]
 				}
@@ -34281,6 +34745,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-74", 0 ],
+					"source" : [ "obj-379", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-27", 0 ],
 					"source" : [ "obj-38", 0 ]
 				}
@@ -34290,6 +34761,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-60", 0 ],
 					"source" : [ "obj-381", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-379", 0 ],
+					"source" : [ "obj-382", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-380", 0 ],
+					"source" : [ "obj-383", 0 ]
 				}
 
 			}
@@ -34311,6 +34796,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-60", 0 ],
 					"source" : [ "obj-385", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-380", 0 ],
+					"source" : [ "obj-386", 0 ]
 				}
 
 			}
@@ -34376,6 +34868,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-218", 0 ],
 					"source" : [ "obj-392", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-382", 0 ],
+					"source" : [ "obj-393", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-395", 0 ],
+					"source" : [ "obj-394", 0 ]
 				}
 
 			}
@@ -34518,6 +35024,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-383", 0 ],
+					"source" : [ "obj-403", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-428", 1 ],
 					"source" : [ "obj-407", 0 ]
 				}
@@ -34562,6 +35075,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-419", 0 ],
+					"source" : [ "obj-415", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-392", 0 ],
 					"source" : [ "obj-417", 0 ]
 				}
@@ -34571,6 +35091,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-428", 0 ],
 					"source" : [ "obj-418", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-383", 0 ],
+					"source" : [ "obj-419", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-386", 0 ],
+					"source" : [ "obj-419", 0 ]
 				}
 
 			}
@@ -34587,6 +35121,13 @@
 					"destination" : [ "obj-427", 0 ],
 					"order" : 0,
 					"source" : [ "obj-421", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-353", 0 ],
+					"source" : [ "obj-424", 0 ]
 				}
 
 			}
@@ -34668,6 +35209,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-413", 0 ],
 					"source" : [ "obj-431", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-434", 0 ],
+					"source" : [ "obj-433", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-433", 0 ],
+					"source" : [ "obj-435", 0 ]
 				}
 
 			}
@@ -34949,6 +35504,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-433", 0 ],
+					"source" : [ "obj-74", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-54", 0 ],
 					"source" : [ "obj-75", 0 ]
 				}
@@ -35147,17 +35709,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-318::obj-29" : [ "live.toggle[3]", "live.toggle", 0 ],
 			"obj-238" : [ "live.grid", "live.grid", 0 ],
-			"obj-289::obj-29" : [ "live.toggle[2]", "live.toggle", 0 ],
 			"parameterbanks" : 			{
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-318::obj-29" : 				{
-					"parameter_longname" : "live.toggle[3]"
-				}
 
 			}
 
@@ -35269,22 +35822,11 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "atp.trackpadControl.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/Arvid Common Patches",
-				"patcherrelativepath" : "../../Documents/Max 8/Library/Arvid Common Patches",
+				"name" : "dummyTP.maxpat",
+				"bootpath" : "~/Performances/CollabVJ2",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "atp.trackpadMapping.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/atp.abstractions/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/atp.abstractions/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fingerpinger.mxo",
-				"type" : "iLaX"
 			}
 , 			{
 				"name" : "jit.gl.syphonserver.mxo",
@@ -35295,6 +35837,9 @@
 		"styles" : [ 			{
 				"name" : "Classic Gray 1",
 				"default" : 				{
+					"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
+					"accentcolor" : [ 0.539031, 0.555365, 0.555365, 1.0 ],
+					"elementcolor" : [ 0.920998, 0.920998, 0.920998, 1.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
@@ -35306,9 +35851,6 @@
 						"autogradient" : 0
 					}
 ,
-					"accentcolor" : [ 0.539031, 0.555365, 0.555365, 1.0 ],
-					"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
-					"elementcolor" : [ 0.920998, 0.920998, 0.920998, 1.0 ],
 					"bgcolor" : [ 0.915677, 0.915677, 0.915677, 1.0 ]
 				}
 ,
@@ -35318,8 +35860,8 @@
 , 			{
 				"name" : "Green Grocer",
 				"default" : 				{
-					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-					"elementcolor" : [ 0.055315, 0.304887, 0.042868, 1.0 ]
+					"elementcolor" : [ 0.055315, 0.304887, 0.042868, 1.0 ],
+					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}
 ,
 				"parentstyle" : "Green Lantern",
@@ -35328,11 +35870,11 @@
 , 			{
 				"name" : "Green Lantern",
 				"default" : 				{
-					"accentcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
 					"color" : [ 0.0, 0.665647, 0.0, 1.0 ],
+					"accentcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
 					"elementcolor" : [ 0.613943, 1.0, 0.0, 1.0 ],
-					"bgcolor" : [ 0.0, 0.435294, 0.0, 1.0 ],
-					"selectioncolor" : [ 0.831373, 1.0, 0.0, 1.0 ]
+					"selectioncolor" : [ 0.831373, 1.0, 0.0, 1.0 ],
+					"bgcolor" : [ 0.0, 0.435294, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -35341,9 +35883,9 @@
 , 			{
 				"name" : "Green Lantern Inverse",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 0.613943, 1.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.0, 0.665647, 0.0, 1.0 ]
+					"elementcolor" : [ 0.0, 0.665647, 0.0, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -35352,6 +35894,9 @@
 , 			{
 				"name" : "videoEditor",
 				"default" : 				{
+					"color" : [ 0.183995, 0.910435, 0.147968, 1.0 ],
+					"elementcolor" : [ 0.292112, 0.292112, 0.292112, 1.0 ],
+					"selectioncolor" : [ 0.815686, 0.858824, 0.34902, 1.0 ],
 					"textcolor_inverse" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"bgfillcolor" : 					{
@@ -35364,10 +35909,7 @@
 						"autogradient" : 0
 					}
 ,
-					"color" : [ 0.183995, 0.910435, 0.147968, 1.0 ],
-					"elementcolor" : [ 0.292112, 0.292112, 0.292112, 1.0 ],
-					"bgcolor" : [ 0.176977, 0.176977, 0.176977, 1.0 ],
-					"selectioncolor" : [ 0.815686, 0.858824, 0.34902, 1.0 ]
+					"bgcolor" : [ 0.176977, 0.176977, 0.176977, 1.0 ]
 				}
 ,
 				"parentstyle" : "velvet",
